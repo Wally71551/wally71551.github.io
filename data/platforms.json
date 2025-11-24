@@ -1,7 +1,7 @@
 {
   "platforms": [
     {
-      "platformID": "projects",
+      "platformID": "project",
       "platformName": "Wally71551 Projects",
       "platformImageSrc": "",
       "platformOrder": "0"
@@ -17,6 +17,60 @@
       "platformName": "Nintendo Switch",
       "platformImageSrc": "",
       "platformOrder": "2"
+    },
+    {
+      "platformID": "ps4",
+      "platformName": "PlayStation 4",
+      "platformImageSrc": "",
+      "platformOrder": "2"
+    },
+    {
+      "platformID": "xbox1",
+      "platformName": "Xbox One",
+      "platformImageSrc": "",
+      "platformOrder": "2"
+    },
+    {
+      "platformID": "wii",
+      "platformName": "Wii",
+      "platformImageSrc": "",
+      "platformOrder": "3"
+    },
+    {
+      "platformID": "nds",
+      "platformName": "Nintendo DS",
+      "platformImageSrc": "",
+      "platformOrder": "3"
+    },
+    {
+      "platformID": "n64",
+      "platformName": "Nintendo 64",
+      "platformImageSrc": "",
+      "platformOrder": "4"
+    },
+    {
+      "platformID": "pc",
+      "platformName": "Windows PC",
+      "platformImageSrc": "",
+      "platformOrder": "5"
+    },
+    {
+      "platformID": "ios",
+      "platformName": "iOS",
+      "platformImageSrc": "",
+      "platformOrder": "5"
+    },
+    {
+      "platformID": "and",
+      "platformName": "Android",
+      "platformImageSrc": "",
+      "platformOrder": "5"
+    },
+    {
+      "platformID": "stadia",
+      "platformName": "Google Stadia",
+      "platformImageSrc": "",
+      "platformOrder": "20"
     }
   ]
 }

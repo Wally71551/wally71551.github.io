@@ -1,0 +1,34 @@
+{
+  "series": [
+    {
+      "seriesID": "loz",
+      "seriesName": "The Legend of Zelda",
+      "seriesImageSrc": "",
+      "seriesReleaseDate": "0"
+    },
+    {
+      "seriesID": "mario",
+      "seriesName": "Super Mario",
+      "seriesImageSrc": "",
+      "seriesReleaseDate": "1"
+    },
+    {
+      "seriesID": "ff",
+      "seriesName": "FINAL FANTASY",
+      "seriesImageSrc": "",
+      "seriesReleaseDate": "2"
+    },
+    {
+      "seriesID": "splatoon",
+      "seriesName": "Splatoon",
+      "seriesImageSrc": "",
+      "seriesReleaseDate": "3"
+    },
+    {
+      "seriesID": "gothic",
+      "seriesName": "Gothic",
+      "seriesImageSrc": "",
+      "seriesReleaseDate": "5"
+    }
+  ]
+}
