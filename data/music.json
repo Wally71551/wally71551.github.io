@@ -1,0 +1,24 @@
+{
+  "music": [
+    {
+      "musicID": "botw_sidon",
+      "musicName": "Prince Sidon's Theme",
+      "projectID": "botw",
+      "seriesID": "loz",
+      "releaseDate": "2017-04-25",
+      "description": "",
+      "youtubeLink": "",
+      "scLink": ""
+    },
+    {
+      "musicID": "sm64_ultkoopa",
+      "musicName": "Ultimate Koopa",
+      "projectID": "switch",
+      "seriesID": "loz",
+      "releaseDate": "2017-04-30",
+      "description": "",
+      "youtubeLink": "",
+      "scLink": ""
+    }
+  ]
+}

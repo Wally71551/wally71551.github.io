@@ -1,0 +1,22 @@
+{
+  "platforms": [
+    {
+      "platformID": "projects",
+      "platformName": "Wally71551 Projects",
+      "platformImageSrc": "",
+      "platformOrder": "0"
+    },
+    {
+      "platformID": "ns2",
+      "platformName": "Nintendo Switch 2",
+      "platformImageSrc": "",
+      "platformOrder": "1"
+    },
+    {
+      "platformID": "ns1",
+      "platformName": "Nintendo Switch",
+      "platformImageSrc": "",
+      "platformOrder": "2"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "projects": [
+    {
+      "projectID": "BOTWS2",
+      "projectName": "The Legend of Zelda: Breath of the Wild – Nintendo Switch 2 Edition",
+      "platformID": "ns2",
+      "seriesID": "loz",
+      "projectType": "game",
+      "imageSrc": "",
+      "releaseDate": "2025-06-05",
+      "musicList": [ "botw_sidon" ]
+    },
+    {
+      "projectID": "BOTW",
+      "projectName": "The Legend of Zelda: Breath of the Wild",
+      "platformID": "ns1",
+      "seriesID": "loz",
+      "projectType": "game",
+      "imageSrc": "",
+      "releaseDate": "2017-03-03",
+      "musicList": [ "botw_sidon" ]
+    }
+  ]
+}
