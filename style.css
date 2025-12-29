@@ -1,4 +1,3 @@
-/* --- Layout --- */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -10,18 +9,16 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px; /* Keeps content centered on wide monitors */
+    max-width: 1200px;
     padding: 20px;
 }
 
-/* --- Grid of Images --- */
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 per row */
+    grid-template-columns: repeat(5, 1fr);
     gap: 16px;
 }
 
-/* Makes images perfect squares and responsive */
 .grid-item {
     width: 100%;
     aspect-ratio: 1 / 1;
@@ -42,7 +39,6 @@ body {
         transform: scale(1.05);
     }
 
-/* --- Detail Panel (Modal) --- */
 .modal {
     position: fixed;
     inset: 0;
@@ -76,7 +72,6 @@ body {
     cursor: pointer;
 }
 
-/* --- Responsive --- */
 @media (max-width: 700px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
