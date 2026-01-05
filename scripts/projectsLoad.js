@@ -24,18 +24,18 @@ function PageLoad() {
 function CreateHeader(header, index) {
     let headerElement = platformTemplate.content.cloneNode(true);
 
-    let platformHeader = clone.querySelector(".platform-header");
-    let headerTitle = clone.querySelector(".platform-title");
-    let contentElement = clone.querySelector(".platform-content");
+    let platformHeader = headerElement.querySelector(".platform-header");
+    let headerTitle = headerElement.querySelector(".platform-title");
+    let contentElement = headerElement.querySelector(".platform-content");
 
     headerTitle.textContent = header.platformName;
-    contentElement.innerHTML = content;
+    //contentElement.innerHTML = content;
     contentElement.hidden = true;
     platformHeader.addEventListener("click", () => {
         contentElement.hidden = !contentElement.hidden;
     });
 
-    document.append(headerElement);
+    document.documentElement.append(headerElement);
     platformHeaders.push([headerElement, header.platformID])
 }
 
