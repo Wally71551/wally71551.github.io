@@ -9,9 +9,9 @@ let platformHeaders = [];
 Init();
 
 async function Init() {
-    projects = await LoadProjectsData();
-    platforms = await LoadPlatformsData();
-    series = await LoadSeriesData();
+    projects = (await LoadProjectsData()).projects;
+    platforms = (await LoadPlatformsData()).platforms;
+    series = (await LoadSeriesData()).series;
 
     PageLoad();
 }
