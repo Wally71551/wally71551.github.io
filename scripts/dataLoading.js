@@ -4,15 +4,19 @@ async function LoadMusicData() {
 }
 
 async function LoadPlatformsData() {
-    return await LoadFromJSON('data/platforms.json');
+    let json = await LoadFromJSON('data/platforms.json');
+    return json.platforms;
 }
 
 async function LoadProjectsData() {
-    return await LoadFromJSON('data/projects.json').projects;
+    let json = await LoadFromJSON('data/projects.json');
+    return json.projects;
+
 }
 
 async function LoadSeriesData() {
-    return await LoadFromJSON('data/series.json');
+    let json = await LoadFromJSON('data/series.json');
+    return json.series;
 }
 
 async function LoadFromJSON(jsonPath) {
