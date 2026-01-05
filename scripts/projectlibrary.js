@@ -18,7 +18,7 @@ async function Init() {
 
 function PageLoad() {
     //Load the platform headers first
-    platforms.foreach(CreateHeader);
+    platforms.forEach(CreateHeader);
 }
 
 function CreateHeader(header, index) {
