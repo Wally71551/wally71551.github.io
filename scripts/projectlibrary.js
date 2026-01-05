@@ -7,12 +7,13 @@ const platformTemplate = document.getElementById("platforms-template");
 let platformHeaders = [];
 
 Init();
-PageLoad();
 
 async function Init() {
     projects = await LoadProjectsData();
     platforms = await LoadPlatformsData();
     series = await LoadSeriesData();
+
+    PageLoad();
 }
 
 function PageLoad() {
