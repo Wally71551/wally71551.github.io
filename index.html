@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
     <div class="container">
-        <h1>Game Library</h1>
+        <h1>Project Library</h1>
 
         <div class="grid">
             <div class="grid-item" onclick="openDetail('https://img.wally71551.workers.dev/BOTW.jpg', 'The Legend of Zelda: Breath of the Wild')">
@@ -35,17 +34,31 @@
         </div>
     </div>
 
+    <template id="platforms-template">
+        <section class="collapsible">
+            <header class="platform-header">
+                <h2 class="platform-title"></h2>
+                <img class="platform-image" />
+            </header>
+
+            <div class="platform-content">
+                
+            </div>
+        </section>
+    </template>
+
     <script>
-    function openDetail(image, title) {
-        document.getElementById("modal").style.display = "flex";
-        document.getElementById("modal-image").src = image;
-        document.getElementById("modal-title").innerText = title;
-    }
+        function openDetail(image, title) {
+            document.getElementById("modal").style.display = "flex";
+            document.getElementById("modal-image").src = image;
+            document.getElementById("modal-title").innerText = title;
+        }
 
-    function closeDetail() {
-        document.getElementById("modal").style.display = "none";
-    }
+        function closeDetail() {
+            document.getElementById("modal").style.display = "none";
+        }
     </script>
-
+    <script src="scripts/dataLoading.js"></script>
+    <script src="scripts/projectLibrary.js"></script>
 </body>
 </html>
