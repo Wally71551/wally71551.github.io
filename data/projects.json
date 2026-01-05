@@ -1,0 +1,287 @@
+{
+  "projects": [
+    {
+      "projectID": "wally71551_og",
+      "projectName": "Wally71551 -Original Cut-",
+      "platformIDs": [
+        {
+          "platform": "project",
+          "releaseDate": ""
+        }
+      ],
+      "projectType": "Album",
+      "imageSrc": "",
+      "musicList": [ "botw_sidon", "sm64_ultkoopa", "gothic3_vistapoint", "smg_ggg_8bit", "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae", "botw_ritovillage_n", "sp2_inkoming", "botw_urbosa", "botw_hfield_d" ]
+    },
+    {
+      "projectID": "botw_s2",
+      "projectName": "The Legend of Zelda: Breath of the Wild – Nintendo Switch 2 Edition",
+      "platformIDs": [
+        {
+          "platform": "ns2",
+          "releaseDate": "2025-06-05"
+        }
+      ],
+      "seriesID": "loz",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "botw_sidon", "botw_ritovillage_n", "botw_urbosa", "botw_hfield_d" ]
+    },
+    {
+      "projectID": "botw",
+      "projectName": "The Legend of Zelda: Breath of the Wild",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-03-03"
+        }
+      ],
+      "seriesID": "loz",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "botw_sidon", "botw_ritovillage_n", "botw_urbosa", "botw_hfield_d" ]
+    },
+    {
+      "projectID": "sm64",
+      "projectName": "Super Mario 64",
+      "platformIDs": [
+        {
+          "platform": "n64",
+          "releaseDate": "1997-03-01"
+        }
+      ],
+      "seriesID": "mario",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "sm64_ultkoopa" ]
+    },
+    {
+      "projectID": "sm64ds",
+      "projectName": "Super Mario 64 DS",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2005-03-11"
+        }
+      ],
+      "seriesID": "mario",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "sm64_ultkoopa" ]
+    },
+    {
+      "projectID": "sm3das",
+      "projectName": "Super Mario 3D All-Stars",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2020-09-18"
+        }
+      ],
+      "seriesID": "mario",
+      "projectType": "collection",
+      "imageSrc": "",
+      "musicList": [ "sm64_ultkoopa", "smg_ggg_8bit" ]
+    },
+    {
+      "projectID": "gothic3",
+      "projectName": "Gothic 3",
+      "platformIDs": [
+        {
+          "platform": "pc",
+          "releaseDate": "2006-10-13"
+        }
+      ],
+      "seriesID": "gothic",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "gothic3_vistapoint" ]
+    },
+    {
+      "projectID": "smgalaxy",
+      "projectName": "Super Mario Galaxy",
+      "platformIDs": [
+        {
+          "platform": "wii",
+          "releaseDate": "2007-11-16"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2025-10-02"
+        }
+      ],
+      "seriesID": "mario",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "smg_ggg_8bit" ]
+    },
+    {
+      "projectID": "smgalaxy_12",
+      "projectName": "Super Mario Galaxy + Super Mario Galaxy 2",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2025-10-02"
+        }
+      ],
+      "seriesID": "mario",
+      "projectType": "collection",
+      "imageSrc": "",
+      "musicList": [ "smg_ggg_8bit" ]
+    },
+    {
+      "projectID": "ff15",
+      "projectName": "FINAL FANTASY XV",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2016-11-29"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2016-11-29"
+        }
+      ],
+      "seriesID": "ff",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "ffxv_nox", "ffxv_nox_8bit, ffxv_tenebrae" ]
+    },
+    {
+      "projectID": "ff15r",
+      "projectName": "FINAL FANTASY XV ROYAL EDITION",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2018-03-06"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2018-03-06"
+        },
+        {
+          "platform": "stadia",
+          "releaseDate": "2019-11-19"
+        }
+      ],
+      "seriesID": "ff",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
+    },
+    {
+      "projectID": "ff15w",
+      "projectName": "FINAL FANTASY XV WINDOWS EDITION",
+      "platformIDs": [
+        {
+          "platform": "pc",
+          "releaseDate": "2018-03-06"
+        }
+      ],
+      "seriesID": "ff",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
+    },
+    {
+      "projectID": "ff15pe",
+      "projectName": "FINAL FANTASY XV POCKET EDITION",
+      "platformIDs": [
+        {
+          "platform": "ios",
+          "releaseDate": "2018-02-08"
+        },
+        {
+          "platform": "android",
+          "releaseDate": "2018-02-08"
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2018-06-06"
+        }
+      ],
+      "seriesID": "ff",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
+    },
+    {
+      "projectID": "ff15pehd",
+      "projectName": "FINAL FANTASY XV POCKET EDITION HD",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2018-09-07"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2018-09-07"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2018-09-13"
+        }
+      ],
+      "seriesID": "ff",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
+    },
+    {
+      "projectID": "totk_s2",
+      "projectName": "The Legend of Zelda: Tears of the Kingdom – Nintendo Switch 2 Edition",
+      "platformIDs": [
+        {
+          "platform": "ns2",
+          "releaseDate": "2025-06-05"
+        }
+      ],
+      "seriesID": "loz",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "botw_ritovillage_n" ]
+    },
+    {
+      "projectID": "totk",
+      "projectName": "The Legend of Zelda: Tears of the Kingdom",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2023-05-12"
+        }
+      ],
+      "seriesID": "loz",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "botw_ritovillage_n" ]
+    },
+    {
+      "projectID": "splatoon2",
+      "projectName": "Splatoon 2",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-07-21"
+        }
+      ],
+      "seriesID": "splatoon",
+      "projectType": "game",
+      "imageSrc": "",
+      "musicList": [ "spl2_inkoming" ]
+    },
+    {
+      "projectID": "splatoon2_gtf",
+      "projectName": "Splatoon 2 Global Testfire",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-03-14"
+        }
+      ],
+      "seriesID": "splatoon",
+      "projectType": "demo",
+      "imageSrc": "",
+      "musicList": [ "spl2_inkoming" ]
+    }
+  ]
+}
