@@ -10,19 +10,6 @@
 <body>
     <div class="container">
         <h1>Project Library</h1>
-
-        <div class="grid">
-            <div class="grid-item" onclick="openDetail('https://img.wally71551.workers.dev/BOTW.jpg', 'The Legend of Zelda: Breath of the Wild')">
-                <img src="https://img.wally71551.workers.dev/BOTW.jpg" alt="">
-            </div>
-            <div class="grid-item" onclick="openDetail('https://img.wally71551.workers.dev/Splatoon2.jpg', 'Splatoon 2')">
-                <img src="https://img.wally71551.workers.dev/Splatoon2.jpg" alt="">
-            </div>
-            <div class="grid-item" onclick="openDetail('https://img.wally71551.workers.dev/BayonettaSwitch.jpg', 'Bayonetta')">
-                <img src="https://img.wally71551.workers.dev/BayonettaSwitch.jpg" alt="">
-            </div>
-
-        </div>
     </div>
 
     <div id="modal" class="modal">
@@ -41,23 +28,18 @@
                 <img class="platform-image" />
             </header>
 
-            <div class="platform-content">
+            <div class="platform-content-grid">
                 
             </div>
         </section>
     </template>
 
-    <script>
-        function openDetail(image, title) {
-            document.getElementById("modal").style.display = "flex";
-            document.getElementById("modal-image").src = image;
-            document.getElementById("modal-title").innerText = title;
-        }
+    <template id="project-grid">
+            <div class="grid-item">
+                <img src="" alt=""/>
+            </div>
+    </template>
 
-        function closeDetail() {
-            document.getElementById("modal").style.display = "none";
-        }
-    </script>
     <script src="scripts/dataLoad.js"></script>
     <script src="scripts/projectsLoad.js"></script>
 </body>
