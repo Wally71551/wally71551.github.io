@@ -7,22 +7,13 @@
 
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <div class="container">
+<body id="main">
+    <div class="header-container">
         <h1>Project Library</h1>
     </div>
 
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn" onclick="closeDetail()">✖</span>
-            <img id="modal-image" src="" alt="">
-            <h2 id="modal-title"></h2>
-            <p id="modal-desc">This is where your description text would go.</p>
-        </div>
-    </div>
-
     <template id="platforms-template">
-        <section class="collapsible">
+        <section class="platform-collapsible">
             <header class="platform-header">
                 <h2 class="platform-title"></h2>
                 <img class="platform-image" />

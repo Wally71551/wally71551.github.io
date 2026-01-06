@@ -24,7 +24,7 @@
       ],
       "seriesID": "loz",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "https://img.wally71551.workers.dev/BOTW_S2.jpg",
       "musicList": [ "botw_sidon", "botw_ritovillage_n", "botw_urbosa", "botw_hfield_d" ]
     },
     {
@@ -38,7 +38,7 @@
       ],
       "seriesID": "loz",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "https://img.wally71551.workers.dev/BOTW.jpg",
       "musicList": [ "botw_sidon", "botw_ritovillage_n", "botw_urbosa", "botw_hfield_d" ]
     },
     {
@@ -224,7 +224,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "https://img.wally71551.workers.dev/FFXVPocketHD.jpg",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
     },
     {
@@ -266,7 +266,7 @@
       ],
       "seriesID": "splatoon",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "https://img.wally71551.workers.dev/Splatoon2.jpg",
       "musicList": [ "spl2_inkoming" ]
     },
     {
@@ -280,7 +280,7 @@
       ],
       "seriesID": "splatoon",
       "projectType": "demo",
-      "imageSrc": "",
+      "imageSrc": "https://img.wally71551.workers.dev/Splatoon2GT.jpg",
       "musicList": [ "spl2_inkoming" ]
     }
   ]
