@@ -31,6 +31,12 @@
       "platformOrder": "2"
     },
     {
+      "platformID": "wiiu",
+      "platformName": "Wii U",
+      "platformImageSrc": "",
+      "platformOrder": "3"
+    },
+    {
       "platformID": "wii",
       "platformName": "Wii",
       "platformImageSrc": "https://img.wally71551.workers.dev/platforms/Wii.webp",
