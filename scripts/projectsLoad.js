@@ -35,6 +35,7 @@ function CreateHeader(header, index)
 
     let platformHeader = headerElement.querySelector(".platform-header");
     let headerTitle = headerElement.querySelector(".platform-title");
+    let headerImage = headerElement.querySelector(".platform-image");
     let contentElement = headerElement.querySelector(".platform-content-grid");
 
     headerTitle.textContent = header.platformName;
@@ -42,6 +43,11 @@ function CreateHeader(header, index)
     platformHeader.addEventListener("click", () => {
         contentElement.hidden = !contentElement.hidden;
     });
+
+    if(header.platformImageSrc != "")
+    {
+        headerImage.src = header.platformImageSrc;
+    }
 
     let platProjects = platformProjects.get(header.platformID);
     if(platProjects != undefined)

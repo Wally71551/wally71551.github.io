@@ -9,7 +9,7 @@
     {
       "platformID": "ns2",
       "platformName": "Nintendo Switch 2",
-      "platformImageSrc": "",
+      "platformImageSrc": "https://img.wally71551.workers.dev/platforms/NS2.webp",
       "platformOrder": "1"
     },
     {
@@ -21,7 +21,7 @@
     {
       "platformID": "ps4",
       "platformName": "PlayStation 4",
-      "platformImageSrc": "",
+      "platformImageSrc": "https://img.wally71551.workers.dev/platforms/PS4.webp",
       "platformOrder": "2"
     },
     {
@@ -33,7 +33,7 @@
     {
       "platformID": "wii",
       "platformName": "Wii",
-      "platformImageSrc": "",
+      "platformImageSrc": "https://img.wally71551.workers.dev/platforms/Wii.webp",
       "platformOrder": "3"
     },
     {
@@ -45,7 +45,7 @@
     {
       "platformID": "n64",
       "platformName": "Nintendo 64",
-      "platformImageSrc": "",
+      "platformImageSrc": "https://img.wally71551.workers.dev/platforms/N64.webp",
       "platformOrder": "4"
     },
     {
@@ -68,8 +68,8 @@
     },
     {
       "platformID": "stadia",
-      "platformName": "Google Stadia",
-      "platformImageSrc": "",
+      "platformName": "Stadia",
+      "platformImageSrc": "https://img.wally71551.workers.dev/platforms/Stadia.webp",
       "platformOrder": "20"
     }
   ]
