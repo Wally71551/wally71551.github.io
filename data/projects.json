@@ -24,7 +24,7 @@
       ],
       "seriesID": "loz",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "BOTW_S2",
       "musicList": [ "botw_sidon", "botw_ritovillage_n", "botw_urbosa", "botw_hfield_d" ]
     },
     {
@@ -34,11 +34,15 @@
         {
           "platform": "ns1",
           "releaseDate": "2017-03-03"
+        },
+        {
+          "platform": "wiiu",
+          "releaseDate": "2017-03-03"
         }
       ],
       "seriesID": "loz",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "BOTW",
       "musicList": [ "botw_sidon", "botw_ritovillage_n", "botw_urbosa", "botw_hfield_d" ]
     },
     {
@@ -52,7 +56,7 @@
       ],
       "seriesID": "mario",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "SM64",
       "musicList": [ "sm64_ultkoopa" ]
     },
     {
@@ -66,7 +70,7 @@
       ],
       "seriesID": "mario",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "SM64DS",
       "musicList": [ "sm64_ultkoopa" ]
     },
     {
@@ -80,7 +84,7 @@
       ],
       "seriesID": "mario",
       "projectType": "collection",
-      "imageSrc": "",
+      "imageSrc": "SM3DAS",
       "musicList": [ "sm64_ultkoopa", "smg_ggg_8bit" ]
     },
     {
@@ -94,7 +98,7 @@
       ],
       "seriesID": "gothic",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "Gothic3",
       "musicList": [ "gothic3_vistapoint" ]
     },
     {
@@ -112,7 +116,7 @@
       ],
       "seriesID": "mario",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "SMG",
       "musicList": [ "smg_ggg_8bit" ]
     },
     {
@@ -126,7 +130,7 @@
       ],
       "seriesID": "mario",
       "projectType": "collection",
-      "imageSrc": "",
+      "imageSrc": "SMG_1_2",
       "musicList": [ "smg_ggg_8bit" ]
     },
     {
@@ -144,7 +148,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "FFXV",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit, ffxv_tenebrae" ]
     },
     {
@@ -158,7 +162,17 @@
         {
           "platform": "xbox1",
           "releaseDate": "2018-03-06"
-        },
+        }
+      ],
+      "seriesID": "ff",
+      "projectType": "game",
+      "imageSrc": "FFXVRE",
+      "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
+    },
+    {
+      "projectID": "ff15stadia",
+      "projectName": "FINAL FANTASY XV",
+      "platformIDs": [
         {
           "platform": "stadia",
           "releaseDate": "2019-11-19"
@@ -166,7 +180,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "FFXV",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
     },
     {
@@ -180,7 +194,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "FFXVWE",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
     },
     {
@@ -202,7 +216,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "FFXVPocket",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
     },
     {
@@ -224,7 +238,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "FFXVPocketHD",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
     },
     {
@@ -238,7 +252,7 @@
       ],
       "seriesID": "loz",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "TOTK_S2",
       "musicList": [ "botw_ritovillage_n" ]
     },
     {
@@ -252,7 +266,7 @@
       ],
       "seriesID": "loz",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "TOTK",
       "musicList": [ "botw_ritovillage_n" ]
     },
     {
@@ -266,7 +280,7 @@
       ],
       "seriesID": "splatoon",
       "projectType": "game",
-      "imageSrc": "",
+      "imageSrc": "Splatoon2",
       "musicList": [ "spl2_inkoming" ]
     },
     {
@@ -280,7 +294,7 @@
       ],
       "seriesID": "splatoon",
       "projectType": "demo",
-      "imageSrc": "",
+      "imageSrc": "Splatoon2GT",
       "musicList": [ "spl2_inkoming" ]
     }
   ]

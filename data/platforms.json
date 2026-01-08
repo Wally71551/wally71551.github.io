@@ -9,67 +9,73 @@
     {
       "platformID": "ns2",
       "platformName": "Nintendo Switch 2",
-      "platformImageSrc": "",
+      "platformImageSrc": "NS2",
       "platformOrder": "1"
     },
     {
       "platformID": "ns1",
       "platformName": "Nintendo Switch",
-      "platformImageSrc": "",
+      "platformImageSrc": "NS1",
       "platformOrder": "2"
     },
     {
       "platformID": "ps4",
       "platformName": "PlayStation 4",
-      "platformImageSrc": "",
+      "platformImageSrc": "PS4",
       "platformOrder": "2"
     },
     {
       "platformID": "xbox1",
       "platformName": "Xbox One",
-      "platformImageSrc": "",
+      "platformImageSrc": "Xbox1",
       "platformOrder": "2"
+    },
+    {
+      "platformID": "wiiu",
+      "platformName": "Wii U",
+      "platformImageSrc": "WiiU",
+      "platformOrder": "3"
     },
     {
       "platformID": "wii",
       "platformName": "Wii",
-      "platformImageSrc": "",
+      "platformImageSrc": "Wii",
       "platformOrder": "3"
     },
     {
       "platformID": "nds",
       "platformName": "Nintendo DS",
-      "platformImageSrc": "",
+      "platformImageSrc": "NDS",
       "platformOrder": "3"
     },
     {
       "platformID": "n64",
       "platformName": "Nintendo 64",
-      "platformImageSrc": "",
+      "platformImageSrc": "N64",
       "platformOrder": "4"
     },
     {
       "platformID": "pc",
       "platformName": "Windows PC",
-      "platformImageSrc": "",
+      "platformImageSrc": "Windows",
       "platformOrder": "5"
     },
     {
       "platformID": "ios",
       "platformName": "iOS",
-      "platformImageSrc": "",
+      "platformImageSrc": "iOS",
       "platformOrder": "5"
     },
     {
-      "platformID": "and",
+      "platformID": "android",
       "platformName": "Android",
-      "platformImageSrc": "",
+      "platformImageSrc": "Android",
       "platformOrder": "5"
     },
     {
       "platformID": "stadia",
-      "platformName": "Google Stadia",
-      "platformImageSrc": "",
+      "platformName": "Stadia",
+      "platformImageSrc": "Stadia",
       "platformOrder": "20"
     }
   ]

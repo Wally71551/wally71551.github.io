@@ -3,62 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Projects — Wally71551</title>
+    <title>Project Library — Wally71551</title>
 
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <div class="container">
+<body id="main">
+    <div class="header-container">
         <h1>Project Library</h1>
-
-        <div class="grid">
-            <div class="grid-item" onclick="openDetail('https://img.wally71551.workers.dev/BOTW.jpg', 'The Legend of Zelda: Breath of the Wild')">
-                <img src="https://img.wally71551.workers.dev/BOTW.jpg" alt="">
-            </div>
-            <div class="grid-item" onclick="openDetail('https://img.wally71551.workers.dev/Splatoon2.jpg', 'Splatoon 2')">
-                <img src="https://img.wally71551.workers.dev/Splatoon2.jpg" alt="">
-            </div>
-            <div class="grid-item" onclick="openDetail('https://img.wally71551.workers.dev/BayonettaSwitch.jpg', 'Bayonetta')">
-                <img src="https://img.wally71551.workers.dev/BayonettaSwitch.jpg" alt="">
-            </div>
-
-        </div>
-    </div>
-
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn" onclick="closeDetail()">✖</span>
-            <img id="modal-image" src="" alt="">
-            <h2 id="modal-title"></h2>
-            <p id="modal-desc">This is where your description text would go.</p>
-        </div>
     </div>
 
     <template id="platforms-template">
-        <section class="collapsible">
+        <section class="platform-collapsible">
             <header class="platform-header">
                 <h2 class="platform-title"></h2>
-                <img class="platform-image" />
+                <div class="platform-image-wrapper">
+                    <img class="platform-image" />
+                </div>
             </header>
 
-            <div class="platform-content">
-                
+            <div class="platform-content-grid">
             </div>
         </section>
     </template>
 
-    <script>
-        function openDetail(image, title) {
-            document.getElementById("modal").style.display = "flex";
-            document.getElementById("modal-image").src = image;
-            document.getElementById("modal-title").innerText = title;
-        }
+    <template id="project-grid">
+            <div class="grid-item">
+                <img src="" alt=""/>
+            </div>
+    </template>
 
-        function closeDetail() {
-            document.getElementById("modal").style.display = "none";
-        }
-    </script>
-    <script src="scripts/dataLoading.js"></script>
-    <script src="scripts/projectlibrary.js"></script>
+    <script src="scripts/dataLoad.js"></script>
+    <script src="scripts/projectsLoad.js"></script>
 </body>
 </html>
