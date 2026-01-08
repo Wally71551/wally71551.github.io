@@ -9,73 +9,73 @@
     {
       "platformID": "ns2",
       "platformName": "Nintendo Switch 2",
-      "platformImageSrc": "https://img.wally71551.workers.dev/platforms/NS2.webp",
+      "platformImageSrc": "NS2",
       "platformOrder": "1"
     },
     {
       "platformID": "ns1",
       "platformName": "Nintendo Switch",
-      "platformImageSrc": "",
+      "platformImageSrc": "NS1",
       "platformOrder": "2"
     },
     {
       "platformID": "ps4",
       "platformName": "PlayStation 4",
-      "platformImageSrc": "https://img.wally71551.workers.dev/platforms/PS4.webp",
+      "platformImageSrc": "PS4",
       "platformOrder": "2"
     },
     {
       "platformID": "xbox1",
       "platformName": "Xbox One",
-      "platformImageSrc": "",
+      "platformImageSrc": "Xbox1",
       "platformOrder": "2"
     },
     {
       "platformID": "wiiu",
       "platformName": "Wii U",
-      "platformImageSrc": "",
+      "platformImageSrc": "WiiU",
       "platformOrder": "3"
     },
     {
       "platformID": "wii",
       "platformName": "Wii",
-      "platformImageSrc": "https://img.wally71551.workers.dev/platforms/Wii.webp",
+      "platformImageSrc": "Wii",
       "platformOrder": "3"
     },
     {
       "platformID": "nds",
       "platformName": "Nintendo DS",
-      "platformImageSrc": "",
+      "platformImageSrc": "NDS",
       "platformOrder": "3"
     },
     {
       "platformID": "n64",
       "platformName": "Nintendo 64",
-      "platformImageSrc": "https://img.wally71551.workers.dev/platforms/N64.webp",
+      "platformImageSrc": "N64",
       "platformOrder": "4"
     },
     {
       "platformID": "pc",
       "platformName": "Windows PC",
-      "platformImageSrc": "",
+      "platformImageSrc": "Windows",
       "platformOrder": "5"
     },
     {
       "platformID": "ios",
       "platformName": "iOS",
-      "platformImageSrc": "",
+      "platformImageSrc": "iOS",
       "platformOrder": "5"
     },
     {
       "platformID": "android",
       "platformName": "Android",
-      "platformImageSrc": "",
+      "platformImageSrc": "Android",
       "platformOrder": "5"
     },
     {
       "platformID": "stadia",
       "platformName": "Stadia",
-      "platformImageSrc": "https://img.wally71551.workers.dev/platforms/Stadia.webp",
+      "platformImageSrc": "Stadia",
       "platformOrder": "20"
     }
   ]

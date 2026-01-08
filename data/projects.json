@@ -24,7 +24,7 @@
       ],
       "seriesID": "loz",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/BOTW_S2.jpg",
+      "imageSrc": "BOTW_S2",
       "musicList": [ "botw_sidon", "botw_ritovillage_n", "botw_urbosa", "botw_hfield_d" ]
     },
     {
@@ -42,7 +42,7 @@
       ],
       "seriesID": "loz",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/BOTW.jpg",
+      "imageSrc": "BOTW",
       "musicList": [ "botw_sidon", "botw_ritovillage_n", "botw_urbosa", "botw_hfield_d" ]
     },
     {
@@ -56,7 +56,7 @@
       ],
       "seriesID": "mario",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/SM64.jpg",
+      "imageSrc": "SM64",
       "musicList": [ "sm64_ultkoopa" ]
     },
     {
@@ -70,7 +70,7 @@
       ],
       "seriesID": "mario",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/SM64DS.jpg",
+      "imageSrc": "SM64DS",
       "musicList": [ "sm64_ultkoopa" ]
     },
     {
@@ -84,7 +84,7 @@
       ],
       "seriesID": "mario",
       "projectType": "collection",
-      "imageSrc": "https://img.wally71551.workers.dev/SM3DAS.jpg",
+      "imageSrc": "SM3DAS",
       "musicList": [ "sm64_ultkoopa", "smg_ggg_8bit" ]
     },
     {
@@ -98,7 +98,7 @@
       ],
       "seriesID": "gothic",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/Gothic3.jpg",
+      "imageSrc": "Gothic3",
       "musicList": [ "gothic3_vistapoint" ]
     },
     {
@@ -116,7 +116,7 @@
       ],
       "seriesID": "mario",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/SMG.jpg",
+      "imageSrc": "SMG",
       "musicList": [ "smg_ggg_8bit" ]
     },
     {
@@ -130,7 +130,7 @@
       ],
       "seriesID": "mario",
       "projectType": "collection",
-      "imageSrc": "https://img.wally71551.workers.dev/SMG_1_2.jpg",
+      "imageSrc": "SMG_1_2",
       "musicList": [ "smg_ggg_8bit" ]
     },
     {
@@ -148,7 +148,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/FFXV.jpg",
+      "imageSrc": "FFXV",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit, ffxv_tenebrae" ]
     },
     {
@@ -166,7 +166,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/FFXVRE.jpg",
+      "imageSrc": "FFXVRE",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
     },
     {
@@ -180,7 +180,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/FFXV.jpg",
+      "imageSrc": "FFXV",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
     },
     {
@@ -194,7 +194,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/FFXVWE.jpg",
+      "imageSrc": "FFXVWE",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
     },
     {
@@ -216,7 +216,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/FFXVPocket.jpg",
+      "imageSrc": "FFXVPocket",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
     },
     {
@@ -238,7 +238,7 @@
       ],
       "seriesID": "ff",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/FFXVPocketHD.jpg",
+      "imageSrc": "FFXVPocketHD",
       "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
     },
     {
@@ -252,7 +252,7 @@
       ],
       "seriesID": "loz",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/TOTK_S2.jpg",
+      "imageSrc": "TOTK_S2",
       "musicList": [ "botw_ritovillage_n" ]
     },
     {
@@ -266,7 +266,7 @@
       ],
       "seriesID": "loz",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/TOTK.jpg",
+      "imageSrc": "TOTK",
       "musicList": [ "botw_ritovillage_n" ]
     },
     {
@@ -280,7 +280,7 @@
       ],
       "seriesID": "splatoon",
       "projectType": "game",
-      "imageSrc": "https://img.wally71551.workers.dev/Splatoon2.jpg",
+      "imageSrc": "Splatoon2",
       "musicList": [ "spl2_inkoming" ]
     },
     {
@@ -294,7 +294,7 @@
       ],
       "seriesID": "splatoon",
       "projectType": "demo",
-      "imageSrc": "https://img.wally71551.workers.dev/Splatoon2GT.jpg",
+      "imageSrc": "Splatoon2GT",
       "musicList": [ "spl2_inkoming" ]
     }
   ]

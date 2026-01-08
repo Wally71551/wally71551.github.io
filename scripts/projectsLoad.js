@@ -23,9 +23,6 @@ function PageLoad()
 {
     //Set up the project setup arrays
     projects.forEach(ProjectSetup);
-
-    //Sort each of the elements into release date order
-
     platforms.forEach(CreateHeader);
 }
 
@@ -46,7 +43,7 @@ function CreateHeader(header, index)
 
     if(header.platformImageSrc != "")
     {
-        headerImage.src = header.platformImageSrc;
+        headerImage.src = GetPlatformPicture(header.platformImageSrc);
     }
 
     let platProjects = platformProjects.get(header.platformID);
@@ -58,7 +55,7 @@ function CreateHeader(header, index)
             let projectData = FindProject(platProjects[i]);
 
             let image = projectElement.querySelector('img');
-            image.src = projectData.imageSrc;
+            image.src = GetProjectPicture(projectData.imageSrc);
 
             contentElement.append(projectElement);
         }
@@ -74,9 +71,44 @@ function ProjectSetup(project, index)
     {
         if(platformProjects.has(project.platformIDs[i].platform))
         {
-            let temp = platformProjects.get(project.platformIDs[i].platform);
-            temp.push(project.projectID);
-            platformProjects.set(project.platformIDs[i].platform, temp);
+            let projects = platformProjects.get(project.platformIDs[i].platform);
+        
+            //Alphabetical order sorting
+            let hasSorted = false;
+            for(let j = 0; j < projects.length; j++)
+            {
+                let comparison = FindProject(projects[j]);
+                let comparisonReleaseDate = comparison.platformIDs.find(p => p.platform === project.platformIDs[i].platform)?.releaseDate ?? null;
+
+                if(comparisonReleaseDate == null)
+                {
+                    continue;
+                }
+
+                if(project.platformIDs[i].releaseDate > comparisonReleaseDate)
+                {
+                    projects.splice(j, 0, project.projectID);
+                    hasSorted = true;
+                    break;
+                }
+                else if(project.platformIDs[i].releaseDate === comparisonReleaseDate)
+                {
+                    if(project.projectName.localeCompare(comparison.projectName) == false)
+                    {
+                        projects.splice(j, 0, project.projectID);
+                        hasSorted = true;
+                        break;
+                    }
+                }
+            }
+
+            //Push on end if not sorted in and write back to map
+            if(hasSorted == false)
+            {
+                projects.push(project.projectID);
+            }
+
+            platformProjects.set(project.platformIDs[i].platform, projects);
         }
         else
         {

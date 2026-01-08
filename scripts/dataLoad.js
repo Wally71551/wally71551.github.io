@@ -34,3 +34,13 @@ async function LoadFromJSON(jsonPath)
 
     return response.json();
 }
+
+function GetProjectPicture(id)
+{
+    return "https://img.wally71551.workers.dev/" + id + ".jpg";
+}
+
+function GetPlatformPicture(id)
+{
+    return "https://img.wally71551.workers.dev/platforms/" + id + ".webp";
+}
