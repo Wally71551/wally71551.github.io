@@ -9,9 +9,21 @@
           "releaseDate": ""
         }
       ],
-      "projectType": "Album",
+      "projectType": "album",
       "imageSrc": "",
-      "musicList": [ "botw_sidon", "sm64_ultkoopa", "gothic3_vistapoint", "smg_ggg_8bit", "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae", "botw_ritovillage_n", "sp2_inkoming", "botw_urbosa", "botw_hfield_d" ]
+      "musicList": [
+        "botw_sidon",
+        "sm64_ultkoopa",
+        "gothic3_vistapoint",
+        "smg_ggg_8bit",
+        "ffxv_nox",
+        "ffxv_nox_8bit",
+        "ffxv_tenebrae",
+        "botw_ritovillage_n",
+        "sp2_inkoming",
+        "botw_urbosa",
+        "botw_hfield_d"
+      ]
     },
     {
       "projectID": "botw_s2",
@@ -25,7 +37,12 @@
       "seriesID": "loz",
       "projectType": "game",
       "imageSrc": "BOTW_S2",
-      "musicList": [ "botw_sidon", "botw_ritovillage_n", "botw_urbosa", "botw_hfield_d" ]
+      "musicList": [
+        "botw_sidon",
+        "botw_ritovillage_n",
+        "botw_urbosa",
+        "botw_hfield_d"
+      ]
     },
     {
       "projectID": "botw",
@@ -43,7 +60,12 @@
       "seriesID": "loz",
       "projectType": "game",
       "imageSrc": "BOTW",
-      "musicList": [ "botw_sidon", "botw_ritovillage_n", "botw_urbosa", "botw_hfield_d" ]
+      "musicList": [
+        "botw_sidon",
+        "botw_ritovillage_n",
+        "botw_urbosa",
+        "botw_hfield_d"
+      ]
     },
     {
       "projectID": "sm64",
@@ -57,7 +79,9 @@
       "seriesID": "mario",
       "projectType": "game",
       "imageSrc": "SM64",
-      "musicList": [ "sm64_ultkoopa" ]
+      "musicList": [
+        "sm64_ultkoopa"
+      ]
     },
     {
       "projectID": "sm64ds",
@@ -71,7 +95,9 @@
       "seriesID": "mario",
       "projectType": "game",
       "imageSrc": "SM64DS",
-      "musicList": [ "sm64_ultkoopa" ]
+      "musicList": [
+        "sm64_ultkoopa"
+      ]
     },
     {
       "projectID": "sm3das",
@@ -85,7 +111,10 @@
       "seriesID": "mario",
       "projectType": "collection",
       "imageSrc": "SM3DAS",
-      "musicList": [ "sm64_ultkoopa", "smg_ggg_8bit" ]
+      "musicList": [
+        "sm64_ultkoopa",
+        "smg_ggg_8bit"
+      ]
     },
     {
       "projectID": "gothic3",
@@ -99,7 +128,9 @@
       "seriesID": "gothic",
       "projectType": "game",
       "imageSrc": "Gothic3",
-      "musicList": [ "gothic3_vistapoint" ]
+      "musicList": [
+        "gothic3_vistapoint"
+      ]
     },
     {
       "projectID": "smgalaxy",
@@ -117,7 +148,9 @@
       "seriesID": "mario",
       "projectType": "game",
       "imageSrc": "SMG",
-      "musicList": [ "smg_ggg_8bit" ]
+      "musicList": [
+        "smg_ggg_8bit"
+      ]
     },
     {
       "projectID": "smgalaxy_12",
@@ -131,7 +164,9 @@
       "seriesID": "mario",
       "projectType": "collection",
       "imageSrc": "SMG_1_2",
-      "musicList": [ "smg_ggg_8bit" ]
+      "musicList": [
+        "smg_ggg_8bit"
+      ]
     },
     {
       "projectID": "ff15",
@@ -149,7 +184,11 @@
       "seriesID": "ff",
       "projectType": "game",
       "imageSrc": "FFXV",
-      "musicList": [ "ffxv_nox", "ffxv_nox_8bit, ffxv_tenebrae" ]
+      "musicList": [
+        "ffxv_nox",
+        "ffxv_nox_8bit",
+        "ffxv_tenebrae"
+      ]
     },
     {
       "projectID": "ff15r",
@@ -167,7 +206,11 @@
       "seriesID": "ff",
       "projectType": "game",
       "imageSrc": "FFXVRE",
-      "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
+      "musicList": [
+        "ffxv_nox",
+        "ffxv_nox_8bit",
+        "ffxv_tenebrae"
+      ]
     },
     {
       "projectID": "ff15stadia",
@@ -181,7 +224,11 @@
       "seriesID": "ff",
       "projectType": "game",
       "imageSrc": "FFXV",
-      "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
+      "musicList": [
+        "ffxv_nox",
+        "ffxv_nox_8bit",
+        "ffxv_tenebrae"
+      ]
     },
     {
       "projectID": "ff15w",
@@ -195,7 +242,11 @@
       "seriesID": "ff",
       "projectType": "game",
       "imageSrc": "FFXVWE",
-      "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
+      "musicList": [
+        "ffxv_nox",
+        "ffxv_nox_8bit",
+        "ffxv_tenebrae"
+      ]
     },
     {
       "projectID": "ff15pe",
@@ -217,7 +268,11 @@
       "seriesID": "ff",
       "projectType": "game",
       "imageSrc": "FFXVPocket",
-      "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
+      "musicList": [
+        "ffxv_nox",
+        "ffxv_nox_8bit",
+        "ffxv_tenebrae"
+      ]
     },
     {
       "projectID": "ff15pehd",
@@ -239,7 +294,11 @@
       "seriesID": "ff",
       "projectType": "game",
       "imageSrc": "FFXVPocketHD",
-      "musicList": [ "ffxv_nox", "ffxv_nox_8bit", "ffxv_tenebrae" ]
+      "musicList": [
+        "ffxv_nox",
+        "ffxv_nox_8bit",
+        "ffxv_tenebrae"
+      ]
     },
     {
       "projectID": "totk_s2",
@@ -253,7 +312,9 @@
       "seriesID": "loz",
       "projectType": "game",
       "imageSrc": "TOTK_S2",
-      "musicList": [ "botw_ritovillage_n" ]
+      "musicList": [
+        "botw_ritovillage_n"
+      ]
     },
     {
       "projectID": "totk",
@@ -267,7 +328,9 @@
       "seriesID": "loz",
       "projectType": "game",
       "imageSrc": "TOTK",
-      "musicList": [ "botw_ritovillage_n" ]
+      "musicList": [
+        "botw_ritovillage_n"
+      ]
     },
     {
       "projectID": "splatoon2",
@@ -281,7 +344,9 @@
       "seriesID": "splatoon",
       "projectType": "game",
       "imageSrc": "Splatoon2",
-      "musicList": [ "spl2_inkoming" ]
+      "musicList": [
+        "spl2_inkoming"
+      ]
     },
     {
       "projectID": "splatoon2_gtf",
@@ -295,7 +360,25 @@
       "seriesID": "splatoon",
       "projectType": "demo",
       "imageSrc": "Splatoon2GT",
-      "musicList": [ "spl2_inkoming" ]
+      "musicList": [
+        "spl2_inkoming"
+      ]
+    },
+    {
+      "projectID": "sm64_spt",
+      "projectName": "Super Mario 64: Shindō Pak Taiō Version",
+      "platformIDs": [
+        {
+          "platform": "n64",
+          "releaseDate": "1997-07-18"
+        }
+      ],
+      "seriesID": "mario",
+      "projectType": "game",
+      "imageSrc": "SM64_SPT",
+      "musicList": [
+        "sm64_ultkoopa"
+      ]
     }
   ]
 }

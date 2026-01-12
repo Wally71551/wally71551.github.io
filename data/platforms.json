@@ -61,15 +61,15 @@
       "platformOrder": "5"
     },
     {
-      "platformID": "ios",
-      "platformName": "iOS",
-      "platformImageSrc": "iOS",
-      "platformOrder": "5"
-    },
-    {
       "platformID": "android",
       "platformName": "Android",
       "platformImageSrc": "Android",
+      "platformOrder": "5"
+    },
+    {
+      "platformID": "ios",
+      "platformName": "iOS",
+      "platformImageSrc": "iOS",
       "platformOrder": "5"
     },
     {
