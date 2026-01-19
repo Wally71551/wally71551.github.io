@@ -57,6 +57,9 @@ function CreateHeader(header, index)
             let image = projectElement.querySelector('img');
             image.src = GetProjectPicture(projectData.imageSrc);
 
+            let title = projectElement.querySelector('p');
+            title.textContent = projectData.projectName;
+
             contentElement.append(projectElement);
         }
     }
