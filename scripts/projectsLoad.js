@@ -60,6 +60,9 @@ function CreateHeader(header, index)
             let title = projectElement.querySelector('p');
             title.textContent = projectData.projectName;
 
+            let projectCountDisplay = projectElement.querySelector('span');
+            projectCountDisplay.textContent = projectData.musicList.length;
+
             contentElement.append(projectElement);
         }
     }
