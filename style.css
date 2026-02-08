@@ -129,37 +129,24 @@ body {
     font-size: 1.25em;
 }
 
-.modal {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.8);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.modal-content {
-    background: #1e1e1e;
-    max-width: 600px;
+.project-details-panel {
+    grid-column: 1 / -1;
     width: 100%;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #999;
+    
+    max-height: 100%;
+    opacity: 0;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
 }
 
-    .modal-content img {
-        width: 100%;
-        border-radius: 8px;
-        margin-bottom: 15px;
-    }
-
-.close-btn {
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    font-size: 20px;
-    cursor: pointer;
+.project-details-panel.open {
+    max-height: auto;
+    opacity: 1;
+    padding: 10px;
 }
 
 @media (max-width: 1000px) {

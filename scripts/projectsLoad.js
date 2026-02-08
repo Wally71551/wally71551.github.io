@@ -63,6 +63,12 @@ function CreateHeader(header, index)
             let projectCountDisplay = projectElement.querySelector('span');
             projectCountDisplay.textContent = projectData.musicList.length;
 
+            let gridItemDiv = projectElement.querySelector('.grid-item');
+            gridItemDiv.dataset.projectId = projectData.projectID;
+            gridItemDiv.addEventListener('click', (e) => {
+                ShowProjectDetails(gridItemDiv, contentElement);
+            })
+
             contentElement.append(projectElement);
         }
     }
@@ -122,6 +128,93 @@ function ProjectSetup(project, index)
             platformProjects.set(project.platformIDs[i].platform, [project.projectID]);
         }
     }
+}
+
+let activeDetailPanel = null;
+let activeProjectId = "";
+function ShowProjectDetails(clickedElement, gridContainer)
+{
+    let newProjectId = clickedElement.dataset.projectId;
+
+    if(activeDetailPanel && newProjectId === activeProjectId)
+    {
+        CloseActivePanel();
+        return;
+    }
+
+    if(activeDetailPanel)
+    {
+        CloseActivePanel();
+    }
+
+    let panel = document.createElement('div');
+    panel.classList.add('project-details-panel');
+    
+    let projectData = FindProject(clickedElement.dataset.projectId);
+
+    panel.innerHTML = `
+        <div class="details-content">
+            <h2>${projectData.projectName}</h2>
+            <p>Type: ${projectData.projectType}</p>
+            <p>Songs: ${projectData.musicList.length}</p>
+        </div>
+    `;
+
+    const nextInsertionPoint = GetEndOfRowElement(clickedElement, gridContainer);
+    if (nextInsertionPoint.nextSibling) {
+        gridContainer.insertBefore(panel, nextInsertionPoint.nextSibling);
+    } else {
+        gridContainer.appendChild(panel);
+    }
+
+    setTimeout(() => {
+        panel.classList.add('open');
+    }, 10);
+
+    activeDetailPanel = panel;
+    activeProjectId = newProjectId;
+}
+
+function CloseActivePanel() {
+    if(!activeDetailPanel)
+    {
+        return;
+    }
+
+    let panelToClose = activeDetailPanel;
+
+    setTimeout(() => {
+        if(panelToClose.parentNode)
+        {
+            panelToClose.remove();
+        }
+        panelToClose.classList.remove('open');
+    }, 10);
+
+    activeDetailPanel = null;
+    activeProjectId = "";
+}
+
+function GetEndOfRowElement(clickedElement, container) {
+    const allItems = Array.from(container.children).filter(el => el.classList.contains('grid-item'));
+    const clickedRect = clickedElement.getBoundingClientRect();
+    const clickedTop = clickedRect.top;
+    
+    let lastItemInRow = clickedElement;
+
+    const currentIndex = allItems.indexOf(clickedElement);
+    
+    for (let i = currentIndex + 1; i < allItems.length; i++) {
+        const item = allItems[i];
+        const itemRect = item.getBoundingClientRect();
+        
+        if (Math.abs(itemRect.top - clickedTop) > 20) { 
+            break;
+        }
+        lastItemInRow = item;
+    }
+    
+    return lastItemInRow;
 }
 
 function FindProject(id)
