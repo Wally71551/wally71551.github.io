@@ -67,7 +67,8 @@ function CreateHeader(header, index)
         }
     }
 
-    document.documentElement.append(headerElement);
+    const content = document.getElementById("content");
+    content.append(headerElement);
     platformHeaders.push([header.platformID, headerElement])
 }
 
