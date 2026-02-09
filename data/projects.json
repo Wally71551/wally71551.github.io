@@ -9,7 +9,7 @@
           "releaseDate": ""
         }
       ],
-      "projectType": "album",
+      "projectType": "Album",
       "imageSrc": "",
       "musicList": [
         "botw_sidon",
@@ -35,7 +35,7 @@
         }
       ],
       "seriesID": "loz",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "BOTW_S2",
       "musicList": [
         "botw_sidon",
@@ -58,7 +58,7 @@
         }
       ],
       "seriesID": "loz",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "BOTW",
       "musicList": [
         "botw_sidon",
@@ -77,7 +77,7 @@
         }
       ],
       "seriesID": "mario",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "SM64",
       "musicList": [
         "sm64_ultkoopa"
@@ -93,7 +93,7 @@
         }
       ],
       "seriesID": "mario",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "SM64DS",
       "musicList": [
         "sm64_ultkoopa"
@@ -109,7 +109,7 @@
         }
       ],
       "seriesID": "mario",
-      "projectType": "collection",
+      "projectType": "Collection",
       "imageSrc": "SM3DAS",
       "musicList": [
         "sm64_ultkoopa",
@@ -126,7 +126,7 @@
         }
       ],
       "seriesID": "gothic",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "Gothic3",
       "musicList": [
         "gothic3_vistapoint"
@@ -146,7 +146,7 @@
         }
       ],
       "seriesID": "mario",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "SMG",
       "musicList": [
         "smg_ggg_8bit"
@@ -162,7 +162,7 @@
         }
       ],
       "seriesID": "mario",
-      "projectType": "collection",
+      "projectType": "Collection",
       "imageSrc": "SMG_1_2",
       "musicList": [
         "smg_ggg_8bit"
@@ -182,7 +182,7 @@
         }
       ],
       "seriesID": "ff",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "FFXV",
       "musicList": [
         "ffxv_nox",
@@ -204,7 +204,7 @@
         }
       ],
       "seriesID": "ff",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "FFXVRE",
       "musicList": [
         "ffxv_nox",
@@ -222,7 +222,7 @@
         }
       ],
       "seriesID": "ff",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "FFXV",
       "musicList": [
         "ffxv_nox",
@@ -240,7 +240,7 @@
         }
       ],
       "seriesID": "ff",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "FFXVWE",
       "musicList": [
         "ffxv_nox",
@@ -266,7 +266,7 @@
         }
       ],
       "seriesID": "ff",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "FFXVPocket",
       "musicList": [
         "ffxv_nox",
@@ -292,7 +292,7 @@
         }
       ],
       "seriesID": "ff",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "FFXVPocketHD",
       "musicList": [
         "ffxv_nox",
@@ -310,7 +310,7 @@
         }
       ],
       "seriesID": "loz",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "TOTK_S2",
       "musicList": [
         "botw_ritovillage_n"
@@ -326,7 +326,7 @@
         }
       ],
       "seriesID": "loz",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "TOTK",
       "musicList": [
         "botw_ritovillage_n"
@@ -342,7 +342,7 @@
         }
       ],
       "seriesID": "splatoon",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "Splatoon2",
       "musicList": [
         "spl2_inkoming"
@@ -358,7 +358,7 @@
         }
       ],
       "seriesID": "splatoon",
-      "projectType": "demo",
+      "projectType": "Demo",
       "imageSrc": "Splatoon2GT",
       "musicList": [
         "spl2_inkoming"
@@ -374,7 +374,7 @@
         }
       ],
       "seriesID": "mario",
-      "projectType": "game",
+      "projectType": "Game",
       "imageSrc": "SM64_SPT",
       "musicList": [
         "sm64_ultkoopa"

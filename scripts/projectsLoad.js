@@ -1,9 +1,11 @@
 let projects;
 let platforms;
 let series;
+let music;
 
 const platformTemplate = document.getElementById("platforms-template");
 const projectTemplate = document.getElementById("project-grid");
+const projectDetailsTemplate = document.getElementById("project-details");
 
 let platformHeaders = [];
 const platformProjects = new Map();
@@ -12,6 +14,7 @@ Init();
 
 async function Init()
 {
+    music = await LoadMusicData();
     projects = await LoadProjectsData();
     platforms = await LoadPlatformsData();
     series = await LoadSeriesData();
@@ -65,6 +68,7 @@ function CreateHeader(header, index)
 
             let gridItemDiv = projectElement.querySelector('.grid-item');
             gridItemDiv.dataset.projectId = projectData.projectID;
+            gridItemDiv.dataset.platformId = header.platformID;
             gridItemDiv.addEventListener('click', (e) => {
                 ShowProjectDetails(gridItemDiv, contentElement);
             })
@@ -147,19 +151,28 @@ function ShowProjectDetails(clickedElement, gridContainer)
         CloseActivePanel();
     }
 
-    let panel = document.createElement('div');
-    panel.classList.add('project-details-panel');
-    
+    //
+    //Populate project details template with the needed data
+    //
+    let template = projectDetailsTemplate.content.cloneNode(true);
+    let panel = template.querySelector('.project-details-panel');
     let projectData = FindProject(clickedElement.dataset.projectId);
+    let projectPlatform = clickedElement.dataset.platformId;
+    let title = panel.querySelector('.project-detailed-title');
+    title.textContent = projectData.projectName;
+    let typeText = panel.querySelector('.project-type');
+    typeText.textContent = projectData.projectType;
+    
+    let releaseDate = panel.querySelector('.project-release-date');
+    for(let i = 0; i < projectData.platformIDs.length; i++)
+    {
+        if(projectData.platformIDs[i].platform == projectPlatform)
+        {
+            releaseDate.textContent = projectData.platformIDs[i].releaseDate;
+        }
+    }
 
-    panel.innerHTML = `
-        <div class="details-content">
-            <h2>${projectData.projectName}</h2>
-            <p>Type: ${projectData.projectType}</p>
-            <p>Songs: ${projectData.musicList.length}</p>
-        </div>
-    `;
-
+    //Insert onto page
     const nextInsertionPoint = GetEndOfRowElement(clickedElement, gridContainer);
     if (nextInsertionPoint.nextSibling) {
         gridContainer.insertBefore(panel, nextInsertionPoint.nextSibling);
@@ -189,7 +202,7 @@ function CloseActivePanel() {
             panelToClose.remove();
         }
         panelToClose.classList.remove('open');
-    }, 10);
+    }, 300);
 
     activeDetailPanel = null;
     activeProjectId = "";
@@ -224,6 +237,28 @@ function FindProject(id)
         if(projects[i].projectID == id)
         {
             return projects[i];
+        }
+    }
+}
+
+function FindTrackID(id)
+{
+    for(let i = 0; i < music.length; i++)
+    {
+        if(music[i].musicID == id)
+        {
+            return music[i];
+        }
+    }
+}
+
+function FindPlatformName(id)
+{
+    for(let i = 0; i < platforms.length; i++)
+    {
+        if(platforms[i].platformID == id)
+        {
+            return platforms[i].platformName;
         }
     }
 }
