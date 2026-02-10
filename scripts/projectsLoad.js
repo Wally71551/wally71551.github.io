@@ -254,16 +254,70 @@ function SetUpTrackList(trackData)
     let projectTitle = panel.querySelector('.track-list-name');
     projectTitle.textContent = trackData.musicName;
 
-    template.addEventListener('click', (e) => {
+    panel.addEventListener('click', (e) => {
             ShowTrackDetails(panel);
-        })
+        });
 
+    panel.dataset.trackId = trackData.musicID;
     return panel;
 }
 
+let activeTrackDetailPanel = null;
+let activeTrackList = "";
 function ShowTrackDetails(clickedElement)
 {
+    let newTrackId = clickedElement.dataset.trackId;
 
+    if(activeTrackDetailPanel && activeTrackList === newTrackId)
+    {
+        CloseTrackActivePanel();
+        return;
+    }
+
+    if(activeTrackDetailPanel)
+    {
+        CloseTrackActivePanel();
+    }
+
+    //Populate with needed info
+    let template = trackDetailsTemplate.content.cloneNode(true);
+    let panel = template.querySelector('.track-details-panel');
+    let trackData = GetTrack(newTrackId);
+    let typeText = panel.querySelector('.track-type');
+    typeText.textContent = trackData.musicType;
+    let trackReleaseDate = panel.querySelector('.track-release-date');
+    trackReleaseDate.textContent = FormatDateToString(trackData.releaseDate);
+
+    //Insert onto page
+    clickedElement.appendChild(panel);
+
+    setTimeout(() => {
+        panel.classList.add('open');
+    }, 10);
+
+    activeTrackDetailPanel = panel;
+    activeTrackList = newTrackId;
+}
+
+function CloseTrackActivePanel()
+{
+    if(!activeTrackDetailPanel)
+    {
+        return;
+    }
+
+    let panelToClose = activeTrackDetailPanel;
+
+    setTimeout(() => {
+        if(panelToClose.parentNode)
+        {
+            panelToClose.remove();
+        }
+        panelToClose.classList.remove('open');
+    }, 300);
+
+    activeTrackDetailPanel = null;
+    activeTrackList = "";
 }
 
 function FindProject(id)
