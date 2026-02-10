@@ -149,6 +149,27 @@ body {
     padding: 10px;
 }
 
+.project-track-list {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+}
+
+.track-list-item {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    display: block;
+    border-top: 1px solid #999;
+}
+
+.track-list-item-end {
+    border-bottom: 1px solid #999;
+}
+
 @media (max-width: 1000px) {
     .platform-content-grid {
         grid-template-columns: repeat(4, 1fr);

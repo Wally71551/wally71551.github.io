@@ -6,6 +6,8 @@ let music;
 const platformTemplate = document.getElementById("platforms-template");
 const projectTemplate = document.getElementById("project-grid");
 const projectDetailsTemplate = document.getElementById("project-details");
+const trackListTemplate = document.getElementById("track-list-item");
+const trackDetailsTemplate = document.getElementById("track-details");
 
 let platformHeaders = [];
 const platformProjects = new Map();
@@ -40,9 +42,6 @@ function CreateHeader(header, index)
 
     headerTitle.textContent = header.platformName;
     contentElement.hidden = false;
-    platformHeader.addEventListener("click", () => {
-        contentElement.hidden = !contentElement.hidden;
-    });
 
     if(header.platformImageSrc != "")
     {
@@ -136,11 +135,13 @@ function ProjectSetup(project, index)
 
 let activeDetailPanel = null;
 let activeProjectId = "";
+let activeProjectPlatform = "";
 function ShowProjectDetails(clickedElement, gridContainer)
 {
     let newProjectId = clickedElement.dataset.projectId;
+    let newProjectPlat = clickedElement.dataset.platformId;
 
-    if(activeDetailPanel && newProjectId === activeProjectId)
+    if(activeDetailPanel && newProjectId === activeProjectId && activeProjectPlatform === newProjectPlat)
     {
         CloseActivePanel();
         return;
@@ -168,8 +169,23 @@ function ShowProjectDetails(clickedElement, gridContainer)
     {
         if(projectData.platformIDs[i].platform == projectPlatform)
         {
-            releaseDate.textContent = projectData.platformIDs[i].releaseDate;
+            releaseDate.textContent = FormatDateToString(projectData.platformIDs[i].releaseDate);
         }
+    }
+
+    //Track list insertion
+    let trackList = panel.querySelector('.project-track-list');
+    for(let j = 0; j < projectData.musicList.length; j++)
+    {
+        let trackData = GetTrack(projectData.musicList[j]);
+        let trackDisplay = SetUpTrackList(trackData);
+
+        if(j == projectData.musicList.length - 1)
+        {
+            trackDisplay.classList.add('track-list-item-end')
+        }
+
+        trackList.appendChild(trackDisplay);
     }
 
     //Insert onto page
@@ -186,6 +202,7 @@ function ShowProjectDetails(clickedElement, gridContainer)
 
     activeDetailPanel = panel;
     activeProjectId = newProjectId;
+    activeProjectPlatform = newProjectPlat;
 }
 
 function CloseActivePanel() {
@@ -230,6 +247,25 @@ function GetEndOfRowElement(clickedElement, container) {
     return lastItemInRow;
 }
 
+function SetUpTrackList(trackData)
+{
+    let template = trackListTemplate.content.cloneNode(true);
+    let panel = template.querySelector('.track-list-item');
+    let projectTitle = panel.querySelector('.track-list-name');
+    projectTitle.textContent = trackData.musicName;
+
+    template.addEventListener('click', (e) => {
+            ShowTrackDetails(panel);
+        })
+
+    return panel;
+}
+
+function ShowTrackDetails(clickedElement)
+{
+
+}
+
 function FindProject(id)
 {
     for(let i = 0; i < projects.length; i++)
@@ -241,7 +277,7 @@ function FindProject(id)
     }
 }
 
-function FindTrackID(id)
+function GetTrack(id)
 {
     for(let i = 0; i < music.length; i++)
     {

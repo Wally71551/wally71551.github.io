@@ -1,3 +1,19 @@
+function FormatDateToString(date) {
+    const cleanDate = date.split('_')[0];
+    const [year, month, day] = cleanDate.split('-').map(Number);
+    const formattedDate = new Date(year, month - 1, day);
+    
+    const monthName = formattedDate.toLocaleString('en-GB', { month: 'long' });
+
+    const getOrdinal = (n) => {
+        const s = ["th", "st", "nd", "rd"];
+        const v = n % 100;
+        return n + (s[(v - 20) % 10] || s[v] || s[0]);
+    };
+
+    return `${monthName} ${getOrdinal(day)}, ${year}`;
+}
+
 class SiteFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -33,6 +49,7 @@ class ProjectFooter extends HTMLElement {
                     </ul>
                     <li>Enhanced versions / re-releases include both the base soundtrack plus the new soundtrack/new tracks.</li>
                     <li>Remakes that use the same soundtrack also get the music listing on that project too.</li>
+                    <li>All release dates are the UK dates where applicable, English language dates if no UK date exists, and then the initial release if none are beyond that.
                 </ul>
             </div>
 
