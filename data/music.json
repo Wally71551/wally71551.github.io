@@ -142,6 +142,45 @@
       "scLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 11
+    },
+    {
+      "musicID": "bw_dragonspiral",
+      "musicName": "Dragonspiral Tower",
+      "musicType": "Remix",
+      "projectID": "pkmn_b/pkmn_w",
+      "seriesID": "pkmn",
+      "releaseDate": "2017-08-27",
+      "description": "",
+      "youtubeLink": "",
+      "scLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 12
+    },
+    {
+      "musicID": "hgss_arceus",
+      "musicName": "Battle! Arceus",
+      "musicType": "Remix",
+      "projectID": "pkmn_hg/pkmn_ss",
+      "seriesID": "pkmn",
+      "releaseDate": "2017-09-10",
+      "description": "",
+      "youtubeLink": "",
+      "scLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 13
+    },
+    {
+      "musicID": "sr_main",
+      "musicName": "Main Theme",
+      "musicType": "Remix",
+      "projectID": "metroid_sr",
+      "seriesID": "metroid",
+      "releaseDate": "2017-09-15",
+      "description": "",
+      "youtubeLink": "",
+      "scLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 14
     }
   ]
 }

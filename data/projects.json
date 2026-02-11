@@ -22,7 +22,10 @@
         "botw_ritovillage_n",
         "sp2_inkoming",
         "botw_urbosa",
-        "botw_hfield_d"
+        "botw_hfield_d",
+        "bw_dragonspiral",
+        "hgss_arceus",
+        "sr_main"
       ]
     },
     {
@@ -378,6 +381,166 @@
       "imageSrc": "SM64_SPT",
       "musicList": [
         "sm64_ultkoopa"
+      ]
+    },
+    {
+      "projectID": "pkmn_b",
+      "projectName": "Pokémon Black Version",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2011-03-04"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMNBlack",
+      "musicList": [
+        "bw_dragonspiral"
+      ]
+    },
+    {
+      "projectID": "pkmn_w",
+      "projectName": "Pokémon White Version",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2011-03-04"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMNWhite",
+      "musicList": [
+        "bw_dragonspiral"
+      ]
+    },
+    {
+      "projectID": "pkmn_d",
+      "projectName": "Pokémon Diamond Version",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2007-07-27"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMNDiamond",
+      "musicList": [
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_p",
+      "projectName": "Pokémon Pearl Version",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2007-07-27"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMNPearl",
+      "musicList": [
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_pl",
+      "projectName": "Pokémon Platinum Version",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2009-05-22"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMNPlatinum",
+      "musicList": [
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_hg",
+      "projectName": "Pokémon HeartGold Version",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2010-03-26"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMN_HG",
+      "musicList": [
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_ss",
+      "projectName": "Pokémon SoulSilver Version",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2010-03-26"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMN_SS",
+      "musicList": [
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_bd",
+      "projectName": "Pokémon Brilliant Diamond",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2021-11-19"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMNBD",
+      "musicList": [
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_sp",
+      "projectName": "Pokémon Shining Pearl",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2021-11-19"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMNSP",
+      "musicList": [
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "metroid_sr",
+      "projectName": "Metroid: Samus Returns",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2017-09-15"
+        }
+      ],
+      "seriesID": "metroid",
+      "projectType": "Game",
+      "imageSrc": "MetroidSR",
+      "musicList": [
+        "sr_main"
       ]
     }
   ]
