@@ -170,6 +170,20 @@ body {
     border-bottom: 1px solid #999;
 }
 
+.track-list-name {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.track-project-name {
+    margin-top: 0.125em;
+    margin-bottom: 0em;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
 @media (max-width: 1000px) {
     .platform-content-grid {
         grid-template-columns: repeat(4, 1fr);

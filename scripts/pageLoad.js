@@ -46,6 +46,7 @@ class ProjectFooter extends HTMLElement {
                     <ul>
                         <li>For sequels, if they are included on the original soundtrack it appears in that list too, if there is no soundtrack release it won't be there even if it's reused.</li>
                         <li>This also applies to remixes, if a track is remixed in another project only the base version is used.</li>
+                        <li>If a track only appears on a soundtrack for a project when it has already appeared in another one, every instance of its use before the soundtrack release is also listed.</li>
                     </ul>
                     <li>Enhanced versions / re-releases include both the base soundtrack plus the new soundtrack/new tracks.</li>
                     <li>Remakes that use the same soundtrack also get the music listing on that project too.</li>

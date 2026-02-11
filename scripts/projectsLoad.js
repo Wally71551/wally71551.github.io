@@ -253,6 +253,8 @@ function SetUpTrackList(trackData)
     let panel = template.querySelector('.track-list-item');
     let projectTitle = panel.querySelector('.track-list-name');
     projectTitle.textContent = trackData.musicName;
+    let trackProject = panel.querySelector('.track-project-name');
+    trackProject.textContent = FindTrackProjectName(trackData.projectID);
 
     panel.addEventListener('click', (e) => {
             ShowTrackDetails(panel);
@@ -351,4 +353,22 @@ function FindPlatformName(id)
             return platforms[i].platformName;
         }
     }
+}
+
+function FindTrackProjectName(projectId)
+{
+    let projects = projectId.split("/");
+    let projectString = "";
+
+    for(let i = 0; i < projects.length; i++)
+    {
+        if(i > 0)
+        {
+            projectString += " & ";
+        }
+
+        projectString += (FindProject(projects[i]).projectName);
+    }
+
+    return projectString;
 }
