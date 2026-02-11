@@ -164,6 +164,7 @@ body {
     padding-bottom: 0.75em;
     display: block;
     border-top: 1px solid #999;
+    cursor: pointer;
 }
 
 .track-list-item-end {
