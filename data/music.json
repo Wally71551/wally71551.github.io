@@ -181,6 +181,45 @@
       "scLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 14
+    },
+    {
+      "musicID": "sk_shield",
+      "musicName": "The Requiem of Shield Knight",
+      "musicType": "Remix",
+      "projectID": "shovelknight",
+      "seriesID": "shovel",
+      "releaseDate": "2017-09-17",
+      "description": "",
+      "youtubeLink": "",
+      "scLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 15
+    },
+    {
+      "musicID": "gs_azalea",
+      "musicName": "Azalea Town",
+      "musicType": "Remix",
+      "projectID": "pkmn_g/pkmn_s",
+      "seriesID": "pkmn",
+      "releaseDate": "2017-09-22",
+      "description": "",
+      "youtubeLink": "",
+      "scLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 16
+    },
+    {
+      "musicID": "pokken_magikarp",
+      "musicName": "Magikarp Festival",
+      "musicType": "Remix",
+      "projectID": "pokken_dx",
+      "seriesID": "pkmn",
+      "releaseDate": "2017-09-22",
+      "description": "",
+      "youtubeLink": "",
+      "scLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 17
     }
   ]
 }

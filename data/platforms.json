@@ -31,9 +31,19 @@
       "platformImageSrc": "WiiU"
     },
     {
+      "platformID": "psv",
+      "platformName": "PlayStation Vita",
+      "platformImageSrc": "PSVita"
+    },
+    {
       "platformID": "3ds",
       "platformName": "Nintendo 3DS",
       "platformImageSrc": "3DS"
+    },
+    {
+      "platformID": "ps3",
+      "platformName": "PlayStation 3",
+      "platformImageSrc": "PS3"
     },
     {
       "platformID": "wii",
@@ -44,6 +54,11 @@
       "platformID": "nds",
       "platformName": "Nintendo DS",
       "platformImageSrc": "NDS"
+    },
+    {
+      "platformID": "gbc",
+      "platformName": "Game Boy Color",
+      "platformImageSrc": "GBC"
     },
     {
       "platformID": "n64",
@@ -66,9 +81,29 @@
       "platformImageSrc": "iOS"
     },
     {
+      "platformID": "mac",
+      "platformName": "macOS",
+      "platformImageSrc": "mac"
+    },
+    {
+      "platformID": "linux",
+      "platformName": "Linux",
+      "platformImageSrc": "linux"
+    },
+    {
+      "platformID": "arcade",
+      "platformName": "Arcade",
+      "platformImageSrc": "Arcade"
+    },
+    {
       "platformID": "stadia",
       "platformName": "Stadia",
       "platformImageSrc": "Stadia"
+    },
+    {
+      "platformID": "firetv",
+      "platformName": "Amazon Fire TV",
+      "platformImageSrc": "FireTV"
     }
   ]
 }

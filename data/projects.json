@@ -25,7 +25,10 @@
         "botw_hfield_d",
         "bw_dragonspiral",
         "hgss_arceus",
-        "sr_main"
+        "sr_main",
+        "sk_shield",
+        "gs_azalea",
+        "pokken_magikarp"
       ]
     },
     {
@@ -476,7 +479,8 @@
       "projectType": "Game",
       "imageSrc": "PKMN_HG",
       "musicList": [
-        "hgss_arceus"
+        "hgss_arceus",
+        "gs_azalea"
       ]
     },
     {
@@ -492,7 +496,8 @@
       "projectType": "Game",
       "imageSrc": "PKMN_SS",
       "musicList": [
-        "hgss_arceus"
+        "hgss_arceus",
+        "gs_azalea"
       ]
     },
     {
@@ -541,6 +546,146 @@
       "imageSrc": "MetroidSR",
       "musicList": [
         "sr_main"
+      ]
+    },
+    {
+      "projectID": "shovelknight",
+      "projectName": "Shovel Knight: Treasure Trove",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2014-11-06"
+        },
+        {
+          "platform": "wiiu",
+          "releaseDate": "2014-11-06"
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2014-06-26"
+        },
+        {
+          "platform": "mac",
+          "releaseDate": "2014-09-13"
+        },
+        {
+          "platform": "linux",
+          "releaseDate": "2014-10-09"
+        },
+        {
+          "platform": "ps4",
+          "releaseDate": "2015-04-21"
+        },
+        {
+          "platform": "ps3",
+          "releaseDate": "2015-04-21"
+        },
+        {
+          "platform": "psv",
+          "releaseDate": "2015-04-21"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2015-04-29"
+        },
+        {
+          "platform": "firetv",
+          "releaseDate": "2015-10-05"
+        },
+                {
+          "platform": "ns1",
+          "releaseDate": "2017-03-03"
+        }
+      ],
+      "seriesID": "shovel",
+      "projectType": "Game",
+      "imageSrc": "ShovelKnight",
+      "musicList": [
+        "sk_shield"
+      ]
+    },
+    {
+      "projectID": "pkmn_g",
+      "projectName": "Pokémon Gold Version",
+      "platformIDs": [
+        {
+          "platform": "gbc",
+          "releaseDate": "2001-04-01"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMNGold",
+      "musicList": [
+        "gs_azalea"
+      ]
+    },
+    {
+      "projectID": "pkmn_s",
+      "projectName": "Pokémon Silver Version",
+      "platformIDs": [
+        {
+          "platform": "gbc",
+          "releaseDate": "2001-04-01"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMNSilver",
+      "musicList": [
+        "gs_azalea"
+      ]
+    },
+    {
+      "projectID": "pkmn_c",
+      "projectName": "Pokémon Crystal Version",
+      "platformIDs": [
+        {
+          "platform": "gbc",
+          "releaseDate": "2001-11-02"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PKMNCrystal",
+      "musicList": [
+        "gs_azalea"
+      ]
+    },
+    {
+      "projectID": "pokken_dx",
+      "projectName": "Pokkén Tournament DX",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-09-22"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "PokkenDX",
+      "musicList": [
+        "pokken_magikarp"
+      ]
+    },
+    {
+      "projectID": "pokken",
+      "projectName": "Pokkén Tournament",
+      "platformIDs": [
+        {
+          "platform": "wiiu",
+          "releaseDate": "2016-03-18"
+        },
+        {
+          "platform": "arcade",
+          "releaseDate": "2015-07-16"
+        }
+      ],
+      "seriesID": "pkmn",
+      "projectType": "Game",
+      "imageSrc": "Pokken",
+      "musicList": [
+        "pokken_magikarp"
       ]
     }
   ]
