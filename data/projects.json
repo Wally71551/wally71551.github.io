@@ -6,11 +6,11 @@
       "platformIDs": [
         {
           "platform": "project",
-          "releaseDate": ""
+          "releaseDate": "null"
         }
       ],
       "projectType": "Album",
-      "imageSrc": "",
+      "imageSrc": "null",
       "musicList": [
         "botw_sidon",
         "sm64_ultkoopa",
@@ -28,8 +28,11 @@
         "sr_main",
         "sk_shield",
         "gs_azalea",
-        "pokken_magikarp"
-      ]
+        "pokken_magikarp",
+        "botw_tower_lake",
+        "sm_po"
+      ],
+      "seriesID": "original"
     },
     {
       "projectID": "botw_s2",
@@ -47,7 +50,8 @@
         "botw_sidon",
         "botw_ritovillage_n",
         "botw_urbosa",
-        "botw_hfield_d"
+        "botw_hfield_d",
+        "botw_tower_lake"
       ]
     },
     {
@@ -70,7 +74,8 @@
         "botw_sidon",
         "botw_ritovillage_n",
         "botw_urbosa",
-        "botw_hfield_d"
+        "botw_hfield_d",
+        "botw_tower_lake"
       ]
     },
     {
@@ -120,6 +125,11 @@
       "musicList": [
         "sm64_ultkoopa",
         "smg_ggg_8bit"
+      ],
+      "collectionItems": [
+        "Super Mario 64",
+        "Super Mario Sunshine",
+        "Super Mario Galaxy"
       ]
     },
     {
@@ -172,6 +182,10 @@
       "imageSrc": "SMG_1_2",
       "musicList": [
         "smg_ggg_8bit"
+      ],
+      "collectionItems": [
+        "Super Mario Galaxy",
+        "Super Mario Galaxy 2"
       ]
     },
     {
@@ -592,7 +606,7 @@
           "platform": "firetv",
           "releaseDate": "2015-10-05"
         },
-                {
+        {
           "platform": "ns1",
           "releaseDate": "2017-03-03"
         }
@@ -686,6 +700,70 @@
       "imageSrc": "Pokken",
       "musicList": [
         "pokken_magikarp"
+      ]
+    },
+    {
+      "projectID": "pkmn_sun",
+      "projectName": "Pokémon Sun",
+      "projectType": "Game",
+      "imageSrc": "PKMNSun",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2016-11-23_1"
+        }
+      ],
+      "musicList": [
+        "sm_po"
+      ]
+    },
+    {
+      "projectID": "pkmn_moon",
+      "projectName": "Pokémon Moon",
+      "projectType": "Game",
+      "imageSrc": "PKMNMoon",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "releaseDate": "2016-11-23",
+          "platform": "3ds"
+        }
+      ],
+      "musicList": [
+        "sm_po"
+      ]
+    },
+    {
+      "projectID": "pkmn_usun",
+      "projectName": "Pokémon Ultra Sun",
+      "projectType": "Game",
+      "imageSrc": "PKMNUltraSun",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2017-11-17_1"
+        }
+      ],
+      "musicList": [
+        "sm_po"
+      ]
+    },
+    {
+      "projectID": "pkmn_umoon",
+      "projectName": "Pokémon Ultra Moon",
+      "projectType": "Game",
+      "imageSrc": "PKMNUltraMoon",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "releaseDate": "2017-11-17",
+          "platform": "3ds"
+        }
+      ],
+      "musicList": [
+        "sm_po"
       ]
     }
   ]
