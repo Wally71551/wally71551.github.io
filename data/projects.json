@@ -23,6 +23,8 @@
         "spl2_inkoming",
         "botw_urbosa",
         "botw_hfield_d",
+        "ffxv_sws",
+        "ffxv_somnusultima",
         "bw_dragonspiral",
         "hgss_arceus",
         "sr_main",
@@ -207,7 +209,9 @@
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
-        "ffxv_tenebrae"
+        "ffxv_tenebrae",
+        "ffxv_sws",
+        "ffxv_somnusultima"
       ]
     },
     {
@@ -229,7 +233,9 @@
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
-        "ffxv_tenebrae"
+        "ffxv_tenebrae",
+        "ffxv_sws",
+        "ffxv_somnusultima"
       ]
     },
     {
@@ -247,7 +253,9 @@
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
-        "ffxv_tenebrae"
+        "ffxv_tenebrae",
+        "ffxv_sws",
+        "ffxv_somnusultima"
       ]
     },
     {
@@ -265,7 +273,9 @@
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
-        "ffxv_tenebrae"
+        "ffxv_tenebrae",
+        "ffxv_sws",
+        "ffxv_somnusultima"
       ]
     },
     {
@@ -291,7 +301,9 @@
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
-        "ffxv_tenebrae"
+        "ffxv_tenebrae",
+        "ffxv_sws",
+        "ffxv_somnusultima"
       ]
     },
     {
@@ -317,7 +329,9 @@
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
-        "ffxv_tenebrae"
+        "ffxv_tenebrae",
+        "ffxv_sws",
+        "ffxv_somnusultima"
       ]
     },
     {
