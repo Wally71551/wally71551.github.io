@@ -81,6 +81,11 @@
       "platformImageSrc": "iOS"
     },
     {
+      "platformName": "Nintendo Classic Mini: Super Nintendo Entertainment System",
+      "platformID": "snesmini",
+      "platformImageSrc": "SNESMini"
+    },
+    {
       "platformID": "mac",
       "platformName": "macOS",
       "platformImageSrc": "mac"

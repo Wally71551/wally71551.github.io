@@ -32,7 +32,9 @@
         "gs_azalea",
         "pokken_magikarp",
         "botw_tower_lake",
-        "sm_po"
+        "sm_po",
+        "sf2_title",
+        "sm3dw_boo"
       ],
       "seriesID": "original"
     },
@@ -778,6 +780,58 @@
       ],
       "musicList": [
         "sm_po"
+      ]
+    },
+    {
+      "projectID": "starfox2",
+      "projectName": "Star Fox 2",
+      "projectType": "Game",
+      "imageSrc": "StarFox2",
+      "seriesID": "starfox",
+      "platformIDs": [
+        {
+          "releaseDate": "2017-09-29",
+          "platform": "snesmini"
+        }
+      ],
+      "musicList": [
+        "sf2_title"
+      ]
+    },
+    {
+      "projectID": "SM3DW",
+      "projectName": "Super Mario 3D World",
+      "projectType": "Game",
+      "imageSrc": "SM3DW",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "wiiu",
+          "releaseDate": "2013-11-29"
+        }
+      ],
+      "musicList": [
+        "sm3dw_boo"
+      ]
+    },
+    {
+      "projectName": "Super Mario 3D World + Bowser’s Fury",
+      "projectID": "SM3DW_BF",
+      "projectType": "Game",
+      "collectionItems": [
+        "Super Mario 3D World",
+        "Bowser's Fury"
+      ],
+      "imageSrc": "SM3DW_BF",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2021-02-12"
+        }
+      ],
+      "musicList": [
+        "sm3dw_boo"
       ]
     }
   ]

@@ -8,6 +8,8 @@ const projectTemplate = document.getElementById("project-grid");
 const projectDetailsTemplate = document.getElementById("project-details");
 const trackListTemplate = document.getElementById("track-list-item");
 const trackDetailsTemplate = document.getElementById("track-details");
+const trackTranscriberListTemplate = document.getElementById("track-transcriber-list-item");
+const trackLinkedTrackTemplate = document.getElementById("track-linked-track-item");
 
 let platformHeaders = [];
 const platformProjects = new Map();
@@ -289,6 +291,53 @@ function ShowTrackDetails(clickedElement)
     typeText.textContent = trackData.musicType;
     let trackReleaseDate = panel.querySelector('.track-release-date');
     trackReleaseDate.textContent = FormatDateToString(trackData.releaseDate);
+    let trackArranger = panel.querySelector('.track-arranger');
+    trackArranger.textContent = `Arranged by ${trackData.trackArranger}`
+
+    let trackComposers = panel.querySelector('.track-composer');
+    trackComposers.textContent = `Composed by ${trackData.composer}`;
+
+    let trackOriginalArrangers = panel.querySelector('.track-original-arranger');
+    if(trackData.arranger != null)
+    {
+        trackOriginalArrangers.textContent = `Original Track Arranged by ${trackData.arranger}`;
+    }
+    else
+    {
+        trackOriginalArrangers.remove();
+    }
+
+    //Handling transcribers
+    if(trackData.transcription == null)
+    {
+        panel.querySelector('.track-transcriber-header').remove();
+    }
+    else
+    {
+        let trackTranscriberListDisplay = panel.querySelector('.track-transcriber-list');
+        trackData.transcription.forEach((transcriptionData) => {
+        let transcriptionTemplate = trackTranscriberListTemplate.content.cloneNode(true);
+        let link = transcriptionTemplate.querySelector('.transcriber-info');
+        link.textContent = transcriptionData.transcriber;
+        link.href = transcriptionData.url;
+        trackTranscriberListDisplay.appendChild(transcriptionTemplate);
+        });
+    }
+
+
+    //Handling linked tracks
+    if(trackData.linkedTracks == null)
+    {
+        panel.querySelector('.linked-track-header').remove();
+    }
+    else
+    {
+        let trackLinkedListDisplay = panel.querySelector('.track-linked-tracks');
+        trackData.linkedTracks.forEach((linkedTrack) => {
+            let linkedTrackTemplate = trackLinkedTrackTemplate.content.cloneNode(true);
+        });
+    }
+    
 
     //Insert onto page
     clickedElement.appendChild(panel);

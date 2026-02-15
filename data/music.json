@@ -189,7 +189,7 @@
       "linkedAlbumID": "wally71551_og",
       "seriesID": "loz",
       "projectID": "splatoon2",
-      "releaseDate": "2017-07-16",
+      "releaseDate": "2017-07-23",
       "linkedAlbumTrack": 9,
       "description": "For the theme of Splatoon 2, I decided to go in a rock fusion style, making use of synths and guitars predominantly. As I could not recreate the vocal section accurately enough, I decided to create an improvisation-styled section to replace it.",
       "youtubeLink": "https://youtu.be/4lY4oQ0_NU8",
@@ -198,7 +198,6 @@
     {
       "composer": "Yasuaki Iwata",
       "musicID": "botw_urbosa",
-      "linkedTracks": [],
       "musicName": "Champion Urbosa's Theme",
       "trackArranger": "Wally71551",
       "linkedAlbumID": "wally71551_og",
@@ -285,7 +284,6 @@
     {
       "composer": "Shota Kageyama",
       "musicID": "bw_dragonspiral",
-      "linkedTracks": [],
       "musicName": "Dragonspiral Tower",
       "trackArranger": "Wally71551",
       "linkedAlbumID": "wally71551_og",
@@ -390,7 +388,6 @@
     {
       "composer": "Hiroki Hasimoto, Hiroyuki Kawada, Rio Hamamoto, Taku Inoue, Torine, Yoshinori Hirai, Takafumi Sato, Mitsuhiro Kitadani, Yu Sugimoto & Shota Kageyama",
       "musicID": "pokken_magikarp",
-      "linkedTracks": [],
       "musicName": "Magikarp Festival",
       "trackArranger": "Wally71551",
       "linkedAlbumID": "wally71551_og",
@@ -411,7 +408,6 @@
     {
       "composer": "Manaka Kataoka",
       "musicID": "botw_tower_lake",
-      "linkedTracks": [],
       "musicName": "Sheikah Tower (Lake Tower Version)",
       "trackArranger": "Wally71551",
       "linkedAlbumID": "wally71551_og",
@@ -447,6 +443,47 @@
       "linkedAlbumTrack": 21,
       "description": "The original version of this theme is very ominous, consisting of only a piano and synth backing. When recreating this theme, I decided to expand the instrumentation to create a pseudo-orchestral track that would fit the player sneaking around the town, slowly pushing through Team Skull's barrier.\n\nCongas are used as the main percussion instrument to add pace into the back of the piece, pushing it along. A string section is also used; the tremolo adds tension to the quieter parts of the piece and pizzicato strings are used to represent the player sneaking around. A contrabassoon as well as trombones and tuba are used to signify each new bar, while the main bass line is passed around between piano, bass guitar and synth.\n\nLater in the piece a drum kit comes in to support the congas in adding pace, and to represent Team Skull in general.",
       "youtubeLink": "https://youtu.be/hW-INSUlxNQ",
+      "musicType": "Remix"
+    },
+    {
+      "composer": "Kozue Ishikawa & Yumiko Kanki",
+      "musicID": "sf2_title",
+      "arranger": "",
+      "musicName": "Title Screen",
+      "trackArranger": "Wally71551",
+      "linkedAlbumID": "wally71551_og",
+      "transcription": [
+        {
+          "transcriber": "Beta Link",
+          "url": "https://www.vgmusic.com/music/console/nintendo/snes/SF2_Title.mid"
+        }
+      ],
+      "seriesID": "starfox",
+      "projectID": "starfox2",
+      "releaseDate": "2017-10-08",
+      "linkedAlbumTrack": 22,
+      "description": "When arranging this piece, I decided to use an orchestra to represent the grandeur and vastness of space. The percussion used mirrors the melody of the piece by following the same rhythm and then variating.\n\nThe harp is used to lead into different sections and the large sound it makes represents the vastness of space that it echoes out into. The heavy use of brass throughout the piece reinforces the sense of adventure into space and the unknown, as well as representing the power that the Star Fox crew have.\n\nI created my own motifs for the piece as the original title screen theme is an 8-bar loop. The piece builds towards the end with a full orchestra playing at the same time, creating a huge sound fitting of a huge space adventure.",
+      "youtubeLink": "https://youtu.be/owB6Kgkpp7o",
+      "musicType": "Remix"
+    },
+    {
+      "composer": "Mahito Yokota",
+      "musicID": "sm3dw_boo",
+      "musicName": "Shifty Boo Mansion",
+      "trackArranger": "Wally71551",
+      "linkedAlbumID": "wally71551_og",
+      "transcription": [
+        {
+          "url": "https://www.ninsheetmusic.org/download/pdf/2590",
+          "transcriber": "E. Gadd Industries"
+        }
+      ],
+      "seriesID": "mario",
+      "projectID": "SM3DW",
+      "releaseDate": "2017-10-15",
+      "linkedAlbumTrack": 23,
+      "description": "As it's nearly Halloween I arranged this as I felt it was a good piece that fit the theme.\n\nI orchestrated the piece to still keep the basic instrumentation intact, solo violin, pizzicato strings and oboe, but added other instruments to give the piece a different flair. A harpsichord was used as one of the main instruments because it is used in other parts of the Super Mario 3D World soundtrack making it a nice fit, as well as the sound blending well with the rest of the piece. For the bass of the piece, I used a drone to unsettle the listener which plays into the spooky nature of the piece.",
+      "youtubeLink": "https://youtu.be/LjPQu3K-dm4",
       "musicType": "Remix"
     }
   ]
