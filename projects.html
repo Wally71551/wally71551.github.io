@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Library — Wally71551</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body id="main">
+    <div class="header-container">
+        <h1>Project Library</h1>
+    </div>
+
+    <template id="platforms-template">
+        <section class="platform-collapsible">
+            <header class="platform-header">
+                <h2 class="platform-title"></h2>
+                <div class="platform-image-wrapper">
+                    <img loading="lazy" class="platform-image" />
+                </div>
+            </header>
+
+            <div class="platform-content-grid">
+            </div>
+        </section>
+    </template>
+
+    <template id="project-grid">
+            <div class="grid-item">
+                <div class="grid-item-image-wrapper">
+                    <img loading="lazy" src="" alt=""/>
+                </div>
+                <div class="project-title-wrapper">
+                    <p class="project-title"></p>
+                    <div class="project-count-wrapper">
+                        <img class="count-icon" src="/icons/WTop.svg" loading="lazy"/>
+                        <span class="project-count"></span>
+                    </div>
+                </div>
+            </div>
+    </template>
+
+    <template id="project-details">
+        <div class="project-details-panel">
+            <h2 class="project-detailed-title"></h2>
+            <h3 class="project-type"></h3>
+            <h3 class="project-release-date"></h3>
+            <h4>Tracks</h4>
+            <ul class="project-track-list"></ul>
+        </div>
+    </template>
+
+    <template id="track-list-item">
+        <li class="track-list-item">
+            <div class="track-list-header">
+                <div class="track-list-header-text">
+                    <p class="track-list-name"></p>
+                    <p class="track-project-name"></p>
+                </div>
+                <div class="track-youtube-link">
+
+                </div>
+            </div>
+            <div class="track-details-wrapper"></div>
+        </li>
+    </template>
+
+    <template id="track-details">
+        <div class="track-details-panel">
+            <h3 class="track-type"></h3>
+            <h3 class="track-release-date"></h3>
+            <h4 class="track-arranger"></h4>
+            <h4 class="track-composer"></h4>
+            <h4 class="track-original-arranger"></h4>
+            <h3 class="track-transcriber-header">Transcribers</h3>
+            <ul class="track-transcriber-list"></ul>
+            <h3 class="linked-track-header"></h3>
+            <ul class="track-linked-tracks"></ul>
+            <h4 class="track-album-display"></h4>
+            <p class="track-album-track-num-display"></p>
+            <div class="track-description"></div>
+        </div>
+    </template>
+
+    <template id="track-transcriber-list-item">
+        <li class="track-details-transcriber-info">
+            <a class="transcriber-info" target="_blank" rel="noopener noreferrer"></a>
+        </li>
+    </template>
+
+    <template id="track-linked-track-item">
+        <li class="track-linked-track-item">
+            
+        </li>
+    </template>
+
+    <div id="content"></div>
+
+    <script src="scripts/dataLoad.js"></script>
+    <script src="scripts/pageLoad.js"></script>
+    <script src="scripts/projectsLoad.js"></script>
+
+    <project-footer></project-footer>
+</body>
+</html>

@@ -1,34 +1,53 @@
 {
   "series": [
     {
+      "seriesID": "original",
+      "seriesName": "Wally71551 Original",
+      "seriesImageSrc": ""
+    },
+    {
       "seriesID": "loz",
       "seriesName": "The Legend of Zelda",
-      "seriesImageSrc": "",
-      "seriesReleaseDate": "0"
+      "seriesImageSrc": ""
     },
     {
       "seriesID": "mario",
       "seriesName": "Super Mario",
-      "seriesImageSrc": "",
-      "seriesReleaseDate": "1"
+      "seriesImageSrc": ""
     },
     {
       "seriesID": "ff",
       "seriesName": "FINAL FANTASY",
-      "seriesImageSrc": "",
-      "seriesReleaseDate": "2"
+      "seriesImageSrc": ""
     },
     {
       "seriesID": "splatoon",
       "seriesName": "Splatoon",
-      "seriesImageSrc": "",
-      "seriesReleaseDate": "3"
+      "seriesImageSrc": ""
     },
     {
       "seriesID": "gothic",
       "seriesName": "Gothic",
-      "seriesImageSrc": "",
-      "seriesReleaseDate": "5"
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "pkmn",
+      "seriesName": "Pokémon",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "metroid",
+      "seriesName": "Metroid",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "shovel",
+      "seriesName": "Shovel Knight",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "starfox",
+      "seriesName": "Star Fox"
     }
   ]
 }

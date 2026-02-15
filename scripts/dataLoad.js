@@ -37,7 +37,12 @@ async function LoadFromJSON(jsonPath)
 
 function GetProjectPicture(id)
 {
-    return "https://img.wally71551.workers.dev/" + id + ".jpg";
+    return "https://img.wally71551.workers.dev/projects/" + id + ".jpg";
+}
+
+function GetSeriesPicture(id)
+{
+    return "https://img.wally71551.workers.dev/series/" + id + ".jpg";
 }
 
 function GetPlatformPicture(id)
