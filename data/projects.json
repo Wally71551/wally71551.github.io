@@ -3,14 +3,15 @@
     {
       "projectID": "wally71551_og",
       "projectName": "Wally71551 -Original Cut-",
+      "projectType": "Album",
+      "imageSrc": "null",
+      "seriesID": "original",
       "platformIDs": [
         {
           "platform": "project",
           "releaseDate": "null"
         }
       ],
-      "projectType": "Album",
-      "imageSrc": "null",
       "musicList": [
         "botw_sidon",
         "sm64_ultkoopa",
@@ -37,21 +38,20 @@
         "sm3dw_boo",
         "ffxv_solidarity",
         "fewarriors_medley"
-      ],
-      "seriesID": "original"
+      ]
     },
     {
       "projectID": "botw_s2",
       "projectName": "The Legend of Zelda: Breath of the Wild – Nintendo Switch 2 Edition",
+      "projectType": "Game",
+      "imageSrc": "BOTW_S2",
+      "seriesID": "loz",
       "platformIDs": [
         {
           "platform": "ns2",
           "releaseDate": "2025-06-05"
         }
       ],
-      "seriesID": "loz",
-      "projectType": "Game",
-      "imageSrc": "BOTW_S2",
       "musicList": [
         "botw_sidon",
         "botw_ritovillage_n",
@@ -63,6 +63,9 @@
     {
       "projectID": "botw",
       "projectName": "The Legend of Zelda: Breath of the Wild",
+      "projectType": "Game",
+      "imageSrc": "BOTW",
+      "seriesID": "loz",
       "platformIDs": [
         {
           "platform": "ns1",
@@ -73,9 +76,6 @@
           "releaseDate": "2017-03-03"
         }
       ],
-      "seriesID": "loz",
-      "projectType": "Game",
-      "imageSrc": "BOTW",
       "musicList": [
         "botw_sidon",
         "botw_ritovillage_n",
@@ -87,15 +87,15 @@
     {
       "projectID": "sm64",
       "projectName": "Super Mario 64",
+      "projectType": "Game",
+      "imageSrc": "SM64",
+      "seriesID": "mario",
       "platformIDs": [
         {
           "platform": "n64",
           "releaseDate": "1997-03-01"
         }
       ],
-      "seriesID": "mario",
-      "projectType": "Game",
-      "imageSrc": "SM64",
       "musicList": [
         "sm64_ultkoopa"
       ]
@@ -103,15 +103,15 @@
     {
       "projectID": "sm64ds",
       "projectName": "Super Mario 64 DS",
+      "projectType": "Game",
+      "imageSrc": "SM64DS",
+      "seriesID": "mario",
       "platformIDs": [
         {
           "platform": "nds",
           "releaseDate": "2005-03-11"
         }
       ],
-      "seriesID": "mario",
-      "projectType": "Game",
-      "imageSrc": "SM64DS",
       "musicList": [
         "sm64_ultkoopa"
       ]
@@ -119,15 +119,15 @@
     {
       "projectID": "sm3das",
       "projectName": "Super Mario 3D All-Stars",
+      "projectType": "Collection",
+      "imageSrc": "SM3DAS",
+      "seriesID": "mario",
       "platformIDs": [
         {
           "platform": "ns1",
           "releaseDate": "2020-09-18"
         }
       ],
-      "seriesID": "mario",
-      "projectType": "Collection",
-      "imageSrc": "SM3DAS",
       "musicList": [
         "sm64_ultkoopa",
         "smg_ggg_8bit"
@@ -141,15 +141,15 @@
     {
       "projectID": "gothic3",
       "projectName": "Gothic 3",
+      "projectType": "Game",
+      "imageSrc": "Gothic3",
+      "seriesID": "gothic",
       "platformIDs": [
         {
           "platform": "pc",
           "releaseDate": "2006-10-13"
         }
       ],
-      "seriesID": "gothic",
-      "projectType": "Game",
-      "imageSrc": "Gothic3",
       "musicList": [
         "gothic3_vistapoint"
       ]
@@ -157,6 +157,9 @@
     {
       "projectID": "smgalaxy",
       "projectName": "Super Mario Galaxy",
+      "projectType": "Game",
+      "imageSrc": "SMG",
+      "seriesID": "mario",
       "platformIDs": [
         {
           "platform": "wii",
@@ -167,9 +170,6 @@
           "releaseDate": "2025-10-02"
         }
       ],
-      "seriesID": "mario",
-      "projectType": "Game",
-      "imageSrc": "SMG",
       "musicList": [
         "smg_ggg_8bit"
       ]
@@ -177,15 +177,15 @@
     {
       "projectID": "smgalaxy_12",
       "projectName": "Super Mario Galaxy + Super Mario Galaxy 2",
+      "projectType": "Collection",
+      "imageSrc": "SMG_1_2",
+      "seriesID": "mario",
       "platformIDs": [
         {
           "platform": "ns1",
           "releaseDate": "2025-10-02"
         }
       ],
-      "seriesID": "mario",
-      "projectType": "Collection",
-      "imageSrc": "SMG_1_2",
       "musicList": [
         "smg_ggg_8bit"
       ],
@@ -197,6 +197,9 @@
     {
       "projectID": "ff15",
       "projectName": "FINAL FANTASY XV",
+      "projectType": "Game",
+      "imageSrc": "FFXV",
+      "seriesID": "ff",
       "platformIDs": [
         {
           "platform": "ps4",
@@ -207,9 +210,6 @@
           "releaseDate": "2016-11-29"
         }
       ],
-      "seriesID": "ff",
-      "projectType": "Game",
-      "imageSrc": "FFXV",
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
@@ -221,6 +221,9 @@
     {
       "projectID": "ff15r",
       "projectName": "FINAL FANTASY XV ROYAL EDITION",
+      "projectType": "Game",
+      "imageSrc": "FFXVRE",
+      "seriesID": "ff",
       "platformIDs": [
         {
           "platform": "ps4",
@@ -231,9 +234,6 @@
           "releaseDate": "2018-03-06"
         }
       ],
-      "seriesID": "ff",
-      "projectType": "Game",
-      "imageSrc": "FFXVRE",
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
@@ -245,15 +245,15 @@
     {
       "projectID": "ff15stadia",
       "projectName": "FINAL FANTASY XV",
+      "projectType": "Game",
+      "imageSrc": "FFXV",
+      "seriesID": "ff",
       "platformIDs": [
         {
           "platform": "stadia",
           "releaseDate": "2019-11-19"
         }
       ],
-      "seriesID": "ff",
-      "projectType": "Game",
-      "imageSrc": "FFXV",
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
@@ -265,15 +265,15 @@
     {
       "projectID": "ff15w",
       "projectName": "FINAL FANTASY XV WINDOWS EDITION",
+      "projectType": "Game",
+      "imageSrc": "FFXVWE",
+      "seriesID": "ff",
       "platformIDs": [
         {
           "platform": "pc",
           "releaseDate": "2018-03-06"
         }
       ],
-      "seriesID": "ff",
-      "projectType": "Game",
-      "imageSrc": "FFXVWE",
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
@@ -285,6 +285,9 @@
     {
       "projectID": "ff15pe",
       "projectName": "FINAL FANTASY XV POCKET EDITION",
+      "projectType": "Game",
+      "imageSrc": "FFXVPocket",
+      "seriesID": "ff",
       "platformIDs": [
         {
           "platform": "ios",
@@ -299,9 +302,6 @@
           "releaseDate": "2018-06-06"
         }
       ],
-      "seriesID": "ff",
-      "projectType": "Game",
-      "imageSrc": "FFXVPocket",
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
@@ -313,6 +313,9 @@
     {
       "projectID": "ff15pehd",
       "projectName": "FINAL FANTASY XV POCKET EDITION HD",
+      "projectType": "Game",
+      "imageSrc": "FFXVPocketHD",
+      "seriesID": "ff",
       "platformIDs": [
         {
           "platform": "ps4",
@@ -327,9 +330,6 @@
           "releaseDate": "2018-09-13"
         }
       ],
-      "seriesID": "ff",
-      "projectType": "Game",
-      "imageSrc": "FFXVPocketHD",
       "musicList": [
         "ffxv_nox",
         "ffxv_nox_8bit",
@@ -341,15 +341,15 @@
     {
       "projectID": "totk_s2",
       "projectName": "The Legend of Zelda: Tears of the Kingdom – Nintendo Switch 2 Edition",
+      "projectType": "Game",
+      "imageSrc": "TOTK_S2",
+      "seriesID": "loz",
       "platformIDs": [
         {
           "platform": "ns2",
           "releaseDate": "2025-06-05"
         }
       ],
-      "seriesID": "loz",
-      "projectType": "Game",
-      "imageSrc": "TOTK_S2",
       "musicList": [
         "botw_ritovillage_n"
       ]
@@ -357,15 +357,15 @@
     {
       "projectID": "totk",
       "projectName": "The Legend of Zelda: Tears of the Kingdom",
+      "projectType": "Game",
+      "imageSrc": "TOTK",
+      "seriesID": "loz",
       "platformIDs": [
         {
           "platform": "ns1",
           "releaseDate": "2023-05-12"
         }
       ],
-      "seriesID": "loz",
-      "projectType": "Game",
-      "imageSrc": "TOTK",
       "musicList": [
         "botw_ritovillage_n"
       ]
@@ -373,15 +373,15 @@
     {
       "projectID": "splatoon2",
       "projectName": "Splatoon 2",
+      "projectType": "Game",
+      "imageSrc": "Splatoon2",
+      "seriesID": "splatoon",
       "platformIDs": [
         {
           "platform": "ns1",
           "releaseDate": "2017-07-21"
         }
       ],
-      "seriesID": "splatoon",
-      "projectType": "Game",
-      "imageSrc": "Splatoon2",
       "musicList": [
         "spl2_inkoming"
       ]
@@ -389,15 +389,15 @@
     {
       "projectID": "splatoon2_gtf",
       "projectName": "Splatoon 2 Global Testfire",
+      "projectType": "Demo",
+      "imageSrc": "Splatoon2GT",
+      "seriesID": "splatoon",
       "platformIDs": [
         {
           "platform": "ns1",
           "releaseDate": "2017-03-14"
         }
       ],
-      "seriesID": "splatoon",
-      "projectType": "Demo",
-      "imageSrc": "Splatoon2GT",
       "musicList": [
         "spl2_inkoming"
       ]
@@ -405,15 +405,15 @@
     {
       "projectID": "sm64_spt",
       "projectName": "Super Mario 64: Shindō Pak Taiō Version",
+      "projectType": "Game",
+      "imageSrc": "SM64_SPT",
+      "seriesID": "mario",
       "platformIDs": [
         {
           "platform": "n64",
           "releaseDate": "1997-07-18"
         }
       ],
-      "seriesID": "mario",
-      "projectType": "Game",
-      "imageSrc": "SM64_SPT",
       "musicList": [
         "sm64_ultkoopa"
       ]
@@ -421,15 +421,15 @@
     {
       "projectID": "pkmn_b",
       "projectName": "Pokémon Black Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNBlack",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "nds",
           "releaseDate": "2011-03-04"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMNBlack",
       "musicList": [
         "bw_dragonspiral"
       ]
@@ -437,15 +437,15 @@
     {
       "projectID": "pkmn_w",
       "projectName": "Pokémon White Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNWhite",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "nds",
           "releaseDate": "2011-03-04"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMNWhite",
       "musicList": [
         "bw_dragonspiral"
       ]
@@ -453,15 +453,15 @@
     {
       "projectID": "pkmn_d",
       "projectName": "Pokémon Diamond Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNDiamond",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "nds",
           "releaseDate": "2007-07-27"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMNDiamond",
       "musicList": [
         "hgss_arceus"
       ]
@@ -469,15 +469,15 @@
     {
       "projectID": "pkmn_p",
       "projectName": "Pokémon Pearl Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNPearl",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "nds",
           "releaseDate": "2007-07-27"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMNPearl",
       "musicList": [
         "hgss_arceus"
       ]
@@ -485,15 +485,15 @@
     {
       "projectID": "pkmn_pl",
       "projectName": "Pokémon Platinum Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNPlatinum",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "nds",
           "releaseDate": "2009-05-22"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMNPlatinum",
       "musicList": [
         "hgss_arceus"
       ]
@@ -501,15 +501,15 @@
     {
       "projectID": "pkmn_hg",
       "projectName": "Pokémon HeartGold Version",
+      "projectType": "Game",
+      "imageSrc": "PKMN_HG",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "nds",
           "releaseDate": "2010-03-26"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMN_HG",
       "musicList": [
         "hgss_arceus",
         "gs_azalea"
@@ -518,15 +518,15 @@
     {
       "projectID": "pkmn_ss",
       "projectName": "Pokémon SoulSilver Version",
+      "projectType": "Game",
+      "imageSrc": "PKMN_SS",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "nds",
           "releaseDate": "2010-03-26"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMN_SS",
       "musicList": [
         "hgss_arceus",
         "gs_azalea"
@@ -535,15 +535,15 @@
     {
       "projectID": "pkmn_bd",
       "projectName": "Pokémon Brilliant Diamond",
+      "projectType": "Game",
+      "imageSrc": "PKMNBD",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "ns1",
           "releaseDate": "2021-11-19"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMNBD",
       "musicList": [
         "hgss_arceus"
       ]
@@ -551,15 +551,15 @@
     {
       "projectID": "pkmn_sp",
       "projectName": "Pokémon Shining Pearl",
+      "projectType": "Game",
+      "imageSrc": "PKMNSP",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "ns1",
           "releaseDate": "2021-11-19"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMNSP",
       "musicList": [
         "hgss_arceus"
       ]
@@ -567,15 +567,15 @@
     {
       "projectID": "metroid_sr",
       "projectName": "Metroid: Samus Returns",
+      "projectType": "Game",
+      "imageSrc": "MetroidSR",
+      "seriesID": "metroid",
       "platformIDs": [
         {
           "platform": "3ds",
           "releaseDate": "2017-09-15"
         }
       ],
-      "seriesID": "metroid",
-      "projectType": "Game",
-      "imageSrc": "MetroidSR",
       "musicList": [
         "sr_main"
       ]
@@ -583,6 +583,9 @@
     {
       "projectID": "shovelknight",
       "projectName": "Shovel Knight: Treasure Trove",
+      "projectType": "Game",
+      "imageSrc": "ShovelKnight",
+      "seriesID": "shovel",
       "platformIDs": [
         {
           "platform": "3ds",
@@ -629,9 +632,6 @@
           "releaseDate": "2017-03-03"
         }
       ],
-      "seriesID": "shovel",
-      "projectType": "Game",
-      "imageSrc": "ShovelKnight",
       "musicList": [
         "sk_shield"
       ]
@@ -639,15 +639,15 @@
     {
       "projectID": "pkmn_g",
       "projectName": "Pokémon Gold Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNGold",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "gbc",
           "releaseDate": "2001-04-01"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMNGold",
       "musicList": [
         "gs_azalea"
       ]
@@ -655,15 +655,15 @@
     {
       "projectID": "pkmn_s",
       "projectName": "Pokémon Silver Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNSilver",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "gbc",
           "releaseDate": "2001-04-01"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMNSilver",
       "musicList": [
         "gs_azalea"
       ]
@@ -671,15 +671,15 @@
     {
       "projectID": "pkmn_c",
       "projectName": "Pokémon Crystal Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNCrystal",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "gbc",
           "releaseDate": "2001-11-02"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PKMNCrystal",
       "musicList": [
         "gs_azalea"
       ]
@@ -687,15 +687,15 @@
     {
       "projectID": "pokken_dx",
       "projectName": "Pokkén Tournament DX",
+      "projectType": "Game",
+      "imageSrc": "PokkenDX",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "ns1",
           "releaseDate": "2017-09-22"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "PokkenDX",
       "musicList": [
         "pokken_magikarp"
       ]
@@ -703,6 +703,9 @@
     {
       "projectID": "pokken",
       "projectName": "Pokkén Tournament",
+      "projectType": "Game",
+      "imageSrc": "Pokken",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "wiiu",
@@ -713,9 +716,6 @@
           "releaseDate": "2015-07-16"
         }
       ],
-      "seriesID": "pkmn",
-      "projectType": "Game",
-      "imageSrc": "Pokken",
       "musicList": [
         "pokken_magikarp"
       ]
@@ -744,8 +744,8 @@
       "seriesID": "pkmn",
       "platformIDs": [
         {
-          "releaseDate": "2016-11-23",
-          "platform": "3ds"
+          "platform": "3ds",
+          "releaseDate": "2016-11-23"
         }
       ],
       "musicList": [
@@ -776,8 +776,8 @@
       "seriesID": "pkmn",
       "platformIDs": [
         {
-          "releaseDate": "2017-11-17",
-          "platform": "3ds"
+          "platform": "3ds",
+          "releaseDate": "2017-11-17"
         }
       ],
       "musicList": [
@@ -792,8 +792,8 @@
       "seriesID": "starfox",
       "platformIDs": [
         {
-          "releaseDate": "2017-09-29",
-          "platform": "snesmini"
+          "platform": "snesmini",
+          "releaseDate": "2017-09-29"
         }
       ],
       "musicList": [
@@ -817,13 +817,9 @@
       ]
     },
     {
-      "projectName": "Super Mario 3D World + Bowser’s Fury",
       "projectID": "SM3DW_BF",
+      "projectName": "Super Mario 3D World + Bowser’s Fury",
       "projectType": "Game",
-      "collectionItems": [
-        "Super Mario 3D World",
-        "Bowser's Fury"
-      ],
       "imageSrc": "SM3DW_BF",
       "seriesID": "mario",
       "platformIDs": [
@@ -834,6 +830,10 @@
       ],
       "musicList": [
         "sm3dw_boo"
+      ],
+      "collectionItems": [
+        "Super Mario 3D World",
+        "Bowser's Fury"
       ]
     },
     {
@@ -889,10 +889,7 @@
         }
       ],
       "musicList": [
-        "fewarriors_medley",
-        {
-          "track": "fewarriors_medley"
-        }
+        "fewarriors_medley"
       ]
     },
     {
@@ -910,6 +907,23 @@
       "musicList": [
         "fewarriors_medley"
       ]
+    },
+    {
+      "projectID": "FE_Blazing",
+      "projectName": "Fire Emblem",
+      "projectType": "Game",
+      "imageSrc": "FE_Blazing",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "gba",
+          "releaseDate": "2004-07-16"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ],
+      "collectionItems": []
     }
   ]
 }
