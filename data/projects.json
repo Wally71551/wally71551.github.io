@@ -35,7 +35,8 @@
         "sm_po",
         "sf2_title",
         "sm3dw_boo",
-        "ffxv_solidarity"
+        "ffxv_solidarity",
+        "fewarriors_medley"
       ],
       "seriesID": "original"
     },
@@ -849,6 +850,65 @@
       ],
       "musicList": [
         "ffxv_solidarity"
+      ]
+    },
+    {
+      "projectID": "FEWarriors",
+      "projectName": "Fire Emblem Warriors",
+      "projectType": "Game",
+      "imageSrc": "FEWarriors",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-10-20"
+        },
+        {
+          "platform": "n3ds",
+          "releaseDate": "2017-10-20"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ]
+    },
+    {
+      "projectID": "fe_sdbol",
+      "projectName": "Fire Emblem: Shadow Dragon and the Blade of Light",
+      "projectType": "Game",
+      "imageSrc": "FE_SD",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "nes",
+          "releaseDate": "1990-04-20"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2020-12-04"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley",
+        {
+          "track": "fewarriors_medley"
+        }
+      ]
+    },
+    {
+      "projectID": "fe_sd",
+      "projectName": "Fire Emblem: Shadow Dragon",
+      "projectType": "Game",
+      "imageSrc": "FEShadowDragon",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2008-12-05"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
       ]
     }
   ]

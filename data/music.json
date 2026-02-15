@@ -505,6 +505,86 @@
       "description": "I had the idea of arranging this piece for a while, and started the process a few months ago. I left the project for a while after losing momentum and interest in the piece, but came back to it after I had a surge of ideas.\n\nThe piece sticks to the original for most of the piece, putting the focus on the piano melody. A violin section is added as the backing to the piece, highlighting the harmony.\n\nThe violins are then followed by the rest of the string section, as well as a solo cello to take the countermelody line building up to the climax of the piece. The percussion stays very sparse throughout all of the piece, and only highlights the climax of the piece. During the climax, the melody is split across violin, piano and a solo trumpet.\n\nThe piece then reverses the instrumentation from the start of the piece, thinning the sound to violins and piano, and the final chord is played on piano slowly, to bring the piece full circle and highlight the solidarity of its base.",
       "youtubeLink": "https://youtu.be/Uu-C6I_3rMs",
       "musicType": "Remix"
+    },
+    {
+      "musicID": "fewarriors_medley",
+      "linkedTracks": [
+        {
+          "name": "Fire Emblem Theme",
+          "project": "Fire Emblem: Shadow Dragon and the Blade of Light",
+          "artists": [
+            {
+              "header": "Composed by",
+              "artistName": "Yuka Tsujiyoko"
+            },
+            {
+              "header": "Super Smash Bros. Brawl Arrangement by ",
+              "artistName": "Shogo Sakai"
+            },
+            {
+              "header": "Transcribed by",
+              "artistName": "Latios212",
+              "URL": "https://www.ninsheetmusic.org/download/pdf/800"
+            }
+          ]
+        },
+        {
+          "name": "Lost in Thoughts All Alone",
+          "project": "Fire Emblem Fates",
+          "artists": [
+            {
+              "header": "Composed by",
+              "artistName": "Hiroki Morishita"
+            },
+            {
+              "header": "Transcribed by",
+              "artistName": "SpykerFX & Alex / ign0tum",
+              "URL": "https://musescore.com/user/11397726/scores/4566546"
+            }
+          ]
+        },
+        {
+          "name": "Together, We Ride!",
+          "project": "Fire Emblem: The Blazing Blade",
+          "artists": [
+            {
+              "header": "Composed by",
+              "artistName": "Yuka Tsujiyoko & Saki Haruyama",
+              "URL": ""
+            },
+            {
+              "header": "Transcribed by",
+              "artistName": "Maelstrom",
+              "URL": "https://www.ninsheetmusic.org/download/pdf/503"
+            }
+          ]
+        },
+        {
+          "artists": [
+            {
+              "header": "Composed by",
+              "artistName": "Rei Kondoh"
+            },
+            {
+              "header": "Transcribed by",
+              "URL": "https://musescore.com/user/3982701/scores/1195691",
+              "artistName": "milesedgeworth13"
+            }
+          ],
+          "name": "An Omen / Main Theme",
+          "project": "Fire Emblem: Awakening"
+        }
+      ],
+      "musicName": "Fire Emblem Series Medley",
+      "trackArranger": "Wally71551",
+      "linkedAlbumID": "wally71551_og",
+      "seriesID": "fireemblem",
+      "projectID": "FEWarriors",
+      "releaseDate": "2017-10-20",
+      "linkedAlbumTrack": 25,
+      "description": "Made for the release of Fire Emblem Warriors on Nintendo Switch and New Nintendo 3DS on 20th October 2017.\n\nI decided to create a medley as the music of the game will most likely be very similar to that of Hyrule Warriors, which is remixed versions of songs from the series.\n\nI used a pseudo-rock style for the medley as it best represents the Warriors style of music. I decided to variate greatly from the original themes to further represent the Warriors series and add my own original style in them.\n\nThe main Fire Emblem theme starts with a string section and then transfers onto guitars and trumpet, with a drum beat to support.\n\nI changed Lost in Thoughts All Alone from 3/4 time to 9/8 time with some bars in 12/8. The piece is in a metal fusion style to heavily contrast the original piece and puts the focus on the guitar melody. Staccato violins are used to provide the backup to the melody. This section also contains a piano solo that contrasts the guitar melody from the other sections.\n\nIn Together, We Ride the melody stays on guitar, but this section of the melody has a much larger focus on the backing, with a percussion beat that uses a triangle and tom drums to push the beat further. I also added a shredding guitar solo to push into the next section which is a melody composed to lead better into the final song in the melody.\n\nThe Fire Emblem Awakening Main Theme uses an orchestral fusion style that complements the rest of the melody, and allows it to build back into the Fire Emblem Main Theme that ends the piece.",
+      "youtubeLink": "https://youtu.be/NAC9hXbViTA",
+      "musicType": "Medley"
     }
   ]
 }

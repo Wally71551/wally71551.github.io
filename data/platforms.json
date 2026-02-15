@@ -16,6 +16,11 @@
       "platformImageSrc": "NS1"
     },
     {
+      "platformID": "n3ds",
+      "platformName": "New Nintendo 3DS",
+      "platformImageSrc": "N3DS"
+    },
+    {
       "platformID": "ps4",
       "platformName": "PlayStation 4",
       "platformImageSrc": "PS4"
@@ -56,6 +61,11 @@
       "platformImageSrc": "NDS"
     },
     {
+      "platformID": "gba",
+      "platformName": "Game Boy Advance",
+      "platformImageSrc": "GBA"
+    },
+    {
       "platformID": "gbc",
       "platformName": "Game Boy Color",
       "platformImageSrc": "GBC"
@@ -64,6 +74,11 @@
       "platformID": "n64",
       "platformName": "Nintendo 64",
       "platformImageSrc": "N64"
+    },
+    {
+      "platformID": "nes",
+      "platformName": "Nintendo Entertainment System",
+      "platformImageSrc": "NES"
     },
     {
       "platformID": "pc",

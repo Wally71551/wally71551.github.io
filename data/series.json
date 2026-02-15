@@ -48,6 +48,10 @@
     {
       "seriesID": "starfox",
       "seriesName": "Star Fox"
+    },
+    {
+      "seriesID": "fireemblem",
+      "seriesName": "Fire Emblem"
     }
   ]
 }
