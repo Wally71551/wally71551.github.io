@@ -485,6 +485,26 @@
       "description": "As it's nearly Halloween I arranged this as I felt it was a good piece that fit the theme.\n\nI orchestrated the piece to still keep the basic instrumentation intact, solo violin, pizzicato strings and oboe, but added other instruments to give the piece a different flair. A harpsichord was used as one of the main instruments because it is used in other parts of the Super Mario 3D World soundtrack making it a nice fit, as well as the sound blending well with the rest of the piece. For the bass of the piece, I used a drone to unsettle the listener which plays into the spooky nature of the piece.",
       "youtubeLink": "https://youtu.be/LjPQu3K-dm4",
       "musicType": "Remix"
+    },
+    {
+      "composer": "Yasuhisa Inoue",
+      "musicID": "ffxv_solidarity",
+      "musicName": "Solidarity",
+      "trackArranger": "Wally71551",
+      "linkedAlbumID": "wally71551_og",
+      "transcription": [
+        {
+          "url": "https://musescore.com/user/26811925/scores/5037896",
+          "transcriber": "yagawa"
+        }
+      ],
+      "seriesID": "ff",
+      "projectID": "ffxv_brotherhood",
+      "releaseDate": "2017-10-15",
+      "linkedAlbumTrack": 24,
+      "description": "I had the idea of arranging this piece for a while, and started the process a few months ago. I left the project for a while after losing momentum and interest in the piece, but came back to it after I had a surge of ideas.\n\nThe piece sticks to the original for most of the piece, putting the focus on the piano melody. A violin section is added as the backing to the piece, highlighting the harmony.\n\nThe violins are then followed by the rest of the string section, as well as a solo cello to take the countermelody line building up to the climax of the piece. The percussion stays very sparse throughout all of the piece, and only highlights the climax of the piece. During the climax, the melody is split across violin, piano and a solo trumpet.\n\nThe piece then reverses the instrumentation from the start of the piece, thinning the sound to violins and piano, and the final chord is played on piano slowly, to bring the piece full circle and highlight the solidarity of its base.",
+      "youtubeLink": "https://youtu.be/Uu-C6I_3rMs",
+      "musicType": "Remix"
     }
   ]
 }

@@ -78,13 +78,14 @@ body {
 .grid-item-image-wrapper {
     width: 100%;
     overflow: hidden;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: auto;
     border-radius: 10px;
     }
 
     .grid-item-image-wrapper img {
         width: 100%;
-        object-fit: cover;
+        display: block;
+        object-fit: initial;
         transition: transform .2s ease;
         cursor: pointer;
     }

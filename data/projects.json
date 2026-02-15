@@ -34,7 +34,8 @@
         "botw_tower_lake",
         "sm_po",
         "sf2_title",
-        "sm3dw_boo"
+        "sm3dw_boo",
+        "ffxv_solidarity"
       ],
       "seriesID": "original"
     },
@@ -832,6 +833,22 @@
       ],
       "musicList": [
         "sm3dw_boo"
+      ]
+    },
+    {
+      "projectID": "ffxv_brotherhood",
+      "projectName": "BROTHERHOOD FINAL FANTASY XV",
+      "projectType": "Series",
+      "imageSrc": "FFXVBrotherhood",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "film",
+          "releaseDate": "2016-03-30"
+        }
+      ],
+      "musicList": [
+        "ffxv_solidarity"
       ]
     }
   ]

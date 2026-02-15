@@ -86,6 +86,10 @@
       "platformImageSrc": "SNESMini"
     },
     {
+      "platformID": "film",
+      "platformName": "Film / Series"
+    },
+    {
       "platformID": "mac",
       "platformName": "macOS",
       "platformImageSrc": "mac"
