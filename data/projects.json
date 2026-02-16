@@ -37,7 +37,12 @@
         "sf2_title",
         "sm3dw_boo",
         "ffxv_solidarity",
-        "fewarriors_medley"
+        "fewarriors_medley",
+        "cuphead_funfair",
+        "smo_main",
+        "cuphead_iio",
+        "doom_adg",
+        "smo_juss"
       ]
     },
     {
@@ -922,6 +927,193 @@
       ],
       "musicList": [
         "fewarriors_medley"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "fe_aw",
+      "projectName": "Fire Emblem: Awakening",
+      "projectType": "Game",
+      "imageSrc": "FEAwakening",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2013-04-19"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "fefates_b",
+      "projectName": "Fire Emblem Fates: Birthright",
+      "projectType": "Game",
+      "imageSrc": "FEFates_B",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2016-05-20"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "fefates_c",
+      "projectName": "Fire Emblem Fates: Conquest",
+      "projectType": "Game",
+      "imageSrc": "FEFates_C",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2016-05-20"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "fefates_le",
+      "projectName": "Fire Emblem Fates: Limited Edition",
+      "projectType": "Collection",
+      "imageSrc": "FEFates_LE",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2016-05-20"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ],
+      "collectionItems": [
+        "Fire Emblem Fates: Birthright",
+        "Fire Emblem Fates: Conquest",
+        "Fire Emblem Fates: Revelation"
+      ]
+    },
+    {
+      "projectID": "fefates_r",
+      "projectName": "Fire Emblem Fates: Revelation",
+      "projectType": "Game",
+      "imageSrc": "FEFates_R",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2016-06-09"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "cuphead",
+      "projectName": "Cuphead",
+      "projectType": "Game",
+      "imageSrc": "Cuphead",
+      "seriesID": "cuphead",
+      "platformIDs": [
+        {
+          "platform": "pc",
+          "releaseDate": "2017-09-29"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-09-29"
+        },
+        {
+          "platform": "mac",
+          "releaseDate": "2018-10-19"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2019-04-18"
+        },
+        {
+          "platform": "ps4",
+          "releaseDate": "2020-07-28"
+        }
+      ],
+      "musicList": [
+        "cuphead_funfair",
+        "cuphead_iio"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "smo",
+      "projectName": "Super Mario Odyssey",
+      "projectType": "Game",
+      "imageSrc": "SMO",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-10-27"
+        }
+      ],
+      "musicList": [
+        "smo_main",
+        "smo_juss"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "doom",
+      "projectName": "DOOM",
+      "projectType": "Game",
+      "imageSrc": "DOOM",
+      "seriesID": "doom",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2016-05-13"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2016-05-13"
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2016-05-13"
+        },
+        {
+          "platform": "stadia",
+          "releaseDate": "2020-08-19"
+        }
+      ],
+      "musicList": [
+        "doom_adg"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "doom_switch",
+      "projectName": "DOOM",
+      "projectType": "Game",
+      "imageSrc": "DOOM_Switch",
+      "seriesID": "doom",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-11-10"
+        }
+      ],
+      "musicList": [
+        "doom_adg"
       ],
       "collectionItems": []
     }
