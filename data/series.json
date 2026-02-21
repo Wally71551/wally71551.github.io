@@ -48,6 +48,20 @@
     {
       "seriesID": "starfox",
       "seriesName": "Star Fox"
+    },
+    {
+      "seriesID": "fireemblem",
+      "seriesName": "Fire Emblem"
+    },
+    {
+      "seriesID": "cuphead",
+      "seriesName": "Cuphead",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "doom",
+      "seriesName": "DOOM",
+      "seriesImageSrc": ""
     }
   ]
 }

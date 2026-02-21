@@ -73,10 +73,10 @@
             <h4 class="track-arranger"></h4>
             <h4 class="track-composer"></h4>
             <h4 class="track-original-arranger"></h4>
-            <h3 class="track-transcriber-header">Transcribers</h3>
-            <ul class="track-transcriber-list"></ul>
             <h3 class="linked-track-header"></h3>
             <ul class="track-linked-tracks"></ul>
+            <h3 class="track-transcriber-header">Transcribers</h3>
+            <ul class="track-transcriber-list"></ul>
             <h4 class="track-album-display"></h4>
             <p class="track-album-track-num-display"></p>
             <div class="track-description"></div>
@@ -91,7 +91,15 @@
 
     <template id="track-linked-track-item">
         <li class="track-linked-track-item">
-            
+            <p class="track-list-name"></p>
+            <p class="track-project-name"></p>
+            <ul class="linked-track-artists"></ul>
+        </li>
+    </template>
+
+    <template id="track-linked-track-artist">
+        <li class="track-linked-track-artist">
+            <a class="track-linked-track-artistElement"></a>
         </li>
     </template>
 
