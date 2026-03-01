@@ -62,6 +62,21 @@
       "seriesID": "doom",
       "seriesName": "DOOM",
       "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "la_noire",
+      "seriesName": "L.A. Noire",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "xenoblade",
+      "seriesName": "Xenoblade Chronicles",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "earthbound",
+      "seriesName": "EarthBound",
+      "seriesImageSrc": ""
     }
   ]
 }

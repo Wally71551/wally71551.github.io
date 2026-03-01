@@ -433,6 +433,7 @@
       "releaseDate": "2017-10-05",
       "trackArranger": "Wally71551",
       "composer": "Minako Adachi",
+      "arranger": "",
       "transcription": [
         {
           "transcriber": "Latios212",
@@ -709,6 +710,126 @@
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 30,
       "description": "I arranged this piece with the mentality of expanding to an orchestra in mind, while keeping the big band instrumentation at the centre. In doing this, the orchestra includes a saxophone section and electric guitar and bass.\n\nTo keep consistency between my Super Mario Odyssey remixes, I reused the conga sound from the main theme remix, to help keep a sense of coherence and a world being represented on Mario's globe-trotting odyssey.\n\nThroughout the piece strings, orchestral brass and orchestral wind are integrated to help support melodies and create stronger harmonies. The countermelody focuses around mallet percussion cutting through the rest of the orchestra to bring light to melodies that would stay hidden otherwise. It also adds a worldy flair to the piece with the different textures in use."
+    },
+    {
+      "musicID": "la_noire_main",
+      "musicName": "Main Theme",
+      "projectID": "la_noire",
+      "seriesID": "la_noire",
+      "releaseDate": "2017-11-14",
+      "trackArranger": "Wally71551",
+      "composer": "Andrew Hale",
+      "arranger": "",
+      "transcription": [
+        {
+          "transcriber": "Sebastian Wolff",
+          "url": "https://www.yumpu.com/en/document/view/17606317/la-noire-main-theme-sebastian-wolff"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/WsrFtj7l5a0",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 31,
+      "description": "Created for the port of L.A. Noire on Nintendo Switch, XBox One and PlayStation 4, on 14th November 2017.\n\nI created this piece to be mysterious, representing the nature of the game; unearthing the mysterious and hidden. The lighter instrumentation of the piece helps to give the listener the control of 'filling the gaps' in their mind, creating a full picture from what they imagine the piece to represent.\n\nWhen creating the instrumentation, I wanted a synth string-styled sound. In doing this, I edited a string section sound using effects such as phaser to create a sound that can differenciate itself from anything else that I have used before."
+    },
+    {
+      "musicID": "usum_vpc",
+      "musicName": "Vast Poni Canyon",
+      "projectID": "pkmn_usun/pkmn_umoon",
+      "seriesID": "pkmn",
+      "releaseDate": "2017-11-19",
+      "trackArranger": "Wally71551",
+      "composer": "Hitomi Sato",
+      "arranger": "",
+      "transcription": [
+        {
+          "transcriber": "Anime Mallet Arrangements",
+          "url": "https://musescore.com/user/956571/scores/3281296"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/lAGgRkJr6Js",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 32,
+      "description": "I wrote this in a fusion style, clashing a large, reverb-filled orchestra to represent the vast scale of the canyon with custom synth sounds to create a style that is different to most remixes on the channel. However, the style is used often in Pokémon, which uses synthesised waves often in conjunction with acoustic instrument samples."
+    },
+    {
+      "musicID": "xc2_eotbs",
+      "musicName": "Elysium of the Blue Sky",
+      "projectID": "xc2",
+      "seriesID": "xenoblade",
+      "releaseDate": "2017-12-12",
+      "trackArranger": "Wally71551",
+      "composer": "Yasunori Mitsuda",
+      "arranger": "",
+      "transcription": [
+        {
+          "transcriber": "Tokon",
+          "url": "https://youtu.be/XADNusfVkPc"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/wNkXmwcMGLk",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 33,
+      "description": "Eleven days late...\n\nI made this song trying to keep the light, thin nature of the original which solely used piano, but expanding the orchestration. I used strings to add an orchestral feel, and with light use of percussion, woodwind and brass to add flavour.\n\nDue to the nature of the Xenoblade Chronicles series, I used a recorder sound to add a cultural twist that is suited to the game itself."
+    },
+    {
+      "musicID": "ebb_snowman",
+      "musicName": "Snowman",
+      "projectID": "eb_beginnings",
+      "seriesID": "earthbound",
+      "releaseDate": "2017-12-23",
+      "trackArranger": "Wally71551",
+      "composer": "Hirokazu Tanaka",
+      "arranger": "",
+      "transcription": [
+        {
+          "transcriber": "Olimar12345",
+          "url": "https://www.ninsheetmusic.org/download/pdf/593"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/XDT-gB_vcaM",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 34,
+      "description": "When arranging Snowman, I tried to capture a light, delicate theme just like the nature of snow. I omitted all brass instruments and put a heavy emphasis on woodwind.\n\nI wanted to go against tropes of winter by not making much use of bells and glockenspiel, instead going for a light brush drum kit, bass clarinet, alto saxophone and grand piano.\n\nThe piece itself uses 3 distinct sections, each going through the full theme. The first uses an alto saxophone and solo violin melody, with accompaniment provided by bass clarinet and drum kit to give the piece an edge and increase the tempo. The second section uses solo piano to give the piece a more melancholic and delicate feel, and the third section makes use of a larger orchestration."
+    },
+    {
+      "musicID": "xc2_elpys",
+      "musicName": "Spirit Crucible Elpys",
+      "projectID": "xc2",
+      "seriesID": "xenoblade",
+      "releaseDate": "2018-01-17",
+      "trackArranger": "Wally71551",
+      "composer": "Manami Kiyota",
+      "arranger": "",
+      "transcription": [
+        {
+          "transcriber": "Maelstrom",
+          "url": "https://www.ninsheetmusic.org/download/pdf/3810"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/qLvoFYxAlwg",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 35,
+      "description": "It's been a while since I last uploaded, but I've been busy playing games. Especially Xenoblade Chronicles 2. I've enjoyed the game a lot so far and am nearing the end of my adventure, but this track stuck in my mind. The beautiful melody crafted by Yasunori Mitsuda works well with the light backing.\n\nI put my own spin on this, using different instruments from the keys family, grand piano, harpsichord, celesta and organ to create a different sound. I used light instrumentation for the accompaniment, opting for quiet strings and vocals that blend in the background for most of the piece."
     }
   ]
 }

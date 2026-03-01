@@ -42,7 +42,12 @@
         "smo_main",
         "cuphead_iio",
         "doom_adg",
-        "smo_juss"
+        "smo_juss",
+        "la_noire_main",
+        "usum_vpc",
+        "xc2_eotbs",
+        "ebb_snowman",
+        "xc2_elpys"
       ]
     },
     {
@@ -738,7 +743,8 @@
         }
       ],
       "musicList": [
-        "sm_po"
+        "sm_po",
+        "usum_vpc"
       ]
     },
     {
@@ -754,7 +760,8 @@
         }
       ],
       "musicList": [
-        "sm_po"
+        "sm_po",
+        "usum_vpc"
       ]
     },
     {
@@ -770,7 +777,8 @@
         }
       ],
       "musicList": [
-        "sm_po"
+        "sm_po",
+        "usum_vpc"
       ]
     },
     {
@@ -786,7 +794,8 @@
         }
       ],
       "musicList": [
-        "sm_po"
+        "sm_po",
+        "usum_vpc"
       ]
     },
     {
@@ -1116,6 +1125,170 @@
         "doom_adg"
       ],
       "collectionItems": []
+    },
+    {
+      "projectID": "doom_vfr",
+      "projectName": "DOOM VFR",
+      "projectType": "Game",
+      "imageSrc": "DOOM_VFR",
+      "seriesID": "doom",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2017-12-01"
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2017-12-01"
+        }
+      ],
+      "musicList": [
+        "doom_adg"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "la_noire",
+      "projectName": "L.A. Noire",
+      "projectType": "Game",
+      "imageSrc": "la_noire",
+      "seriesID": "la_noire",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2017-11-14"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-11-14"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-11-14"
+        }
+      ],
+      "musicList": [
+        "la_noire_main"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "la_noire_gen7",
+      "projectName": "L.A. Noire",
+      "projectType": "Game",
+      "imageSrc": "la_noire_gen7",
+      "seriesID": "la_noire",
+      "platformIDs": [
+        {
+          "platform": "ps3",
+          "releaseDate": "2011-05-20"
+        },
+        {
+          "platform": "xbox360",
+          "releaseDate": "2011-05-20"
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2011-11-11"
+        }
+      ],
+      "musicList": [
+        "la_noire_main"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "la_noire_vr",
+      "projectName": "L.A. Noire: The VR Case Files",
+      "projectType": "Game",
+      "imageSrc": "la_noire_vr",
+      "seriesID": "la_noire",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2019-09-24"
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2017-12-15"
+        }
+      ],
+      "musicList": [
+        "la_noire_main"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "xc2",
+      "projectName": "Xenoblade Chronicles 2",
+      "projectType": "Game",
+      "imageSrc": "XC2",
+      "seriesID": "xenoblade",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-12-01"
+        }
+      ],
+      "musicList": [
+        "xc2_eotbs",
+        "xc2_elpys"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "eb_beginnings",
+      "projectName": "EarthBound Beginnings",
+      "projectType": "Game",
+      "imageSrc": "EB_Beginnings",
+      "seriesID": "earthbound",
+      "platformIDs": [
+        {
+          "platform": "wiiu",
+          "releaseDate": "2015-06-15"
+        }
+      ],
+      "musicList": [
+        "ebb_snowman"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "mother",
+      "projectName": "MOTHER",
+      "projectType": "Game",
+      "imageSrc": "Mother",
+      "seriesID": "earthbound",
+      "platformIDs": [
+        {
+          "platform": "nes",
+          "releaseDate": "1989-07-27"
+        }
+      ],
+      "musicList": [
+        "ebb_snowman"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "mother12",
+      "projectName": "MOTHER 1+2",
+      "projectType": "Collection",
+      "imageSrc": "Mother1_2",
+      "seriesID": "earthbound",
+      "platformIDs": [
+        {
+          "platform": "gba",
+          "releaseDate": "2006-04-20"
+        }
+      ],
+      "musicList": [
+        "ebb_snowman"
+      ],
+      "collectionItems": [
+        "MOTHER",
+        "MOTHER 2"
+      ]
     }
   ]
 }
