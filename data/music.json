@@ -8,6 +8,7 @@
       "releaseDate": "2017-04-25",
       "trackArranger": "Wally71551",
       "composer": "Yasuaki Iwata",
+      "artists": [],
       "transcription": [
         {
           "transcriber": "Maelstrom",
@@ -15,7 +16,15 @@
         }
       ],
       "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Sidon's Theme",
+          "project": "The Legend of Zelda: Breath of the Wild",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/lF0zEzerXu4",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 1,
       "description": "I wanted to do this theme to keep myself limited with instruments and stay faithful to the original theme. However, I did want to add the impressionalistic-style piano that is present in some of the other themes throughout The Legend of Zelda: Breath of the Wild, such as the Horse themes as well as the Final Boss Theme. I then added the slower second section to signify the sorrow and loss Prince Sidon and the other Zora would have felt when they lost Mipha."
@@ -35,7 +44,15 @@
         }
       ],
       "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "The Final Battle",
+          "project": "Super Mario 64",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/rJUTNN4QB8I",
+      "bandcampLink": "",
       "extraLinks": [
         {
           "platform": "MuseScore",
@@ -81,7 +98,15 @@
         }
       ],
       "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Gusty Garden Galaxy",
+          "project": "Super Mario Galaxy",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/1SItxFzwp-Q",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 4,
       "description": "An GXSCC (8-bit style) version of Gusty Garden Galaxy. The program converts MIDI instruments into waves. I inputted an orchestral MIDI file which made the piece use simple waves while still having the orchestral feel to it.\n\nGXSCC works by converting MIDI information into different types of waves, similar to how the NES would simulate different instruments. This particular arrangement uses a full orchestra MIDI file created by zm582916 of MuseScore, which I then edited and tweaked and ported into GXSCC. This allows the piece to use simple NES-like waves while still having the grandeur and orchestral feel of the original track."
@@ -94,7 +119,12 @@
       "releaseDate": "2017-05-14",
       "trackArranger": "Wally71551",
       "composer": "Yoko Shimomura",
-      "arranger": "Yoko Shimomura & Shota Nakama",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "Alistair Mithras",
@@ -102,7 +132,15 @@
         }
       ],
       "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "NOX AETERNA",
+          "project": "FINAL FANTASY XV",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/nJHz3N3-YvQ",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 5,
       "description": "I was listening to the Final Fantasy XV Soundtrack, as it is one of my all-time favourite games and has a brilliant soundtrack to go along with it. I was listening to Nox Aeterna, and decided I wanted to create a version of it myself.\n\nI used a full string section that the piece uses but decided not to use a woodwind section, instead opting for a choir. In doing this, I created a piece that carries more of the sorrow of the piece; this is further boosted by the piano in use throughout the piece.\n\nNoctis has just learnt that Insomnia has fallen and his father is dead, so I tried to communicate the sorrow he would feel during the scene."
@@ -115,7 +153,12 @@
       "releaseDate": "2017-05-14",
       "trackArranger": "Wally71551",
       "composer": "Yoko Shimomura",
-      "arranger": "Yoko Shimomura & Shota Nakama",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "Alistair Mithras",
@@ -123,7 +166,15 @@
         }
       ],
       "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "NOX AETERNA",
+          "project": "FINAL FANTASY XV",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/Dlf-AWS56zY",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 6,
       "description": "8-Bit recreation of Nox Aeterna from Final Fantasy XV. Based on my arrangement of Nox Aeterna."
@@ -136,7 +187,12 @@
       "releaseDate": "2017-05-21",
       "trackArranger": "Wally71551",
       "composer": "Yoko Shimomura",
-      "arranger": "Yoshino Aoki",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoshino Aoki"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "Alistair Mithras",
@@ -190,7 +246,15 @@
       "trackArranger": "Wally71551",
       "composer": "Toru Minegishi",
       "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Inkoming!",
+          "project": "Splatoon 2",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/4lY4oQ0_NU8",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 9,
       "description": "For the theme of Splatoon 2, I decided to go in a rock fusion style, making use of synths and guitars predominantly. As I could not recreate the vocal section accurately enough, I decided to create an improvisation-styled section to replace it."
@@ -210,7 +274,15 @@
         }
       ],
       "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Reuniting with Urbosa",
+          "project": "The Legend of Zelda: Breath of the Wild",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/a6NBJxrVtQM",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 10,
       "description": "While re-creating this theme, I decided to combine the dulcimer from the original theme with an ocarina, an instrument synonymous with The Legend of Zelda series as a whole.\n\nI also changed the time signature through a section of the theme, using 5/4, more associated with the Eastern melodies that are emulated throughout this section of the game."
@@ -243,7 +315,12 @@
       "releaseDate": "2017-08-13",
       "trackArranger": "Wally71551",
       "composer": "Yoko Shimomura",
-      "arranger": "Yoko Shimomura & Shota Kageyama",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "Alistair Mithras",
@@ -268,7 +345,12 @@
       "releaseDate": "2017-08-20",
       "trackArranger": "Wally71551",
       "composer": "Yoko Shimomura",
-      "arranger": "Yoko Shimomura & Shota Nakama",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "Alistair Mithras",
@@ -433,7 +515,6 @@
       "releaseDate": "2017-10-05",
       "trackArranger": "Wally71551",
       "composer": "Minako Adachi",
-      "arranger": "",
       "transcription": [
         {
           "transcriber": "Latios212",
@@ -454,7 +535,6 @@
       "releaseDate": "2017-10-08",
       "trackArranger": "Wally71551",
       "composer": "Kozue Ishikawa & Yumiko Kanki",
-      "arranger": "",
       "transcription": [
         {
           "transcriber": "Beta Link",
@@ -515,7 +595,6 @@
       "releaseDate": "2017-10-20",
       "trackArranger": "Wally71551",
       "composer": "",
-      "arranger": "",
       "musicType": "Medley",
       "linkedTracks": [
         {
@@ -599,7 +678,6 @@
       "releaseDate": "2017-10-22",
       "trackArranger": "Wally71551",
       "composer": "Kristofer Maddigan",
-      "arranger": "",
       "transcription": [
         {
           "transcriber": "Vincent Schönbach",
@@ -623,7 +701,6 @@
       "releaseDate": "2017-10-27",
       "trackArranger": "Wally71551",
       "composer": "Naoto Kubo",
-      "arranger": "",
       "transcription": [
         {
           "transcriber": "Brenne",
@@ -647,7 +724,6 @@
       "releaseDate": "2017-11-05",
       "trackArranger": "Wally71551",
       "composer": "Kristofer Maddigan",
-      "arranger": "",
       "transcription": [
         {
           "transcriber": "James Lambariello / Vincent Schönbach",
@@ -671,7 +747,12 @@
       "releaseDate": "2017-11-10",
       "trackArranger": "Wally71551",
       "composer": "Robert Prince",
-      "arranger": "Mick Gordon",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Mick Gordon"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "Fantasy Sheets",
@@ -695,7 +776,12 @@
       "releaseDate": "2017-11-13",
       "trackArranger": "Wally71551",
       "composer": "Naoto Kubo",
-      "arranger": "Yoichi Murata",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoichi Murata"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "Jband",
@@ -719,7 +805,6 @@
       "releaseDate": "2017-11-14",
       "trackArranger": "Wally71551",
       "composer": "Andrew Hale",
-      "arranger": "",
       "transcription": [
         {
           "transcriber": "Sebastian Wolff",
@@ -743,7 +828,6 @@
       "releaseDate": "2017-11-19",
       "trackArranger": "Wally71551",
       "composer": "Hitomi Sato",
-      "arranger": "",
       "transcription": [
         {
           "transcriber": "Anime Mallet Arrangements",
@@ -767,7 +851,6 @@
       "releaseDate": "2017-12-12",
       "trackArranger": "Wally71551",
       "composer": "Yasunori Mitsuda",
-      "arranger": "",
       "transcription": [
         {
           "transcriber": "Tokon",
@@ -791,7 +874,6 @@
       "releaseDate": "2017-12-23",
       "trackArranger": "Wally71551",
       "composer": "Hirokazu Tanaka",
-      "arranger": "",
       "transcription": [
         {
           "transcriber": "Olimar12345",
@@ -815,7 +897,6 @@
       "releaseDate": "2018-01-17",
       "trackArranger": "Wally71551",
       "composer": "Manami Kiyota",
-      "arranger": "",
       "transcription": [
         {
           "transcriber": "Maelstrom",

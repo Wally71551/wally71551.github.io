@@ -9,8 +9,10 @@ const projectDetailsTemplate = document.getElementById("project-details");
 const trackListTemplate = document.getElementById("track-list-item");
 const trackDetailsTemplate = document.getElementById("track-details");
 const trackTranscriberListTemplate = document.getElementById("track-transcriber-list-item");
+const trackInfoListTemplate = document.getElementById("track-info-list-item");
 const trackLinkedTrackTemplate = document.getElementById("track-linked-track-item");
 const trackLinkedTrackArtistTemplate = document.getElementById("track-linked-track-artist");
+const externalLinkIcon = document.getElementById("external-link-icon");
 
 let platformHeaders = [];
 const platformProjects = new Map();
@@ -181,7 +183,7 @@ function ShowProjectDetails(clickedElement, gridContainer)
     for(let j = 0; j < projectData.musicList.length; j++)
     {
         let trackData = GetTrack(projectData.musicList[j]);
-        let trackDisplay = SetUpTrackList(trackData);
+        let trackDisplay = SetUpTrackList(trackData, projectData);
 
         if(j == projectData.musicList.length - 1)
         {
@@ -250,7 +252,7 @@ function GetEndOfRowElement(clickedElement, container) {
     return lastItemInRow;
 }
 
-function SetUpTrackList(trackData)
+function SetUpTrackList(trackData, projectData)
 {
     let template = trackListTemplate.content.cloneNode(true);
     let panel = template.querySelector('.track-list-item');
@@ -258,6 +260,33 @@ function SetUpTrackList(trackData)
     projectTitle.textContent = trackData.musicName;
     let trackProject = panel.querySelector('.track-project-name');
     trackProject.textContent = FindTrackProjectName(trackData.projectID);
+
+    let trackNumber = panel.querySelector('.track-list-album-number');
+    if(trackData.linkedAlbumID == projectData.projectID)
+    {
+        trackNumber.textContent = trackData.linkedAlbumTrack;
+    }
+    else
+    {
+        trackNumber.remove();
+    }
+
+    let trackIconHeader = panel.querySelector('.track-link-buttons');
+    if(trackData.extraLinks != null)
+    {
+        trackData.extraLinks.forEach((extraTrack) => {
+            trackIconHeader.appendChild(MakeExternalLinkIcon(extraTrack.platform, extraTrack.url));
+        });
+    }
+
+    if(trackData.youtubeLink != null && trackData.youtubeLink != "")
+    {
+        trackIconHeader.appendChild(MakeExternalLinkIcon("youtube", trackData.youtubeLink));
+    }
+    if(trackData.bandcampLink != null && trackData.bandcampLink != "")
+    {
+        trackIconHeader.appendChild(MakeExternalLinkIcon("bandcamp", trackData.bandcampLink));
+    }
 
     panel.addEventListener('click', (e) => {
             ShowTrackDetails(panel);
@@ -293,20 +322,10 @@ function ShowTrackDetails(clickedElement)
     let trackReleaseDate = panel.querySelector('.track-release-date');
     trackReleaseDate.textContent = FormatDateToString(trackData.releaseDate);
     let trackArranger = panel.querySelector('.track-arranger');
-    trackArranger.textContent = `Arranged by ${trackData.trackArranger}`
+    trackArranger.textContent = `Arranger: ${trackData.trackArranger}`
 
     let trackComposers = panel.querySelector('.track-composer');
-    trackComposers.textContent = `Composed by ${trackData.composer}`;
-
-    let trackOriginalArrangers = panel.querySelector('.track-original-arranger');
-    if(trackData.arranger != null)
-    {
-        trackOriginalArrangers.textContent = `Original Track Arranged by ${trackData.arranger}`;
-    }
-    else
-    {
-        trackOriginalArrangers.remove();
-    }
+    trackComposers.textContent = `Composer: ${trackData.composer}`;
 
     //Handling linked tracks
     if(trackData.linkedTracks == null)
@@ -367,6 +386,27 @@ function ShowTrackDetails(clickedElement)
         });
     }
 
+    //Handle original track artists
+    if(trackData.artists && trackData.artists.length > 0)
+    {
+        let trackArtists = panel.querySelector('.track-info-list');
+        trackData.artists.forEach((artistData) => {
+            let artistTemplate = trackInfoListTemplate.content.cloneNode(true);
+            let artistText = artistTemplate.querySelector('.transcriber-info');
+            artistText.textContent = `${artistData.header}: ${artistData.artistName}`;
+            trackArtists.appendChild(artistTemplate);
+        })
+    }
+    else
+    {
+        panel.querySelector('.track-info-header').remove();
+        panel.querySelector('.track-info-list').remove();
+    }
+
+    //Handling description
+    let trackDescription = panel.querySelector('.track-description');
+    trackDescription.textContent = trackData.description;
+
     //Insert onto page
     clickedElement.appendChild(panel);
 
@@ -397,6 +437,16 @@ function CloseTrackActivePanel()
 
     activeTrackDetailPanel = null;
     activeTrackList = "";
+}
+
+function MakeExternalLinkIcon(websiteName, url)
+{
+    let externalLinkTemplate = externalLinkIcon.content.cloneNode(true);
+    let link = externalLinkTemplate.querySelector('.external-link');
+    link.href = url;
+    let linkIcon = externalLinkTemplate.querySelector('.external-link-display-icon');
+    linkIcon.src = "icons/" + websiteName + ".svg";
+    return externalLinkTemplate;
 }
 
 function FindProject(id)

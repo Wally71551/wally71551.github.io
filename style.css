@@ -168,8 +168,18 @@ body {
     cursor: pointer;
 }
 
+.track-list-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .track-list-item-end {
     border-bottom: 1px solid #999;
+}
+
+.track-list-header-text {
+    flex: 1 1 auto;
 }
 
 .track-list-name {
@@ -184,6 +194,42 @@ body {
     margin-bottom: 0em;
     font-size: 0.9em;
     font-style: italic;
+}
+
+.track-list-album-number {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0.5em;
+    padding-right: 0.5em;
+    text-align: right;
+    font-size: 1em;
+    font-weight: bold;
+    border-right: 1px solid #999;
+    font-variant-numeric: tabular-nums;
+    width: 1.75rem;
+}
+
+.track-link-buttons {
+    display: flex;
+    align-content: center;
+    gap: 0.5em;
+    text-decoration: none;
+}
+
+.external-link {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+}
+
+.external-link-display-icon {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.track-description {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 @media (max-width: 1000px) {
