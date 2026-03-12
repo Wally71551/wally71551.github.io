@@ -69,31 +69,32 @@
     <template id="track-details">
         <div class="track-details-panel">
             <h3 class="track-type"></h3>
-            <h3 class="track-release-date"></h3>
-            <h4 class="track-arranger"></h4>
-            <h3 class="linked-track-header"></h3>
+            <h4 class="track-release-date"></h4>
+            <h4 class="track-album"></h4>
+            <h3 class="track-arranger track-description-header"></h3>
+            <h3 class="linked-track-header track-description-header">Based On</h3>
             <ul class="track-linked-tracks"></ul>
-            <h3 class="track-info-header">Original Track Info</h3>
-            <h4 class="track-composer"></h4>
+            <h3 class="track-info-header" track-description-header>Original Track Info</h3>
+            <p class="track-composer artist-info"></p>
             <ul class="track-info-list"></ul>
-            <h3 class="track-transcriber-header">Transcribers</h3>
+            <h3 class="track-transcriber-header track-description-header">Transcribers</h3>
             <ul class="track-transcriber-list"></ul>
             <h4 class="track-album-display"></h4>
             <p class="track-album-track-num-display"></p>
-            <h3 class="track-description-header">Description</h3>
+            <h3 class="track-description-header track-description-header">Description</h3>
             <div class="track-description"></div>
         </div>
     </template>
 
     <template id="track-transcriber-list-item">
-        <li class="track-details-transcriber-info">
-            <a class="transcriber-info" target="_blank" rel="noopener noreferrer"></a>
+        <li class="track-details--itranscribernfo">
+            <a class="artist-info" target="_blank" rel="noopener noreferrer"></a>
         </li>
     </template>
 
     <template id="track-info-list-item">
         <li class="track-details-transcriber-info">
-            <p class="transcriber-info"></p>
+            <p class="artist-info"></p>
         </li>
     </template>
 
@@ -107,7 +108,7 @@
 
     <template id="track-linked-track-artist">
         <li class="track-linked-track-artist">
-            <a class="track-linked-track-artistElement" target="_blank" rel="noopener noreferrer"></a>
+            <p class="linked-track-artist-info"></a>
         </li>
     </template>
 

@@ -165,7 +165,6 @@ body {
     padding-bottom: 0.75em;
     display: block;
     border-top: 1px solid #999;
-    cursor: pointer;
 }
 
 .track-list-header {
@@ -180,6 +179,7 @@ body {
 
 .track-list-header-text {
     flex: 1 1 auto;
+    cursor: pointer;
 }
 
 .track-list-name {
@@ -227,10 +227,84 @@ body {
     height: 2.5em;
 }
 
-.track-description {
-    margin-left: 5%;
-    margin-right: 5%;
+.track-type {
+    margin-bottom: 0.5em;
 }
+
+.track-release-date {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.track-album {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.track-composer {
+    margin-left: max(5%, 40px);
+    margin-right: max(5%, 40px);
+}
+
+.track-linked-tracks {
+    padding-left: 0;
+    margin-left: max(5%, 40px);
+    margin-right: max(5%, 40px);
+    list-style-type: none;
+}
+
+.track-linked-track-item {
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #999;
+}
+
+.track-linked-track-item-end {
+    padding-bottom: 0em;
+    border-bottom: 0;
+}
+
+.track-info-list {
+    padding-left: 0;
+    margin-left: max(5%, 40px);
+    margin-right: max(5%, 40px);
+    list-style-type: none;
+}
+
+.track-transcriber-list {
+    padding-left: 0;
+    margin-left: max(5%, 40px);
+    margin-right: max(5%, 40px);
+    list-style-type: none;
+}
+
+.track-description-header {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.track-description {
+    margin-left: max(5%, 40px);
+    margin-right: max(5%, 40px);
+    margin-bottom: 0.5em;
+}
+
+.track-arranger {
+    margin-top: 0.5em;
+}
+
+.linked-track-artists {
+    padding-left: 0;
+    margin-left: max(5%, 10px);
+    margin-right: max(5%, 10px);
+    list-style-type: none;
+}
+
+.linked-track-artist-info {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
 
 @media (max-width: 1000px) {
     .platform-content-grid {
@@ -254,6 +328,16 @@ body {
     .platform-content-grid {
         grid-template-columns: repeat(1, 1fr);
     }
+}
+
+a:link {
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .site-footer {
