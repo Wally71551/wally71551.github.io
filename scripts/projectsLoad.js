@@ -340,8 +340,8 @@ function ShowTrackDetails(clickedElement)
     trackArranger.textContent = `Arranger: ${trackData.trackArranger}`
 
     //Handling linked tracks
-    let trackLinksDisplaying = false;
-    if(trackData.linkedTracks == null)
+    let trackLinkDisplaying = false;
+    if(trackData.linkedTracks == null || trackData.linkedTracks.length <= 0)
     {
         panel.querySelector('.linked-track-header').remove();
     }
@@ -424,23 +424,28 @@ function ShowTrackDetails(clickedElement)
         panel.querySelector('.track-info-list').remove();
     }
 
-    if(trackLinkDisplaying || !trackData.artists || trackData.artists.length <= 0)
+    if(trackLinkDisplaying || (!trackData.composer || trackData.composer == "" )&& (!trackData.artists || trackData.artists.length <= 0))
     {
         panel.querySelector('.track-info-header').remove();
     }
 
     //Handling transcribers
-    if(trackData.transcription == null)
+    if(trackData.transcription == null || trackData.transcription.length <= 0)
     {
         panel.querySelector('.track-transcriber-header').remove();
     }
     else
     {
+        if(trackData.transcription.length == 1)
+        {
+            panel.querySelector('.track-transcriber-header').textContent = "Transcriber";
+        }
+        
         let trackTranscriberListDisplay = panel.querySelector('.track-transcriber-list');
         trackData.transcription.forEach((transcriptionData) => {
             let transcriptionTemplate = trackTranscriberListTemplate.content.cloneNode(true);
             let link = transcriptionTemplate.querySelector('.artist-info');
-            link.textContent = transcriptionData.transcriber;
+            link.innerHTML = transcriptionData.transcriber;
             link.href = transcriptionData.url;
             trackTranscriberListDisplay.appendChild(transcriptionTemplate);
         });
@@ -448,7 +453,7 @@ function ShowTrackDetails(clickedElement)
 
     //Handling description
     let trackDescription = panel.querySelector('.track-description');
-    trackDescription.textContent = trackData.description;
+    trackDescription.innerHTML = trackData.description;
 
     //Insert onto page
     clickedElement.appendChild(panel);

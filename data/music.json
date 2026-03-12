@@ -79,6 +79,7 @@
       ],
       "musicType": "Remix",
       "youtubeLink": "https://youtu.be/oaPS1gJ1TdE",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 3,
       "description": "The Gothic series was recommended to me by a friend (I haven't got around to playing it yet though...) but the theme for Gothic 3, Vista Point, pulled me in straight away. The theme itself is beautifully composed by Kai Rosenkranz.\n\nI wanted to stick closely to the theme but I wanted to add a few things, like more use of horns and lots of grand piano to keep the nature of the original song."
@@ -201,6 +202,7 @@
       ],
       "musicType": "Remix",
       "youtubeLink": "https://youtu.be/QWPIweib4vo",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 7,
       "description": "In creating this, I wanted to convey the feeling of a glamorous and beautiful city that has been destroyed by the empire's rampage. I also incorporated other parts of Final Fantasy XV's OST to portray Noctis' emotion connection to the place and the fact he would still be grieving over the loss of Luna."
@@ -213,6 +215,12 @@
       "releaseDate": "2017-07-16",
       "trackArranger": "Wally71551",
       "composer": "Yasuaki Iwata",
+      "artists": [
+        {
+          "header": "Dragon Roost Island (from <em>The Legend of Zelda: The Wind Waker</em>) Composer",
+          "artistName": "Kenta Nagata"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "Latios212",
@@ -220,19 +228,9 @@
         }
       ],
       "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "Dragon Roost Island",
-          "project": "The Legend of Zelda: The Wind Waker",
-          "artists": [
-            {
-              "header": "Composer",
-              "artistName": "Kenta Nagata"
-            }
-          ]
-        }
-      ],
+      "linkedTracks": [],
       "youtubeLink": "https://youtu.be/qzBmeVglmIU",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 8,
       "description": "With this theme, I wanted to change some of the instrumentation in the piece. Specifically, I felt adding an accordion to carry some of the melody was necessary to help represent Kass, and the link the accordion has to the Rito in general.\n\nI put small variations on the piece and implemented a wider palette of instruments while still keeping the core of the piece throughout."
@@ -245,6 +243,28 @@
       "releaseDate": "2017-07-23",
       "trackArranger": "Wally71551",
       "composer": "Toru Minegishi",
+      "artists": [
+        {
+          "header": "Vocal",
+          "artistName": "Hiroaki Takeuchi, Sachiko Watabe"
+        },
+        {
+          "header": "Electric Guitar",
+          "artistName": "Akitoshi Kuroda"
+        },
+        {
+          "header": "Electric Bass",
+          "artistName": "IKUO"
+        },
+        {
+          "header": "Drums",
+          "artistName": "Kei Yamazaki"
+        },
+        {
+          "header": "In-Game Artist",
+          "artistName": "Wet Floor"
+        }
+      ],
       "musicType": "Remix",
       "linkedTracks": [
         {
@@ -295,6 +315,12 @@
       "releaseDate": "2017-08-06",
       "trackArranger": "Wally71551",
       "composer": "Manaka Kataoka",
+      "artists": [
+        {
+          "header": "Overworld Theme (from <em>The Legend of Zelda</em>) Composer",
+          "artistName": "Koji Kondo"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "Latios212",
@@ -302,7 +328,15 @@
         }
       ],
       "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Overworld (Day)",
+          "project": "The Legend of Zelda: Breath of the Wild",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/MLHhmsxqbYw",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 11,
       "description": "As this theme is made up of small phrases in a random order and length from each other, I included ambience sounds from The Legend of Zelda: Breath of the Wild's files to help keep the remix more interesting.\n\nI also included sections from different pieces throughout The Legend of Zelda series.\n\nThe piece was inspired by different things that can happen in Hyrule Field, like an encounter with a Hinox, a short battle with enemies and finding an item."
@@ -359,6 +393,7 @@
       ],
       "musicType": "Remix",
       "youtubeLink": "https://youtu.be/9Ia53AGPtcY",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 13,
       "description": "When I arranged this piece, I decided to add extra parts to help it feel like the true end to the game, a rounding up. To help with the intensity, I used brass as a main feature when the piece builds up into it's main section.\n\nI use Ardyn's motif from the games at the start and the end of the piece to show how it is him who was in control for all of the game and convey the fact that it is his destruction.\n\nThe slower piano section I included before the reprise with strings and horn conveys the reflection over the entire adventure before the finale. To coincide with this, the celesta plays 4 melodies from the game during this section: Luna, Song of the Stars, Sorrow without Solace and Stand By Me. I chose Stand By Me as the closing melody before the piece begins to build to represent Noctis' companions standing with him in spirit for the final fight.\n\nIn the main section, I chose to add phrases to the wind/brass parts to create a fuller score fit for the end of a long adventure that took 10 in-game years to complete, and the reclaiming of Noctis' home.\n\nFinally, I chose to keep the piano line unresolved at the end of the piece to show how Noctis cannot go back and fully reclaim what he took back from Ardyn, as he had to sacrifice himself to see his quest through. This means he truly cannot complete the reclaiming of the Crown City and the end of the Lucis line."
@@ -398,7 +433,16 @@
         }
       ],
       "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Arceus",
+          "project": "Pokémon HeartGold Version & Pokémon SoulSilver Version",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/3TGMtnYeTEk",
+      "bandcampLink": "",
+      "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 15,
       "description": "When I began arranging this song, I used the percussion to showcase the fact you are battling a god. Heavy bass drums and timpani support the rest of the rhythm on toms and snare.\n\nI used a very low bass sound across the entire piece to keep an underlying noise to attract your ears through portions of silence.\n\nReverb on the brass parts is used to convey the sound of a grand open space, much like the Hall of Origin or the Sinjoh Ruins. The harmonies are very dissonant as it supports the idea of how much danger you are in."
@@ -410,14 +454,14 @@
       "seriesID": "metroid",
       "releaseDate": "2017-09-15",
       "trackArranger": "Wally71551",
-      "composer": "Daisuke Matsuoka & Kenji Yamamoto",
+      "composer": "Daisuke Matsuoka, Kenji Yamamoto",
       "transcription": [
         {
-          "transcriber": "Olimar12345 (Title Theme – Metroid II: Return of Samus)",
+          "transcriber": "Olimar12345 (Title Theme – <em>Metroid II: Return of Samus</em>)",
           "url": "https://www.ninsheetmusic.org/download/pdf/1411"
         },
         {
-          "transcriber": "MetroidHunter26 (Title Theme – Metroid Prime)",
+          "transcriber": "MetroidHunter26 (Title Theme – <em>Metroid Prime</em>)",
           "url": "https://www.ninsheetmusic.org/download/pdf/1508"
         }
       ],
@@ -463,6 +507,7 @@
       ],
       "musicType": "Remix",
       "youtubeLink": "https://youtu.be/wgiqxMUWDPA",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 18,
       "description": "Made for the port of Pokémon Gold and Silver coming to Nintendo 3DS systems on 22nd September 2017.\n\nWhen starting this piece, I slowed the tempo to create a much more relaxed atmosphere like the town has. I changed the instrumentation to better represent a town surrounded by forest and bugs, as I felt a string section didn't fit well enough. I used a xylophone to add a wooden and light-hearted tone to the piece, and used some woodwind instruments to help produce different tones in the sound and texture of the piece.\n\nI kept very close to the original piece, and didn't put much variation to keep the authenticity of the piece. Only towards the end of the piece does it significantly change."
@@ -474,7 +519,7 @@
       "seriesID": "pkmn",
       "releaseDate": "2017-09-22",
       "trackArranger": "Wally71551",
-      "composer": "Hiroki Hasimoto, Hiroyuki Kawada, Rio Hamamoto, Taku Inoue, Torine, Yoshinori Hirai, Takafumi Sato, Mitsuhiro Kitadani, Yu Sugimoto & Shota Kageyama",
+      "composer": "Hiroki Hasimoto, Hiroyuki Kawada, Rio Hamamoto, Taku Inoue, Torine, Yoshinori Hirai, Takafumi Sato, Mitsuhiro Kitadani, Yu Sugimoto, Shota Kageyama",
       "transcription": [
         {
           "transcriber": "ShinkoNetCavy",
@@ -502,7 +547,15 @@
         }
       ],
       "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Sheikah Tower",
+          "project": "The Legend of Zelda: Breath of the Wild",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/cOexOVmwzUI",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 20,
       "description": "I originally set out to create one theme, but decided I could variate more and create a much more interesting piece by creating a separate piece for each of other Sheikah Towers in the game. This one is based on the Lake Tower, which overlooks Lake Hylia.\n\nTo start, the arrangement is very light and simple, contrasting synthesized waves with a grand piano and choir. The piece builds into a repeat, where tremolo strings and flute join the piece, as well as some light percussion.\n\nThe piece builds further by adding more percussion and using the lower end of the piano to add some textural depth to the piece. The instrumentation of a string section was used to signify the grandeur and scale of Lake Hylia, helping the piece further fit in this setting along with the ambience in the background.\n\nThe penultimate section uses 2 phrases from the music for the Story Trailer shown off at the Nintendo Switch Presentation in January 2017, but at a much slower tempo. The melody is variated to give a melancholic feel to showcase the deep and dark history that Hyrule has suffered through in this game.\n\nThe slow melody and moving chords of this section are contrasted by the quick main motif of the Sheikah Tower theme scattered throughout this section of the piece. Synths are still used to show the contrast of the advanced Sheikah technology against the ruined Hyrule."
@@ -523,6 +576,7 @@
       ],
       "musicType": "Remix",
       "youtubeLink": "https://youtu.be/hW-INSUlxNQ",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 21,
       "description": "The original version of this theme is very ominous, consisting of only a piano and synth backing. When recreating this theme, I decided to expand the instrumentation to create a pseudo-orchestral track that would fit the player sneaking around the town, slowly pushing through Team Skull's barrier.\n\nCongas are used as the main percussion instrument to add pace into the back of the piece, pushing it along. A string section is also used; the tremolo adds tension to the quieter parts of the piece and pizzicato strings are used to represent the player sneaking around. A contrabassoon as well as trombones and tuba are used to signify each new bar, while the main bass line is passed around between piano, bass guitar and synth.\n\nLater in the piece a drum kit comes in to support the congas in adding pace, and to represent Team Skull in general."
@@ -534,7 +588,7 @@
       "seriesID": "starfox",
       "releaseDate": "2017-10-08",
       "trackArranger": "Wally71551",
-      "composer": "Kozue Ishikawa & Yumiko Kanki",
+      "composer": "Kozue Ishikawa, Yumiko Kanki",
       "transcription": [
         {
           "transcriber": "Beta Link",
@@ -543,6 +597,7 @@
       ],
       "musicType": "Remix",
       "youtubeLink": "https://youtu.be/owB6Kgkpp7o",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 22,
       "description": "When arranging this piece, I decided to use an orchestra to represent the grandeur and vastness of space. The percussion used mirrors the melody of the piece by following the same rhythm and then variating.\n\nThe harp is used to lead into different sections and the large sound it makes represents the vastness of space that it echoes out into. The heavy use of brass throughout the piece reinforces the sense of adventure into space and the unknown, as well as representing the power that the Star Fox crew have.\n\nI created my own motifs for the piece as the original title screen theme is an 8-bar loop. The piece builds towards the end with a full orchestra playing at the same time, creating a huge sound fitting of a huge space adventure."
@@ -554,7 +609,13 @@
       "seriesID": "mario",
       "releaseDate": "2017-10-15",
       "trackArranger": "Wally71551",
-      "composer": "Mahito Yokota",
+      "composer": "Mahito Yokota, Toru Minegishi, Yasuaki Iwata, Koji Kondo",
+      "artists": [
+        {
+          "header": "Performer",
+          "artistName": "MARIO 3D WORLD BIG BAND"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "E. Gadd Industries",
@@ -563,6 +624,7 @@
       ],
       "musicType": "Remix",
       "youtubeLink": "https://youtu.be/LjPQu3K-dm4",
+      "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 23,
       "description": "As it's nearly Halloween I arranged this as I felt it was a good piece that fit the theme.\n\nI orchestrated the piece to still keep the basic instrumentation intact, solo violin, pizzicato strings and oboe, but added other instruments to give the piece a different flair. A harpsichord was used as one of the main instruments because it is used in other parts of the Super Mario 3D World soundtrack making it a nice fit, as well as the sound blending well with the rest of the piece. For the bass of the piece, I used a drone to unsettle the listener which plays into the spooky nature of the piece."
@@ -602,15 +664,17 @@
           "project": "Fire Emblem: Shadow Dragon and the Blade of Light",
           "artists": [
             {
-              "header": "Composed by",
-              "artistName": "Yuka Tsujiyoko"
+              "header": "Composer",
+              "artistName": "Yuka Tsujiyoko",
+              "URL": ""
             },
             {
-              "header": "Super Smash Bros. Brawl Arrangement by",
-              "artistName": "Shogo Sakai"
+              "header": "Fire Emblem Theme (from <em>Super Smash Bros. Brawl</em>) Arranger",
+              "artistName": "Shogo Sakai",
+              "URL": ""
             },
             {
-              "header": "Transcribed by",
+              "header": "Transcriber",
               "artistName": "Latios212",
               "URL": "https://www.ninsheetmusic.org/download/pdf/800"
             }
@@ -621,11 +685,12 @@
           "project": "Fire Emblem Fates",
           "artists": [
             {
-              "header": "Composed by",
-              "artistName": "Hiroki Morishita"
+              "header": "Composer",
+              "artistName": "Hiroki Morishita",
+              "URL": ""
             },
             {
-              "header": "Transcribed by",
+              "header": "Transcriber",
               "artistName": "SpykerFX & Alex / ign0tum",
               "URL": "https://musescore.com/user/11397726/scores/4566546"
             }
@@ -636,12 +701,12 @@
           "project": "Fire Emblem: The Blazing Blade",
           "artists": [
             {
-              "header": "Composed by",
-              "artistName": "Yuka Tsujiyoko & Saki Haruyama",
+              "header": "Composer",
+              "artistName": "Yuka Tsujiyoko, Saki Haruyama",
               "URL": ""
             },
             {
-              "header": "Transcribed by",
+              "header": "Transcriber",
               "artistName": "Maelstrom",
               "URL": "https://www.ninsheetmusic.org/download/pdf/503"
             }
@@ -652,12 +717,12 @@
           "project": "Fire Emblem: Awakening",
           "artists": [
             {
-              "header": "Composed by",
+              "header": "Composer",
               "artistName": "Rei Kondoh",
               "URL": ""
             },
             {
-              "header": "Transcribed by",
+              "header": "Transcriber",
               "artistName": "milesedgeworth13",
               "URL": "https://musescore.com/user/3982701/scores/1195691"
             }
@@ -708,7 +773,13 @@
         }
       ],
       "musicType": "Remix",
-      "linkedTracks": [],
+      "linkedTracks": [
+        {
+          "name": "The Super Mario Odyssey Crew",
+          "project": "Super Mario Odyssey",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/u4f6nlkXU4k",
       "bandcampLink": "",
       "extraLinks": [],
@@ -760,7 +831,13 @@
         }
       ],
       "musicType": "Remix",
-      "linkedTracks": [],
+      "linkedTracks": [
+        {
+          "name": "At Doom's Gate",
+          "project": "DOOM",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/3ItJK06IPhE",
       "bandcampLink": "",
       "extraLinks": [],
@@ -780,6 +857,62 @@
         {
           "header": "Arranger",
           "artistName": "Yoichi Murata"
+        },
+        {
+          "header": "Lyricist",
+          "artistName": "Nobuyoshi Suzuki, Rob Tunstall"
+        },
+        {
+          "header": "Vocal",
+          "artistName": "Kate Davis"
+        },
+        {
+          "header": "Vocal (Japanese Ver.)",
+          "artistName": "Aimi Mukohara"
+        },
+        {
+          "header": "Drums",
+          "artistName": "Hideko Yamaki"
+        },
+        {
+          "header": "Bass",
+          "artistName": "Kenji Takamizu"
+        },
+        {
+          "header": "Guitar",
+          "artistName": "Takayuki Hijikata"
+        },
+        {
+          "header": "Piano",
+          "artistName": "Keiji Matsumoto"
+        },
+        {
+          "header": "Alto Sax",
+          "artistName": "Osamu Yoshida, Kazuhiko Kondo"
+        },
+        {
+          "header": "Tenor Sax",
+          "artistName": "Osamu Koike, Masakuni Takeno"
+        },
+        {
+          "header": "Baritone Sax",
+          "artistName": "Takuo Yamamoto"
+        },
+        {
+          "header": "Trumpet",
+          "artistName": "Koji Nishimura, Isao Sakuma, Sho Okumura, Hitomi Niida"
+        },
+        {
+          "header": "Trombone",
+          "artistName": "Yoichi Murata, Kanade Shishiuchi, Shinsuke Torizuka"
+        },
+        {
+          "header": "Bass Trombone",
+          "artistName": "Junko Yamashiro"
+        },
+        {
+          "header": "Chorus",
+          "artistName": "Naoki Takao, Goro Oshima, Taeko Saito, Saeko Suzuki"
         }
       ],
       "transcription": [
@@ -858,7 +991,13 @@
         }
       ],
       "musicType": "Remix",
-      "linkedTracks": [],
+      "linkedTracks": [
+        {
+          "name": "Where We Used To Be",
+          "project": "Xenoblade Chronicles 2",
+          "artists": []
+        }
+      ],
       "youtubeLink": "https://youtu.be/wNkXmwcMGLk",
       "bandcampLink": "",
       "extraLinks": [],
