@@ -423,7 +423,7 @@
       "platformIDs": [
         {
           "platform": "n64",
-          "releaseDate": "1997-07-18"
+          "releaseDate": "1997-07-18[Japan]"
         }
       ],
       "musicList": [
@@ -725,7 +725,7 @@
         },
         {
           "platform": "arcade",
-          "releaseDate": "2015-07-16"
+          "releaseDate": "2015-07-16[Japan]"
         }
       ],
       "musicList": [
@@ -897,7 +897,7 @@
       "platformIDs": [
         {
           "platform": "nes",
-          "releaseDate": "1990-04-20"
+          "releaseDate": "1990-04-20[Japan]"
         },
         {
           "platform": "ns1",
@@ -1264,7 +1264,7 @@
       "platformIDs": [
         {
           "platform": "nes",
-          "releaseDate": "1989-07-27"
+          "releaseDate": "1989-07-27[Japan]"
         }
       ],
       "musicList": [
@@ -1281,7 +1281,7 @@
       "platformIDs": [
         {
           "platform": "gba",
-          "releaseDate": "2006-04-20"
+          "releaseDate": "2006-04-20[Japan]"
         }
       ],
       "musicList": [

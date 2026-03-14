@@ -1,5 +1,6 @@
 function FormatDateToString(date) {
-    const cleanDate = date.split('_')[0];
+    let cleanDate = date.split('_')[0];
+    cleanDate = cleanDate.split('[')[0];
     const [year, month, day] = cleanDate.split('-').map(Number);
     const formattedDate = new Date(year, month - 1, day);
     
@@ -11,7 +12,13 @@ function FormatDateToString(date) {
         return n + (s[(v - 20) % 10] || s[v] || s[0]);
     };
 
-    return `${monthName} ${getOrdinal(day)}, ${year}`;
+    let returnString = `${monthName} ${getOrdinal(day)}, ${year}`;
+    if(date.includes('['))
+    {
+        returnString = `${returnString} [${date.split('[')[1]}`;
+    }
+
+    return returnString;
 }
 
 class SiteFooter extends HTMLElement {
