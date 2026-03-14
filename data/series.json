@@ -77,6 +77,11 @@
       "seriesID": "earthbound",
       "seriesName": "EarthBound",
       "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "ssb",
+      "seriesName": "Super Smash Bros.",
+      "seriesImageSrc": ""
     }
   ]
 }

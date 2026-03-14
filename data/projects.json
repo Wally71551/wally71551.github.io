@@ -48,7 +48,8 @@
         "xc2_eotbs",
         "ebb_snowman",
         "xc2_elpys"
-      ]
+      ],
+      "description": "An album collection of all the tracks made and released between 2017-2019."
     },
     {
       "projectID": "botw_s2",
@@ -202,7 +203,8 @@
       "collectionItems": [
         "Super Mario Galaxy",
         "Super Mario Galaxy 2"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "ff15",
@@ -1288,7 +1290,26 @@
       "collectionItems": [
         "MOTHER",
         "MOTHER 2"
-      ]
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "ssbb",
+      "projectName": "Super Smash Bros. Brawl",
+      "projectType": "Game",
+      "imageSrc": "SSBB",
+      "seriesID": "ssb",
+      "platformIDs": [
+        {
+          "platform": "wii",
+          "releaseDate": "2008-06-27"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ],
+      "collectionItems": [],
+      "description": ""
     }
   ]
 }

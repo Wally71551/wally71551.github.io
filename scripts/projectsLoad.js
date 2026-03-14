@@ -169,13 +169,47 @@ function ShowProjectDetails(clickedElement, gridContainer)
     let typeText = panel.querySelector('.project-type');
     typeText.textContent = projectData.projectType;
     
-    let releaseDate = panel.querySelector('.project-release-date');
+    let releaseDate = panel.querySelector('.release-date');
     for(let i = 0; i < projectData.platformIDs.length; i++)
     {
         if(projectData.platformIDs[i].platform == projectPlatform)
         {
-            releaseDate.textContent = FormatDateToString(projectData.platformIDs[i].releaseDate);
+            releaseDate.textContent = `Release Date: ${FormatDateToString(projectData.platformIDs[i].releaseDate)}`;
         }
+    }
+
+    //Collection
+    if(projectData.collectionItems == null || projectData.collectionItems.length <= 0)
+    {
+        panel.querySelector('.project-collection-header').remove();
+        panel.querySelector('.project-collection-list').remove();
+    }
+    else
+    {
+        let listElement = panel.querySelector('.project-collection-list');
+        projectData.collectionItems.forEach(collectionItem => {
+            let element = document.createElement("h4");
+            element.innerHTML = collectionItem;
+            element.classList.add("project-collection-item");
+
+            if(collectionItem == projectData.collectionItems[projectData.collectionItems.length - 1])
+            {
+                element.classList.add('track-linked-track-item-end');
+            }
+
+            listElement.appendChild(element);
+        });
+    }
+
+    //Description
+    if(projectData.description == null || projectData.description == "")
+    {
+        panel.querySelector('.project-description').remove();
+    }
+    else
+    {
+        let projectDescription = panel.querySelector('.project-description');
+        projectDescription.innerHTML = projectData.description;
     }
 
     //Track list insertion
@@ -323,8 +357,8 @@ function ShowTrackDetails(clickedElement)
     let typeText = panel.querySelector('.track-type');
     typeText.textContent = trackData.musicType;
 
-    let trackReleaseDate = panel.querySelector('.track-release-date');
-    trackReleaseDate.textContent = `Release Date: ${FormatDateToString(trackData.releaseDate)}`;
+    let trackReleaseDate = panel.querySelector('.release-date');
+    trackReleaseDate.innerHTML = `Release Date: ${FormatDateToString(trackData.releaseDate)}`;
 
     if(trackData.linkedAlbumID != projectID && trackData.linkedAlbumID && trackData.linkedAlbumID != "")
     {
@@ -391,7 +425,6 @@ function ShowTrackDetails(clickedElement)
             //Remove bottom line
             if(trackData.linkedTracks[trackData.linkedTracks.length - 1].name == linkedTrack.name)
             {
-                
                 linkedTrackTemplate.querySelector('.track-linked-track-item').classList.add('track-linked-track-item-end');
             }
             trackLinkedListDisplay.appendChild(linkedTrackTemplate);

@@ -150,6 +150,33 @@ body {
     padding: 10px;
 }
 
+.project-description {
+    margin-top: 1em;
+}
+
+.project-collection-header {
+    margin-bottom: 0.5em;
+}
+
+.project-collection-list {
+    margin-left: max(5%, 20px);
+    margin-right: max(5%, 20px);
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    padding: 0;
+}
+
+.project-collection-item {
+    margin-top: 0.25em;
+    padding-bottom: 0.25em;
+    margin-bottom: 0em;
+    border-bottom: 1px solid #999;
+}
+
+.project-track-header {
+    margin-bottom: 0.5em;
+}
+
 .project-track-list {
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -231,7 +258,11 @@ body {
     margin-bottom: 0.5em;
 }
 
-.track-release-date {
+.project-type {
+    margin-bottom: 0.5em;
+}
+
+.release-date {
     margin-top: 0.25em;
     margin-bottom: 0.25em;
 }

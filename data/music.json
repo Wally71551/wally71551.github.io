@@ -665,16 +665,16 @@
       "linkedTracks": [
         {
           "name": "Fire Emblem Theme",
-          "project": "Fire Emblem: Shadow Dragon and the Blade of Light",
+          "project": "Super Smash Bros. Brawl (Fire Emblem: Shadow Dragon and the Blade of Light)",
           "artists": [
-            {
-              "header": "Composer",
-              "artistName": "Yuka Tsujiyoko",
-              "URL": ""
-            },
             {
               "header": "Fire Emblem Theme (from <em>Super Smash Bros. Brawl</em>) Arranger",
               "artistName": "Shogo Sakai",
+              "URL": ""
+            },
+            {
+              "header": "Composer",
+              "artistName": "Yuka Tsujiyoko",
               "URL": ""
             },
             {
