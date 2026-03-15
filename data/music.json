@@ -1059,6 +1059,219 @@
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 35,
       "description": "It's been a while since I last uploaded, but I've been busy playing games. Especially <em>Xenoblade Chronicles 2</em>. I've enjoyed the game a lot so far and am nearing the end of my adventure, but this track stuck in my mind. The beautiful melody crafted by Yasunori Mitsuda works well with the light backing.\n\nI put my own spin on this, using different instruments from the keys family, grand piano, harpsichord, celesta and organ to create a different sound. I used light instrumentation for the accompaniment, opting for quiet strings and vocals that blend in the background for most of the piece."
+    },
+    {
+      "musicID": "ffxv_jazzmedley",
+      "musicName": "Jazz Medley",
+      "projectID": "ff15pe",
+      "seriesID": "ff",
+      "releaseDate": "2018-02-08",
+      "trackArranger": "Wally71551",
+      "composer": "",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Medley",
+      "linkedTracks": [
+        {
+          "name": "Dining Car",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Tetsuya Shibata",
+              "URL": ""
+            },
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "ARDYN",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura, Yoshitaka Suzuki",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoshitaka Suzuki",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "OMNIS LACRIMA",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Kaoru Wada, Shota Nakama",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "NOX AETERNA",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "Tenebrae",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Yoshino Aoki",
+              "URL": ""
+            },
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "Somnus",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Kaoru Wada",
+              "URL": ""
+            },
+            {
+              "header": "Vocal",
+              "artistName": "Aundréa L. Hopkins",
+              "URL": ""
+            },
+            {
+              "header": "Lyricist",
+              "artistName": "Tetsuya Nomura, Taro Yamashita, Kazuhiro Komiya",
+              "URL": ""
+            }
+          ]
+        }
+      ],
+      "youtubeLink": "https://youtu.be/sosxeU5nddM",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 36,
+      "description": "REUPLOAD: Reuploaded due to an audio error.\n\nThe medley uses a symphonic jazz style; the orchestral style is a big part of the Final Fantasy XV soundtrack so it helped to link the medley more to the game by making light use of an orchestral string section and horns.\n\nThe medley changes track often as a sorts of whistle-stop tour of Final Fantasy XV's soundtrack to celebrate the Pocket Edition in a jazz style."
+    },
+    {
+      "musicID": "ffxv_horizon",
+      "musicName": "Horizon",
+      "projectID": "ff15pe",
+      "seriesID": "ff",
+      "releaseDate": "2018-02-08",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/xw6KN_71l2k",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 37,
+      "description": "The piece starts out very similar to the original theme, orchestrated to sound the start of a new day.\nThe track then transfers into an exploring tone, filled with wonder similar to the track Wanderlust, but using Horizon as a basis. A duo of horn and trombone section is used to outline the main chords, with a light piano backing adding rhythm and pace to the track, to keep a player who would be playing along to this track moving along. The sound throughout this section is kept thin with little in the bass range, representing how quiet mornings normally are.\n\nThe next section predominantly features horn and trombone chords, to emphasise the large epic nature of the world. The light tremolo string backing shows the delicate nature of the world. The track ends with a reprise of the original section, showing how the world is always the same despite the different parts of it."
+    },
+    {
+      "musicID": "ffxv_rrpensive",
+      "musicName": "Relax and Reflect - Pensive",
+      "projectID": "ff15pe",
+      "seriesID": "ff",
+      "releaseDate": "2018-02-10",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Tetsuya Shibata"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/iu7aj7FW2Oc",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 38,
+      "description": "When recreating this theme, I used an array of instruments from different styles, pulling from various different styles. I make use of orchestral elements, mixed with electronic and acoustic drum patterns along with a solo harmonica that carries most of the melody throughout the piece.\n\nThe texture is kept quite sparse to give the sense the piece uses in the game, while the melody is altered to fit better with the theme of the original, non-pensive version. The idea of using harmonica comes from the connotations of the instrument, often played in unhappy / bad context, such as the second track in the <em>FINAL FANTASY XV</em> Soundtrack, Broken Down."
+    },
+    {
+      "musicID": "bayo_ldb",
+      "musicName": "Let's Dance, Boys!",
+      "projectID": "bayo",
+      "seriesID": "bayo",
+      "releaseDate": "2018-02-17",
+      "trackArranger": "Wally71551",
+      "composer": "Hiroshi Yamaguchi",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Cerbera",
+          "url": "https://musescore.com/user/6201561/scores/1496011"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/vYNVfh8AH30",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 39,
+      "description": "When arranging this track, I went for a jazz style mixed with orchestral elements, heavily leaning towards the brass and strings instrumentation the original game makes use of. This represents the in-your-face nature of <em>Bayonetta</em>. The use of orchestral percussion for sections creates a larger, more orchestral vibe and also adds a sense of grandeur to the track, especially with crash cymbals and timpani to push the beat along."
     }
   ]
 }

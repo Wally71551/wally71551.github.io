@@ -82,6 +82,11 @@
       "seriesID": "ssb",
       "seriesName": "Super Smash Bros.",
       "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "bayo",
+      "seriesName": "Bayonetta",
+      "seriesImageSrc": ""
     }
   ]
 }
