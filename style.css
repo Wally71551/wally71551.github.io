@@ -138,6 +138,11 @@ body {
 
     border-top: 2px solid #999;
     border-bottom: 2px solid #999;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     
     max-height: 0px;
     opacity: 0;
@@ -147,7 +152,42 @@ body {
 .project-details-panel.open {
     max-height: 10000px;
     opacity: 1;
-    padding: 10px;
+}
+
+.project-detailed-title {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.project-type {
+    margin-top: 0;
+}
+
+.project-description {
+    margin-top: 1em;
+}
+
+.project-collection-header {
+    margin-bottom: 0.5em;
+}
+
+.project-collection-list {
+    margin-left: max(5%, 20px);
+    margin-right: max(5%, 20px);
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    padding: 0;
+}
+
+.project-collection-item {
+    margin-top: 0.25em;
+    padding-bottom: 0.25em;
+    margin-bottom: 0em;
+    border-bottom: 1px solid #999;
+}
+
+.project-track-header {
+    margin-bottom: 0.5em;
 }
 
 .project-track-list {
@@ -165,11 +205,21 @@ body {
     padding-bottom: 0.75em;
     display: block;
     border-top: 1px solid #999;
-    cursor: pointer;
+}
+
+.track-list-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .track-list-item-end {
     border-bottom: 1px solid #999;
+}
+
+.track-list-header-text {
+    flex: 1 1 auto;
+    cursor: pointer;
 }
 
 .track-list-name {
@@ -185,6 +235,138 @@ body {
     font-size: 0.9em;
     font-style: italic;
 }
+
+.track-list-album-number {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0.5em;
+    padding-right: 0.5em;
+    text-align: right;
+    font-size: 1em;
+    font-weight: bold;
+    border-right: 1px solid #999;
+    font-variant-numeric: tabular-nums;
+    width: 1.75rem;
+}
+
+.track-link-buttons {
+    display: flex;
+    align-content: center;
+    gap: 0.5em;
+    text-decoration: none;
+}
+
+.external-link {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+}
+
+.external-link-display-icon {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.track-details-panel {
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    overflow: hidden;
+    max-height: 0px;
+    opacity: 0;
+}
+
+.track-details-panel.open {
+    max-height: 10000px;
+    opacity: 1;
+}
+
+.track-type {
+    margin-bottom: 0.5em;
+}
+
+.project-type {
+    margin-bottom: 0.5em;
+}
+
+.release-date {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.track-album {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.track-composer {
+    margin-left: max(5%, 40px);
+    margin-right: max(5%, 40px);
+}
+
+.artist-info {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.track-linked-tracks {
+    padding-left: 0;
+    margin-left: max(5%, 40px);
+    margin-right: max(5%, 40px);
+    list-style-type: none;
+}
+
+.track-linked-track-item {
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #999;
+}
+
+.track-linked-track-item-end {
+    padding-bottom: 0em;
+    border-bottom: 0;
+}
+
+.track-info-list {
+    padding-left: 0;
+    margin-left: max(5%, 40px);
+    margin-right: max(5%, 40px);
+    list-style-type: none;
+}
+
+.track-transcriber-list {
+    padding-left: 0;
+    margin-left: max(5%, 40px);
+    margin-right: max(5%, 40px);
+    list-style-type: none;
+}
+
+.track-description-header {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.track-description {
+    margin-left: max(5%, 40px);
+    margin-right: max(5%, 40px);
+    margin-bottom: 0.5em;
+    white-space: pre-line;
+}
+
+.track-arranger {
+    margin-top: 0.5em;
+}
+
+.linked-track-artists {
+    padding-left: 0;
+    margin-left: max(5%, 10px);
+    margin-right: max(5%, 10px);
+    list-style-type: none;
+}
+
+.linked-track-artist-info {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
 
 @media (max-width: 1000px) {
     .platform-content-grid {
@@ -208,6 +390,16 @@ body {
     .platform-content-grid {
         grid-template-columns: repeat(1, 1fr);
     }
+}
+
+a:link {
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .site-footer {

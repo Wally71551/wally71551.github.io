@@ -1,5 +1,6 @@
 function FormatDateToString(date) {
-    const cleanDate = date.split('_')[0];
+    let cleanDate = date.split('_')[0];
+    cleanDate = cleanDate.split('[')[0];
     const [year, month, day] = cleanDate.split('-').map(Number);
     const formattedDate = new Date(year, month - 1, day);
     
@@ -11,7 +12,13 @@ function FormatDateToString(date) {
         return n + (s[(v - 20) % 10] || s[v] || s[0]);
     };
 
-    return `${monthName} ${getOrdinal(day)}, ${year}`;
+    let returnString = `${monthName} ${getOrdinal(day)}, ${year}`;
+    if(date.includes('['))
+    {
+        returnString = `${returnString} [${date.split('[')[1]}`;
+    }
+
+    return returnString;
 }
 
 class SiteFooter extends HTMLElement {
@@ -51,6 +58,9 @@ class ProjectFooter extends HTMLElement {
                     <li>Enhanced versions / re-releases include both the base soundtrack plus the new soundtrack/new tracks.</li>
                     <li>Remakes that use the same soundtrack also get the music listing on that project too.</li>
                     <li>Ports are included unless they are in collections/compilations—larger-scope lines of emulated ports such as <em>Virtual Console</em>, <em>Nintendo Classics</em> or <em>PlayStation Plus Classics Catalogue</em> are also omitted as the games are presented completely as they were on the original platform.
+                    <ul>
+                        <li>However, this is not the case for projects that are first being made available through these avenues.
+                    </ul>
                     <li>All release dates are the UK dates where applicable, English language dates if no UK date exists, and then the initial release if none are beyond that.
                 </ul>
             </div>

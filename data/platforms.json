@@ -56,6 +56,11 @@
       "platformImageSrc": "Wii"
     },
     {
+      "platformID": "xbox360",
+      "platformName": "Xbox 360",
+      "platformImageSrc": "xbox360"
+    },
+    {
       "platformID": "nds",
       "platformName": "Nintendo DS",
       "platformImageSrc": "NDS"
@@ -86,8 +91,8 @@
       "platformImageSrc": "Windows"
     },
     {
-      "platformName": "Nintendo Classic Mini: Super Nintendo Entertainment System",
       "platformID": "snesmini",
+      "platformName": "Nintendo Classic Mini: Super Nintendo Entertainment System",
       "platformImageSrc": "SNESMini"
     },
     {
