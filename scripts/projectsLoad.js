@@ -62,7 +62,14 @@ function CreateHeader(header, index)
             let projectData = FindProject(platProjects[i]);
 
             let image = projectElement.querySelector('img');
-            image.src = GetProjectPicture(projectData.imageSrc);
+
+            let imageSource = projectData.imageSrc;
+            let result = projectData.platformIDs.find(obj => { return obj.platform === header.platformID})
+            if(result && result.overrideImage != null && result.overrideImage != "")
+            {
+                imageSource = result.overrideImage;
+            }
+            image.src = GetProjectPicture(imageSource);
 
             let title = projectElement.querySelector('p');
             title.textContent = projectData.projectName;
@@ -369,7 +376,7 @@ function ShowTrackDetails(clickedElement)
     if(trackData.linkedAlbumID != projectID && trackData.linkedAlbumID && trackData.linkedAlbumID != "")
     {
         let album = panel.querySelector('.track-album');
-        album.innerHTML = `Project: ${FindTrackProjectName(trackData.linkedAlbumID)}, Track #${trackData.linkedAlbumTrack}`;
+        album.innerHTML = `Project: ${FindTrackProjectName(trackData.linkedAlbumID)} — Track #${trackData.linkedAlbumTrack}`;
     }
     else
     {
