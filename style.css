@@ -138,6 +138,11 @@ body {
 
     border-top: 2px solid #999;
     border-bottom: 2px solid #999;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     
     max-height: 0px;
     opacity: 0;
@@ -147,7 +152,15 @@ body {
 .project-details-panel.open {
     max-height: 10000px;
     opacity: 1;
-    padding: 10px;
+}
+
+.project-detailed-title {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.project-type {
+    margin-top: 0;
 }
 
 .project-description {
@@ -252,6 +265,18 @@ body {
 .external-link-display-icon {
     width: 2.5em;
     height: 2.5em;
+}
+
+.track-details-panel {
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    overflow: hidden;
+    max-height: 0px;
+    opacity: 0;
+}
+
+.track-details-panel.open {
+    max-height: 10000px;
+    opacity: 1;
 }
 
 .track-type {

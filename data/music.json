@@ -952,7 +952,12 @@
       "linkedTracks": [],
       "youtubeLink": "https://youtu.be/WsrFtj7l5a0",
       "bandcampLink": "",
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "platform": "MuseScore",
+          "url": "https://musescore.com/user/9283941/scores/4816796"
+        }
+      ],
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 31,
       "description": "Created for the port of <em>L.A. Noire</em> on Nintendo Switch, Xbox One and PlayStation 4, on 14th November 2017.\n\nI created this piece to be mysterious, representing the nature of the game; unearthing the mysterious and hidden. The lighter instrumentation of the piece helps to give the listener the control of 'filling the gaps' in their mind, creating a full picture from what they imagine the piece to represent.\n\nWhen creating the instrumentation, I wanted a synth string-styled sound. In doing this, I edited a string section sound using effects such as phaser to create a sound that can differentiate itself from anything else that I have used before."

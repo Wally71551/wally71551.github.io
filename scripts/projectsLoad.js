@@ -174,7 +174,14 @@ function ShowProjectDetails(clickedElement, gridContainer)
     {
         if(projectData.platformIDs[i].platform == projectPlatform)
         {
-            releaseDate.textContent = `Release Date: ${FormatDateToString(projectData.platformIDs[i].releaseDate)}`;
+            let rel = projectData.platformIDs[i].releaseDate;
+            if(rel == null || rel == "" || rel == "null") {
+                releaseDate.remove();
+            }
+            else
+            {
+                releaseDate.textContent = `Release Date: ${FormatDateToString(rel)}`;
+            }
         }
     }
 
@@ -251,13 +258,12 @@ function CloseActivePanel() {
     }
 
     let panelToClose = activeDetailPanel;
-
+    panelToClose.classList.remove('open');
     setTimeout(() => {
         if(panelToClose.parentNode)
         {
             panelToClose.remove();
         }
-        panelToClose.classList.remove('open');
     }, 300);
 
     activeDetailPanel = null;
@@ -363,7 +369,7 @@ function ShowTrackDetails(clickedElement)
     if(trackData.linkedAlbumID != projectID && trackData.linkedAlbumID && trackData.linkedAlbumID != "")
     {
         let album = panel.querySelector('.track-album');
-        album.innerHTML = `Project: ${FindTrackProjectName(trackData.linkedAlbumID)} #${trackData.linkedAlbumTrack}`;
+        album.innerHTML = `Project: ${FindTrackProjectName(trackData.linkedAlbumID)}, Track #${trackData.linkedAlbumTrack}`;
     }
     else
     {
@@ -507,13 +513,13 @@ function CloseTrackActivePanel()
     }
 
     let panelToClose = activeTrackDetailPanel;
+    panelToClose.classList.remove('open');
 
     setTimeout(() => {
         if(panelToClose.parentNode)
         {
             panelToClose.remove();
         }
-        panelToClose.classList.remove('open');
     }, 300);
 
     activeTrackDetailPanel = null;
