@@ -47,7 +47,11 @@
         "usum_vpc",
         "xc2_eotbs",
         "ebb_snowman",
-        "xc2_elpys"
+        "xc2_elpys",
+        "ffxv_jazzmedley",
+        "ffxv_horizon",
+        "ffxv_rrpensive",
+        "bayo_ldb"
       ],
       "description": "An album collection of all the tracks made and released between 2017-2019."
     },
@@ -225,12 +229,16 @@
         }
       ],
       "musicList": [
+        "ffxv_rrpensive",
+        "ffxv_horizon",
+        "ffxv_jazzmedley",
         "ffxv_somnusultima",
         "ffxv_sws",
         "ffxv_tenebrae",
         "ffxv_nox_8bit",
         "ffxv_nox"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "ff15r",
@@ -249,6 +257,9 @@
         }
       ],
       "musicList": [
+        "ffxv_rrpensive",
+        "ffxv_horizon",
+        "ffxv_jazzmedley",
         "ffxv_somnusultima",
         "ffxv_sws",
         "ffxv_tenebrae",
@@ -269,6 +280,9 @@
         }
       ],
       "musicList": [
+        "ffxv_rrpensive",
+        "ffxv_horizon",
+        "ffxv_jazzmedley",
         "ffxv_somnusultima",
         "ffxv_sws",
         "ffxv_tenebrae",
@@ -289,6 +303,9 @@
         }
       ],
       "musicList": [
+        "ffxv_rrpensive",
+        "ffxv_horizon",
+        "ffxv_jazzmedley",
         "ffxv_somnusultima",
         "ffxv_sws",
         "ffxv_tenebrae",
@@ -317,6 +334,9 @@
         }
       ],
       "musicList": [
+        "ffxv_rrpensive",
+        "ffxv_horizon",
+        "ffxv_jazzmedley",
         "ffxv_somnusultima",
         "ffxv_sws",
         "ffxv_tenebrae",
@@ -345,6 +365,9 @@
         }
       ],
       "musicList": [
+        "ffxv_rrpensive",
+        "ffxv_horizon",
+        "ffxv_jazzmedley",
         "ffxv_somnusultima",
         "ffxv_sws",
         "ffxv_tenebrae",
@@ -1311,6 +1334,101 @@
         "fewarriors_medley"
       ],
       "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "bayo",
+      "projectName": "Bayonetta",
+      "projectType": "Game",
+      "imageSrc": "Bayonetta",
+      "seriesID": "bayo",
+      "platformIDs": [
+        {
+          "platform": "ps3",
+          "releaseDate": "2010-01-08"
+        },
+        {
+          "platform": "xbox360",
+          "releaseDate": "2010-01-08"
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2017-04-11"
+        }
+      ],
+      "musicList": [
+        "bayo_ldb"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "bayo_nint",
+      "projectName": "Bayonetta",
+      "projectType": "Game",
+      "imageSrc": "BayonettaSwitch",
+      "seriesID": "bayo",
+      "platformIDs": [
+        {
+          "platform": "wiiu",
+          "releaseDate": "2014-10-24"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2018-02-16"
+        }
+      ],
+      "musicList": [
+        "bayo_ldb"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "bayo_gen8",
+      "projectName": "Bayonetta",
+      "projectType": "Game",
+      "imageSrc": "BayonettaPS4",
+      "seriesID": "bayo",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2020-02-18"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2020-02-18"
+        }
+      ],
+      "musicList": [
+        "bayo_ldb"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "bayo_vanquish",
+      "projectName": "Bayonetta & Vanquish 10th Anniversary Bundle",
+      "projectType": "Collection",
+      "imageSrc": "BayonettaVanquish",
+      "seriesID": "bayo",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2020-02-18"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2020-02-18"
+        }
+      ],
+      "musicList": [
+        "bayo_ldb"
+      ],
+      "collectionItems": [
+        "Bayonetta",
+        "Vanquish"
+      ],
       "description": ""
     }
   ]
