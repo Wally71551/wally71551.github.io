@@ -64,12 +64,13 @@
         }
       ],
       "musicList": [
-        "botw_sidon",
-        "botw_ritovillage_n",
-        "botw_urbosa",
+        "botw_tower_lake",
         "botw_hfield_d",
-        "botw_tower_lake"
-      ]
+        "botw_urbosa",
+        "botw_ritovillage_n",
+        "botw_sidon"
+      ],
+      "description": ""
     },
     {
       "projectID": "botw",
@@ -88,12 +89,13 @@
         }
       ],
       "musicList": [
-        "botw_sidon",
-        "botw_ritovillage_n",
-        "botw_urbosa",
+        "botw_tower_lake",
         "botw_hfield_d",
-        "botw_tower_lake"
-      ]
+        "botw_urbosa",
+        "botw_ritovillage_n",
+        "botw_sidon"
+      ],
+      "description": ""
     },
     {
       "projectID": "sm64",
@@ -140,8 +142,8 @@
         }
       ],
       "musicList": [
-        "sm64_ultkoopa",
-        "smg_ggg_8bit"
+        "smg_ggg_8bit",
+        "sm64_ultkoopa"
       ],
       "collectionItems": [
         "Super Mario 64",
@@ -223,11 +225,11 @@
         }
       ],
       "musicList": [
-        "ffxv_nox",
-        "ffxv_nox_8bit",
-        "ffxv_tenebrae",
+        "ffxv_somnusultima",
         "ffxv_sws",
-        "ffxv_somnusultima"
+        "ffxv_tenebrae",
+        "ffxv_nox_8bit",
+        "ffxv_nox"
       ]
     },
     {
@@ -247,11 +249,11 @@
         }
       ],
       "musicList": [
-        "ffxv_nox",
-        "ffxv_nox_8bit",
-        "ffxv_tenebrae",
+        "ffxv_somnusultima",
         "ffxv_sws",
-        "ffxv_somnusultima"
+        "ffxv_tenebrae",
+        "ffxv_nox_8bit",
+        "ffxv_nox"
       ]
     },
     {
@@ -267,11 +269,11 @@
         }
       ],
       "musicList": [
-        "ffxv_nox",
-        "ffxv_nox_8bit",
-        "ffxv_tenebrae",
+        "ffxv_somnusultima",
         "ffxv_sws",
-        "ffxv_somnusultima"
+        "ffxv_tenebrae",
+        "ffxv_nox_8bit",
+        "ffxv_nox"
       ]
     },
     {
@@ -287,11 +289,11 @@
         }
       ],
       "musicList": [
-        "ffxv_nox",
-        "ffxv_nox_8bit",
-        "ffxv_tenebrae",
+        "ffxv_somnusultima",
         "ffxv_sws",
-        "ffxv_somnusultima"
+        "ffxv_tenebrae",
+        "ffxv_nox_8bit",
+        "ffxv_nox"
       ]
     },
     {
@@ -315,11 +317,11 @@
         }
       ],
       "musicList": [
-        "ffxv_nox",
-        "ffxv_nox_8bit",
-        "ffxv_tenebrae",
+        "ffxv_somnusultima",
         "ffxv_sws",
-        "ffxv_somnusultima"
+        "ffxv_tenebrae",
+        "ffxv_nox_8bit",
+        "ffxv_nox"
       ]
     },
     {
@@ -343,11 +345,11 @@
         }
       ],
       "musicList": [
-        "ffxv_nox",
-        "ffxv_nox_8bit",
-        "ffxv_tenebrae",
+        "ffxv_somnusultima",
         "ffxv_sws",
-        "ffxv_somnusultima"
+        "ffxv_tenebrae",
+        "ffxv_nox_8bit",
+        "ffxv_nox"
       ]
     },
     {
@@ -523,8 +525,8 @@
         }
       ],
       "musicList": [
-        "hgss_arceus",
-        "gs_azalea"
+        "gs_azalea",
+        "hgss_arceus"
       ]
     },
     {
@@ -540,8 +542,8 @@
         }
       ],
       "musicList": [
-        "hgss_arceus",
-        "gs_azalea"
+        "gs_azalea",
+        "hgss_arceus"
       ]
     },
     {
@@ -745,8 +747,8 @@
         }
       ],
       "musicList": [
-        "sm_po",
-        "usum_vpc"
+        "usum_vpc",
+        "sm_po"
       ]
     },
     {
@@ -762,8 +764,8 @@
         }
       ],
       "musicList": [
-        "sm_po",
-        "usum_vpc"
+        "usum_vpc",
+        "sm_po"
       ]
     },
     {
@@ -779,8 +781,8 @@
         }
       ],
       "musicList": [
-        "sm_po",
-        "usum_vpc"
+        "usum_vpc",
+        "sm_po"
       ]
     },
     {
@@ -796,8 +798,8 @@
         }
       ],
       "musicList": [
-        "sm_po",
-        "usum_vpc"
+        "usum_vpc",
+        "sm_po"
       ]
     },
     {
@@ -1059,8 +1061,8 @@
         }
       ],
       "musicList": [
-        "cuphead_funfair",
-        "cuphead_iio"
+        "cuphead_iio",
+        "cuphead_funfair"
       ],
       "collectionItems": []
     },
@@ -1077,8 +1079,8 @@
         }
       ],
       "musicList": [
-        "smo_main",
-        "smo_juss"
+        "smo_juss",
+        "smo_main"
       ],
       "collectionItems": []
     },
@@ -1233,8 +1235,8 @@
         }
       ],
       "musicList": [
-        "xc2_eotbs",
-        "xc2_elpys"
+        "xc2_elpys",
+        "xc2_eotbs"
       ],
       "collectionItems": []
     },
