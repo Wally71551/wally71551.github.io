@@ -200,6 +200,12 @@ function ShowProjectDetails(clickedElement, gridContainer)
     }
     else
     {
+        //Change header text if needed
+        if(projectData.projectType == "DLC")
+        {
+            panel.querySelector('.project-collection-header').textContent = "Base Game";
+        }
+
         let listElement = panel.querySelector('.project-collection-list');
         projectData.collectionItems.forEach(collectionItem => {
             let element = document.createElement("h4");
