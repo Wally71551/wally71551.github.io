@@ -87,6 +87,11 @@
       "seriesID": "bayo",
       "seriesName": "Bayonetta",
       "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "acreed",
+      "seriesName": "Assassin's Creed",
+      "seriesImageSrc": ""
     }
   ]
 }

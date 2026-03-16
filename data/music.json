@@ -1272,6 +1272,1167 @@
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 39,
       "description": "When arranging this track, I went for a jazz style mixed with orchestral elements, heavily leaning towards the brass and strings instrumentation the original game makes use of. This represents the in-your-face nature of <em>Bayonetta</em>. The use of orchestral percussion for sections creates a larger, more orchestral vibe and also adds a sense of grandeur to the track, especially with crash cymbals and timpani to push the beat along."
+    },
+    {
+      "musicID": "botw_rhoam",
+      "musicName": "King Rhoam's Theme",
+      "projectID": "botw",
+      "seriesID": "loz",
+      "releaseDate": "2018-03-03",
+      "trackArranger": "Wally71551",
+      "composer": "Manaka Kataoka",
+      "artists": [
+        {
+          "header": "Parting Ways (from <em>The Legend of Zelda: The Wind Waker</em>) Composer",
+          "artistName": "Kenta Nagata, Hajime Wakai, Koji Kondo"
+        },
+        {
+          "header": "Hyrule Castle (from <em>The Legend of Zelda: A Link to the Past</em>) Composer",
+          "artistName": "Koji Kondo"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "The-Real-Link",
+          "url": ""
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "The Old Man's Secret",
+          "project": "The Legend of Zelda: Breath of the Wild",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/N85eCctrYGc",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 40,
+      "description": "Made for the 1 year anniversary of <em>The Legend of Zelda: Breath of the Wild</em> and the Nintendo Switch.\n\nDue to the tragic nature of King Rhoam's life, I kept the arrangement fairly light. I put the focus on piano and music box, because the piano is an instrument prominent in the Breath of the Wild soundtrack, and Music Box because it adds a melancholic, distant and reflective tone to the piece, representing how King Rhoam is a spirit after dying 100 years ago.\n\nKing Rhoam's theme in the game is based around the piece 'Parting Ways' from <em>The Legend of Zelda: The Wind Waker</em>, as that piece plays as the King of Hyrule sacrifices himself to stop Ganondorf. I used this piece as a basis, using it to deviate away from what the Breath of the Wild track does and add a distinct tone to my arrangement."
+    },
+    {
+      "musicID": "ffxv_nyx",
+      "musicName": "Nyx (Kingsglaive)",
+      "projectID": "kingsglaive",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-04",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Yoshitaka Suzuki, John Graham"
+        },
+        {
+          "header": "Orchestrator",
+          "artistName": "John Graham"
+        },
+        {
+          "header": "Vocal",
+          "artistName": "Maiko Horisawa"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Samuel Fu",
+          "url": "https://media.wix.com/ugd/b3036c_65b70a9bcc0e45a58b438c0605e36cf3.pdf"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "NYX",
+          "project": "KINGSGLAIVE FINAL FANTASY XV",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/ZaQetOyLuIU",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 41,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nThis is a project I've been working on for a while, and had on the backburner for a couple of months. When I came up with the idea of FINAL FANTASY XV Royal Week, I decided this would be a good place to start. I used synths to represent the moody atmosphere and overall tone of the film, as well as solitary instruments to represent how isolated the main character of Nyx is throughout quite a lot of Kingsglaive, having to escort Lunafreya out of the city with no help. The orchestral section makes use of horns and strings to create an epic feel, much like the action and overall score of Kingsglaive, which then fades back down again to solitary piano with synth backing, symbolizing Nyx's fate in the film."
+    },
+    {
+      "musicID": "ffxv_promptodarkness",
+      "musicName": "Ardyn III",
+      "projectID": "ffxv_prompto",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-05",
+      "trackArranger": "Wally71551",
+      "composer": "",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoshitaka Suzuki"
+        },
+        {
+          "header": "ARDYN II (from <em>FINAL FANTASY XV</em>) Composer",
+          "artistName": "Yoko Shimomura"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Beckoned by Darkness",
+          "project": "FINAL FANTASY XV: EPISODE PROMPTO",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/BIUGp6apl50",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 42,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV WINDOWS EDITION</em> on 6th March 2018.\n\nThe track makes use of heavy synthesized and bass elements to create an atmosphere such as that in the music of <em>EPISODE PROMPTO</em>. The track's mix of acoustic and electronic elements helps to add its own feel, which is also used throughout <em>EPISODE PROMPTO</em>.\n\nI used different effects to portray the crazed, strange nature of ARDYN such as bending the pitch of the melody and changing the instrumentation constantly throughout the track. I felt this was necessary as Ardyn's strangeness is a large part of his character, so I also made use of different instruments that are not normally used together. The use of Erhu represents the sound that is created in ARDYN, the piano and string section as well as other orchestral elements represents ARDYN II, III and the game as a whole, with the electronic elements symbolizing the sound of the <em>EPISODE PROMPTO</em> soundtrack. Finally, the use of organ represents ARDYN III from the <em>EPISODE IGNIS</em> soundtrack."
+    },
+    {
+      "musicID": "ffxv_luna",
+      "musicName": "Luna",
+      "projectID": "ff15r",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-05",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Lunar Black",
+          "url": "https://www.youtube.com/watch?v=dLL4kSLRAE8"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "LUNA",
+          "project": "FINAL FANATSY XV",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/juJOXxXPtXY",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 43,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nIn the track, I make use of lighter instrumentation to complement the tone of the piece. While there are builds, falls and changes in dynamics the arrangement always goes back to a quieter sound to represent Luna as a character and her fate. I use the instrument Celesta to add a melancholic feel, with strings playing tremolo quietly as accompaniment, helping to build the tone and atmosphere that surrounds the track.\n\nI composed new sections to complement the piece, using parts of the medley to show the other side to Luna, a happy girl bound by her fate. I also make use of 'Song of the Stars', which also represents Luna as a whole in the soundtrack of the game."
+    },
+    {
+      "musicID": "ffxvr_medley",
+      "musicName": "FINAL FANTASY XV ROYAL EDITION Mega Medley",
+      "projectID": "ff15r",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-06",
+      "trackArranger": "Wally71551",
+      "composer": "",
+      "artists": [],
+      "transcription": [],
+      "musicType": "Medley",
+      "linkedTracks": [
+        {
+          "name": "Somnus",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Kaoru Wada",
+              "URL": ""
+            },
+            {
+              "header": "Vocal",
+              "artistName": "Aundréa L. Hopkins",
+              "URL": ""
+            },
+            {
+              "header": "Lyricist",
+              "artistName": "Tetsuya Nomura, Taro Yamashita, Kazuhiro Komiya",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras, Tokon, SWZala",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Departure",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura, Yoshitaka Suzuki",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Yoshitaka Suzuki, John Graham",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Wanderlust",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura, Yoshitaka Suzuki",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoshitaka Suzuki",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "Prologue",
+          "project": "KINGSGLAIVE FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoshitaka Suzuki, John Graham",
+              "URL": ""
+            },
+            {
+              "header": "Orchestrator",
+              "artistName": "John Graham, J. Eric Schmidt",
+              "URL": ""
+            },
+            {
+              "header": "Vocal",
+              "artistName": "Eri Unoki, Kaoru Kubota",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Stand Your Ground",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoshitaka Suzuki",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Mark Andrews",
+              "URL": "https://drive.google.com/file/d/1PwmhkbOQa9AV6trKLqlikoVCps0J3IKi/view"
+            }
+          ]
+        },
+        {
+          "name": "Rodeo de Chocobo",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Mitsuhiro Ohta",
+              "URL": ""
+            },
+            {
+              "header": "Chocobo-chocobo (from <em>FINAL FANTASY IV</em>) Composer",
+              "artistName": "Nobuo Uematsu",
+              "URL": ""
+            },
+            {
+              "header": "Chocobo-chocobo (from <em>FINAL FANTASY IV</em>) Transcriber",
+              "artistName": "Nintendude73",
+              "URL": "https://www.ninsheetmusic.org/download/pdf/1776"
+            }
+          ]
+        },
+        {
+          "name": "Horizon",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "NOX AETERNA",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Melancholia",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "p0chacco",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "NYX",
+          "project": "KINGSGLAIVE FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Yoshitaka Suzuki, John Graham",
+              "URL": ""
+            },
+            {
+              "header": "Orchestrator",
+              "artistName": "John Graham",
+              "URL": ""
+            },
+            {
+              "header": "Vocal",
+              "artistName": "Maiko Horisawa",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Samuel Fu",
+              "URL": "https://media.wix.com/ugd/b3036c_65b70a9bcc0e45a58b438c0605e36cf3.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Sunset Waltz",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoshitaka Suzuki",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Oden_Tones (Thomas Odenheimer)",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Relax and Reflect",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Mitsuhiro Ohta",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "A New Stage",
+          "project": "KING’S KNIGHT –Wrath of the Dark Dragon–",
+          "artists": [
+            {
+              "header": "KING'S KNIGHT Composer",
+              "artistName": "Nobuo Uematsu",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "Cosmogony",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Moogle Chocobo Carnival!",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Chocobo-chocobo (from <em>FINAL FANTASY IV</em>) Composer",
+              "artistName": "Nobuo Uematsu",
+              "URL": ""
+            },
+            {
+              "header": "Chocobo-chocobo (from <em>FINAL FANTASY IV</em>) Transcriber",
+              "artistName": "Nintendude73",
+              "URL": "https://www.ninsheetmusic.org/download/pdf/1776"
+            }
+          ]
+        },
+        {
+          "name": "Assassin's Creed Origins Main Theme",
+          "project": "Assassin's Creed Origins",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Sarah Schachner",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Julie Tetreault / ravenclaw_dragonchild",
+              "URL": "https://musescore.com/user/28046/scores/4783346"
+            }
+          ]
+        },
+        {
+          "name": "Assassin's Festival",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Mitsuhiro Ohta",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "Winds of Change",
+          "project": "BROTHERHOOD FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Susumu Akizuki",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Tina B.",
+              "URL": "https://www.dropbox.com/scl/fi/3ircugq5b895jblg43p3v/Winds-of-Change-FFXV-Tina-B.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Up for the Challenge",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "LUNA",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Lunar Black",
+              "URL": "https://www.youtube.com/watch?v=dLL4kSLRAE8"
+            }
+          ]
+        },
+        {
+          "name": "APOCALYPSIS NOCTIS",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Sachiko Miyano",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Song of the Stars",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, John Graham",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Veiled in Black",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "SCENDO",
+              "URL": "https://www.youtube.com/watch?v=fX7c8uQWndU"
+            }
+          ]
+        },
+        {
+          "name": "Dining Car",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Tetsuya Shibata",
+              "URL": ""
+            },
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Tenebrae",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Yoshino Aoki",
+              "URL": ""
+            },
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Relax and Reflect - Pensive",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Tetsuya Shibata",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Sorrow Without Solace",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "ARDYN II",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "RAVUS AETERNA",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Yoshitaka Suzuki",
+              "URL": ""
+            },
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Battle on the Big Bridge (EPISODE GLADIOLUS Version)",
+          "project": "FINAL FANTASY XV: EPISODE GLADIOLUS",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Keiichi Okabe",
+              "URL": ""
+            },
+            {
+              "header": "Battle at the Big Bridge (from <em>FINAL FANTASY V</em>) Composer",
+              "artistName": "Nobuo Uematsu",
+              "URL": ""
+            },
+            {
+              "header": "Battle at the Big Bridge (from <em>FINAL FANTASY V</em>) Transcriber",
+              "artistName": "Static",
+              "URL": "https://www.ninsheetmusic.org/download/pdf/1439"
+            }
+          ]
+        },
+        {
+          "name": "Home Sweet Home - Theme of EPISODE PROMPTO",
+          "project": "FINAL FANTASY XV: EPISODE PROMPTO",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Naoshi Mizuta",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Yagawa",
+              "URL": "https://musescore.com/user/26811925/scores/4791599"
+            }
+          ]
+        },
+        {
+          "name": "EPISODE IGNIS - The Main Theme",
+          "project": "FINAL FANTASY XV: EPISODE IGNIS",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yasunori Mitsuda",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Mariam Abounnasr",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Iluvanime",
+              "URL": "https://musescore.com/user/10513861/scores/4946605"
+            }
+          ]
+        },
+        {
+          "name": "Solidarity",
+          "project": "BROTHERHOOD FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yasuhisa Inoue",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Anima Studio Productions",
+              "URL": "https://www.youtube.com/watch?v=Tpppf7cWAf4"
+            }
+          ]
+        },
+        {
+          "name": "Stand By Me",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Florence + The Machine",
+              "URL": ""
+            },
+            {
+              "header": "Composer",
+              "artistName": "Ben E. King, Mike Stoller",
+              "URL": ""
+            },
+            {
+              "header": "Lyricist",
+              "artistName": "Ben E. King, Jerry Leiber",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Zelxian",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Disquiet",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura, Nobuo Uematsu",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "p0chacco",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "OMNIS LACRIMA",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Kaoru Wada, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "R.K.",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "NOCTIS",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Tokon",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Hellfire",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura, Yoshitaka Suzuki",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoshitaka Suzuki",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Magna Insomnia",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Dawn",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "John Graham",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Somnus Ultima",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        },
+        {
+          "name": "Main Theme from FINAL FANTASY",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            },
+            {
+              "header": "Composer",
+              "artistName": "Nobuo Uematsu",
+              "URL": ""
+            },
+            {
+              "header": "Transcriber",
+              "artistName": "Alistair Mithras",
+              "URL": "https://ichigos.com/sheets/814"
+            }
+          ]
+        }
+      ],
+      "youtubeLink": "https://youtu.be/h44yht7zUes",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 44,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nThe behemoth of FINAL FANTASY XV Royal Week, slain. This mega medley was insanely fun to do and also gave me a retrospective look back at the game as a whole, while also providing be to add a symphonic take to the entire soundtrack. I tried to include as many properties that are in the <em>FINAL FANTASY XV UNIVERSE</em>, regrettably due to time constraints I had to omit <em>FINAL FANTASY XV MULTIPLAYER EXPANSION: COMRADES</em> from the lineup.\n\nI split the mega medley up into 11 distinct sections, with the first being repeated at the end. These sections often include running thematic choices to help give the medley a sense of cohesion, and often relate to the part of the story that it is focused on.\n\nI hope you enjoy this mega medley as much as I enjoyed making it.\n\nSpecial thanks to Alistair Mithras! Their transcriptions of many parts of the <em>FINAL FANTASY XV Original Soundtrack</em> contributed massively to the mega medley and it could not have been put together without their transcriptions and sheet music."
+    },
+    {
+      "musicID": "ffxv_sws2",
+      "musicName": "Sorrow Without Solace v2",
+      "projectID": "ff15w",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-07",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/72s9JMyeSKw",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 45,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV WINDOWS EDITION</em> on 6th March 2018.\n\nThis piece makes use of the organ, an instrument associated with the character of Ardyn, highlighting the cause of Noctis' sorrows throughout the game. This instrument also has connotations of pain and suffering, so works well with the tone of the track.\n\nThe arrangement stays light throughout, focusing on solo wind instruments and strings to show the isolation of the characters in the stage of the game where this track plays, and also further builds the atmosphere of the piece as a whole."
+    },
+    {
+      "musicID": "ffxv_ravus",
+      "musicName": "Ravus Aeterna",
+      "projectID": "ff15r",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-07",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoshitaka Suzuki"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "RAVUS AETERNA",
+          "project": "FINAL FANTASY XV",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/A1wMYHeKAb8",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 46,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV ROYAL EDITION</em> on 6th March 2018.\n\nIn this piece, I use a mixture of synthesised and acoustic sounds, much like the original track, to portray the atmosphere and context of the fight. The use of theremin shows the alien threat that the Starscourge and daemon holds."
+    },
+    {
+      "musicID": "ffxv_rarpiano",
+      "musicName": "Relax and Reflect ~ A Fading Summer's Eve",
+      "projectID": "ff15w",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-08",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Iga Takuro"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "A Fading Summer's Eve -Relax and Reflect-",
+          "project": "FINAL FANTASY XV",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/4jTDNL3ZBgI",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 47,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV WINDOWS EDITION</em> on 6th March 2018.\n\nBased on the Piano Collections version of the track, the track makes use of lots of solo piano as well as electric piano. I used part of the Mega Medley as a basis, reorchestrating elements to fit better with the new piece. Light percussion is used throughout to give pace to certain parts.\n\nUsing solo woodwind instruments and quiet string accompaniment allows the track to retain its relaxing feel while still having the grand scale of an orchestral piece."
+    },
+    {
+      "musicID": "ffxv_wanderlust",
+      "musicName": "Wanderlust",
+      "projectID": "ff15r",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-08",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura, Yoshitaka Suzuki",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoshitaka Suzuki"
+        }
+      ],
+      "transcription": [],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/aoHgVRrPm5k",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 48,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV ROYAL EDITION</em> on 6th March 2018.\n\nWhen creating this arrangement, I kept intact the woodwind solo by using an ocarina, creating a sense of a grand adventure in the world. I also made use of orchestral elements to give the grand feel similar to the grand scale of the world of Eos."
     }
   ]
 }
