@@ -51,7 +51,16 @@
         "ffxv_jazzmedley",
         "ffxv_horizon",
         "ffxv_rrpensive",
-        "bayo_ldb"
+        "bayo_ldb",
+        "botw_rhoam",
+        "ffxv_nyx",
+        "ffxv_promptodarkness",
+        "ffxv_luna",
+        "ffxvr_medley",
+        "ffxv_sws2",
+        "ffxv_ravus",
+        "ffxv_rarpiano",
+        "ffxv_wanderlust"
       ],
       "description": "An album collection of all the tracks made and released between 2017-2019."
     },
@@ -68,6 +77,7 @@
         }
       ],
       "musicList": [
+        "botw_rhoam",
         "botw_tower_lake",
         "botw_hfield_d",
         "botw_urbosa",
@@ -93,6 +103,7 @@
         }
       ],
       "musicList": [
+        "botw_rhoam",
         "botw_tower_lake",
         "botw_hfield_d",
         "botw_urbosa",
@@ -229,6 +240,12 @@
         }
       ],
       "musicList": [
+        "ffxv_wanderlust",
+        "ffxv_rarpiano",
+        "ffxv_ravus",
+        "ffxv_sws2",
+        "ffxvr_medley",
+        "ffxv_luna",
         "ffxv_rrpensive",
         "ffxv_horizon",
         "ffxv_jazzmedley",
@@ -257,6 +274,13 @@
         }
       ],
       "musicList": [
+        "ffxv_wanderlust",
+        "ffxv_rarpiano",
+        "ffxv_ravus",
+        "ffxv_sws2",
+        "ffxvr_medley",
+        "ffxv_luna",
+        "ffxv_promptodarkness",
         "ffxv_rrpensive",
         "ffxv_horizon",
         "ffxv_jazzmedley",
@@ -265,7 +289,8 @@
         "ffxv_tenebrae",
         "ffxv_nox_8bit",
         "ffxv_nox"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "ff15stadia",
@@ -280,6 +305,13 @@
         }
       ],
       "musicList": [
+        "ffxv_wanderlust",
+        "ffxv_rarpiano",
+        "ffxv_ravus",
+        "ffxv_sws2",
+        "ffxvr_medley",
+        "ffxv_luna",
+        "ffxv_promptodarkness",
         "ffxv_rrpensive",
         "ffxv_horizon",
         "ffxv_jazzmedley",
@@ -288,7 +320,8 @@
         "ffxv_tenebrae",
         "ffxv_nox_8bit",
         "ffxv_nox"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "ff15w",
@@ -303,6 +336,13 @@
         }
       ],
       "musicList": [
+        "ffxv_wanderlust",
+        "ffxv_rarpiano",
+        "ffxv_ravus",
+        "ffxv_sws2",
+        "ffxvr_medley",
+        "ffxv_luna",
+        "ffxv_promptodarkness",
         "ffxv_rrpensive",
         "ffxv_horizon",
         "ffxv_jazzmedley",
@@ -311,7 +351,8 @@
         "ffxv_tenebrae",
         "ffxv_nox_8bit",
         "ffxv_nox"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "ff15pe",
@@ -334,6 +375,12 @@
         }
       ],
       "musicList": [
+        "ffxv_wanderlust",
+        "ffxv_rarpiano",
+        "ffxv_ravus",
+        "ffxv_sws2",
+        "ffxvr_medley",
+        "ffxv_luna",
         "ffxv_rrpensive",
         "ffxv_horizon",
         "ffxv_jazzmedley",
@@ -365,6 +412,12 @@
         }
       ],
       "musicList": [
+        "ffxv_wanderlust",
+        "ffxv_rarpiano",
+        "ffxv_ravus",
+        "ffxv_sws2",
+        "ffxvr_medley",
+        "ffxv_luna",
         "ffxv_rrpensive",
         "ffxv_horizon",
         "ffxv_jazzmedley",
@@ -890,6 +943,7 @@
         }
       ],
       "musicList": [
+        "ffxvr_medley",
         "ffxv_solidarity"
       ]
     },
@@ -1129,23 +1183,11 @@
         {
           "platform": "stadia",
           "releaseDate": "2020-08-19"
-        }
-      ],
-      "musicList": [
-        "doom_adg"
-      ],
-      "collectionItems": []
-    },
-    {
-      "projectID": "doom_switch",
-      "projectName": "DOOM",
-      "projectType": "Game",
-      "imageSrc": "DOOM_Switch",
-      "seriesID": "doom",
-      "platformIDs": [
+        },
         {
           "platform": "ns1",
-          "releaseDate": "2017-11-10"
+          "releaseDate": "2017-11-10",
+          "overrideImage": "DOOM_Switch"
         }
       ],
       "musicList": [
@@ -1192,37 +1234,28 @@
         {
           "platform": "ns1",
           "releaseDate": "2017-11-14"
-        }
-      ],
-      "musicList": [
-        "la_noire_main"
-      ],
-      "collectionItems": []
-    },
-    {
-      "projectID": "la_noire_gen7",
-      "projectName": "L.A. Noire",
-      "projectType": "Game",
-      "imageSrc": "la_noire_gen7",
-      "seriesID": "la_noire",
-      "platformIDs": [
+        },
         {
           "platform": "ps3",
-          "releaseDate": "2011-05-20"
+          "releaseDate": "2011-05-20",
+          "overrideImage": "la_noire_gen7"
         },
         {
           "platform": "xbox360",
-          "releaseDate": "2011-05-20"
+          "releaseDate": "2011-05-20",
+          "overrideImage": "la_noire_gen7"
         },
         {
           "platform": "pc",
-          "releaseDate": "2011-11-11"
+          "releaseDate": "2011-11-11",
+          "overrideImage": "la_noire_gen7"
         }
       ],
       "musicList": [
         "la_noire_main"
       ],
-      "collectionItems": []
+      "collectionItems": [],
+      "description": ""
     },
     {
       "projectID": "la_noire_vr",
@@ -1345,59 +1378,38 @@
       "platformIDs": [
         {
           "platform": "ps3",
-          "releaseDate": "2010-01-08"
+          "releaseDate": "2010-01-08",
+          "overrideImage": ""
         },
         {
           "platform": "xbox360",
-          "releaseDate": "2010-01-08"
+          "releaseDate": "2010-01-08",
+          "overrideImage": ""
         },
         {
           "platform": "pc",
-          "releaseDate": "2017-04-11"
-        }
-      ],
-      "musicList": [
-        "bayo_ldb"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "bayo_nint",
-      "projectName": "Bayonetta",
-      "projectType": "Game",
-      "imageSrc": "BayonettaSwitch",
-      "seriesID": "bayo",
-      "platformIDs": [
+          "releaseDate": "2017-04-11",
+          "overrideImage": ""
+        },
         {
           "platform": "wiiu",
-          "releaseDate": "2014-10-24"
+          "releaseDate": "2014-10-24",
+          "overrideImage": "BayonettaSwitch"
         },
         {
           "platform": "ns1",
-          "releaseDate": "2018-02-16"
-        }
-      ],
-      "musicList": [
-        "bayo_ldb"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "bayo_gen8",
-      "projectName": "Bayonetta",
-      "projectType": "Game",
-      "imageSrc": "BayonettaPS4",
-      "seriesID": "bayo",
-      "platformIDs": [
+          "releaseDate": "2018-02-16",
+          "overrideImage": "BayonettaSwitch"
+        },
         {
           "platform": "ps4",
-          "releaseDate": "2020-02-18"
+          "releaseDate": "2020-02-18",
+          "overrideImage": "BayonettaPS4"
         },
         {
           "platform": "xbox1",
-          "releaseDate": "2020-02-18"
+          "releaseDate": "2020-02-18",
+          "overrideImage": "BayonettaPS4"
         }
       ],
       "musicList": [
@@ -1429,6 +1441,164 @@
         "Bayonetta",
         "Vanquish"
       ],
+      "description": ""
+    },
+    {
+      "projectID": "kingsglaive",
+      "projectName": "KINGSGLAIVE FINAL FANTASY XV",
+      "projectType": "Film",
+      "imageSrc": "FFXVKingsglaive",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "film",
+          "releaseDate": "2016-08-23",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ffxvr_medley",
+        "ffxv_luna",
+        "ffxv_nyx"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "ffxv_prompto",
+      "projectName": "FINAL FANTASY XV: EPISODE PROMPTO",
+      "projectType": "DLC",
+      "imageSrc": "FFXVPrompto",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2017-06-27",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-06-27",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ffxvr_medley",
+        "ffxv_promptodarkness"
+      ],
+      "collectionItems": [
+        "FINAL FANTASY XV"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "ffxv_gladiolus",
+      "projectName": "FINAL FANTASY XV: EPISODE GLADIOLUS",
+      "projectType": "DLC",
+      "imageSrc": "FFXVGladiolus",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2017-03-28",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-03-28",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ffxvr_medley"
+      ],
+      "collectionItems": [
+        "FINAL FANTASY XV"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "ffxv_ignis",
+      "projectName": "FINAL FANTASY XV: EPISODE IGNIS",
+      "projectType": "DLC",
+      "imageSrc": "FFXVIgnis",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2017-12-13",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-12-13",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ffxvr_medley"
+      ],
+      "collectionItems": [
+        "FINAL FANTASY XV"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kingsknight",
+      "projectName": "KING’S KNIGHT –Wrath of the Dark Dragon–",
+      "projectType": "Game",
+      "imageSrc": "KK_WotDD",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "ios",
+          "releaseDate": "2017-09-13",
+          "overrideImage": ""
+        },
+        {
+          "platform": "android",
+          "releaseDate": "2017-09-12",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ffxvr_medley"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "ac_origins",
+      "projectName": "Assassin's Creed Origins",
+      "projectType": "Game",
+      "imageSrc": "ACOrigins",
+      "seriesID": "acreed",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2017-10-27",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-10-27",
+          "overrideImage": ""
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2017-10-27",
+          "overrideImage": ""
+        },
+        {
+          "platform": "stadia",
+          "releaseDate": "2020-12-15",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ffxvr_medley"
+      ],
+      "collectionItems": [],
       "description": ""
     }
   ]
