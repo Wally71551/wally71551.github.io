@@ -92,6 +92,31 @@
       "seriesID": "acreed",
       "seriesName": "Assassin's Creed",
       "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "seaofthieves",
+      "seriesName": "Sea of Thieves",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "minecraft",
+      "seriesName": "Minecraft",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "fortnite",
+      "seriesName": "Fortnite",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "marvel",
+      "seriesName": "Marvel",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "kh",
+      "seriesName": "KINGDOM HEARTS",
+      "seriesImageSrc": ""
     }
   ]
 }

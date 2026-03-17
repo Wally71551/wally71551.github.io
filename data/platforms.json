@@ -11,6 +11,16 @@
       "platformImageSrc": "NS2"
     },
     {
+      "platformID": "ps5",
+      "platformName": "PlayStation 5",
+      "platformImageSrc": "PS5"
+    },
+    {
+      "platformID": "xboxseries",
+      "platformName": "Xbox Series X|S",
+      "platformImageSrc": "XboxSeries"
+    },
+    {
       "platformID": "ns1",
       "platformName": "Nintendo Switch",
       "platformImageSrc": "NS1"
@@ -66,9 +76,19 @@
       "platformImageSrc": "NDS"
     },
     {
+      "platformID": "gamecube",
+      "platformName": "Nintendo GameCube",
+      "platformImageSrc": "gc"
+    },
+    {
       "platformID": "gba",
       "platformName": "Game Boy Advance",
       "platformImageSrc": "GBA"
+    },
+    {
+      "platformID": "ps2",
+      "platformName": "PlayStation 2",
+      "platformImageSrc": "PS2"
     },
     {
       "platformID": "gbc",
@@ -110,6 +130,11 @@
       "platformImageSrc": "iOS"
     },
     {
+      "platformID": "arcade",
+      "platformName": "Arcade",
+      "platformImageSrc": "Arcade"
+    },
+    {
       "platformID": "mac",
       "platformName": "macOS",
       "platformImageSrc": "mac"
@@ -120,19 +145,34 @@
       "platformImageSrc": "linux"
     },
     {
-      "platformID": "arcade",
-      "platformName": "Arcade",
-      "platformImageSrc": "Arcade"
-    },
-    {
       "platformID": "stadia",
       "platformName": "Stadia",
       "platformImageSrc": "Stadia"
     },
     {
+      "platformID": "ipados",
+      "platformName": "iPadOS",
+      "platformImageSrc": "iPad"
+    },
+    {
+      "platformID": "tvos",
+      "platformName": "tvOS",
+      "platformImageSrc": "tvOS"
+    },
+    {
+      "platformID": "gearvr",
+      "platformName": "Gear VR",
+      "platformImageSrc": "GearVR"
+    },
+    {
       "platformID": "firetv",
       "platformName": "Amazon Fire TV",
       "platformImageSrc": "FireTV"
+    },
+    {
+      "platformID": "ique",
+      "platformName": "iQue Player",
+      "platformImageSrc": "iQue"
     }
   ]
 }

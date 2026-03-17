@@ -627,7 +627,7 @@
         }
       ],
       "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/LjPQu3K-dm4",
+      "youtubeLink": "https://youtu.be/ut4ApGtUnlw",
       "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 23,
@@ -2433,6 +2433,293 @@
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 48,
       "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV ROYAL EDITION</em> on 6th March 2018.\n\nWhen creating this arrangement, I kept intact the woodwind solo by using an ocarina, creating a sense of a grand adventure in the world. I also made use of orchestral elements to give the grand feel similar to the grand scale of the world of Eos."
+    },
+    {
+      "musicID": "ffxv_ufc_mm2",
+      "musicName": "Up For The Challenge Mega Man II Mix",
+      "projectID": "ff15w",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-09",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Up for the Challenge",
+          "project": "FINAL FANTASY XV",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/fcXZHYfHbBU",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 49,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV WINDOWS EDITION</em> on 6th March 2018.\n\nI decided to base the arrangement around the <em>Mega Man 2 style</em>, which in turn allowed me to limit myself to become more creative in my arrangement.\n\nBy imposing the limit of only being able to use 3 wave channels, a sample channel (for drums) and a noise channel (for cymbals), I had to express my creativity in different ways."
+    },
+    {
+      "musicID": "ffxv_promptohsh",
+      "musicName": "Home Sweet Home (Episode Prompto)",
+      "projectID": "ffxv_prompto",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-09",
+      "trackArranger": "Wally71551",
+      "composer": "Naoshi Mizuta",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Yagawa",
+          "url": "https://musescore.com/user/26811925/scores/4791599"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Home Sweet Home - Theme of EPISODE PROMPTO",
+          "project": "FINAL FANTASY XV: EPISODE PROMPTO",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/7jCKOZCY81o",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 50,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV ROYAL EDITION</em> on 6th March 2018.\n\nThe track makes use of lighter instrumentation, keeping a quiet nature throughout which helps to build up the piece later in the track. I make use of light theremin backing representing the synthesized nature of most of the <em>EPISODE PROMPTO</em> soundtrack while also predominantly featuring acoustic instruments."
+    },
+    {
+      "musicID": "ffxv_somnus",
+      "musicName": "Somnus",
+      "projectID": "ff15r",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-18",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Kaoru Wada"
+        },
+        {
+          "header": "Vocal",
+          "artistName": "Aundréa L. Hopkins"
+        },
+        {
+          "header": "Lyricist",
+          "artistName": "Tetsuya Nomura, Taro Yamashita, Kazuhiro Komiya"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "SWZala",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/qUxbghJllao",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 51,
+      "description": "This was a project I started many months ago, and finally got around to completing it. I merged parts of the piano arrangement into the main track, creating different textures throughout. In the track I build and build the instrumentation, coming to a head with a loud piano solo and then using a full orchestra before bringing the volume back down for the ending.\n\nThe use of piano as a featured instrument throughout the track because it is used throughout the game's soundtrack as a prominent instrument. This adds a stylistic choice from the game and helps relate my remix to the game's soundtrack."
+    },
+    {
+      "musicID": "sot_becalmed",
+      "musicName": "Becalmed",
+      "projectID": "seaofthieves",
+      "seriesID": "seaofthieves",
+      "releaseDate": "2018-03-20",
+      "trackArranger": "Wally71551",
+      "composer": "Robin Beanland",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Josh McGraw",
+          "url": "https://musescore.com/user/1133871/scores/4922324"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/aBy3MqrWe-4",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 52,
+      "description": "Made for the release of <em>Sea of Thieves</em> on Xbox One and Windows PC, on 20th March 2018.\n\nWhen I arranged this piece, I wanted to capture the multiple cultures that pirates would experience travelling the globe. I made use of instruments from different cultures, such as the concertina which is representative of the original game's soundtrack and other, eastern instruments such as the pipa and erhu. I also made use of an ocarina, which adds flair to the piece.\n\nI wanted to expand the orchestration of the track to express the grandeur of the open sea, so I made use of an orchestra, predominantly using strings to denote the huge expanses of water and horns to represent the pirates' nature."
+    },
+    {
+      "musicID": "ssbu_reveal",
+      "musicName": "Reveal Trailer Theme",
+      "projectID": "ssbu",
+      "seriesID": "ssb",
+      "releaseDate": "2018-03-22",
+      "trackArranger": "Wally71551",
+      "composer": "Hideki Sakamoto",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Latin American Wolf",
+          "url": "https://www.youtube.com/watch?v=zcQoOIYOP4M"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/R-vf2ExLQq0",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 53,
+      "description": "After watching the <em>Super Smash Bros. Switch</em> trailer, I wanted to recreate the theme in a way that shows the impending aspect of the trailer. I made use of synthesised elements as they are featured throughout the <em>Super Smash Bros.</em> soundtracks, but also made use of a large, symphonic orchestra to keep in line with how the trailer was portraying the newest installment in the series.\n\nI expanded on the original melody used as the backing for the trailer, to create a longer piece and build the intensity. I wrote a countermelody making use of motifs from <em>Super Smash Bros. Brawl</em> and <em>Super Smash Bros. Melee</em> as callbacks to the rest of the series, linking in this piece with previous iterations of the game."
+    },
+    {
+      "musicID": "mm_lastday",
+      "musicName": "Last Day",
+      "projectID": "mm",
+      "seriesID": "loz",
+      "releaseDate": "2018-03-25",
+      "trackArranger": "Wally71551",
+      "composer": "Koji Kondo",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "David Caldarella",
+          "url": "https://musescore.com/user/5988191/scores/2668196"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/yq5aaQXLxDs",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 54,
+      "description": "I made heavy use of strings and choral melodies throughout the piece, echoing the impending nature of the moon approaching the land of Termina. The constant use of the bell represents the impending destruction, and also represents the game having the bell ring out as the moon approaches. This bell is made more impending by being backed up using timpani and bass drum to build intensity in the piece. Ambience throughout represents how ruined the world of Termina will become and the tense atmosphere that is present on the last day."
+    },
+    {
+      "musicID": "mm_lastday8bit",
+      "musicName": "Last Day 8-Bit Orchestra",
+      "projectID": "mm",
+      "seriesID": "loz",
+      "releaseDate": "2018-04-01",
+      "trackArranger": "Wally71551",
+      "composer": "Koji Kondo",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "David Caldarella",
+          "url": "https://musescore.com/user/5988191/scores/2668196"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Last Day",
+          "project": "The Legend of Zelda: Majora's Mask",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/nWXRvf0495s",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 55,
+      "description": "8-Bit Arrangement of original remix made using GXSCC, using MuseScore's MIDI exporter."
+    },
+    {
+      "musicID": "mc_wethands",
+      "musicName": "Wet Hands",
+      "projectID": "minecraft",
+      "seriesID": "minecraft",
+      "releaseDate": "2018-04-12",
+      "trackArranger": "Wally71551",
+      "composer": "C418",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Torbjørn Brandrud",
+          "url": "https://pdfcoffee.com/wet-hands-minecraft-7-pdf-free.html"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/Echu-gdU8zA",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 56,
+      "description": "I made this arrangement for the 4th anniversary of my YouTube channel. Originally I created <em>Minecraft</em> Let's Play videos, eventually going to other games and then finally I refined my content and channel into what it is now.\n\nThe arrangement makes use of piano much like the original track, but uses tremolo string and electric bass backing. Percussion, wind and brass instruments all come in throughout the track, emulating the grand scale of a <em>Minecraft</em> world through orchestral instrumentals."
+    },
+    {
+      "musicID": "fortnite_menu",
+      "musicName": "Fortnite Menu Theme",
+      "projectID": "fortnite",
+      "seriesID": "fortnite",
+      "releaseDate": "2018-04-15",
+      "trackArranger": "Wally71551",
+      "composer": "Rom Di Prisco",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Amosdoll Music",
+          "url": "https://www.youtube.com/watch?v=u8rsnbLD3F4"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Lobby Classic",
+          "project": "Fortnite",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/241ojAErj8g",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 57,
+      "description": "When re-creating this theme, I wanted to recreate the original aspect of the theme in the game. It is short and looping, so I made use of a repeat and fade out to make it feel as if the track does not end, instead looping around and around.\n\nThe original track uses orchestral elements while having guitar as the featured instrument; with this arrangement I wanted to bring out the orchestral elements while still combining it with guitar and synth, which are used throughout. I make use of various percussion instruments to make the beat more interesting; the main melody stays the same throughout the track while countermelodies and percussive rhythms develop the track."
+    },
+    {
+      "musicID": "avengersiw_porch",
+      "musicName": "Porch",
+      "projectID": "avengers_iw",
+      "seriesID": "marvel",
+      "releaseDate": "2018-05-21",
+      "trackArranger": "Wally71551",
+      "composer": "Alan Silvestri",
+      "artists": [
+        {
+          "header": "Orchestrator",
+          "artistName": "Mark Graham"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Samuel Fu, RodgerC26",
+          "url": "https://musescore.com/rodgerc26/porch-infinity-war"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/D0rCWNcC18g",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 58,
+      "description": "The original version of the track plays at the end of the movie, when Thanos has become victorious over the Avengers. Half of all life has been wiped out of existence, and the Avengers have lost. Thanos sits on a porch, watching the sun rise over a balanced universe.\n\nThe track is tragic, with the melody swells adding to the emotion. I made use of different motifs from the <em>Marvel Cinematic Universe</em>, using harmony to create the idea of the heroes being defeated. Orchestral orchestration is used throughout; it represents the epic nature and grand scale of Thanos' victory."
     }
   ]
 }

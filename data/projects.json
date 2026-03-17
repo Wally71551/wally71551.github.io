@@ -60,7 +60,17 @@
         "ffxv_sws2",
         "ffxv_ravus",
         "ffxv_rarpiano",
-        "ffxv_wanderlust"
+        "ffxv_wanderlust",
+        "ffxv_ufc_mm2",
+        "ffxv_promptohsh",
+        "ffxv_somnus",
+        "sot_becalmed",
+        "ssbu_reveal",
+        "mm_lastday",
+        "mm_lastday8bit",
+        "mc_wethands",
+        "fortnite_menu",
+        "avengersiw_porch"
       ],
       "description": "An album collection of all the tracks made and released between 2017-2019."
     },
@@ -73,7 +83,8 @@
       "platformIDs": [
         {
           "platform": "ns2",
-          "releaseDate": "2025-06-05"
+          "releaseDate": "2025-06-05",
+          "overrideImage": ""
         }
       ],
       "musicList": [
@@ -121,12 +132,19 @@
       "platformIDs": [
         {
           "platform": "n64",
-          "releaseDate": "1997-03-01"
+          "releaseDate": "1997-03-01",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ique",
+          "releaseDate": "2003-11-18[China]",
+          "overrideImage": ""
         }
       ],
       "musicList": [
         "sm64_ultkoopa"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "sm64ds",
@@ -240,6 +258,8 @@
         }
       ],
       "musicList": [
+        "ffxv_somnus",
+        "ffxv_ufc_mm2",
         "ffxv_wanderlust",
         "ffxv_rarpiano",
         "ffxv_ravus",
@@ -274,6 +294,9 @@
         }
       ],
       "musicList": [
+        "ffxv_somnus",
+        "ffxv_promptohsh",
+        "ffxv_ufc_mm2",
         "ffxv_wanderlust",
         "ffxv_rarpiano",
         "ffxv_ravus",
@@ -305,6 +328,9 @@
         }
       ],
       "musicList": [
+        "ffxv_somnus",
+        "ffxv_promptohsh",
+        "ffxv_ufc_mm2",
         "ffxv_wanderlust",
         "ffxv_rarpiano",
         "ffxv_ravus",
@@ -336,6 +362,9 @@
         }
       ],
       "musicList": [
+        "ffxv_somnus",
+        "ffxv_promptohsh",
+        "ffxv_ufc_mm2",
         "ffxv_wanderlust",
         "ffxv_rarpiano",
         "ffxv_ravus",
@@ -375,6 +404,8 @@
         }
       ],
       "musicList": [
+        "ffxv_somnus",
+        "ffxv_ufc_mm2",
         "ffxv_wanderlust",
         "ffxv_rarpiano",
         "ffxv_ravus",
@@ -389,7 +420,8 @@
         "ffxv_tenebrae",
         "ffxv_nox_8bit",
         "ffxv_nox"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "ff15pehd",
@@ -412,6 +444,8 @@
         }
       ],
       "musicList": [
+        "ffxv_somnus",
+        "ffxv_ufc_mm2",
         "ffxv_wanderlust",
         "ffxv_rarpiano",
         "ffxv_ravus",
@@ -1483,6 +1517,7 @@
         }
       ],
       "musicList": [
+        "ffxv_promptohsh",
         "ffxvr_medley",
         "ffxv_promptodarkness"
       ],
@@ -1597,6 +1632,518 @@
       ],
       "musicList": [
         "ffxvr_medley"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "seaofthieves",
+      "projectName": "Sea of Thieves",
+      "projectType": "Game",
+      "imageSrc": "SeaOfThieves",
+      "seriesID": "seaofthieves",
+      "platformIDs": [
+        {
+          "platform": "pc",
+          "releaseDate": "2018-03-20",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2018-03-20",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xboxseries",
+          "releaseDate": "2024-03-13",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ps5",
+          "releaseDate": "2024-04-30",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "sot_becalmed"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "ssbu",
+      "projectName": "Super Smash Bros. Ultimate",
+      "projectType": "Game",
+      "imageSrc": "SSBU",
+      "seriesID": "ssb",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2018-12-07",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ssbu_reveal"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "mm",
+      "projectName": "The Legend of Zelda: Majora's Mask",
+      "projectType": "Game",
+      "imageSrc": "MM",
+      "seriesID": "loz",
+      "platformIDs": [
+        {
+          "platform": "n64",
+          "releaseDate": "2000-11-17",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mm_lastday8bit",
+        "mm_lastday"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "loz_ce",
+      "projectName": "The Legend of Zelda: Collector's Edition",
+      "projectType": "Collection",
+      "imageSrc": "LoZ_CE",
+      "seriesID": "loz",
+      "platformIDs": [
+        {
+          "platform": "gamecube",
+          "releaseDate": "2003-11-14",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mm_lastday8bit",
+        "mm_lastday"
+      ],
+      "collectionItems": [
+        "The Legend of Zelda",
+        "Zelda II: The Adventure of Link",
+        "The Legend of Zelda: Ocarina of Time",
+        "The Legend of Zelda: Majora's Mask"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "mm3d",
+      "projectName": "The Legend of Zelda: Majora's Mask 3D",
+      "projectType": "Game",
+      "imageSrc": "MM3D",
+      "seriesID": "loz",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2015-02-13",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mm_lastday8bit",
+        "mm_lastday"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft",
+      "projectName": "Minecraft",
+      "projectType": "Game",
+      "imageSrc": "Minecraft",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2018-06-21",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-09-20",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ps4",
+          "releaseDate": "2019-12-10",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ps5",
+          "releaseDate": "2024-10-22",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xboxseries",
+          "releaseDate": "2025-06-17",
+          "overrideImage": ""
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2015-07-29",
+          "overrideImage": ""
+        },
+        {
+          "platform": "android",
+          "releaseDate": "2011-08-16",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ios",
+          "releaseDate": "2011-11-17",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ipados",
+          "releaseDate": "2019-09-24",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_appletv",
+      "projectName": "Minecraft: Apple TV Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftAppleTV",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "tvos",
+          "releaseDate": "2016-12-19",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_firetv",
+      "projectName": "Minecraft: Fire TV Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftFireTV",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "firetv",
+          "releaseDate": "2016-12-19",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_gearvr",
+      "projectName": "Minecraft: Gear VR Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftGearVR",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "gearvr",
+          "releaseDate": "2016-04-27",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_java",
+      "projectName": "Minecraft: Java Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftJava",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "pc",
+          "releaseDate": "2009-05-17",
+          "overrideImage": ""
+        },
+        {
+          "platform": "mac",
+          "releaseDate": "2009-05-17",
+          "overrideImage": ""
+        },
+        {
+          "platform": "linux",
+          "releaseDate": "2009-05-17",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_xbox360",
+      "projectName": "Minecraft: Xbox 360 Edition",
+      "projectType": "Game",
+      "imageSrc": "Minecraft360",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "xbox360",
+          "releaseDate": "2012-05-09",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_xboxone",
+      "projectName": "Minecraft: Xbox One Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftXboxOne",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "xbox1",
+          "releaseDate": "2014-09-05",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_ps3",
+      "projectName": "Minecraft: PlayStation 3 Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftPS3",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "ps3",
+          "releaseDate": "2013-12-18",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_ps4",
+      "projectName": "Minecraft: PlayStation 4 Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftPS4",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2014-09-04",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_vita",
+      "projectName": "Minecraft: PlayStation Vita Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftVita",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "psv",
+          "releaseDate": "2014-10-15",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_wiiu",
+      "projectName": "Minecraft: Wii U Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftWiiU",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "wiiu",
+          "releaseDate": "2015-12-17",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_switch",
+      "projectName": "Minecraft: Nintendo Switch Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftSwitch",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-05-11",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_n3ds",
+      "projectName": "Minecraft: New Nintendo 3DS Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftN3DS",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "n3ds",
+          "releaseDate": "2018-09-20",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "fortnite",
+      "projectName": "Fortnite",
+      "projectType": "Game",
+      "imageSrc": "Fortnite",
+      "seriesID": "fortnite",
+      "platformIDs": [
+        {
+          "platform": "pc",
+          "releaseDate": "2017-07-25",
+          "overrideImage": ""
+        },
+        {
+          "platform": "mac",
+          "releaseDate": "2017-07-25",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ps4",
+          "releaseDate": "2017-07-25",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-07-25",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ios",
+          "releaseDate": "2018-04-02",
+          "overrideImage": ""
+        },
+        {
+          "platform": "android",
+          "releaseDate": "2018-08-09",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xboxseries",
+          "releaseDate": "2020-11-10",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ps5",
+          "releaseDate": "2020-11-12",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ns2",
+          "releaseDate": "2025-06-05",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "fortnite_menu"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "fortnite_switch",
+      "projectName": "Fortnite for Nintendo Switch",
+      "projectType": "Game",
+      "imageSrc": "Fortnite",
+      "seriesID": "fortnite",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2018-06-12",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "fortnite_menu"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "avengers_iw",
+      "projectName": "Avengers: Infinity War",
+      "projectType": "Film",
+      "imageSrc": "AvengersIW",
+      "seriesID": "marvel",
+      "platformIDs": [
+        {
+          "platform": "film",
+          "releaseDate": "2018-04-26",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "avengersiw_porch"
       ],
       "collectionItems": [],
       "description": ""
