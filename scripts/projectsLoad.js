@@ -504,8 +504,16 @@ function ShowTrackDetails(clickedElement)
     }
 
     //Handling description
-    let trackDescription = panel.querySelector('.track-description');
-    trackDescription.innerHTML = trackData.description;
+    if(trackData.description == null || trackData.description == "")
+    {
+        panel.querySelector('.track-description-title').remove();
+        panel.querySelector('.track-description').remove();
+    }
+    else
+    {
+        let trackDescription = panel.querySelector('.track-description');
+        trackDescription.innerHTML = trackData.description;
+    }
 
     //Insert onto page
     clickedElement.appendChild(panel);
