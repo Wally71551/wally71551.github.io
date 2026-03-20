@@ -70,7 +70,13 @@
         "mm_lastday8bit",
         "mc_wethands",
         "fortnite_menu",
-        "avengersiw_porch"
+        "avengersiw_porch",
+        "smo_forgottenisle",
+        "xc2_morytha",
+        "ffxvpehd_sots",
+        "fe3h_e318",
+        "ff15pehd_dining",
+        "kh2_org"
       ],
       "description": "An album collection of all the tracks made and released between 2017-2019."
     },
@@ -258,6 +264,8 @@
         }
       ],
       "musicList": [
+        "ff15pehd_dining",
+        "ffxvpehd_sots",
         "ffxv_somnus",
         "ffxv_ufc_mm2",
         "ffxv_wanderlust",
@@ -294,6 +302,8 @@
         }
       ],
       "musicList": [
+        "ff15pehd_dining",
+        "ffxvpehd_sots",
         "ffxv_somnus",
         "ffxv_promptohsh",
         "ffxv_ufc_mm2",
@@ -328,6 +338,8 @@
         }
       ],
       "musicList": [
+        "ff15pehd_dining",
+        "ffxvpehd_sots",
         "ffxv_somnus",
         "ffxv_promptohsh",
         "ffxv_ufc_mm2",
@@ -362,6 +374,8 @@
         }
       ],
       "musicList": [
+        "ff15pehd_dining",
+        "ffxvpehd_sots",
         "ffxv_somnus",
         "ffxv_promptohsh",
         "ffxv_ufc_mm2",
@@ -404,6 +418,8 @@
         }
       ],
       "musicList": [
+        "ff15pehd_dining",
+        "ffxvpehd_sots",
         "ffxv_somnus",
         "ffxv_ufc_mm2",
         "ffxv_wanderlust",
@@ -444,6 +460,8 @@
         }
       ],
       "musicList": [
+        "ff15pehd_dining",
+        "ffxvpehd_sots",
         "ffxv_somnus",
         "ffxv_ufc_mm2",
         "ffxv_wanderlust",
@@ -1190,10 +1208,12 @@
         }
       ],
       "musicList": [
+        "smo_forgottenisle",
         "smo_juss",
         "smo_main"
       ],
-      "collectionItems": []
+      "collectionItems": [],
+      "description": ""
     },
     {
       "projectID": "doom",
@@ -1325,10 +1345,12 @@
         }
       ],
       "musicList": [
+        "xc2_morytha",
         "xc2_elpys",
         "xc2_eotbs"
       ],
-      "collectionItems": []
+      "collectionItems": [],
+      "description": ""
     },
     {
       "projectID": "eb_beginnings",
@@ -2146,6 +2168,195 @@
         "avengersiw_porch"
       ],
       "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "fe3h",
+      "projectName": "Fire Emblem: Three Houses",
+      "projectType": "Game",
+      "imageSrc": "FE3H",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2019-07-26",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "fe3h_e318"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "kh2",
+      "projectName": "KINGDOM HEARTS II",
+      "projectType": "Game",
+      "imageSrc": "KH2",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps2",
+          "releaseDate": "2006-09-29",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh2_org"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "kh2fm",
+      "projectName": "KINGDOM HEARTS II FINAL MIX+",
+      "projectType": "Collection",
+      "imageSrc": "KH2FM",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps2",
+          "releaseDate": "2007-03-29[Japan]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS II FINAL MIX",
+        "KINGDOM HEARTS Re:Chain of Memories"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kh25",
+      "projectName": "KINGDOM HEARTS HD II.5 ReMIX",
+      "projectType": "Collection",
+      "imageSrc": "KH25",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps3",
+          "releaseDate": "2014-12-05",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS II FINAL MIX",
+        "KINGDOM HEARTS Birth by Sleep FINAL MIX",
+        "KINGDOM HEARTS Re:coded (HD remastered cinematics)"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kh125",
+      "projectName": "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
+      "projectType": "Collection",
+      "imageSrc": "KH125",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2017-03-31",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2020-02-18",
+          "overrideImage": ""
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2021-03-30",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS FINAL MIX",
+        "KINGDOM HEARTS Re:Chain of Memories",
+        "KINGDOM HEARTS 358/2 Days (HD remastered cinematics)",
+        "KINGDOM HEARTS II FINAL MIX",
+        "KINGDOM HEARTS Birth by Sleep FINAL MIX",
+        "KINGDOM HEARTS Re:coded (HD remastered cinematics)"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kh125_cloud",
+      "projectName": "KINGDOM HEARTS - HD I.5+II.5 ReMIX - Cloud Version",
+      "projectType": "Collection",
+      "imageSrc": "KH125Cloud",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2022-02-10",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS FINAL MIX",
+        "KINGDOM HEARTS Re:Chain of Memories",
+        "KINGDOM HEARTS 358/2 Days (HD remastered cinematics)",
+        "KINGDOM HEARTS II FINAL MIX",
+        "KINGDOM HEARTS Birth by Sleep FINAL MIX",
+        "KINGDOM HEARTS Re:coded (HD remastered cinematics)"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "khstorysofar",
+      "projectName": "KINGDOM HEARTS The Story So Far",
+      "projectType": "Collection",
+      "imageSrc": "KHStorySoFar",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2019-03-29",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
+        "KINGDOM HEARTS HD 2.8 Final Chapter Prologue"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "khaio",
+      "projectName": "KINGDOM HEARTS All-In-One Package",
+      "projectType": "Collection",
+      "imageSrc": "KHAllInOne",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2025-06-12",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS The Story So Far",
+        "KINGDOM HEARTS III"
+      ],
       "description": ""
     }
   ]
