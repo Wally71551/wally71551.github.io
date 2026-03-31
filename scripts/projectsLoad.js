@@ -121,7 +121,10 @@ function ProjectSetup(project, index)
                 }
                 else if(project.platformIDs[i].releaseDate === comparisonReleaseDate)
                 {
-                    if(project.projectName.localeCompare(comparison.projectName) == false)
+                    let articleRemoveRegex = /^(a|an|the)\s+/i;
+                    let sanitisedA = project.projectName.replace(articleRemoveRegex, "");
+                    let sanitisedB = comparison.projectName.replace(articleRemoveRegex, "");
+                    if(sanitisedA.localeCompare(sanitisedB, "en", { numeric: true }) == -1)
                     {
                         projects.splice(j, 0, project.projectID);
                         hasSorted = true;
@@ -201,9 +204,13 @@ function ShowProjectDetails(clickedElement, gridContainer)
     else
     {
         //Change header text if needed
-        if(projectData.projectType == "DLC")
+        switch(projectData.projectType)
         {
-            panel.querySelector('.project-collection-header').textContent = "Base Game";
+            case "DLC":
+                panel.querySelector('.project-collection-header').textContent = "Base Game";
+                break;
+            case "Bundle":
+                panel.querySelector('.project-collection-header').textContent = "Bundle Contents";
         }
 
         let listElement = panel.querySelector('.project-collection-list');
