@@ -76,7 +76,9 @@
         "ffxvpehd_sots",
         "fe3h_e318",
         "ff15pehd_dining",
-        "kh2_org"
+        "kh2_org",
+        "kh_dearlybeloved",
+        "totk_e3"
       ],
       "description": "An album collection of all the tracks made and released between 2017-2019."
     },
@@ -220,11 +222,17 @@
         {
           "platform": "ns1",
           "releaseDate": "2025-10-02"
+        },
+        {
+          "platform": "shieldtv",
+          "releaseDate": "2018-03-22[China]",
+          "overrideImage": ""
         }
       ],
       "musicList": [
         "smg_ggg_8bit"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "smgalaxy_12",
@@ -493,8 +501,10 @@
         }
       ],
       "musicList": [
+        "totk_e3",
         "botw_ritovillage_n"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "totk",
@@ -509,6 +519,7 @@
         }
       ],
       "musicList": [
+        "totk_e3",
         "botw_ritovillage_n"
       ]
     },
@@ -986,7 +997,7 @@
       "projectID": "ffxv_brotherhood",
       "projectName": "BROTHERHOOD FINAL FANTASY XV",
       "projectType": "Series",
-      "imageSrc": "FFXVBrotherhood",
+      "imageSrc": "FFXVBrotherhoodSq",
       "seriesID": "ff",
       "platformIDs": [
         {
@@ -997,7 +1008,8 @@
       "musicList": [
         "ffxvr_medley",
         "ffxv_solidarity"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "FEWarriors",
@@ -1477,7 +1489,7 @@
     {
       "projectID": "bayo_vanquish",
       "projectName": "Bayonetta & Vanquish 10th Anniversary Bundle",
-      "projectType": "Collection",
+      "projectType": "Bundle",
       "imageSrc": "BayonettaVanquish",
       "seriesID": "bayo",
       "platformIDs": [
@@ -1503,7 +1515,7 @@
       "projectID": "kingsglaive",
       "projectName": "KINGSGLAIVE FINAL FANTASY XV",
       "projectType": "Film",
-      "imageSrc": "FFXVKingsglaive",
+      "imageSrc": "FFXVKingsglaiveSq",
       "seriesID": "ff",
       "platformIDs": [
         {
@@ -1821,11 +1833,6 @@
         {
           "platform": "ios",
           "releaseDate": "2011-11-17",
-          "overrideImage": ""
-        },
-        {
-          "platform": "ipados",
-          "releaseDate": "2019-09-24",
           "overrideImage": ""
         }
       ],
@@ -2155,7 +2162,7 @@
       "projectID": "avengers_iw",
       "projectName": "Avengers: Infinity War",
       "projectType": "Film",
-      "imageSrc": "AvengersIW",
+      "imageSrc": "AvengersIWSq",
       "seriesID": "marvel",
       "platformIDs": [
         {
@@ -2203,6 +2210,7 @@
         }
       ],
       "musicList": [
+        "kh_dearlybeloved",
         "kh2_org"
       ],
       "collectionItems": [],
@@ -2222,6 +2230,7 @@
         }
       ],
       "musicList": [
+        "kh_dearlybeloved",
         "kh2_org"
       ],
       "collectionItems": [
@@ -2244,6 +2253,7 @@
         }
       ],
       "musicList": [
+        "kh_dearlybeloved",
         "kh2_org"
       ],
       "collectionItems": [
@@ -2268,15 +2278,16 @@
         {
           "platform": "xbox1",
           "releaseDate": "2020-02-18",
-          "overrideImage": ""
+          "overrideImage": "KH125Xbox"
         },
         {
           "platform": "pc",
           "releaseDate": "2021-03-30",
-          "overrideImage": ""
+          "overrideImage": "KH125Xbox"
         }
       ],
       "musicList": [
+        "kh_dearlybeloved",
         "kh2_org"
       ],
       "collectionItems": [
@@ -2303,6 +2314,7 @@
         }
       ],
       "musicList": [
+        "kh_dearlybeloved",
         "kh2_org"
       ],
       "collectionItems": [
@@ -2329,11 +2341,12 @@
         }
       ],
       "musicList": [
+        "kh_dearlybeloved",
         "kh2_org"
       ],
       "collectionItems": [
         "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
-        "KINGDOM HEARTS HD 2.8 Final Chapter Prologue"
+        "KINGDOM HEARTS HD II.8 Final Chapter Prologue"
       ],
       "description": ""
     },
@@ -2351,11 +2364,225 @@
         }
       ],
       "musicList": [
+        "kh_dearlybeloved",
         "kh2_org"
       ],
       "collectionItems": [
         "KINGDOM HEARTS The Story So Far",
         "KINGDOM HEARTS III"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "khintegrum",
+      "projectName": "KINGDOM HEARTS INTEGRUM MASTERPIECE",
+      "projectType": "Collection",
+      "imageSrc": "KHIntegrum",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2019-01-25[Japan]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
+        "KINGDOM HEARTS HD II.8 Final Chapter Prologue",
+        "KINGDOM HEARTS III"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "khintegrum_steam",
+      "projectName": "KINGDOM HEARTS INTEGRUM MASTERPIECE",
+      "projectType": "Bundle",
+      "imageSrc": "KHIntegrumSteam",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "pc",
+          "releaseDate": "2024-06-13",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
+        "KINGDOM HEARTS HD II.8 Final Chapter Prologue",
+        "KINGDOM HEARTS III + Re𝄌Mind (DLC)"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "khintegrum_cloud",
+      "projectName": "KINGDOM HEARTS INTEGRUM MASTERPIECE for Cloud",
+      "projectType": "Bundle",
+      "imageSrc": "KHIntegrumCloud",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2022-02-10",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS - HD I.5+II.5 ReMIX - Cloud Version",
+        "KINGDOM HEARTS HD II.8 Final Chapter Prologue Cloud Version",
+        "KINGDOM HEARTS III + Re𝄌Mind (DLC) Cloud Version"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kh",
+      "projectName": "KINGDOM HEARTS",
+      "projectType": "Game",
+      "imageSrc": "KH",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps2",
+          "releaseDate": "2002-11-15",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "khfm",
+      "projectName": "KINGDOM HEARTS FINAL MIX",
+      "projectType": "Game",
+      "imageSrc": "KHFM",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps2",
+          "releaseDate": "2002-12-26[Japan]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "khcom",
+      "projectName": "KINGDOM HEARTS: Chain of Memories",
+      "projectType": "Game",
+      "imageSrc": "KHCOM",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "gba",
+          "releaseDate": "2005-05-06",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "khrecom",
+      "projectName": "KINGDOM HEARTS Re:Chain of Memories",
+      "projectType": "Game",
+      "imageSrc": "KHReCOM",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps2",
+          "releaseDate": "2008-12-02[US/Canada]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "kh15",
+      "projectName": "KINGDOM HEARTS HD I.5 ReMIX",
+      "projectType": "Collection",
+      "imageSrc": "KH15",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps3",
+          "releaseDate": "2013-09-13",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS FINAL MIX",
+        "KINGDOM HEARTS Re:Chain of Memories",
+        "KINGDOM HEARTS 358/2 Days (HD remastered cinematics)"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kh358",
+      "projectName": "KINGDOM HEARTS 358/2 Days",
+      "projectType": "Game",
+      "imageSrc": "KH358",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2009-10-09",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "kh10th",
+      "projectName": "KINGDOM HEARTS 10th Anniversary 3D+Days+Re:coded BOX",
+      "projectType": "Collection",
+      "imageSrc": "KH10th",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2012-03-29[Japan]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS 3D [Dream Drop Distance]",
+        "KINGDOM HEARTS 358/2 Days",
+        "KINGDOM HEARTS Re:coded"
       ],
       "description": ""
     }

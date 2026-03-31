@@ -150,11 +150,6 @@
       "platformImageSrc": "Stadia"
     },
     {
-      "platformID": "ipados",
-      "platformName": "iPadOS",
-      "platformImageSrc": "iPad"
-    },
-    {
       "platformID": "tvos",
       "platformName": "tvOS",
       "platformImageSrc": "tvOS"
@@ -163,6 +158,11 @@
       "platformID": "gearvr",
       "platformName": "Gear VR",
       "platformImageSrc": "GearVR"
+    },
+    {
+      "platformID": "shieldtv",
+      "platformName": "NVIDIA SHIELD TV",
+      "platformImageSrc": "ShieldTV"
     },
     {
       "platformID": "firetv",

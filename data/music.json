@@ -1718,7 +1718,7 @@
           "project": "KING’S KNIGHT –Wrath of the Dark Dragon–",
           "artists": [
             {
-              "header": "KING'S KNIGHT Composer",
+              "header": "<em>KING'S KNIGHT</em> Composer",
               "artistName": "Nobuo Uematsu",
               "URL": ""
             }
@@ -2904,6 +2904,82 @@
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 64
+    },
+    {
+      "musicID": "kh_dearlybeloved",
+      "musicName": "Dearly Beloved",
+      "projectID": "kh",
+      "seriesID": "kh",
+      "releaseDate": "2019-01-29",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [],
+      "transcription": [],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Dearly Beloved",
+          "project": "KINGDOM HEARTS",
+          "artists": []
+        },
+        {
+          "name": "Dearly Beloved",
+          "project": "KINGDOM HEARTS: Chain of Memories",
+          "artists": []
+        },
+        {
+          "name": "Dearly Beloved -KINGDOM HEARTS 358/2 Days Version-",
+          "project": "KINGDOM HEARTS 358/2 Days",
+          "artists": []
+        },
+        {
+          "name": "Dearly Beloved -KINGDOM HEARTS II Version-",
+          "project": "KINGDOM HEARTS II",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Kaoru Wada",
+              "URL": ""
+            }
+          ]
+        }
+      ],
+      "youtubeLink": "https://youtu.be/_W4tzqszEH0",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 65,
+      "description": "A small arrangement I made to celebrate <em>KINGDOM HEARTS III</em> releasing on 29th January 2019."
+    },
+    {
+      "musicID": "totk_e3",
+      "musicName": "E3 2019 Teaser Theme",
+      "projectID": "totk",
+      "seriesID": "loz",
+      "releaseDate": "2019-08-18",
+      "trackArranger": "Wally71551",
+      "composer": "Manaka Kataoka",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Javier Bernal Elgueta",
+          "url": "https://musescore.com/user/30466150/scores/5607834"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "E3 2019 Reveal Trailer",
+          "project": "The Legend of Zelda: Tears of the Kingdom",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/Zz-qjujcC0M",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 66,
+      "description": "It's been a while since I've put out a video, but I'm finally back with another arrangement. After enjoying <em>The Legend of Zelda: Breath of the Wild</em> as much as I did, I can't wait for the sequel so I decided to expand and arrange the music in the teaser. Much like <em>The Legend of Zelda: Breath of the Wild</em> itself, I brought the piano to the forefront of the arrangement (I think that they will do this again, as it worked incredibly well for the ambient tracks in the game).\n\nI tried to focus on emphasising the idea of a 'new chapter', quoting different themes from the series, like <em>The Legend of Zelda: Breath of the Wild</em>'s main theme and the main theme of the original <em>The Legend of Zelda</em>. The piece ends with the opening theme from the original game, symbolising the opening of a new adventure in the Zelda universe."
     }
   ]
 }
