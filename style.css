@@ -1,5 +1,5 @@
 html {
-    font-family: Arial, sans-serif;
+    font-family: coda-symbol, Arial, sans-serif;
 }
 
 body {
@@ -11,6 +11,12 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+@font-face {
+    font-family: 'coda-symbol';
+    src: url("fonts/codaSymbol.ttf") format('truetype');
+    unicode-range: U+1D10C;
 }
 
 .header-container {
