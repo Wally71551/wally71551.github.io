@@ -209,6 +209,35 @@
       ]
     },
     {
+      "projectID": "gothic3c",
+      "projectName": "Gothic 3 Classic",
+      "projectType": "Game",
+      "imageSrc": "Gothic3C",
+      "seriesID": "gothic",
+      "platformIDs": [
+        {
+          "platform": "ps5",
+          "releaseDate": "2026-11-24",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xboxseries",
+          "releaseDate": "2026-11-24",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ns2",
+          "releaseDate": "2026-11-24",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "gothic3_vistapoint"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
       "projectID": "smgalaxy",
       "projectName": "Super Mario Galaxy",
       "projectType": "Game",
@@ -1484,6 +1513,33 @@
         "bayo_ldb"
       ],
       "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "bayo1_2",
+      "projectName": "Bayonetta + Bayonetta 2",
+      "projectType": "Collection",
+      "imageSrc": "Bayonetta1_2",
+      "seriesID": "bayo",
+      "platformIDs": [
+        {
+          "platform": "wiiu",
+          "releaseDate": "2014-10-24",
+          "overrideImage": "Bayo12WiiU"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2018-02-16",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "bayo_ldb"
+      ],
+      "collectionItems": [
+        "Bayonetta",
+        "Bayonetta 2"
+      ],
       "description": ""
     },
     {
