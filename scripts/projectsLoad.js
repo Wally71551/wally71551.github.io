@@ -612,5 +612,10 @@ function FindTrackProjectName(projectId)
         projectString += (FindProject(projects[i]).projectName);
     }
 
+    if(projectString == "")
+    {
+        return projectId;
+    }
+
     return projectString;
 }
