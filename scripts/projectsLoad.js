@@ -1,5 +1,6 @@
 let projects;
 let platforms;
+let platformOrder;
 let series;
 let music;
 
@@ -24,6 +25,7 @@ async function Init()
     music = await LoadMusicData();
     projects = await LoadProjectsData();
     platforms = await LoadPlatformsData();
+    platformOrder = await LoadPlatformOrder();
     series = await LoadSeriesData();
 
     PageLoad();
@@ -33,11 +35,17 @@ function PageLoad()
 {
     //Set up the project setup arrays
     projects.forEach(ProjectSetup);
-    platforms.forEach(CreateHeader);
+    platformOrder.forEach(CreateHeader);
 }
 
 function CreateHeader(header, index)
 {
+    let platformData = platforms.find(obj => obj.platformID === header);
+    if(platformData == null)
+    {
+        return;
+    }
+
     let headerElement = platformTemplate.content.cloneNode(true);
 
     let platformHeader = headerElement.querySelector(".platform-header");
@@ -45,15 +53,15 @@ function CreateHeader(header, index)
     let headerImage = headerElement.querySelector(".platform-image");
     let contentElement = headerElement.querySelector(".platform-content-grid");
 
-    headerTitle.textContent = header.platformName;
+    headerTitle.textContent = platformData.platformName;
     contentElement.hidden = false;
 
-    if(header.platformImageSrc != "")
+    if(platformData.platformImageSrc != "")
     {
-        headerImage.src = GetPlatformPicture(header.platformImageSrc);
+        headerImage.src = GetPlatformPicture(platformData.platformImageSrc);
     }
 
-    let platProjects = platformProjects.get(header.platformID);
+    let platProjects = platformProjects.get(platformData.platformID);
     if(platProjects != undefined)
     {
         for(let i = 0; i < platProjects.length; i++)
@@ -64,7 +72,7 @@ function CreateHeader(header, index)
             let image = projectElement.querySelector('img');
 
             let imageSource = projectData.imageSrc;
-            let result = projectData.platformIDs.find(obj => { return obj.platform === header.platformID})
+            let result = projectData.platformIDs.find(obj => { return obj.platform === platformData.platformID})
             if(result && result.overrideImage != null && result.overrideImage != "")
             {
                 imageSource = result.overrideImage;
@@ -79,7 +87,7 @@ function CreateHeader(header, index)
 
             let gridItemDiv = projectElement.querySelector('.grid-item');
             gridItemDiv.dataset.projectId = projectData.projectID;
-            gridItemDiv.dataset.platformId = header.platformID;
+            gridItemDiv.dataset.platformId = platformData.platformID;
             gridItemDiv.addEventListener('click', (e) => {
                 ShowProjectDetails(gridItemDiv, contentElement);
             })
@@ -90,7 +98,7 @@ function CreateHeader(header, index)
 
     const content = document.getElementById("content");
     content.append(headerElement);
-    platformHeaders.push([header.platformID, headerElement])
+    platformHeaders.push([platformData.platformID, headerElement]);
 }
 
 function ProjectSetup(project, index)

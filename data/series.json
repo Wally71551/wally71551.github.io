@@ -1,8 +1,57 @@
 {
   "series": [
     {
-      "seriesID": "original",
-      "seriesName": "Wally71551 Original",
+      "seriesID": "acreed",
+      "seriesName": "Assassin's Creed",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "bayo",
+      "seriesName": "Bayonetta",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "cuphead",
+      "seriesName": "Cuphead",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "doom",
+      "seriesName": "DOOM",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "earthbound",
+      "seriesName": "EarthBound",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "ff",
+      "seriesName": "FINAL FANTASY",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "fireemblem",
+      "seriesName": "Fire Emblem"
+    },
+    {
+      "seriesID": "fortnite",
+      "seriesName": "Fortnite",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "gothic",
+      "seriesName": "Gothic",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "kh",
+      "seriesName": "KINGDOM HEARTS",
+      "seriesImageSrc": ""
+    },
+    {
+      "seriesID": "la_noire",
+      "seriesName": "L.A. Noire",
       "seriesImageSrc": ""
     },
     {
@@ -16,23 +65,8 @@
       "seriesImageSrc": ""
     },
     {
-      "seriesID": "ff",
-      "seriesName": "FINAL FANTASY",
-      "seriesImageSrc": ""
-    },
-    {
-      "seriesID": "splatoon",
-      "seriesName": "Splatoon",
-      "seriesImageSrc": ""
-    },
-    {
-      "seriesID": "gothic",
-      "seriesName": "Gothic",
-      "seriesImageSrc": ""
-    },
-    {
-      "seriesID": "pkmn",
-      "seriesName": "Pokémon",
+      "seriesID": "marvel",
+      "seriesName": "Marvel",
       "seriesImageSrc": ""
     },
     {
@@ -41,56 +75,18 @@
       "seriesImageSrc": ""
     },
     {
-      "seriesID": "shovel",
-      "seriesName": "Shovel Knight",
+      "seriesID": "minecraft",
+      "seriesName": "Minecraft",
       "seriesImageSrc": ""
     },
     {
-      "seriesID": "starfox",
-      "seriesName": "Star Fox"
-    },
-    {
-      "seriesID": "fireemblem",
-      "seriesName": "Fire Emblem"
-    },
-    {
-      "seriesID": "cuphead",
-      "seriesName": "Cuphead",
+      "seriesID": "original",
+      "seriesName": "Wally71551 Original",
       "seriesImageSrc": ""
     },
     {
-      "seriesID": "doom",
-      "seriesName": "DOOM",
-      "seriesImageSrc": ""
-    },
-    {
-      "seriesID": "la_noire",
-      "seriesName": "L.A. Noire",
-      "seriesImageSrc": ""
-    },
-    {
-      "seriesID": "xenoblade",
-      "seriesName": "Xenoblade Chronicles",
-      "seriesImageSrc": ""
-    },
-    {
-      "seriesID": "earthbound",
-      "seriesName": "EarthBound",
-      "seriesImageSrc": ""
-    },
-    {
-      "seriesID": "ssb",
-      "seriesName": "Super Smash Bros.",
-      "seriesImageSrc": ""
-    },
-    {
-      "seriesID": "bayo",
-      "seriesName": "Bayonetta",
-      "seriesImageSrc": ""
-    },
-    {
-      "seriesID": "acreed",
-      "seriesName": "Assassin's Creed",
+      "seriesID": "pkmn",
+      "seriesName": "Pokémon",
       "seriesImageSrc": ""
     },
     {
@@ -99,23 +95,27 @@
       "seriesImageSrc": ""
     },
     {
-      "seriesID": "minecraft",
-      "seriesName": "Minecraft",
+      "seriesID": "shovel",
+      "seriesName": "Shovel Knight",
       "seriesImageSrc": ""
     },
     {
-      "seriesID": "fortnite",
-      "seriesName": "Fortnite",
+      "seriesID": "splatoon",
+      "seriesName": "Splatoon",
       "seriesImageSrc": ""
     },
     {
-      "seriesID": "marvel",
-      "seriesName": "Marvel",
+      "seriesID": "ssb",
+      "seriesName": "Super Smash Bros.",
       "seriesImageSrc": ""
     },
     {
-      "seriesID": "kh",
-      "seriesName": "KINGDOM HEARTS",
+      "seriesID": "starfox",
+      "seriesName": "Star Fox"
+    },
+    {
+      "seriesID": "xenoblade",
+      "seriesName": "Xenoblade Chronicles",
       "seriesImageSrc": ""
     }
   ]

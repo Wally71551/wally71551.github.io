@@ -1,107 +1,156 @@
 {
   "projects": [
     {
-      "projectID": "wally71551_og",
-      "projectName": "Wally71551 -Original Cut-",
-      "projectType": "Album",
-      "imageSrc": "null",
-      "seriesID": "original",
-      "platformIDs": [
-        {
-          "platform": "project",
-          "releaseDate": "null"
-        }
-      ],
-      "musicList": [
-        "botw_sidon",
-        "sm64_ultkoopa",
-        "gothic3_vistapoint",
-        "smg_ggg_8bit",
-        "ffxv_nox",
-        "ffxv_nox_8bit",
-        "ffxv_tenebrae",
-        "botw_ritovillage_n",
-        "spl2_inkoming",
-        "botw_urbosa",
-        "botw_hfield_d",
-        "ffxv_sws",
-        "ffxv_somnusultima",
-        "bw_dragonspiral",
-        "hgss_arceus",
-        "sr_main",
-        "sk_shield",
-        "gs_azalea",
-        "pokken_magikarp",
-        "botw_tower_lake",
-        "sm_po",
-        "sf2_title",
-        "sm3dw_boo",
-        "ffxv_solidarity",
-        "fewarriors_medley",
-        "cuphead_funfair",
-        "smo_main",
-        "cuphead_iio",
-        "doom_adg",
-        "smo_juss",
-        "la_noire_main",
-        "usum_vpc",
-        "xc2_eotbs",
-        "ebb_snowman",
-        "xc2_elpys",
-        "ffxv_jazzmedley",
-        "ffxv_horizon",
-        "ffxv_rrpensive",
-        "bayo_ldb",
-        "botw_rhoam",
-        "ffxv_nyx",
-        "ffxv_promptodarkness",
-        "ffxv_luna",
-        "ffxvr_medley",
-        "ffxv_sws2",
-        "ffxv_ravus",
-        "ffxv_rarpiano",
-        "ffxv_wanderlust",
-        "ffxv_ufc_mm2",
-        "ffxv_promptohsh",
-        "ffxv_somnus",
-        "sot_becalmed",
-        "ssbu_reveal",
-        "mm_lastday",
-        "mm_lastday8bit",
-        "mc_wethands",
-        "fortnite_menu",
-        "avengersiw_porch",
-        "smo_forgottenisle",
-        "xc2_morytha",
-        "ffxvpehd_sots",
-        "fe3h_e318",
-        "ff15pehd_dining",
-        "kh2_org",
-        "kh_dearlybeloved",
-        "totk_e3"
-      ],
-      "description": "An album collection of all the tracks made and released between 2017-2019."
-    },
-    {
-      "projectID": "botw_s2",
-      "projectName": "The Legend of Zelda: Breath of the Wild – Nintendo Switch 2 Edition",
+      "projectID": "ac_origins",
+      "projectName": "Assassin's Creed Origins",
       "projectType": "Game",
-      "imageSrc": "BOTW_S2",
-      "seriesID": "loz",
+      "imageSrc": "ACOrigins",
+      "seriesID": "acreed",
       "platformIDs": [
         {
-          "platform": "ns2",
-          "releaseDate": "2025-06-05",
+          "platform": "ps4",
+          "releaseDate": "2017-10-27",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-10-27",
+          "overrideImage": ""
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2017-10-27",
+          "overrideImage": ""
+        },
+        {
+          "platform": "stadia",
+          "releaseDate": "2020-12-15",
           "overrideImage": ""
         }
       ],
       "musicList": [
-        "botw_rhoam",
-        "botw_tower_lake",
-        "botw_hfield_d",
-        "botw_urbosa",
-        "botw_ritovillage_n",
-        "botw_sidon"
+        "ffxvr_medley"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "avengers_iw",
+      "projectName": "Avengers: Infinity War",
+      "projectType": "Film",
+      "imageSrc": "AvengersIWSq",
+      "seriesID": "marvel",
+      "platformIDs": [
+        {
+          "platform": "film",
+          "releaseDate": "2018-04-26",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "avengersiw_porch"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "bayo",
+      "projectName": "Bayonetta",
+      "projectType": "Game",
+      "imageSrc": "Bayonetta",
+      "seriesID": "bayo",
+      "platformIDs": [
+        {
+          "platform": "ps3",
+          "releaseDate": "2010-01-08",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox360",
+          "releaseDate": "2010-01-08",
+          "overrideImage": ""
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2017-04-11",
+          "overrideImage": ""
+        },
+        {
+          "platform": "wiiu",
+          "releaseDate": "2014-10-24",
+          "overrideImage": "BayonettaSwitch"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2018-02-16",
+          "overrideImage": "BayonettaSwitch"
+        },
+        {
+          "platform": "ps4",
+          "releaseDate": "2020-02-18",
+          "overrideImage": "BayonettaPS4"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2020-02-18",
+          "overrideImage": "BayonettaPS4"
+        }
+      ],
+      "musicList": [
+        "bayo_ldb"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "bayo1_2",
+      "projectName": "Bayonetta + Bayonetta 2",
+      "projectType": "Collection",
+      "imageSrc": "Bayonetta1_2",
+      "seriesID": "bayo",
+      "platformIDs": [
+        {
+          "platform": "wiiu",
+          "releaseDate": "2014-10-24",
+          "overrideImage": "Bayo12WiiU"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2018-02-16",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "bayo_ldb"
+      ],
+      "collectionItems": [
+        "Bayonetta",
+        "Bayonetta 2"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "bayo_vanquish",
+      "projectName": "Bayonetta & Vanquish 10th Anniversary Bundle",
+      "projectType": "Bundle",
+      "imageSrc": "BayonettaVanquish",
+      "seriesID": "bayo",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2020-02-18"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2020-02-18"
+        }
+      ],
+      "musicList": [
+        "bayo_ldb"
+      ],
+      "collectionItems": [
+        "Bayonetta",
+        "Vanquish"
       ],
       "description": ""
     },
@@ -132,157 +181,314 @@
       "description": ""
     },
     {
-      "projectID": "sm64",
-      "projectName": "Super Mario 64",
+      "projectID": "botw_s2",
+      "projectName": "The Legend of Zelda: Breath of the Wild – Nintendo Switch 2 Edition",
       "projectType": "Game",
-      "imageSrc": "SM64",
-      "seriesID": "mario",
+      "imageSrc": "BOTW_S2",
+      "seriesID": "loz",
       "platformIDs": [
         {
-          "platform": "n64",
-          "releaseDate": "1997-03-01",
-          "overrideImage": ""
-        },
-        {
-          "platform": "ique",
-          "releaseDate": "2003-11-18[China]",
+          "platform": "ns2",
+          "releaseDate": "2025-06-05",
           "overrideImage": ""
         }
       ],
       "musicList": [
-        "sm64_ultkoopa"
+        "botw_rhoam",
+        "botw_tower_lake",
+        "botw_hfield_d",
+        "botw_urbosa",
+        "botw_ritovillage_n",
+        "botw_sidon"
       ],
       "description": ""
     },
     {
-      "projectID": "sm64ds",
-      "projectName": "Super Mario 64 DS",
+      "projectID": "cuphead",
+      "projectName": "Cuphead",
       "projectType": "Game",
-      "imageSrc": "SM64DS",
-      "seriesID": "mario",
-      "platformIDs": [
-        {
-          "platform": "nds",
-          "releaseDate": "2005-03-11"
-        }
-      ],
-      "musicList": [
-        "sm64_ultkoopa"
-      ]
-    },
-    {
-      "projectID": "sm3das",
-      "projectName": "Super Mario 3D All-Stars",
-      "projectType": "Collection",
-      "imageSrc": "SM3DAS",
-      "seriesID": "mario",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2020-09-18"
-        }
-      ],
-      "musicList": [
-        "smg_ggg_8bit",
-        "sm64_ultkoopa"
-      ],
-      "collectionItems": [
-        "Super Mario 64",
-        "Super Mario Sunshine",
-        "Super Mario Galaxy"
-      ]
-    },
-    {
-      "projectID": "gothic3",
-      "projectName": "Gothic 3",
-      "projectType": "Game",
-      "imageSrc": "Gothic3",
-      "seriesID": "gothic",
+      "imageSrc": "Cuphead",
+      "seriesID": "cuphead",
       "platformIDs": [
         {
           "platform": "pc",
-          "releaseDate": "2006-10-13"
+          "releaseDate": "2017-09-29"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-09-29"
+        },
+        {
+          "platform": "mac",
+          "releaseDate": "2018-10-19"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2019-04-18"
+        },
+        {
+          "platform": "ps4",
+          "releaseDate": "2020-07-28"
         }
       ],
       "musicList": [
-        "gothic3_vistapoint"
-      ]
+        "cuphead_iio",
+        "cuphead_funfair"
+      ],
+      "collectionItems": []
     },
     {
-      "projectID": "gothic3c",
-      "projectName": "Gothic 3 Classic",
+      "projectID": "doom",
+      "projectName": "DOOM",
       "projectType": "Game",
-      "imageSrc": "Gothic3C",
-      "seriesID": "gothic",
+      "imageSrc": "DOOM",
+      "seriesID": "doom",
       "platformIDs": [
         {
-          "platform": "ps5",
-          "releaseDate": "2026-11-24",
-          "overrideImage": ""
+          "platform": "ps4",
+          "releaseDate": "2016-05-13"
         },
         {
-          "platform": "xboxseries",
-          "releaseDate": "2026-11-24",
-          "overrideImage": ""
+          "platform": "xbox1",
+          "releaseDate": "2016-05-13"
         },
         {
-          "platform": "ns2",
-          "releaseDate": "2026-11-24",
+          "platform": "pc",
+          "releaseDate": "2016-05-13"
+        },
+        {
+          "platform": "stadia",
+          "releaseDate": "2020-08-19"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-11-10",
+          "overrideImage": "DOOM_Switch"
+        }
+      ],
+      "musicList": [
+        "doom_adg"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "doom_vfr",
+      "projectName": "DOOM VFR",
+      "projectType": "Game",
+      "imageSrc": "DOOM_VFR",
+      "seriesID": "doom",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2017-12-01"
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2017-12-01"
+        }
+      ],
+      "musicList": [
+        "doom_adg"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "eb_beginnings",
+      "projectName": "EarthBound Beginnings",
+      "projectType": "Game",
+      "imageSrc": "EB_Beginnings",
+      "seriesID": "earthbound",
+      "platformIDs": [
+        {
+          "platform": "wiiu",
+          "releaseDate": "2015-06-15"
+        }
+      ],
+      "musicList": [
+        "ebb_snowman"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "fe3h",
+      "projectName": "Fire Emblem: Three Houses",
+      "projectType": "Game",
+      "imageSrc": "FE3H",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2019-07-26",
           "overrideImage": ""
         }
       ],
       "musicList": [
-        "gothic3_vistapoint"
+        "fe3h_e318"
       ],
       "collectionItems": [],
       "description": ""
     },
     {
-      "projectID": "smgalaxy",
-      "projectName": "Super Mario Galaxy",
+      "projectID": "fefates_b",
+      "projectName": "Fire Emblem Fates: Birthright",
       "projectType": "Game",
-      "imageSrc": "SMG",
-      "seriesID": "mario",
+      "imageSrc": "FEFates_B",
+      "seriesID": "fireemblem",
       "platformIDs": [
         {
-          "platform": "wii",
-          "releaseDate": "2007-11-16"
-        },
-        {
-          "platform": "ns1",
-          "releaseDate": "2025-10-02"
-        },
-        {
-          "platform": "shieldtv",
-          "releaseDate": "2018-03-22[China]",
-          "overrideImage": ""
+          "platform": "3ds",
+          "releaseDate": "2016-05-20"
         }
       ],
       "musicList": [
-        "smg_ggg_8bit"
+        "fewarriors_medley"
       ],
-      "description": ""
+      "collectionItems": []
     },
     {
-      "projectID": "smgalaxy_12",
-      "projectName": "Super Mario Galaxy + Super Mario Galaxy 2",
-      "projectType": "Collection",
-      "imageSrc": "SMG_1_2",
-      "seriesID": "mario",
+      "projectID": "fefates_c",
+      "projectName": "Fire Emblem Fates: Conquest",
+      "projectType": "Game",
+      "imageSrc": "FEFates_C",
+      "seriesID": "fireemblem",
       "platformIDs": [
         {
-          "platform": "ns1",
-          "releaseDate": "2025-10-02"
+          "platform": "3ds",
+          "releaseDate": "2016-05-20"
         }
       ],
       "musicList": [
-        "smg_ggg_8bit"
+        "fewarriors_medley"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "fefates_le",
+      "projectName": "Fire Emblem Fates: Limited Edition",
+      "projectType": "Collection",
+      "imageSrc": "FEFates_LE",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2016-05-20"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
       ],
       "collectionItems": [
-        "Super Mario Galaxy",
-        "Super Mario Galaxy 2"
+        "Fire Emblem Fates: Birthright",
+        "Fire Emblem Fates: Conquest",
+        "Fire Emblem Fates: Revelation"
+      ]
+    },
+    {
+      "projectID": "fefates_r",
+      "projectName": "Fire Emblem Fates: Revelation",
+      "projectType": "Game",
+      "imageSrc": "FEFates_R",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2016-06-09"
+        }
       ],
-      "description": ""
+      "musicList": [
+        "fewarriors_medley"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "FEWarriors",
+      "projectName": "Fire Emblem Warriors",
+      "projectType": "Game",
+      "imageSrc": "FEWarriors",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-10-20"
+        },
+        {
+          "platform": "n3ds",
+          "releaseDate": "2017-10-20"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ]
+    },
+    {
+      "projectID": "fe_aw",
+      "projectName": "Fire Emblem: Awakening",
+      "projectType": "Game",
+      "imageSrc": "FEAwakening",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2013-04-19"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "FE_Blazing",
+      "projectName": "Fire Emblem",
+      "projectType": "Game",
+      "imageSrc": "FE_Blazing",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "gba",
+          "releaseDate": "2004-07-16"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "fe_sd",
+      "projectName": "Fire Emblem: Shadow Dragon",
+      "projectType": "Game",
+      "imageSrc": "FEShadowDragon",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2008-12-05"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ]
+    },
+    {
+      "projectID": "fe_sdbol",
+      "projectName": "Fire Emblem: Shadow Dragon and the Blade of Light",
+      "projectType": "Game",
+      "imageSrc": "FE_SD",
+      "seriesID": "fireemblem",
+      "platformIDs": [
+        {
+          "platform": "nes",
+          "releaseDate": "1990-04-20[Japan]"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2020-12-04"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ]
     },
     {
       "projectID": "ff15",
@@ -321,6 +527,89 @@
         "ffxv_nox"
       ],
       "description": ""
+    },
+    {
+      "projectID": "ff15pe",
+      "projectName": "FINAL FANTASY XV POCKET EDITION",
+      "projectType": "Game",
+      "imageSrc": "FFXVPocket",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "ios",
+          "releaseDate": "2018-02-08"
+        },
+        {
+          "platform": "android",
+          "releaseDate": "2018-02-08"
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2018-06-06"
+        }
+      ],
+      "musicList": [
+        "ff15pehd_dining",
+        "ffxvpehd_sots",
+        "ffxv_somnus",
+        "ffxv_ufc_mm2",
+        "ffxv_wanderlust",
+        "ffxv_rarpiano",
+        "ffxv_ravus",
+        "ffxv_sws2",
+        "ffxvr_medley",
+        "ffxv_luna",
+        "ffxv_rrpensive",
+        "ffxv_horizon",
+        "ffxv_jazzmedley",
+        "ffxv_somnusultima",
+        "ffxv_sws",
+        "ffxv_tenebrae",
+        "ffxv_nox_8bit",
+        "ffxv_nox"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "ff15pehd",
+      "projectName": "FINAL FANTASY XV POCKET EDITION HD",
+      "projectType": "Game",
+      "imageSrc": "FFXVPocketHD",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2018-09-07"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2018-09-07"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2018-09-13"
+        }
+      ],
+      "musicList": [
+        "ff15pehd_dining",
+        "ffxvpehd_sots",
+        "ffxv_somnus",
+        "ffxv_ufc_mm2",
+        "ffxv_wanderlust",
+        "ffxv_rarpiano",
+        "ffxv_ravus",
+        "ffxv_sws2",
+        "ffxvr_medley",
+        "ffxv_luna",
+        "ffxv_rrpensive",
+        "ffxv_horizon",
+        "ffxv_jazzmedley",
+        "ffxv_somnusultima",
+        "ffxv_sws",
+        "ffxv_tenebrae",
+        "ffxv_nox_8bit",
+        "ffxv_nox"
+      ]
     },
     {
       "projectID": "ff15r",
@@ -435,594 +724,6 @@
       "description": ""
     },
     {
-      "projectID": "ff15pe",
-      "projectName": "FINAL FANTASY XV POCKET EDITION",
-      "projectType": "Game",
-      "imageSrc": "FFXVPocket",
-      "seriesID": "ff",
-      "platformIDs": [
-        {
-          "platform": "ios",
-          "releaseDate": "2018-02-08"
-        },
-        {
-          "platform": "android",
-          "releaseDate": "2018-02-08"
-        },
-        {
-          "platform": "pc",
-          "releaseDate": "2018-06-06"
-        }
-      ],
-      "musicList": [
-        "ff15pehd_dining",
-        "ffxvpehd_sots",
-        "ffxv_somnus",
-        "ffxv_ufc_mm2",
-        "ffxv_wanderlust",
-        "ffxv_rarpiano",
-        "ffxv_ravus",
-        "ffxv_sws2",
-        "ffxvr_medley",
-        "ffxv_luna",
-        "ffxv_rrpensive",
-        "ffxv_horizon",
-        "ffxv_jazzmedley",
-        "ffxv_somnusultima",
-        "ffxv_sws",
-        "ffxv_tenebrae",
-        "ffxv_nox_8bit",
-        "ffxv_nox"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "ff15pehd",
-      "projectName": "FINAL FANTASY XV POCKET EDITION HD",
-      "projectType": "Game",
-      "imageSrc": "FFXVPocketHD",
-      "seriesID": "ff",
-      "platformIDs": [
-        {
-          "platform": "ps4",
-          "releaseDate": "2018-09-07"
-        },
-        {
-          "platform": "xbox1",
-          "releaseDate": "2018-09-07"
-        },
-        {
-          "platform": "ns1",
-          "releaseDate": "2018-09-13"
-        }
-      ],
-      "musicList": [
-        "ff15pehd_dining",
-        "ffxvpehd_sots",
-        "ffxv_somnus",
-        "ffxv_ufc_mm2",
-        "ffxv_wanderlust",
-        "ffxv_rarpiano",
-        "ffxv_ravus",
-        "ffxv_sws2",
-        "ffxvr_medley",
-        "ffxv_luna",
-        "ffxv_rrpensive",
-        "ffxv_horizon",
-        "ffxv_jazzmedley",
-        "ffxv_somnusultima",
-        "ffxv_sws",
-        "ffxv_tenebrae",
-        "ffxv_nox_8bit",
-        "ffxv_nox"
-      ]
-    },
-    {
-      "projectID": "totk_s2",
-      "projectName": "The Legend of Zelda: Tears of the Kingdom – Nintendo Switch 2 Edition",
-      "projectType": "Game",
-      "imageSrc": "TOTK_S2",
-      "seriesID": "loz",
-      "platformIDs": [
-        {
-          "platform": "ns2",
-          "releaseDate": "2025-06-05"
-        }
-      ],
-      "musicList": [
-        "totk_e3",
-        "botw_ritovillage_n"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "totk",
-      "projectName": "The Legend of Zelda: Tears of the Kingdom",
-      "projectType": "Game",
-      "imageSrc": "TOTK",
-      "seriesID": "loz",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2023-05-12"
-        }
-      ],
-      "musicList": [
-        "totk_e3",
-        "botw_ritovillage_n"
-      ]
-    },
-    {
-      "projectID": "splatoon2",
-      "projectName": "Splatoon 2",
-      "projectType": "Game",
-      "imageSrc": "Splatoon2",
-      "seriesID": "splatoon",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2017-07-21"
-        }
-      ],
-      "musicList": [
-        "spl2_inkoming"
-      ]
-    },
-    {
-      "projectID": "splatoon2_gtf",
-      "projectName": "Splatoon 2 Global Testfire",
-      "projectType": "Demo",
-      "imageSrc": "Splatoon2GT",
-      "seriesID": "splatoon",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2017-03-14"
-        }
-      ],
-      "musicList": [
-        "spl2_inkoming"
-      ]
-    },
-    {
-      "projectID": "sm64_spt",
-      "projectName": "Super Mario 64: Shindō Pak Taiō Version",
-      "projectType": "Game",
-      "imageSrc": "SM64_SPT",
-      "seriesID": "mario",
-      "platformIDs": [
-        {
-          "platform": "n64",
-          "releaseDate": "1997-07-18[Japan]"
-        }
-      ],
-      "musicList": [
-        "sm64_ultkoopa"
-      ]
-    },
-    {
-      "projectID": "pkmn_b",
-      "projectName": "Pokémon Black Version",
-      "projectType": "Game",
-      "imageSrc": "PKMNBlack",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "nds",
-          "releaseDate": "2011-03-04"
-        }
-      ],
-      "musicList": [
-        "bw_dragonspiral"
-      ]
-    },
-    {
-      "projectID": "pkmn_w",
-      "projectName": "Pokémon White Version",
-      "projectType": "Game",
-      "imageSrc": "PKMNWhite",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "nds",
-          "releaseDate": "2011-03-04"
-        }
-      ],
-      "musicList": [
-        "bw_dragonspiral"
-      ]
-    },
-    {
-      "projectID": "pkmn_d",
-      "projectName": "Pokémon Diamond Version",
-      "projectType": "Game",
-      "imageSrc": "PKMNDiamond",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "nds",
-          "releaseDate": "2007-07-27"
-        }
-      ],
-      "musicList": [
-        "hgss_arceus"
-      ]
-    },
-    {
-      "projectID": "pkmn_p",
-      "projectName": "Pokémon Pearl Version",
-      "projectType": "Game",
-      "imageSrc": "PKMNPearl",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "nds",
-          "releaseDate": "2007-07-27"
-        }
-      ],
-      "musicList": [
-        "hgss_arceus"
-      ]
-    },
-    {
-      "projectID": "pkmn_pl",
-      "projectName": "Pokémon Platinum Version",
-      "projectType": "Game",
-      "imageSrc": "PKMNPlatinum",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "nds",
-          "releaseDate": "2009-05-22"
-        }
-      ],
-      "musicList": [
-        "hgss_arceus"
-      ]
-    },
-    {
-      "projectID": "pkmn_hg",
-      "projectName": "Pokémon HeartGold Version",
-      "projectType": "Game",
-      "imageSrc": "PKMN_HG",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "nds",
-          "releaseDate": "2010-03-26"
-        }
-      ],
-      "musicList": [
-        "gs_azalea",
-        "hgss_arceus"
-      ]
-    },
-    {
-      "projectID": "pkmn_ss",
-      "projectName": "Pokémon SoulSilver Version",
-      "projectType": "Game",
-      "imageSrc": "PKMN_SS",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "nds",
-          "releaseDate": "2010-03-26"
-        }
-      ],
-      "musicList": [
-        "gs_azalea",
-        "hgss_arceus"
-      ]
-    },
-    {
-      "projectID": "pkmn_bd",
-      "projectName": "Pokémon Brilliant Diamond",
-      "projectType": "Game",
-      "imageSrc": "PKMNBD",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2021-11-19"
-        }
-      ],
-      "musicList": [
-        "hgss_arceus"
-      ]
-    },
-    {
-      "projectID": "pkmn_sp",
-      "projectName": "Pokémon Shining Pearl",
-      "projectType": "Game",
-      "imageSrc": "PKMNSP",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2021-11-19"
-        }
-      ],
-      "musicList": [
-        "hgss_arceus"
-      ]
-    },
-    {
-      "projectID": "metroid_sr",
-      "projectName": "Metroid: Samus Returns",
-      "projectType": "Game",
-      "imageSrc": "MetroidSR",
-      "seriesID": "metroid",
-      "platformIDs": [
-        {
-          "platform": "3ds",
-          "releaseDate": "2017-09-15"
-        }
-      ],
-      "musicList": [
-        "sr_main"
-      ]
-    },
-    {
-      "projectID": "shovelknight",
-      "projectName": "Shovel Knight: Treasure Trove",
-      "projectType": "Game",
-      "imageSrc": "ShovelKnight",
-      "seriesID": "shovel",
-      "platformIDs": [
-        {
-          "platform": "3ds",
-          "releaseDate": "2014-11-06"
-        },
-        {
-          "platform": "wiiu",
-          "releaseDate": "2014-11-06"
-        },
-        {
-          "platform": "pc",
-          "releaseDate": "2014-06-26"
-        },
-        {
-          "platform": "mac",
-          "releaseDate": "2014-09-13"
-        },
-        {
-          "platform": "linux",
-          "releaseDate": "2014-10-09"
-        },
-        {
-          "platform": "ps4",
-          "releaseDate": "2015-04-21"
-        },
-        {
-          "platform": "ps3",
-          "releaseDate": "2015-04-21"
-        },
-        {
-          "platform": "psv",
-          "releaseDate": "2015-04-21"
-        },
-        {
-          "platform": "xbox1",
-          "releaseDate": "2015-04-29"
-        },
-        {
-          "platform": "firetv",
-          "releaseDate": "2015-10-05"
-        },
-        {
-          "platform": "ns1",
-          "releaseDate": "2017-03-03"
-        }
-      ],
-      "musicList": [
-        "sk_shield"
-      ]
-    },
-    {
-      "projectID": "pkmn_g",
-      "projectName": "Pokémon Gold Version",
-      "projectType": "Game",
-      "imageSrc": "PKMNGold",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "gbc",
-          "releaseDate": "2001-04-01"
-        }
-      ],
-      "musicList": [
-        "gs_azalea"
-      ]
-    },
-    {
-      "projectID": "pkmn_s",
-      "projectName": "Pokémon Silver Version",
-      "projectType": "Game",
-      "imageSrc": "PKMNSilver",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "gbc",
-          "releaseDate": "2001-04-01"
-        }
-      ],
-      "musicList": [
-        "gs_azalea"
-      ]
-    },
-    {
-      "projectID": "pkmn_c",
-      "projectName": "Pokémon Crystal Version",
-      "projectType": "Game",
-      "imageSrc": "PKMNCrystal",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "gbc",
-          "releaseDate": "2001-11-02"
-        }
-      ],
-      "musicList": [
-        "gs_azalea"
-      ]
-    },
-    {
-      "projectID": "pokken_dx",
-      "projectName": "Pokkén Tournament DX",
-      "projectType": "Game",
-      "imageSrc": "PokkenDX",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2017-09-22"
-        }
-      ],
-      "musicList": [
-        "pokken_magikarp"
-      ]
-    },
-    {
-      "projectID": "pokken",
-      "projectName": "Pokkén Tournament",
-      "projectType": "Game",
-      "imageSrc": "Pokken",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "wiiu",
-          "releaseDate": "2016-03-18"
-        },
-        {
-          "platform": "arcade",
-          "releaseDate": "2015-07-16[Japan]"
-        }
-      ],
-      "musicList": [
-        "pokken_magikarp"
-      ]
-    },
-    {
-      "projectID": "pkmn_sun",
-      "projectName": "Pokémon Sun",
-      "projectType": "Game",
-      "imageSrc": "PKMNSun",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "3ds",
-          "releaseDate": "2016-11-23_1"
-        }
-      ],
-      "musicList": [
-        "usum_vpc",
-        "sm_po"
-      ]
-    },
-    {
-      "projectID": "pkmn_moon",
-      "projectName": "Pokémon Moon",
-      "projectType": "Game",
-      "imageSrc": "PKMNMoon",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "3ds",
-          "releaseDate": "2016-11-23"
-        }
-      ],
-      "musicList": [
-        "usum_vpc",
-        "sm_po"
-      ]
-    },
-    {
-      "projectID": "pkmn_usun",
-      "projectName": "Pokémon Ultra Sun",
-      "projectType": "Game",
-      "imageSrc": "PKMNUltraSun",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "3ds",
-          "releaseDate": "2017-11-17_1"
-        }
-      ],
-      "musicList": [
-        "usum_vpc",
-        "sm_po"
-      ]
-    },
-    {
-      "projectID": "pkmn_umoon",
-      "projectName": "Pokémon Ultra Moon",
-      "projectType": "Game",
-      "imageSrc": "PKMNUltraMoon",
-      "seriesID": "pkmn",
-      "platformIDs": [
-        {
-          "platform": "3ds",
-          "releaseDate": "2017-11-17"
-        }
-      ],
-      "musicList": [
-        "usum_vpc",
-        "sm_po"
-      ]
-    },
-    {
-      "projectID": "starfox2",
-      "projectName": "Star Fox 2",
-      "projectType": "Game",
-      "imageSrc": "StarFox2",
-      "seriesID": "starfox",
-      "platformIDs": [
-        {
-          "platform": "snesmini",
-          "releaseDate": "2017-09-29"
-        }
-      ],
-      "musicList": [
-        "sf2_title"
-      ]
-    },
-    {
-      "projectID": "SM3DW",
-      "projectName": "Super Mario 3D World",
-      "projectType": "Game",
-      "imageSrc": "SM3DW",
-      "seriesID": "mario",
-      "platformIDs": [
-        {
-          "platform": "wiiu",
-          "releaseDate": "2013-11-29"
-        }
-      ],
-      "musicList": [
-        "sm3dw_boo"
-      ]
-    },
-    {
-      "projectID": "SM3DW_BF",
-      "projectName": "Super Mario 3D World + Bowser’s Fury",
-      "projectType": "Game",
-      "imageSrc": "SM3DW_BF",
-      "seriesID": "mario",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2021-02-12"
-        }
-      ],
-      "musicList": [
-        "sm3dw_boo"
-      ],
-      "collectionItems": [
-        "Super Mario 3D World",
-        "Bowser's Fury"
-      ]
-    },
-    {
       "projectID": "ffxv_brotherhood",
       "projectName": "BROTHERHOOD FINAL FANTASY XV",
       "projectType": "Series",
@@ -1041,275 +742,642 @@
       "description": ""
     },
     {
-      "projectID": "FEWarriors",
-      "projectName": "Fire Emblem Warriors",
-      "projectType": "Game",
-      "imageSrc": "FEWarriors",
-      "seriesID": "fireemblem",
+      "projectID": "ffxv_gladiolus",
+      "projectName": "FINAL FANTASY XV: EPISODE GLADIOLUS",
+      "projectType": "DLC",
+      "imageSrc": "FFXVGladiolus",
+      "seriesID": "ff",
       "platformIDs": [
         {
-          "platform": "ns1",
-          "releaseDate": "2017-10-20"
-        },
-        {
-          "platform": "n3ds",
-          "releaseDate": "2017-10-20"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ]
-    },
-    {
-      "projectID": "fe_sdbol",
-      "projectName": "Fire Emblem: Shadow Dragon and the Blade of Light",
-      "projectType": "Game",
-      "imageSrc": "FE_SD",
-      "seriesID": "fireemblem",
-      "platformIDs": [
-        {
-          "platform": "nes",
-          "releaseDate": "1990-04-20[Japan]"
-        },
-        {
-          "platform": "ns1",
-          "releaseDate": "2020-12-04"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ]
-    },
-    {
-      "projectID": "fe_sd",
-      "projectName": "Fire Emblem: Shadow Dragon",
-      "projectType": "Game",
-      "imageSrc": "FEShadowDragon",
-      "seriesID": "fireemblem",
-      "platformIDs": [
-        {
-          "platform": "nds",
-          "releaseDate": "2008-12-05"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ]
-    },
-    {
-      "projectID": "FE_Blazing",
-      "projectName": "Fire Emblem",
-      "projectType": "Game",
-      "imageSrc": "FE_Blazing",
-      "seriesID": "fireemblem",
-      "platformIDs": [
-        {
-          "platform": "gba",
-          "releaseDate": "2004-07-16"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ],
-      "collectionItems": []
-    },
-    {
-      "projectID": "fe_aw",
-      "projectName": "Fire Emblem: Awakening",
-      "projectType": "Game",
-      "imageSrc": "FEAwakening",
-      "seriesID": "fireemblem",
-      "platformIDs": [
-        {
-          "platform": "3ds",
-          "releaseDate": "2013-04-19"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ],
-      "collectionItems": []
-    },
-    {
-      "projectID": "fefates_b",
-      "projectName": "Fire Emblem Fates: Birthright",
-      "projectType": "Game",
-      "imageSrc": "FEFates_B",
-      "seriesID": "fireemblem",
-      "platformIDs": [
-        {
-          "platform": "3ds",
-          "releaseDate": "2016-05-20"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ],
-      "collectionItems": []
-    },
-    {
-      "projectID": "fefates_c",
-      "projectName": "Fire Emblem Fates: Conquest",
-      "projectType": "Game",
-      "imageSrc": "FEFates_C",
-      "seriesID": "fireemblem",
-      "platformIDs": [
-        {
-          "platform": "3ds",
-          "releaseDate": "2016-05-20"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ],
-      "collectionItems": []
-    },
-    {
-      "projectID": "fefates_le",
-      "projectName": "Fire Emblem Fates: Limited Edition",
-      "projectType": "Collection",
-      "imageSrc": "FEFates_LE",
-      "seriesID": "fireemblem",
-      "platformIDs": [
-        {
-          "platform": "3ds",
-          "releaseDate": "2016-05-20"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ],
-      "collectionItems": [
-        "Fire Emblem Fates: Birthright",
-        "Fire Emblem Fates: Conquest",
-        "Fire Emblem Fates: Revelation"
-      ]
-    },
-    {
-      "projectID": "fefates_r",
-      "projectName": "Fire Emblem Fates: Revelation",
-      "projectType": "Game",
-      "imageSrc": "FEFates_R",
-      "seriesID": "fireemblem",
-      "platformIDs": [
-        {
-          "platform": "3ds",
-          "releaseDate": "2016-06-09"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ],
-      "collectionItems": []
-    },
-    {
-      "projectID": "cuphead",
-      "projectName": "Cuphead",
-      "projectType": "Game",
-      "imageSrc": "Cuphead",
-      "seriesID": "cuphead",
-      "platformIDs": [
-        {
-          "platform": "pc",
-          "releaseDate": "2017-09-29"
+          "platform": "ps4",
+          "releaseDate": "2017-03-28",
+          "overrideImage": ""
         },
         {
           "platform": "xbox1",
-          "releaseDate": "2017-09-29"
+          "releaseDate": "2017-03-28",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ffxvr_medley"
+      ],
+      "collectionItems": [
+        "FINAL FANTASY XV"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "ffxv_ignis",
+      "projectName": "FINAL FANTASY XV: EPISODE IGNIS",
+      "projectType": "DLC",
+      "imageSrc": "FFXVIgnis",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2017-12-13",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-12-13",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ffxvr_medley"
+      ],
+      "collectionItems": [
+        "FINAL FANTASY XV"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "ffxv_prompto",
+      "projectName": "FINAL FANTASY XV: EPISODE PROMPTO",
+      "projectType": "DLC",
+      "imageSrc": "FFXVPrompto",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2017-06-27",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2017-06-27",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ffxv_promptohsh",
+        "ffxvr_medley",
+        "ffxv_promptodarkness"
+      ],
+      "collectionItems": [
+        "FINAL FANTASY XV"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "fortnite",
+      "projectName": "Fortnite",
+      "projectType": "Game",
+      "imageSrc": "Fortnite",
+      "seriesID": "fortnite",
+      "platformIDs": [
+        {
+          "platform": "pc",
+          "releaseDate": "2017-07-25",
+          "overrideImage": ""
         },
         {
           "platform": "mac",
-          "releaseDate": "2018-10-19"
-        },
-        {
-          "platform": "ns1",
-          "releaseDate": "2019-04-18"
+          "releaseDate": "2017-07-25",
+          "overrideImage": ""
         },
         {
           "platform": "ps4",
-          "releaseDate": "2020-07-28"
-        }
-      ],
-      "musicList": [
-        "cuphead_iio",
-        "cuphead_funfair"
-      ],
-      "collectionItems": []
-    },
-    {
-      "projectID": "smo",
-      "projectName": "Super Mario Odyssey",
-      "projectType": "Game",
-      "imageSrc": "SMO",
-      "seriesID": "mario",
-      "platformIDs": [
+          "releaseDate": "2017-07-25",
+          "overrideImage": ""
+        },
         {
-          "platform": "ns1",
-          "releaseDate": "2017-10-27"
+          "platform": "xbox1",
+          "releaseDate": "2017-07-25",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ios",
+          "releaseDate": "2018-04-02",
+          "overrideImage": ""
+        },
+        {
+          "platform": "android",
+          "releaseDate": "2018-08-09",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xboxseries",
+          "releaseDate": "2020-11-10",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ps5",
+          "releaseDate": "2020-11-12",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ns2",
+          "releaseDate": "2025-06-05",
+          "overrideImage": ""
         }
       ],
       "musicList": [
-        "smo_forgottenisle",
-        "smo_juss",
-        "smo_main"
+        "fortnite_menu"
       ],
       "collectionItems": [],
       "description": ""
     },
     {
-      "projectID": "doom",
-      "projectName": "DOOM",
+      "projectID": "fortnite_switch",
+      "projectName": "Fortnite for Nintendo Switch",
       "projectType": "Game",
-      "imageSrc": "DOOM",
-      "seriesID": "doom",
+      "imageSrc": "Fortnite",
+      "seriesID": "fortnite",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2018-06-12",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "fortnite_menu"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "gothic3",
+      "projectName": "Gothic 3",
+      "projectType": "Game",
+      "imageSrc": "Gothic3",
+      "seriesID": "gothic",
+      "platformIDs": [
+        {
+          "platform": "pc",
+          "releaseDate": "2006-10-13"
+        }
+      ],
+      "musicList": [
+        "gothic3_vistapoint"
+      ]
+    },
+    {
+      "projectID": "gothic3c",
+      "projectName": "Gothic 3 Classic",
+      "projectType": "Game",
+      "imageSrc": "Gothic3C",
+      "seriesID": "gothic",
+      "platformIDs": [
+        {
+          "platform": "ps5",
+          "releaseDate": "2026-11-24",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xboxseries",
+          "releaseDate": "2026-11-24",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ns2",
+          "releaseDate": "2026-11-24",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "gothic3_vistapoint"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "kh",
+      "projectName": "KINGDOM HEARTS",
+      "projectType": "Game",
+      "imageSrc": "KH",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps2",
+          "releaseDate": "2002-11-15",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "kh10th",
+      "projectName": "KINGDOM HEARTS 10th Anniversary 3D+Days+Re:coded BOX",
+      "projectType": "Collection",
+      "imageSrc": "KH10th",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2012-03-29[Japan]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS 3D [Dream Drop Distance]",
+        "KINGDOM HEARTS 358/2 Days",
+        "KINGDOM HEARTS Re:coded"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kh125",
+      "projectName": "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
+      "projectType": "Collection",
+      "imageSrc": "KH125",
+      "seriesID": "kh",
       "platformIDs": [
         {
           "platform": "ps4",
-          "releaseDate": "2016-05-13"
+          "releaseDate": "2017-03-31",
+          "overrideImage": ""
         },
         {
           "platform": "xbox1",
-          "releaseDate": "2016-05-13"
+          "releaseDate": "2020-02-18",
+          "overrideImage": "KH125Xbox"
         },
         {
           "platform": "pc",
-          "releaseDate": "2016-05-13"
-        },
-        {
-          "platform": "stadia",
-          "releaseDate": "2020-08-19"
-        },
-        {
-          "platform": "ns1",
-          "releaseDate": "2017-11-10",
-          "overrideImage": "DOOM_Switch"
+          "releaseDate": "2021-03-30",
+          "overrideImage": "KH125Xbox"
         }
       ],
       "musicList": [
-        "doom_adg"
+        "kh_dearlybeloved",
+        "kh2_org"
       ],
-      "collectionItems": []
+      "collectionItems": [
+        "KINGDOM HEARTS FINAL MIX",
+        "KINGDOM HEARTS Re:Chain of Memories",
+        "KINGDOM HEARTS 358/2 Days (HD remastered cinematics)",
+        "KINGDOM HEARTS II FINAL MIX",
+        "KINGDOM HEARTS Birth by Sleep FINAL MIX",
+        "KINGDOM HEARTS Re:coded (HD remastered cinematics)"
+      ],
+      "description": ""
     },
     {
-      "projectID": "doom_vfr",
-      "projectName": "DOOM VFR",
+      "projectID": "kh125_cloud",
+      "projectName": "KINGDOM HEARTS - HD I.5+II.5 ReMIX - Cloud Version",
+      "projectType": "Collection",
+      "imageSrc": "KH125Cloud",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2022-02-10",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS FINAL MIX",
+        "KINGDOM HEARTS Re:Chain of Memories",
+        "KINGDOM HEARTS 358/2 Days (HD remastered cinematics)",
+        "KINGDOM HEARTS II FINAL MIX",
+        "KINGDOM HEARTS Birth by Sleep FINAL MIX",
+        "KINGDOM HEARTS Re:coded (HD remastered cinematics)"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kh15",
+      "projectName": "KINGDOM HEARTS HD I.5 ReMIX",
+      "projectType": "Collection",
+      "imageSrc": "KH15",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps3",
+          "releaseDate": "2013-09-13",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS FINAL MIX",
+        "KINGDOM HEARTS Re:Chain of Memories",
+        "KINGDOM HEARTS 358/2 Days (HD remastered cinematics)"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kh2",
+      "projectName": "KINGDOM HEARTS II",
       "projectType": "Game",
-      "imageSrc": "DOOM_VFR",
-      "seriesID": "doom",
+      "imageSrc": "KH2",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps2",
+          "releaseDate": "2006-09-29",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "kh25",
+      "projectName": "KINGDOM HEARTS HD II.5 ReMIX",
+      "projectType": "Collection",
+      "imageSrc": "KH25",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps3",
+          "releaseDate": "2014-12-05",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS II FINAL MIX",
+        "KINGDOM HEARTS Birth by Sleep FINAL MIX",
+        "KINGDOM HEARTS Re:coded (HD remastered cinematics)"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kh2fm",
+      "projectName": "KINGDOM HEARTS II FINAL MIX+",
+      "projectType": "Collection",
+      "imageSrc": "KH2FM",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps2",
+          "releaseDate": "2007-03-29[Japan]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS II FINAL MIX",
+        "KINGDOM HEARTS Re:Chain of Memories"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kh358",
+      "projectName": "KINGDOM HEARTS 358/2 Days",
+      "projectType": "Game",
+      "imageSrc": "KH358",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2009-10-09",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "khaio",
+      "projectName": "KINGDOM HEARTS All-In-One Package",
+      "projectType": "Collection",
+      "imageSrc": "KHAllInOne",
+      "seriesID": "kh",
       "platformIDs": [
         {
           "platform": "ps4",
-          "releaseDate": "2017-12-01"
-        },
-        {
-          "platform": "pc",
-          "releaseDate": "2017-12-01"
+          "releaseDate": "2025-06-12",
+          "overrideImage": ""
         }
       ],
       "musicList": [
-        "doom_adg"
+        "kh_dearlybeloved",
+        "kh2_org"
       ],
-      "collectionItems": []
+      "collectionItems": [
+        "KINGDOM HEARTS The Story So Far",
+        "KINGDOM HEARTS III"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "khcom",
+      "projectName": "KINGDOM HEARTS: Chain of Memories",
+      "projectType": "Game",
+      "imageSrc": "KHCOM",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "gba",
+          "releaseDate": "2005-05-06",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "khfm",
+      "projectName": "KINGDOM HEARTS FINAL MIX",
+      "projectType": "Game",
+      "imageSrc": "KHFM",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps2",
+          "releaseDate": "2002-12-26[Japan]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "khintegrum",
+      "projectName": "KINGDOM HEARTS INTEGRUM MASTERPIECE",
+      "projectType": "Collection",
+      "imageSrc": "KHIntegrum",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2019-01-25[Japan]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
+        "KINGDOM HEARTS HD II.8 Final Chapter Prologue",
+        "KINGDOM HEARTS III"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "khintegrum_cloud",
+      "projectName": "KINGDOM HEARTS INTEGRUM MASTERPIECE for Cloud",
+      "projectType": "Bundle",
+      "imageSrc": "KHIntegrumCloud",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2022-02-10",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS - HD I.5+II.5 ReMIX - Cloud Version",
+        "KINGDOM HEARTS HD II.8 Final Chapter Prologue Cloud Version",
+        "KINGDOM HEARTS III + Re𝄌Mind (DLC) Cloud Version"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "khintegrum_steam",
+      "projectName": "KINGDOM HEARTS INTEGRUM MASTERPIECE",
+      "projectType": "Bundle",
+      "imageSrc": "KHIntegrumSteam",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "pc",
+          "releaseDate": "2024-06-13",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
+        "KINGDOM HEARTS HD II.8 Final Chapter Prologue",
+        "KINGDOM HEARTS III + Re𝄌Mind (DLC)"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "khrecom",
+      "projectName": "KINGDOM HEARTS Re:Chain of Memories",
+      "projectType": "Game",
+      "imageSrc": "KHReCOM",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps2",
+          "releaseDate": "2008-12-02[US/Canada]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "khstorysofar",
+      "projectName": "KINGDOM HEARTS The Story So Far",
+      "projectType": "Collection",
+      "imageSrc": "KHStorySoFar",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2019-03-29",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
+        "KINGDOM HEARTS HD II.8 Final Chapter Prologue"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kingsglaive",
+      "projectName": "KINGSGLAIVE FINAL FANTASY XV",
+      "projectType": "Film",
+      "imageSrc": "FFXVKingsglaiveSq",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "film",
+          "releaseDate": "2016-08-23",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ffxvr_medley",
+        "ffxv_luna",
+        "ffxv_nyx"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "kingsknight",
+      "projectName": "KING’S KNIGHT –Wrath of the Dark Dragon–",
+      "projectType": "Game",
+      "imageSrc": "KK_WotDD",
+      "seriesID": "ff",
+      "platformIDs": [
+        {
+          "platform": "ios",
+          "releaseDate": "2017-09-13",
+          "overrideImage": ""
+        },
+        {
+          "platform": "android",
+          "releaseDate": "2017-09-12",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ffxvr_medley"
+      ],
+      "collectionItems": [],
+      "description": ""
     },
     {
       "projectID": "la_noire",
@@ -1374,432 +1442,6 @@
       "collectionItems": []
     },
     {
-      "projectID": "xc2",
-      "projectName": "Xenoblade Chronicles 2",
-      "projectType": "Game",
-      "imageSrc": "XC2",
-      "seriesID": "xenoblade",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2017-12-01"
-        }
-      ],
-      "musicList": [
-        "xc2_morytha",
-        "xc2_elpys",
-        "xc2_eotbs"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "eb_beginnings",
-      "projectName": "EarthBound Beginnings",
-      "projectType": "Game",
-      "imageSrc": "EB_Beginnings",
-      "seriesID": "earthbound",
-      "platformIDs": [
-        {
-          "platform": "wiiu",
-          "releaseDate": "2015-06-15"
-        }
-      ],
-      "musicList": [
-        "ebb_snowman"
-      ],
-      "collectionItems": []
-    },
-    {
-      "projectID": "mother",
-      "projectName": "MOTHER",
-      "projectType": "Game",
-      "imageSrc": "Mother",
-      "seriesID": "earthbound",
-      "platformIDs": [
-        {
-          "platform": "nes",
-          "releaseDate": "1989-07-27[Japan]"
-        }
-      ],
-      "musicList": [
-        "ebb_snowman"
-      ],
-      "collectionItems": []
-    },
-    {
-      "projectID": "mother12",
-      "projectName": "MOTHER 1+2",
-      "projectType": "Collection",
-      "imageSrc": "Mother1_2",
-      "seriesID": "earthbound",
-      "platformIDs": [
-        {
-          "platform": "gba",
-          "releaseDate": "2006-04-20[Japan]"
-        }
-      ],
-      "musicList": [
-        "ebb_snowman"
-      ],
-      "collectionItems": [
-        "MOTHER",
-        "MOTHER 2"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "ssbb",
-      "projectName": "Super Smash Bros. Brawl",
-      "projectType": "Game",
-      "imageSrc": "SSBB",
-      "seriesID": "ssb",
-      "platformIDs": [
-        {
-          "platform": "wii",
-          "releaseDate": "2008-06-27"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "bayo",
-      "projectName": "Bayonetta",
-      "projectType": "Game",
-      "imageSrc": "Bayonetta",
-      "seriesID": "bayo",
-      "platformIDs": [
-        {
-          "platform": "ps3",
-          "releaseDate": "2010-01-08",
-          "overrideImage": ""
-        },
-        {
-          "platform": "xbox360",
-          "releaseDate": "2010-01-08",
-          "overrideImage": ""
-        },
-        {
-          "platform": "pc",
-          "releaseDate": "2017-04-11",
-          "overrideImage": ""
-        },
-        {
-          "platform": "wiiu",
-          "releaseDate": "2014-10-24",
-          "overrideImage": "BayonettaSwitch"
-        },
-        {
-          "platform": "ns1",
-          "releaseDate": "2018-02-16",
-          "overrideImage": "BayonettaSwitch"
-        },
-        {
-          "platform": "ps4",
-          "releaseDate": "2020-02-18",
-          "overrideImage": "BayonettaPS4"
-        },
-        {
-          "platform": "xbox1",
-          "releaseDate": "2020-02-18",
-          "overrideImage": "BayonettaPS4"
-        }
-      ],
-      "musicList": [
-        "bayo_ldb"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "bayo1_2",
-      "projectName": "Bayonetta + Bayonetta 2",
-      "projectType": "Collection",
-      "imageSrc": "Bayonetta1_2",
-      "seriesID": "bayo",
-      "platformIDs": [
-        {
-          "platform": "wiiu",
-          "releaseDate": "2014-10-24",
-          "overrideImage": "Bayo12WiiU"
-        },
-        {
-          "platform": "ns1",
-          "releaseDate": "2018-02-16",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "bayo_ldb"
-      ],
-      "collectionItems": [
-        "Bayonetta",
-        "Bayonetta 2"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "bayo_vanquish",
-      "projectName": "Bayonetta & Vanquish 10th Anniversary Bundle",
-      "projectType": "Bundle",
-      "imageSrc": "BayonettaVanquish",
-      "seriesID": "bayo",
-      "platformIDs": [
-        {
-          "platform": "ps4",
-          "releaseDate": "2020-02-18"
-        },
-        {
-          "platform": "xbox1",
-          "releaseDate": "2020-02-18"
-        }
-      ],
-      "musicList": [
-        "bayo_ldb"
-      ],
-      "collectionItems": [
-        "Bayonetta",
-        "Vanquish"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "kingsglaive",
-      "projectName": "KINGSGLAIVE FINAL FANTASY XV",
-      "projectType": "Film",
-      "imageSrc": "FFXVKingsglaiveSq",
-      "seriesID": "ff",
-      "platformIDs": [
-        {
-          "platform": "film",
-          "releaseDate": "2016-08-23",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "ffxvr_medley",
-        "ffxv_luna",
-        "ffxv_nyx"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "ffxv_prompto",
-      "projectName": "FINAL FANTASY XV: EPISODE PROMPTO",
-      "projectType": "DLC",
-      "imageSrc": "FFXVPrompto",
-      "seriesID": "ff",
-      "platformIDs": [
-        {
-          "platform": "ps4",
-          "releaseDate": "2017-06-27",
-          "overrideImage": ""
-        },
-        {
-          "platform": "xbox1",
-          "releaseDate": "2017-06-27",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "ffxv_promptohsh",
-        "ffxvr_medley",
-        "ffxv_promptodarkness"
-      ],
-      "collectionItems": [
-        "FINAL FANTASY XV"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "ffxv_gladiolus",
-      "projectName": "FINAL FANTASY XV: EPISODE GLADIOLUS",
-      "projectType": "DLC",
-      "imageSrc": "FFXVGladiolus",
-      "seriesID": "ff",
-      "platformIDs": [
-        {
-          "platform": "ps4",
-          "releaseDate": "2017-03-28",
-          "overrideImage": ""
-        },
-        {
-          "platform": "xbox1",
-          "releaseDate": "2017-03-28",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "ffxvr_medley"
-      ],
-      "collectionItems": [
-        "FINAL FANTASY XV"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "ffxv_ignis",
-      "projectName": "FINAL FANTASY XV: EPISODE IGNIS",
-      "projectType": "DLC",
-      "imageSrc": "FFXVIgnis",
-      "seriesID": "ff",
-      "platformIDs": [
-        {
-          "platform": "ps4",
-          "releaseDate": "2017-12-13",
-          "overrideImage": ""
-        },
-        {
-          "platform": "xbox1",
-          "releaseDate": "2017-12-13",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "ffxvr_medley"
-      ],
-      "collectionItems": [
-        "FINAL FANTASY XV"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "kingsknight",
-      "projectName": "KING’S KNIGHT –Wrath of the Dark Dragon–",
-      "projectType": "Game",
-      "imageSrc": "KK_WotDD",
-      "seriesID": "ff",
-      "platformIDs": [
-        {
-          "platform": "ios",
-          "releaseDate": "2017-09-13",
-          "overrideImage": ""
-        },
-        {
-          "platform": "android",
-          "releaseDate": "2017-09-12",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "ffxvr_medley"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "ac_origins",
-      "projectName": "Assassin's Creed Origins",
-      "projectType": "Game",
-      "imageSrc": "ACOrigins",
-      "seriesID": "acreed",
-      "platformIDs": [
-        {
-          "platform": "ps4",
-          "releaseDate": "2017-10-27",
-          "overrideImage": ""
-        },
-        {
-          "platform": "xbox1",
-          "releaseDate": "2017-10-27",
-          "overrideImage": ""
-        },
-        {
-          "platform": "pc",
-          "releaseDate": "2017-10-27",
-          "overrideImage": ""
-        },
-        {
-          "platform": "stadia",
-          "releaseDate": "2020-12-15",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "ffxvr_medley"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "seaofthieves",
-      "projectName": "Sea of Thieves",
-      "projectType": "Game",
-      "imageSrc": "SeaOfThieves",
-      "seriesID": "seaofthieves",
-      "platformIDs": [
-        {
-          "platform": "pc",
-          "releaseDate": "2018-03-20",
-          "overrideImage": ""
-        },
-        {
-          "platform": "xbox1",
-          "releaseDate": "2018-03-20",
-          "overrideImage": ""
-        },
-        {
-          "platform": "xboxseries",
-          "releaseDate": "2024-03-13",
-          "overrideImage": ""
-        },
-        {
-          "platform": "ps5",
-          "releaseDate": "2024-04-30",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "sot_becalmed"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "ssbu",
-      "projectName": "Super Smash Bros. Ultimate",
-      "projectType": "Game",
-      "imageSrc": "SSBU",
-      "seriesID": "ssb",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2018-12-07",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "ssbu_reveal"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "mm",
-      "projectName": "The Legend of Zelda: Majora's Mask",
-      "projectType": "Game",
-      "imageSrc": "MM",
-      "seriesID": "loz",
-      "platformIDs": [
-        {
-          "platform": "n64",
-          "releaseDate": "2000-11-17",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "mm_lastday8bit",
-        "mm_lastday"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
       "projectID": "loz_ce",
       "projectName": "The Legend of Zelda: Collector's Edition",
       "projectType": "Collection",
@@ -1825,24 +1467,20 @@
       "description": ""
     },
     {
-      "projectID": "mm3d",
-      "projectName": "The Legend of Zelda: Majora's Mask 3D",
+      "projectID": "metroid_sr",
+      "projectName": "Metroid: Samus Returns",
       "projectType": "Game",
-      "imageSrc": "MM3D",
-      "seriesID": "loz",
+      "imageSrc": "MetroidSR",
+      "seriesID": "metroid",
       "platformIDs": [
         {
           "platform": "3ds",
-          "releaseDate": "2015-02-13",
-          "overrideImage": ""
+          "releaseDate": "2017-09-15"
         }
       ],
       "musicList": [
-        "mm_lastday8bit",
-        "mm_lastday"
-      ],
-      "collectionItems": [],
-      "description": ""
+        "sr_main"
+      ]
     },
     {
       "projectID": "minecraft",
@@ -1985,34 +1623,15 @@
       "description": ""
     },
     {
-      "projectID": "minecraft_xbox360",
-      "projectName": "Minecraft: Xbox 360 Edition",
+      "projectID": "minecraft_n3ds",
+      "projectName": "Minecraft: New Nintendo 3DS Edition",
       "projectType": "Game",
-      "imageSrc": "Minecraft360",
+      "imageSrc": "MinecraftN3DS",
       "seriesID": "minecraft",
       "platformIDs": [
         {
-          "platform": "xbox360",
-          "releaseDate": "2012-05-09",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "mc_wethands"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "minecraft_xboxone",
-      "projectName": "Minecraft: Xbox One Edition",
-      "projectType": "Game",
-      "imageSrc": "MinecraftXboxOne",
-      "seriesID": "minecraft",
-      "platformIDs": [
-        {
-          "platform": "xbox1",
-          "releaseDate": "2014-09-05",
+          "platform": "n3ds",
+          "releaseDate": "2018-09-20",
           "overrideImage": ""
         }
       ],
@@ -2061,6 +1680,25 @@
       "description": ""
     },
     {
+      "projectID": "minecraft_switch",
+      "projectName": "Minecraft: Nintendo Switch Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftSwitch",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-05-11",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
       "projectID": "minecraft_vita",
       "projectName": "Minecraft: PlayStation Vita Edition",
       "projectType": "Game",
@@ -2099,547 +1737,909 @@
       "description": ""
     },
     {
-      "projectID": "minecraft_switch",
-      "projectName": "Minecraft: Nintendo Switch Edition",
+      "projectID": "minecraft_xbox360",
+      "projectName": "Minecraft: Xbox 360 Edition",
       "projectType": "Game",
-      "imageSrc": "MinecraftSwitch",
+      "imageSrc": "Minecraft360",
       "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "xbox360",
+          "releaseDate": "2012-05-09",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft_xboxone",
+      "projectName": "Minecraft: Xbox One Edition",
+      "projectType": "Game",
+      "imageSrc": "MinecraftXboxOne",
+      "seriesID": "minecraft",
+      "platformIDs": [
+        {
+          "platform": "xbox1",
+          "releaseDate": "2014-09-05",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "mm",
+      "projectName": "The Legend of Zelda: Majora's Mask",
+      "projectType": "Game",
+      "imageSrc": "MM",
+      "seriesID": "loz",
+      "platformIDs": [
+        {
+          "platform": "n64",
+          "releaseDate": "2000-11-17",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mm_lastday8bit",
+        "mm_lastday"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "mm3d",
+      "projectName": "The Legend of Zelda: Majora's Mask 3D",
+      "projectType": "Game",
+      "imageSrc": "MM3D",
+      "seriesID": "loz",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2015-02-13",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "mm_lastday8bit",
+        "mm_lastday"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "mother",
+      "projectName": "MOTHER",
+      "projectType": "Game",
+      "imageSrc": "Mother",
+      "seriesID": "earthbound",
+      "platformIDs": [
+        {
+          "platform": "nes",
+          "releaseDate": "1989-07-27[Japan]"
+        }
+      ],
+      "musicList": [
+        "ebb_snowman"
+      ],
+      "collectionItems": []
+    },
+    {
+      "projectID": "mother12",
+      "projectName": "MOTHER 1+2",
+      "projectType": "Collection",
+      "imageSrc": "Mother1_2",
+      "seriesID": "earthbound",
+      "platformIDs": [
+        {
+          "platform": "gba",
+          "releaseDate": "2006-04-20[Japan]"
+        }
+      ],
+      "musicList": [
+        "ebb_snowman"
+      ],
+      "collectionItems": [
+        "MOTHER",
+        "MOTHER 2"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "pkmn_b",
+      "projectName": "Pokémon Black Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNBlack",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2011-03-04"
+        }
+      ],
+      "musicList": [
+        "bw_dragonspiral"
+      ]
+    },
+    {
+      "projectID": "pkmn_bd",
+      "projectName": "Pokémon Brilliant Diamond",
+      "projectType": "Game",
+      "imageSrc": "PKMNBD",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
           "platform": "ns1",
-          "releaseDate": "2017-05-11",
-          "overrideImage": ""
+          "releaseDate": "2021-11-19"
         }
       ],
       "musicList": [
-        "mc_wethands"
-      ],
-      "collectionItems": [],
-      "description": ""
+        "hgss_arceus"
+      ]
     },
     {
-      "projectID": "minecraft_n3ds",
-      "projectName": "Minecraft: New Nintendo 3DS Edition",
+      "projectID": "pkmn_c",
+      "projectName": "Pokémon Crystal Version",
       "projectType": "Game",
-      "imageSrc": "MinecraftN3DS",
-      "seriesID": "minecraft",
+      "imageSrc": "PKMNCrystal",
+      "seriesID": "pkmn",
       "platformIDs": [
         {
-          "platform": "n3ds",
-          "releaseDate": "2018-09-20",
-          "overrideImage": ""
+          "platform": "gbc",
+          "releaseDate": "2001-11-02"
         }
       ],
       "musicList": [
-        "mc_wethands"
-      ],
-      "collectionItems": [],
-      "description": ""
+        "gs_azalea"
+      ]
     },
     {
-      "projectID": "fortnite",
-      "projectName": "Fortnite",
+      "projectID": "pkmn_d",
+      "projectName": "Pokémon Diamond Version",
       "projectType": "Game",
-      "imageSrc": "Fortnite",
-      "seriesID": "fortnite",
+      "imageSrc": "PKMNDiamond",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2007-07-27"
+        }
+      ],
+      "musicList": [
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_g",
+      "projectName": "Pokémon Gold Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNGold",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "gbc",
+          "releaseDate": "2001-04-01"
+        }
+      ],
+      "musicList": [
+        "gs_azalea"
+      ]
+    },
+    {
+      "projectID": "pkmn_hg",
+      "projectName": "Pokémon HeartGold Version",
+      "projectType": "Game",
+      "imageSrc": "PKMN_HG",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2010-03-26"
+        }
+      ],
+      "musicList": [
+        "gs_azalea",
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_moon",
+      "projectName": "Pokémon Moon",
+      "projectType": "Game",
+      "imageSrc": "PKMNMoon",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2016-11-23"
+        }
+      ],
+      "musicList": [
+        "usum_vpc",
+        "sm_po"
+      ]
+    },
+    {
+      "projectID": "pkmn_p",
+      "projectName": "Pokémon Pearl Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNPearl",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2007-07-27"
+        }
+      ],
+      "musicList": [
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_pl",
+      "projectName": "Pokémon Platinum Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNPlatinum",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2009-05-22"
+        }
+      ],
+      "musicList": [
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_s",
+      "projectName": "Pokémon Silver Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNSilver",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "gbc",
+          "releaseDate": "2001-04-01"
+        }
+      ],
+      "musicList": [
+        "gs_azalea"
+      ]
+    },
+    {
+      "projectID": "pkmn_sp",
+      "projectName": "Pokémon Shining Pearl",
+      "projectType": "Game",
+      "imageSrc": "PKMNSP",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2021-11-19"
+        }
+      ],
+      "musicList": [
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_ss",
+      "projectName": "Pokémon SoulSilver Version",
+      "projectType": "Game",
+      "imageSrc": "PKMN_SS",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2010-03-26"
+        }
+      ],
+      "musicList": [
+        "gs_azalea",
+        "hgss_arceus"
+      ]
+    },
+    {
+      "projectID": "pkmn_sun",
+      "projectName": "Pokémon Sun",
+      "projectType": "Game",
+      "imageSrc": "PKMNSun",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2016-11-23_1"
+        }
+      ],
+      "musicList": [
+        "usum_vpc",
+        "sm_po"
+      ]
+    },
+    {
+      "projectID": "pkmn_umoon",
+      "projectName": "Pokémon Ultra Moon",
+      "projectType": "Game",
+      "imageSrc": "PKMNUltraMoon",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2017-11-17"
+        }
+      ],
+      "musicList": [
+        "usum_vpc",
+        "sm_po"
+      ]
+    },
+    {
+      "projectID": "pkmn_usun",
+      "projectName": "Pokémon Ultra Sun",
+      "projectType": "Game",
+      "imageSrc": "PKMNUltraSun",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2017-11-17_1"
+        }
+      ],
+      "musicList": [
+        "usum_vpc",
+        "sm_po"
+      ]
+    },
+    {
+      "projectID": "pkmn_w",
+      "projectName": "Pokémon White Version",
+      "projectType": "Game",
+      "imageSrc": "PKMNWhite",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2011-03-04"
+        }
+      ],
+      "musicList": [
+        "bw_dragonspiral"
+      ]
+    },
+    {
+      "projectID": "pokken",
+      "projectName": "Pokkén Tournament",
+      "projectType": "Game",
+      "imageSrc": "Pokken",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "wiiu",
+          "releaseDate": "2016-03-18"
+        },
+        {
+          "platform": "arcade",
+          "releaseDate": "2015-07-16[Japan]"
+        }
+      ],
+      "musicList": [
+        "pokken_magikarp"
+      ]
+    },
+    {
+      "projectID": "pokken_dx",
+      "projectName": "Pokkén Tournament DX",
+      "projectType": "Game",
+      "imageSrc": "PokkenDX",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-09-22"
+        }
+      ],
+      "musicList": [
+        "pokken_magikarp"
+      ]
+    },
+    {
+      "projectID": "seaofthieves",
+      "projectName": "Sea of Thieves",
+      "projectType": "Game",
+      "imageSrc": "SeaOfThieves",
+      "seriesID": "seaofthieves",
       "platformIDs": [
         {
           "platform": "pc",
-          "releaseDate": "2017-07-25",
-          "overrideImage": ""
-        },
-        {
-          "platform": "mac",
-          "releaseDate": "2017-07-25",
-          "overrideImage": ""
-        },
-        {
-          "platform": "ps4",
-          "releaseDate": "2017-07-25",
+          "releaseDate": "2018-03-20",
           "overrideImage": ""
         },
         {
           "platform": "xbox1",
-          "releaseDate": "2017-07-25",
-          "overrideImage": ""
-        },
-        {
-          "platform": "ios",
-          "releaseDate": "2018-04-02",
-          "overrideImage": ""
-        },
-        {
-          "platform": "android",
-          "releaseDate": "2018-08-09",
+          "releaseDate": "2018-03-20",
           "overrideImage": ""
         },
         {
           "platform": "xboxseries",
-          "releaseDate": "2020-11-10",
+          "releaseDate": "2024-03-13",
           "overrideImage": ""
         },
         {
           "platform": "ps5",
-          "releaseDate": "2020-11-12",
-          "overrideImage": ""
-        },
-        {
-          "platform": "ns2",
-          "releaseDate": "2025-06-05",
+          "releaseDate": "2024-04-30",
           "overrideImage": ""
         }
       ],
       "musicList": [
-        "fortnite_menu"
+        "sot_becalmed"
       ],
       "collectionItems": [],
       "description": ""
     },
     {
-      "projectID": "fortnite_switch",
-      "projectName": "Fortnite for Nintendo Switch",
+      "projectID": "shovelknight",
+      "projectName": "Shovel Knight: Treasure Trove",
       "projectType": "Game",
-      "imageSrc": "Fortnite",
-      "seriesID": "fortnite",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2018-06-12",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "fortnite_menu"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "avengers_iw",
-      "projectName": "Avengers: Infinity War",
-      "projectType": "Film",
-      "imageSrc": "AvengersIWSq",
-      "seriesID": "marvel",
-      "platformIDs": [
-        {
-          "platform": "film",
-          "releaseDate": "2018-04-26",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "avengersiw_porch"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "fe3h",
-      "projectName": "Fire Emblem: Three Houses",
-      "projectType": "Game",
-      "imageSrc": "FE3H",
-      "seriesID": "fireemblem",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2019-07-26",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "fe3h_e318"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "kh2",
-      "projectName": "KINGDOM HEARTS II",
-      "projectType": "Game",
-      "imageSrc": "KH2",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ps2",
-          "releaseDate": "2006-09-29",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved",
-        "kh2_org"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "kh2fm",
-      "projectName": "KINGDOM HEARTS II FINAL MIX+",
-      "projectType": "Collection",
-      "imageSrc": "KH2FM",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ps2",
-          "releaseDate": "2007-03-29[Japan]",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved",
-        "kh2_org"
-      ],
-      "collectionItems": [
-        "KINGDOM HEARTS II FINAL MIX",
-        "KINGDOM HEARTS Re:Chain of Memories"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "kh25",
-      "projectName": "KINGDOM HEARTS HD II.5 ReMIX",
-      "projectType": "Collection",
-      "imageSrc": "KH25",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ps3",
-          "releaseDate": "2014-12-05",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved",
-        "kh2_org"
-      ],
-      "collectionItems": [
-        "KINGDOM HEARTS II FINAL MIX",
-        "KINGDOM HEARTS Birth by Sleep FINAL MIX",
-        "KINGDOM HEARTS Re:coded (HD remastered cinematics)"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "kh125",
-      "projectName": "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
-      "projectType": "Collection",
-      "imageSrc": "KH125",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ps4",
-          "releaseDate": "2017-03-31",
-          "overrideImage": ""
-        },
-        {
-          "platform": "xbox1",
-          "releaseDate": "2020-02-18",
-          "overrideImage": "KH125Xbox"
-        },
-        {
-          "platform": "pc",
-          "releaseDate": "2021-03-30",
-          "overrideImage": "KH125Xbox"
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved",
-        "kh2_org"
-      ],
-      "collectionItems": [
-        "KINGDOM HEARTS FINAL MIX",
-        "KINGDOM HEARTS Re:Chain of Memories",
-        "KINGDOM HEARTS 358/2 Days (HD remastered cinematics)",
-        "KINGDOM HEARTS II FINAL MIX",
-        "KINGDOM HEARTS Birth by Sleep FINAL MIX",
-        "KINGDOM HEARTS Re:coded (HD remastered cinematics)"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "kh125_cloud",
-      "projectName": "KINGDOM HEARTS - HD I.5+II.5 ReMIX - Cloud Version",
-      "projectType": "Collection",
-      "imageSrc": "KH125Cloud",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2022-02-10",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved",
-        "kh2_org"
-      ],
-      "collectionItems": [
-        "KINGDOM HEARTS FINAL MIX",
-        "KINGDOM HEARTS Re:Chain of Memories",
-        "KINGDOM HEARTS 358/2 Days (HD remastered cinematics)",
-        "KINGDOM HEARTS II FINAL MIX",
-        "KINGDOM HEARTS Birth by Sleep FINAL MIX",
-        "KINGDOM HEARTS Re:coded (HD remastered cinematics)"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "khstorysofar",
-      "projectName": "KINGDOM HEARTS The Story So Far",
-      "projectType": "Collection",
-      "imageSrc": "KHStorySoFar",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ps4",
-          "releaseDate": "2019-03-29",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved",
-        "kh2_org"
-      ],
-      "collectionItems": [
-        "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
-        "KINGDOM HEARTS HD II.8 Final Chapter Prologue"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "khaio",
-      "projectName": "KINGDOM HEARTS All-In-One Package",
-      "projectType": "Collection",
-      "imageSrc": "KHAllInOne",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ps4",
-          "releaseDate": "2025-06-12",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved",
-        "kh2_org"
-      ],
-      "collectionItems": [
-        "KINGDOM HEARTS The Story So Far",
-        "KINGDOM HEARTS III"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "khintegrum",
-      "projectName": "KINGDOM HEARTS INTEGRUM MASTERPIECE",
-      "projectType": "Collection",
-      "imageSrc": "KHIntegrum",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ps4",
-          "releaseDate": "2019-01-25[Japan]",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved",
-        "kh2_org"
-      ],
-      "collectionItems": [
-        "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
-        "KINGDOM HEARTS HD II.8 Final Chapter Prologue",
-        "KINGDOM HEARTS III"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "khintegrum_steam",
-      "projectName": "KINGDOM HEARTS INTEGRUM MASTERPIECE",
-      "projectType": "Bundle",
-      "imageSrc": "KHIntegrumSteam",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "pc",
-          "releaseDate": "2024-06-13",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved",
-        "kh2_org"
-      ],
-      "collectionItems": [
-        "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
-        "KINGDOM HEARTS HD II.8 Final Chapter Prologue",
-        "KINGDOM HEARTS III + Re𝄌Mind (DLC)"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "khintegrum_cloud",
-      "projectName": "KINGDOM HEARTS INTEGRUM MASTERPIECE for Cloud",
-      "projectType": "Bundle",
-      "imageSrc": "KHIntegrumCloud",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ns1",
-          "releaseDate": "2022-02-10",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved",
-        "kh2_org"
-      ],
-      "collectionItems": [
-        "KINGDOM HEARTS - HD I.5+II.5 ReMIX - Cloud Version",
-        "KINGDOM HEARTS HD II.8 Final Chapter Prologue Cloud Version",
-        "KINGDOM HEARTS III + Re𝄌Mind (DLC) Cloud Version"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "kh",
-      "projectName": "KINGDOM HEARTS",
-      "projectType": "Game",
-      "imageSrc": "KH",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ps2",
-          "releaseDate": "2002-11-15",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "khfm",
-      "projectName": "KINGDOM HEARTS FINAL MIX",
-      "projectType": "Game",
-      "imageSrc": "KHFM",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ps2",
-          "releaseDate": "2002-12-26[Japan]",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "khcom",
-      "projectName": "KINGDOM HEARTS: Chain of Memories",
-      "projectType": "Game",
-      "imageSrc": "KHCOM",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "gba",
-          "releaseDate": "2005-05-06",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "khrecom",
-      "projectName": "KINGDOM HEARTS Re:Chain of Memories",
-      "projectType": "Game",
-      "imageSrc": "KHReCOM",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ps2",
-          "releaseDate": "2008-12-02[US/Canada]",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "kh15",
-      "projectName": "KINGDOM HEARTS HD I.5 ReMIX",
-      "projectType": "Collection",
-      "imageSrc": "KH15",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "ps3",
-          "releaseDate": "2013-09-13",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved"
-      ],
-      "collectionItems": [
-        "KINGDOM HEARTS FINAL MIX",
-        "KINGDOM HEARTS Re:Chain of Memories",
-        "KINGDOM HEARTS 358/2 Days (HD remastered cinematics)"
-      ],
-      "description": ""
-    },
-    {
-      "projectID": "kh358",
-      "projectName": "KINGDOM HEARTS 358/2 Days",
-      "projectType": "Game",
-      "imageSrc": "KH358",
-      "seriesID": "kh",
-      "platformIDs": [
-        {
-          "platform": "nds",
-          "releaseDate": "2009-10-09",
-          "overrideImage": ""
-        }
-      ],
-      "musicList": [
-        "kh_dearlybeloved"
-      ],
-      "collectionItems": [],
-      "description": ""
-    },
-    {
-      "projectID": "kh10th",
-      "projectName": "KINGDOM HEARTS 10th Anniversary 3D+Days+Re:coded BOX",
-      "projectType": "Collection",
-      "imageSrc": "KH10th",
-      "seriesID": "kh",
+      "imageSrc": "ShovelKnight",
+      "seriesID": "shovel",
       "platformIDs": [
         {
           "platform": "3ds",
-          "releaseDate": "2012-03-29[Japan]",
+          "releaseDate": "2014-11-06"
+        },
+        {
+          "platform": "wiiu",
+          "releaseDate": "2014-11-06"
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2014-06-26"
+        },
+        {
+          "platform": "mac",
+          "releaseDate": "2014-09-13"
+        },
+        {
+          "platform": "linux",
+          "releaseDate": "2014-10-09"
+        },
+        {
+          "platform": "ps4",
+          "releaseDate": "2015-04-21"
+        },
+        {
+          "platform": "ps3",
+          "releaseDate": "2015-04-21"
+        },
+        {
+          "platform": "psv",
+          "releaseDate": "2015-04-21"
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2015-04-29"
+        },
+        {
+          "platform": "firetv",
+          "releaseDate": "2015-10-05"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-03-03"
+        }
+      ],
+      "musicList": [
+        "sk_shield"
+      ]
+    },
+    {
+      "projectID": "sm3das",
+      "projectName": "Super Mario 3D All-Stars",
+      "projectType": "Collection",
+      "imageSrc": "SM3DAS",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2020-09-18"
+        }
+      ],
+      "musicList": [
+        "smg_ggg_8bit",
+        "sm64_ultkoopa"
+      ],
+      "collectionItems": [
+        "Super Mario 64",
+        "Super Mario Sunshine",
+        "Super Mario Galaxy"
+      ]
+    },
+    {
+      "projectID": "SM3DW",
+      "projectName": "Super Mario 3D World",
+      "projectType": "Game",
+      "imageSrc": "SM3DW",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "wiiu",
+          "releaseDate": "2013-11-29"
+        }
+      ],
+      "musicList": [
+        "sm3dw_boo"
+      ]
+    },
+    {
+      "projectID": "SM3DW_BF",
+      "projectName": "Super Mario 3D World + Bowser’s Fury",
+      "projectType": "Game",
+      "imageSrc": "SM3DW_BF",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2021-02-12"
+        }
+      ],
+      "musicList": [
+        "sm3dw_boo"
+      ],
+      "collectionItems": [
+        "Super Mario 3D World",
+        "Bowser's Fury"
+      ]
+    },
+    {
+      "projectID": "sm64",
+      "projectName": "Super Mario 64",
+      "projectType": "Game",
+      "imageSrc": "SM64",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "n64",
+          "releaseDate": "1997-03-01",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ique",
+          "releaseDate": "2003-11-18[China]",
           "overrideImage": ""
         }
       ],
       "musicList": [
-        "kh_dearlybeloved"
+        "sm64_ultkoopa"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "sm64ds",
+      "projectName": "Super Mario 64 DS",
+      "projectType": "Game",
+      "imageSrc": "SM64DS",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "nds",
+          "releaseDate": "2005-03-11"
+        }
+      ],
+      "musicList": [
+        "sm64_ultkoopa"
+      ]
+    },
+    {
+      "projectID": "sm64_spt",
+      "projectName": "Super Mario 64: Shindō Pak Taiō Version",
+      "projectType": "Game",
+      "imageSrc": "SM64_SPT",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "n64",
+          "releaseDate": "1997-07-18[Japan]"
+        }
+      ],
+      "musicList": [
+        "sm64_ultkoopa"
+      ]
+    },
+    {
+      "projectID": "smgalaxy",
+      "projectName": "Super Mario Galaxy",
+      "projectType": "Game",
+      "imageSrc": "SMG",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "wii",
+          "releaseDate": "2007-11-16"
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2025-10-02"
+        },
+        {
+          "platform": "shieldtv",
+          "releaseDate": "2018-03-22[China]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "smg_ggg_8bit"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "smgalaxy_12",
+      "projectName": "Super Mario Galaxy + Super Mario Galaxy 2",
+      "projectType": "Collection",
+      "imageSrc": "SMG_1_2",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2025-10-02"
+        }
+      ],
+      "musicList": [
+        "smg_ggg_8bit"
       ],
       "collectionItems": [
-        "KINGDOM HEARTS 3D [Dream Drop Distance]",
-        "KINGDOM HEARTS 358/2 Days",
-        "KINGDOM HEARTS Re:coded"
+        "Super Mario Galaxy",
+        "Super Mario Galaxy 2"
       ],
+      "description": ""
+    },
+    {
+      "projectID": "smo",
+      "projectName": "Super Mario Odyssey",
+      "projectType": "Game",
+      "imageSrc": "SMO",
+      "seriesID": "mario",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-10-27"
+        }
+      ],
+      "musicList": [
+        "smo_forgottenisle",
+        "smo_juss",
+        "smo_main"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "splatoon2",
+      "projectName": "Splatoon 2",
+      "projectType": "Game",
+      "imageSrc": "Splatoon2",
+      "seriesID": "splatoon",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-07-21"
+        }
+      ],
+      "musicList": [
+        "spl2_inkoming"
+      ]
+    },
+    {
+      "projectID": "splatoon2_gtf",
+      "projectName": "Splatoon 2 Global Testfire",
+      "projectType": "Demo",
+      "imageSrc": "Splatoon2GT",
+      "seriesID": "splatoon",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-03-14"
+        }
+      ],
+      "musicList": [
+        "spl2_inkoming"
+      ]
+    },
+    {
+      "projectID": "ssbb",
+      "projectName": "Super Smash Bros. Brawl",
+      "projectType": "Game",
+      "imageSrc": "SSBB",
+      "seriesID": "ssb",
+      "platformIDs": [
+        {
+          "platform": "wii",
+          "releaseDate": "2008-06-27"
+        }
+      ],
+      "musicList": [
+        "fewarriors_medley"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "ssbu",
+      "projectName": "Super Smash Bros. Ultimate",
+      "projectType": "Game",
+      "imageSrc": "SSBU",
+      "seriesID": "ssb",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2018-12-07",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "ssbu_reveal"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "starfox2",
+      "projectName": "Star Fox 2",
+      "projectType": "Game",
+      "imageSrc": "StarFox2",
+      "seriesID": "starfox",
+      "platformIDs": [
+        {
+          "platform": "snesmini",
+          "releaseDate": "2017-09-29"
+        }
+      ],
+      "musicList": [
+        "sf2_title"
+      ]
+    },
+    {
+      "projectID": "totk",
+      "projectName": "The Legend of Zelda: Tears of the Kingdom",
+      "projectType": "Game",
+      "imageSrc": "TOTK",
+      "seriesID": "loz",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2023-05-12"
+        }
+      ],
+      "musicList": [
+        "totk_e3",
+        "botw_ritovillage_n"
+      ]
+    },
+    {
+      "projectID": "totk_s2",
+      "projectName": "The Legend of Zelda: Tears of the Kingdom – Nintendo Switch 2 Edition",
+      "projectType": "Game",
+      "imageSrc": "TOTK_S2",
+      "seriesID": "loz",
+      "platformIDs": [
+        {
+          "platform": "ns2",
+          "releaseDate": "2025-06-05"
+        }
+      ],
+      "musicList": [
+        "totk_e3",
+        "botw_ritovillage_n"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "wally71551_og",
+      "projectName": "Wally71551 -Original Cut-",
+      "projectType": "Album",
+      "imageSrc": "null",
+      "seriesID": "original",
+      "platformIDs": [
+        {
+          "platform": "project",
+          "releaseDate": "null"
+        }
+      ],
+      "musicList": [
+        "botw_sidon",
+        "sm64_ultkoopa",
+        "gothic3_vistapoint",
+        "smg_ggg_8bit",
+        "ffxv_nox",
+        "ffxv_nox_8bit",
+        "ffxv_tenebrae",
+        "botw_ritovillage_n",
+        "spl2_inkoming",
+        "botw_urbosa",
+        "botw_hfield_d",
+        "ffxv_sws",
+        "ffxv_somnusultima",
+        "bw_dragonspiral",
+        "hgss_arceus",
+        "sr_main",
+        "sk_shield",
+        "gs_azalea",
+        "pokken_magikarp",
+        "botw_tower_lake",
+        "sm_po",
+        "sf2_title",
+        "sm3dw_boo",
+        "ffxv_solidarity",
+        "fewarriors_medley",
+        "cuphead_funfair",
+        "smo_main",
+        "cuphead_iio",
+        "doom_adg",
+        "smo_juss",
+        "la_noire_main",
+        "usum_vpc",
+        "xc2_eotbs",
+        "ebb_snowman",
+        "xc2_elpys",
+        "ffxv_jazzmedley",
+        "ffxv_horizon",
+        "ffxv_rrpensive",
+        "bayo_ldb",
+        "botw_rhoam",
+        "ffxv_nyx",
+        "ffxv_promptodarkness",
+        "ffxv_luna",
+        "ffxvr_medley",
+        "ffxv_sws2",
+        "ffxv_ravus",
+        "ffxv_rarpiano",
+        "ffxv_wanderlust",
+        "ffxv_ufc_mm2",
+        "ffxv_promptohsh",
+        "ffxv_somnus",
+        "sot_becalmed",
+        "ssbu_reveal",
+        "mm_lastday",
+        "mm_lastday8bit",
+        "mc_wethands",
+        "fortnite_menu",
+        "avengersiw_porch",
+        "smo_forgottenisle",
+        "xc2_morytha",
+        "ffxvpehd_sots",
+        "fe3h_e318",
+        "ff15pehd_dining",
+        "kh2_org",
+        "kh_dearlybeloved",
+        "totk_e3"
+      ],
+      "description": "An album collection of all the tracks made and released between 2017-2019."
+    },
+    {
+      "projectID": "xc2",
+      "projectName": "Xenoblade Chronicles 2",
+      "projectType": "Game",
+      "imageSrc": "XC2",
+      "seriesID": "xenoblade",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2017-12-01"
+        }
+      ],
+      "musicList": [
+        "xc2_morytha",
+        "xc2_elpys",
+        "xc2_eotbs"
+      ],
+      "collectionItems": [],
       "description": ""
     }
   ]

@@ -1,311 +1,57 @@
 {
   "music": [
     {
-      "musicID": "botw_sidon",
-      "musicName": "Prince Sidon's Theme",
-      "projectID": "botw",
-      "seriesID": "loz",
-      "releaseDate": "2017-04-25",
+      "musicID": "avengersiw_porch",
+      "musicName": "Porch",
+      "projectID": "avengers_iw",
+      "seriesID": "marvel",
+      "releaseDate": "2018-05-21",
       "trackArranger": "Wally71551",
-      "composer": "Yasuaki Iwata",
-      "artists": [],
-      "transcription": [
-        {
-          "transcriber": "Maelstrom",
-          "url": "https://www.ninsheetmusic.org/download/pdf/3510"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "Sidon's Theme",
-          "project": "The Legend of Zelda: Breath of the Wild",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/lF0zEzerXu4",
-      "bandcampLink": "",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 1,
-      "description": "I wanted to do this theme to keep myself limited with instruments and stay faithful to the original theme. However, I did want to add the impressionalistic-style piano that is present in some of the other themes throughout <em>The Legend of Zelda: Breath of the Wild</em>, such as the Horse themes as well as the Final Boss Theme. I then added the slower second section to signify the sorrow and loss Prince Sidon and the other Zora would have felt when they lost Mipha."
-    },
-    {
-      "musicID": "sm64_ultkoopa",
-      "musicName": "Ultimate Koopa",
-      "projectID": "sm64",
-      "seriesID": "mario",
-      "releaseDate": "2017-04-30",
-      "trackArranger": "Wally71551",
-      "composer": "Koji Kondo",
-      "transcription": [
-        {
-          "transcriber": "Don Valentino",
-          "url": "https://www.ninsheetmusic.org/download/pdf/682"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "The Final Battle",
-          "project": "Super Mario 64",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/rJUTNN4QB8I",
-      "bandcampLink": "",
-      "extraLinks": [
-        {
-          "platform": "MuseScore",
-          "url": "https://musescore.com/user/9283941/scores/3796371"
-        }
-      ],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 2,
-      "description": "This is the second version of Ultimate Koopa I've made, this version is much more orchestral compared to the first one. This was made a little while ago before I got a new soundfont bank, and because of the reworks I would have had to undertake I decided to leave it the way it was.\n\nI wanted to preserve some of the original theme, so I kept the organ as a focal instrument. I also tweaked some of the melodies and added my own style to the piece. Some elements of the remix were carried over from the original version I did, such as the solo instruments with accompaniment. This helps give the sense of Mario's isolation and loneliness as he goes to face Bowser, fighting against the huge King of the Koopas."
-    },
-    {
-      "musicID": "gothic3_vistapoint",
-      "musicName": "Vista Point",
-      "projectID": "gothic3",
-      "seriesID": "gothic",
-      "releaseDate": "2017-05-07",
-      "trackArranger": "Wally71551",
-      "composer": "Kai Rosenkranz",
-      "transcription": [
-        {
-          "transcriber": "Tigero",
-          "url": "https://ichigos.com/sheets/738"
-        }
-      ],
-      "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/oaPS1gJ1TdE",
-      "bandcampLink": "",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 3,
-      "description": "The <em>Gothic</em> series was recommended to me by a friend (I haven't got around to playing it yet though...) but the theme for <em>Gothic 3</em>, Vista Point, pulled me in straight away. The theme itself is beautifully composed by Kai Rosenkranz.\n\nI wanted to stick closely to the theme but I wanted to add a few things, like more use of horns and lots of grand piano to keep the nature of the original song."
-    },
-    {
-      "musicID": "smg_ggg_8bit",
-      "musicName": "Gusty Garden Galaxy 8-Bit Orchestra",
-      "projectID": "smgalaxy",
-      "seriesID": "mario",
-      "releaseDate": "2017-01-23",
-      "trackArranger": "Wally71551",
-      "composer": "Mahito Yokota",
-      "transcription": [
-        {
-          "transcriber": "zm582916",
-          "url": "https://musescore.com/user/116021/scores/344136"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "Gusty Garden Galaxy",
-          "project": "Super Mario Galaxy",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/1SItxFzwp-Q",
-      "bandcampLink": "",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 4,
-      "description": "An GXSCC (8-bit style) version of Gusty Garden Galaxy. The program converts MIDI instruments into waves. I inputted an orchestral MIDI file which made the piece use simple waves while still having the orchestral feel to it.\n\nGXSCC works by converting MIDI information into different types of waves, similar to how the NES would simulate different instruments. This particular arrangement uses a full orchestra MIDI file created by zm582916 of MuseScore, which I then edited and tweaked and ported into GXSCC. This allows the piece to use simple NES-like waves while still having the grandeur and orchestral feel of the original track."
-    },
-    {
-      "musicID": "ffxv_nox",
-      "musicName": "Nox Aeterna",
-      "projectID": "ff15",
-      "seriesID": "ff",
-      "releaseDate": "2017-05-14",
-      "trackArranger": "Wally71551",
-      "composer": "Yoko Shimomura",
+      "composer": "Alan Silvestri",
       "artists": [
         {
-          "header": "Arranger",
-          "artistName": "Yoko Shimomura, Shota Nakama"
+          "header": "Orchestrator",
+          "artistName": "Mark Graham"
         }
       ],
       "transcription": [
         {
-          "transcriber": "Alistair Mithras",
-          "url": "https://ichigos.com/sheets/814"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "NOX AETERNA",
-          "project": "FINAL FANTASY XV",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/nJHz3N3-YvQ",
-      "bandcampLink": "",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 5,
-      "description": "I was listening to the <em>FINAL FANTASY XV</em> Soundtrack, as it is one of my all-time favourite games and has a brilliant soundtrack to go along with it. I was listening to Nox Aeterna, and decided I wanted to create a version of it myself.\n\nI used a full string section that the piece uses but decided not to use a woodwind section, instead opting for a choir. In doing this, I created a piece that carries more of the sorrow of the piece; this is further boosted by the piano in use throughout the piece.\n\nNoctis has just learnt that Insomnia has fallen and his father is dead, so I tried to communicate the sorrow he would feel during the scene."
-    },
-    {
-      "musicID": "ffxv_nox_8bit",
-      "musicName": "Nox Aeterna 8-Bit",
-      "projectID": "ff15",
-      "seriesID": "ff",
-      "releaseDate": "2017-05-14",
-      "trackArranger": "Wally71551",
-      "composer": "Yoko Shimomura",
-      "artists": [
-        {
-          "header": "Arranger",
-          "artistName": "Yoko Shimomura, Shota Nakama"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Alistair Mithras",
-          "url": "https://ichigos.com/sheets/814"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "NOX AETERNA",
-          "project": "FINAL FANTASY XV",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/Dlf-AWS56zY",
-      "bandcampLink": "",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 6,
-      "description": "8-Bit recreation of Nox Aeterna from <em>FINAL FANTASY XV</em>. Based on my arrangement of Nox Aeterna."
-    },
-    {
-      "musicID": "ffxv_tenebrae",
-      "musicName": "Tenebrae",
-      "projectID": "ff15",
-      "seriesID": "ff",
-      "releaseDate": "2017-05-21",
-      "trackArranger": "Wally71551",
-      "composer": "Yoko Shimomura",
-      "artists": [
-        {
-          "header": "Arranger",
-          "artistName": "Yoshino Aoki"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Alistair Mithras",
-          "url": "https://ichigos.com/sheets/814"
-        }
-      ],
-      "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/QWPIweib4vo",
-      "bandcampLink": "",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 7,
-      "description": "In creating this, I wanted to convey the feeling of a glamorous and beautiful city that has been destroyed by the empire's rampage. I also incorporated other parts of <em>FINAL FANTASY XV</em>'s OST to portray Noctis' emotion connection to the place and the fact he would still be grieving over the loss of Luna."
-    },
-    {
-      "musicID": "botw_ritovillage_n",
-      "musicName": "Rito Village (Night)",
-      "projectID": "botw",
-      "seriesID": "loz",
-      "releaseDate": "2017-07-16",
-      "trackArranger": "Wally71551",
-      "composer": "Yasuaki Iwata",
-      "artists": [
-        {
-          "header": "Dragon Roost Island (from <em>The Legend of Zelda: The Wind Waker</em>) Composer",
-          "artistName": "Kenta Nagata"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Latios212",
-          "url": "https://www.ninsheetmusic.org/download/pdf/3555"
+          "transcriber": "Samuel Fu, RodgerC26",
+          "url": "https://musescore.com/rodgerc26/porch-infinity-war"
         }
       ],
       "musicType": "Remix",
       "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/qzBmeVglmIU",
+      "youtubeLink": "https://youtu.be/D0rCWNcC18g",
       "bandcampLink": "",
+      "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 8,
-      "description": "With this theme, I wanted to change some of the instrumentation in the piece. Specifically, I felt adding an accordion to carry some of the melody was necessary to help represent Kass, and the link the accordion has to the Rito in general.\n\nI put small variations on the piece and implemented a wider palette of instruments while still keeping the core of the piece throughout."
+      "linkedAlbumTrack": 58,
+      "description": "The original version of the track plays at the end of the movie, when Thanos has become victorious over the Avengers. Half of all life has been wiped out of existence, and the Avengers have lost. Thanos sits on a porch, watching the sun rise over a balanced universe.\n\nThe track is tragic, with the melody swells adding to the emotion. I made use of different motifs from the <em>Marvel Cinematic Universe</em>, using harmony to create the idea of the heroes being defeated. Orchestral orchestration is used throughout; it represents the epic nature and grand scale of Thanos' victory."
     },
     {
-      "musicID": "spl2_inkoming",
-      "musicName": "Inkoming",
-      "projectID": "splatoon2",
-      "seriesID": "loz",
-      "releaseDate": "2017-07-23",
+      "musicID": "bayo_ldb",
+      "musicName": "Let's Dance, Boys!",
+      "projectID": "bayo",
+      "seriesID": "bayo",
+      "releaseDate": "2018-02-17",
       "trackArranger": "Wally71551",
-      "composer": "Toru Minegishi",
-      "artists": [
-        {
-          "header": "Vocal",
-          "artistName": "Hiroaki Takeuchi, Sachiko Watabe"
-        },
-        {
-          "header": "Electric Guitar",
-          "artistName": "Akitoshi Kuroda"
-        },
-        {
-          "header": "Electric Bass",
-          "artistName": "IKUO"
-        },
-        {
-          "header": "Drums",
-          "artistName": "Kei Yamazaki"
-        },
-        {
-          "header": "In-Game Artist",
-          "artistName": "Wet Floor"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "Inkoming!",
-          "project": "Splatoon 2",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/4lY4oQ0_NU8",
-      "bandcampLink": "",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 9,
-      "description": "For the theme of <em>Splatoon 2</em>, I decided to go in a rock fusion style, making use of synths and guitars predominantly. As I could not recreate the vocal section accurately enough, I decided to create an improvisation-styled section to replace it."
-    },
-    {
-      "musicID": "botw_urbosa",
-      "musicName": "Champion Urbosa's Theme",
-      "projectID": "botw",
-      "seriesID": "loz",
-      "releaseDate": "2017-08-02",
-      "trackArranger": "Wally71551",
-      "composer": "Yasuaki Iwata",
+      "composer": "Hiroshi Yamaguchi",
+      "artists": [],
       "transcription": [
         {
-          "transcriber": "Zeila",
-          "url": "https://www.ninsheetmusic.org/download/pdf/3568"
+          "transcriber": "Cerbera",
+          "url": "https://musescore.com/user/6201561/scores/1496011"
         }
       ],
       "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "Reuniting with Urbosa",
-          "project": "The Legend of Zelda: Breath of the Wild",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/a6NBJxrVtQM",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/vYNVfh8AH30",
       "bandcampLink": "",
+      "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 10,
-      "description": "While re-creating this theme, I decided to combine the dulcimer from the original theme with an ocarina, an instrument synonymous with <em>The Legend of Zelda</em> series as a whole.\n\nI also changed the time signature through a section of the theme, using 5/4, more associated with the Eastern melodies that are emulated throughout this section of the game."
+      "linkedAlbumTrack": 39,
+      "description": "When arranging this track, I went for a jazz style mixed with orchestral elements, heavily leaning towards the brass and strings instrumentation the original game makes use of. This represents the in-your-face nature of <em>Bayonetta</em>. The use of orchestral percussion for sections creates a larger, more orchestral vibe and also adds a sense of grandeur to the track, especially with crash cymbals and timpani to push the beat along."
     },
     {
       "musicID": "botw_hfield_d",
@@ -342,199 +88,100 @@
       "description": "As this theme is made up of small phrases in a random order and length from each other, I included ambience sounds from <em>The Legend of Zelda: Breath of the Wild</em>'s files to help keep the remix more interesting.\n\nI also included sections from different pieces throughout <em>The Legend of Zelda</em> series.\n\nThe piece was inspired by different things that can happen in Hyrule Field, like an encounter with a Hinox, a short battle with enemies and finding an item."
     },
     {
-      "musicID": "ffxv_sws",
-      "musicName": "Sorrow Without Solace",
-      "projectID": "ff15",
-      "seriesID": "ff",
-      "releaseDate": "2017-08-13",
+      "musicID": "botw_rhoam",
+      "musicName": "King Rhoam's Theme",
+      "projectID": "botw",
+      "seriesID": "loz",
+      "releaseDate": "2018-03-03",
       "trackArranger": "Wally71551",
-      "composer": "Yoko Shimomura",
+      "composer": "Manaka Kataoka",
       "artists": [
         {
-          "header": "Arranger",
-          "artistName": "Yoko Shimomura, Shota Nakama"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Alistair Mithras",
-          "url": "https://ichigos.com/sheets/814"
+          "header": "Parting Ways (from <em>The Legend of Zelda: The Wind Waker</em>) Composer",
+          "artistName": "Kenta Nagata, Hajime Wakai, Koji Kondo"
         },
         {
-          "transcriber": "p0chacco",
-          "url": "https://ichigos.com/sheets/814"
-        }
-      ],
-      "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/a7K0d5Kqz5k",
-      "bandcampLink": "",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 12,
-      "description": "While writing this piece, I decided to use lighter woodwind instruments as the focus to convey the softer and emotional side of the story through the piece.\n\nThe main woodwind instruments I decided to use are the less common Cor Anglais and Alto Flute.\n\nThe piece is supposed to represent the struggle that Noctis had to try and reach Luna, but to ultimately fail in the end. At the point in the story, things start to fall apart for the group. The piece is slower and long to help represent the long struggle that is facing them."
-    },
-    {
-      "musicID": "ffxv_somnusultima",
-      "musicName": "Somnus Ultima",
-      "projectID": "ff15",
-      "seriesID": "ff",
-      "releaseDate": "2017-08-20",
-      "trackArranger": "Wally71551",
-      "composer": "Yoko Shimomura",
-      "artists": [
-        {
-          "header": "Arranger",
-          "artistName": "Yoko Shimomura, Shota Nakama"
+          "header": "Hyrule Castle (from <em>The Legend of Zelda: A Link to the Past</em>) Composer",
+          "artistName": "Koji Kondo"
         }
       ],
       "transcription": [
         {
-          "transcriber": "Alistair Mithras",
-          "url": "https://ichigos.com/sheets/814"
-        }
-      ],
-      "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/9Ia53AGPtcY",
-      "bandcampLink": "",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 13,
-      "description": "When I arranged this piece, I decided to add extra parts to help it feel like the true end to the game, a rounding up. To help with the intensity, I used brass as a main feature when the piece builds up into it's main section.\n\nI use Ardyn's motif from the games at the start and the end of the piece to show how it is him who was in control for all of the game and convey the fact that it is his destruction.\n\nThe slower piano section I included before the reprise with strings and horn conveys the reflection over the entire adventure before the finale. To coincide with this, the celesta plays 4 melodies from the game during this section: Luna, Song of the Stars, Sorrow without Solace and Stand By Me. I chose Stand By Me as the closing melody before the piece begins to build to represent Noctis' companions standing with him in spirit for the final fight.\n\nIn the main section, I chose to add phrases to the wind/brass parts to create a fuller score fit for the end of a long adventure that took 10 in-game years to complete, and the reclaiming of Noctis' home.\n\nFinally, I chose to keep the piano line unresolved at the end of the piece to show how Noctis cannot go back and fully reclaim what he took back from Ardyn, as he had to sacrifice himself to see his quest through. This means he truly cannot complete the reclaiming of the Crown City and the end of the Lucis line."
-    },
-    {
-      "musicID": "bw_dragonspiral",
-      "musicName": "Dragonspiral Tower",
-      "projectID": "pkmn_b/pkmn_w",
-      "seriesID": "pkmn",
-      "releaseDate": "2017-08-27",
-      "trackArranger": "Wally71551",
-      "composer": "Shota Kageyama",
-      "transcription": [
-        {
-          "transcriber": "Bespinben",
-          "url": "https://www.ninsheetmusic.org/download/pdf/1287"
-        }
-      ],
-      "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/QvKWHgRzIJE",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 14,
-      "description": "When writing this piece, I imagined how I would write this piece. I start with a solo piano introduction and add a choir and low wind and brass instruments.\n\nThe piece stays quite mellow throughout. I did this to represent how old the tower is, and despite it's large scale, it remains mostly dormant and empty after it's long time standing over Unova."
-    },
-    {
-      "musicID": "hgss_arceus",
-      "musicName": "Battle! Arceus",
-      "projectID": "pkmn_hg/pkmn_ss",
-      "seriesID": "pkmn",
-      "releaseDate": "2017-09-10",
-      "trackArranger": "Wally71551",
-      "composer": "Junichi Masuda",
-      "transcription": [
-        {
-          "transcriber": "samboso",
-          "url": "https://musescore.com/animeandflute/scores/3510526"
+          "transcriber": "The-Real-Link",
+          "url": ""
         }
       ],
       "musicType": "Remix",
       "linkedTracks": [
         {
-          "name": "Arceus",
-          "project": "Pokémon HeartGold Version & Pokémon SoulSilver Version",
+          "name": "The Old Man's Secret",
+          "project": "The Legend of Zelda: Breath of the Wild",
           "artists": []
         }
       ],
-      "youtubeLink": "https://youtu.be/3TGMtnYeTEk",
+      "youtubeLink": "https://youtu.be/N85eCctrYGc",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 15,
-      "description": "When I began arranging this song, I used the percussion to showcase the fact you are battling a god. Heavy bass drums and timpani support the rest of the rhythm on toms and snare.\n\nI used a very low bass sound across the entire piece to keep an underlying noise to attract your ears through portions of silence.\n\nReverb on the brass parts is used to convey the sound of a grand open space, much like the Hall of Origin or the Sinjoh Ruins. The harmonies are very dissonant as it supports the idea of how much danger you are in."
+      "linkedAlbumTrack": 40,
+      "description": "Made for the 1 year anniversary of <em>The Legend of Zelda: Breath of the Wild</em> and the Nintendo Switch.\n\nDue to the tragic nature of King Rhoam's life, I kept the arrangement fairly light. I put the focus on piano and music box, because the piano is an instrument prominent in the Breath of the Wild soundtrack, and Music Box because it adds a melancholic, distant and reflective tone to the piece, representing how King Rhoam is a spirit after dying 100 years ago.\n\nKing Rhoam's theme in the game is based around the piece 'Parting Ways' from <em>The Legend of Zelda: The Wind Waker</em>, as that piece plays as the King of Hyrule sacrifices himself to stop Ganondorf. I used this piece as a basis, using it to deviate away from what the Breath of the Wild track does and add a distinct tone to my arrangement."
     },
     {
-      "musicID": "sr_main",
-      "musicName": "Main Theme",
-      "projectID": "metroid_sr",
-      "seriesID": "metroid",
-      "releaseDate": "2017-09-15",
+      "musicID": "botw_ritovillage_n",
+      "musicName": "Rito Village (Night)",
+      "projectID": "botw",
+      "seriesID": "loz",
+      "releaseDate": "2017-07-16",
       "trackArranger": "Wally71551",
-      "composer": "Daisuke Matsuoka, Kenji Yamamoto",
+      "composer": "Yasuaki Iwata",
+      "artists": [
+        {
+          "header": "Dragon Roost Island (from <em>The Legend of Zelda: The Wind Waker</em>) Composer",
+          "artistName": "Kenta Nagata"
+        }
+      ],
       "transcription": [
         {
-          "transcriber": "Olimar12345 (Title Theme – <em>Metroid II: Return of Samus</em>)",
-          "url": "https://www.ninsheetmusic.org/download/pdf/1411"
-        },
-        {
-          "transcriber": "MetroidHunter26 (Title Theme – <em>Metroid Prime</em>)",
-          "url": "https://www.ninsheetmusic.org/download/pdf/1508"
+          "transcriber": "Latios212",
+          "url": "https://www.ninsheetmusic.org/download/pdf/3555"
         }
       ],
       "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/Q7QxCH9pWSE",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/qzBmeVglmIU",
       "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 16,
-      "description": "This piece makes heavy use of synthesisers representing the theme of space and exploration into the unknown. I used a very deep bass drone for the entire piece to make it seem slightly more unsettling when layered with the melody and orchestral elements.\n\nI used a soprano choir, as a choir envokes a large open area, and works well with reverberating percussion and brass. I make use of tremolo strings throughout the piece as it helps build tension in the piece.\n\nThe original version of this theme is a mixture of the original <em>Metroid II: Return of Samus</em> theme and the <em>Metroid Prime</em> theme."
+      "linkedAlbumTrack": 8,
+      "description": "With this theme, I wanted to change some of the instrumentation in the piece. Specifically, I felt adding an accordion to carry some of the melody was necessary to help represent Kass, and the link the accordion has to the Rito in general.\n\nI put small variations on the piece and implemented a wider palette of instruments while still keeping the core of the piece throughout."
     },
     {
-      "musicID": "sk_shield",
-      "musicName": "The Requiem of Shield Knight",
-      "projectID": "shovelknight",
-      "seriesID": "shovel",
-      "releaseDate": "2017-09-17",
+      "musicID": "botw_sidon",
+      "musicName": "Prince Sidon's Theme",
+      "projectID": "botw",
+      "seriesID": "loz",
+      "releaseDate": "2017-04-25",
       "trackArranger": "Wally71551",
-      "composer": "Jake Kaufman",
+      "composer": "Yasuaki Iwata",
+      "artists": [],
       "transcription": [
         {
-          "transcriber": "Nathan Lee Jones / Maestro227",
-          "url": "https://imgur.com/2Wwdecw"
+          "transcriber": "Maelstrom",
+          "url": "https://www.ninsheetmusic.org/download/pdf/3510"
         }
       ],
       "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/lLyw0L5AKeQ",
-      "bandcampLink": "",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 17,
-      "description": "I arranged this song keeping in mind the struggle and grief Shovel Knight is going through as the game progresses, it is highlighted in the scenes that this song plays over.\n\nThe string section is used to accent big chords that fit underneath the melody, carried by a solo cello. I used some synthesised NES waves to keep with how the piece and the <em>Shovel Knight</em> soundtrack is as a whole, emulating the Japanese-only Konami VRC6 sound card used in their later NES games.\n\nInstead of using trumpets for the focal brass, I used flugelhorns and trombones in the higher register to give the piece a more mellow feel, fitting better with the large moving strings and piano throughout the piece."
-    },
-    {
-      "musicID": "gs_azalea",
-      "musicName": "Azalea Town",
-      "projectID": "pkmn_g/pkmn_s",
-      "seriesID": "pkmn",
-      "releaseDate": "2017-09-22",
-      "trackArranger": "Wally71551",
-      "composer": "Go Ichinose",
-      "transcription": [
+      "linkedTracks": [
         {
-          "transcriber": "Thomas Wilson / Latios212",
-          "url": "https://www.ninsheetmusic.org/download/pdf/983"
+          "name": "Sidon's Theme",
+          "project": "The Legend of Zelda: Breath of the Wild",
+          "artists": []
         }
       ],
-      "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/wgiqxMUWDPA",
+      "youtubeLink": "https://youtu.be/lF0zEzerXu4",
       "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 18,
-      "description": "Made for the port of <em>Pokémon Gold Version & Pokémon Silver Version</em> coming to Nintendo 3DS systems on 22nd September 2017.\n\nWhen starting this piece, I slowed the tempo to create a much more relaxed atmosphere like the town has. I changed the instrumentation to better represent a town surrounded by forest and bugs, as I felt a string section didn't fit well enough. I used a xylophone to add a wooden and light-hearted tone to the piece, and used some woodwind instruments to help produce different tones in the sound and texture of the piece.\n\nI kept very close to the original piece, and didn't put much variation to keep the authenticity of the piece. Only towards the end of the piece does it significantly change."
-    },
-    {
-      "musicID": "pokken_magikarp",
-      "musicName": "Magikarp Festival",
-      "projectID": "pokken_dx",
-      "seriesID": "pkmn",
-      "releaseDate": "2017-09-22",
-      "trackArranger": "Wally71551",
-      "composer": "Hiroki Hasimoto, Hiroyuki Kawada, Rio Hamamoto, Taku Inoue, Torine, Yoshinori Hirai, Takafumi Sato, Mitsuhiro Kitadani, Yu Sugimoto, Shota Kageyama",
-      "transcription": [
-        {
-          "transcriber": "ShinkoNetCavy",
-          "url": "https://www.vgmusic.com/file/26a5ee1210eb15f86ea5d3e7736422b9.html"
-        }
-      ],
-      "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/yarsVbVp5GQ",
-      "bandcampLink": "",
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 19,
-      "description": "Made for the release of <em>Pokkén Tournament DX</em> on Nintendo Switch on 22nd September 2017.\n\nWhen arranging this piece, I wanted to keep the energetic vibe for the piece. I started by reproducing the drum kit and percussion, putting the emphasis on the syncopated congas and hand percussion parts to keep the energetic feel of the piece.\n\nI used a synth bass combined with a bass guitar to represent the synth and electronic style that <em>Pokkén Tournament</em> primarily used. The oriental instruments are still good as they are a core of the piece. Orchestral instruments are used to make the piece seem bigger in scale and more epic, and are used in conjunction with the percussion to create lots of off-setting rhythms."
+      "linkedAlbumTrack": 1,
+      "description": "I wanted to do this theme to keep myself limited with instruments and stay faithful to the original theme. However, I did want to add the impressionalistic-style piano that is present in some of the other themes throughout <em>The Legend of Zelda: Breath of the Wild</em>, such as the Horse themes as well as the Final Boss Theme. I then added the slower second section to signify the sorrow and loss Prince Sidon and the other Zora would have felt when they lost Mipha."
     },
     {
       "musicID": "botw_tower_lake",
@@ -565,93 +212,195 @@
       "description": "I originally set out to create one theme, but decided I could variate more and create a much more interesting piece by creating a separate piece for each of other Sheikah Towers in the game. This one is based on the Lake Tower, which overlooks Lake Hylia.\n\nTo start, the arrangement is very light and simple, contrasting synthesized waves with a grand piano and choir. The piece builds into a repeat, where tremolo strings and flute join the piece, as well as some light percussion.\n\nThe piece builds further by adding more percussion and using the lower end of the piano to add some textural depth to the piece. The instrumentation of a string section was used to signify the grandeur and scale of Lake Hylia, helping the piece further fit in this setting along with the ambience in the background.\n\nThe penultimate section uses 2 phrases from the music for the Story Trailer shown off at the Nintendo Switch Presentation in January 2017, but at a much slower tempo. The melody is variated to give a melancholic feel to showcase the deep and dark history that Hyrule has suffered through in this game.\n\nThe slow melody and moving chords of this section are contrasted by the quick main motif of the Sheikah Tower theme scattered throughout this section of the piece. Synths are still used to show the contrast of the advanced Sheikah technology against the ruined Hyrule."
     },
     {
-      "musicID": "sm_po",
-      "musicName": "Po Town",
-      "projectID": "pkmn_sun/pkmn_moon",
+      "musicID": "botw_urbosa",
+      "musicName": "Champion Urbosa's Theme",
+      "projectID": "botw",
+      "seriesID": "loz",
+      "releaseDate": "2017-08-02",
+      "trackArranger": "Wally71551",
+      "composer": "Yasuaki Iwata",
+      "transcription": [
+        {
+          "transcriber": "Zeila",
+          "url": "https://www.ninsheetmusic.org/download/pdf/3568"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Reuniting with Urbosa",
+          "project": "The Legend of Zelda: Breath of the Wild",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/a6NBJxrVtQM",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 10,
+      "description": "While re-creating this theme, I decided to combine the dulcimer from the original theme with an ocarina, an instrument synonymous with <em>The Legend of Zelda</em> series as a whole.\n\nI also changed the time signature through a section of the theme, using 5/4, more associated with the Eastern melodies that are emulated throughout this section of the game."
+    },
+    {
+      "musicID": "bw_dragonspiral",
+      "musicName": "Dragonspiral Tower",
+      "projectID": "pkmn_b/pkmn_w",
       "seriesID": "pkmn",
-      "releaseDate": "2017-10-05",
+      "releaseDate": "2017-08-27",
       "trackArranger": "Wally71551",
-      "composer": "Minako Adachi",
+      "composer": "Shota Kageyama",
       "transcription": [
         {
-          "transcriber": "Latios212",
-          "url": "https://www.ninsheetmusic.org/download/pdf/3319"
+          "transcriber": "Bespinben",
+          "url": "https://www.ninsheetmusic.org/download/pdf/1287"
         }
       ],
       "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/hW-INSUlxNQ",
-      "bandcampLink": "",
+      "youtubeLink": "https://youtu.be/QvKWHgRzIJE",
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 21,
-      "description": "The original version of this theme is very ominous, consisting of only a piano and synth backing. When recreating this theme, I decided to expand the instrumentation to create a pseudo-orchestral track that would fit the player sneaking around the town, slowly pushing through Team Skull's barrier.\n\nCongas are used as the main percussion instrument to add pace into the back of the piece, pushing it along. A string section is also used; the tremolo adds tension to the quieter parts of the piece and pizzicato strings are used to represent the player sneaking around. A contrabassoon as well as trombones and tuba are used to signify each new bar, while the main bass line is passed around between piano, bass guitar and synth.\n\nLater in the piece a drum kit comes in to support the congas in adding pace, and to represent Team Skull in general."
+      "linkedAlbumTrack": 14,
+      "description": "When writing this piece, I imagined how I would write this piece. I start with a solo piano introduction and add a choir and low wind and brass instruments.\n\nThe piece stays quite mellow throughout. I did this to represent how old the tower is, and despite it's large scale, it remains mostly dormant and empty after it's long time standing over Unova."
     },
     {
-      "musicID": "sf2_title",
-      "musicName": "Title Screen",
-      "projectID": "starfox2",
-      "seriesID": "starfox",
-      "releaseDate": "2017-10-08",
+      "musicID": "cuphead_funfair",
+      "musicName": "Funfair Fever",
+      "projectID": "cuphead",
+      "seriesID": "cuphead",
+      "releaseDate": "2017-10-22",
       "trackArranger": "Wally71551",
-      "composer": "Kozue Ishikawa, Yumiko Kanki",
+      "composer": "Kristofer Maddigan",
       "transcription": [
         {
-          "transcriber": "Beta Link",
-          "url": "https://www.vgmusic.com/music/console/nintendo/snes/SF2_Title.mid"
+          "transcriber": "Vincent Schönbach",
+          "url": "https://musescore.com/trampeltier/funfair-fever"
         }
       ],
       "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/owB6Kgkpp7o",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/E1D69A-K6kM",
       "bandcampLink": "",
+      "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 22,
-      "description": "When arranging this piece, I decided to use an orchestra to represent the grandeur and vastness of space. The percussion used mirrors the melody of the piece by following the same rhythm and then variating.\n\nThe harp is used to lead into different sections and the large sound it makes represents the vastness of space that it echoes out into. The heavy use of brass throughout the piece reinforces the sense of adventure into space and the unknown, as well as representing the power that the Star Fox crew have.\n\nI created my own motifs for the piece as the original title screen theme is an 8-bar loop. The piece builds towards the end with a full orchestra playing at the same time, creating a huge sound fitting of a huge space adventure."
+      "linkedAlbumTrack": 26,
+      "description": "I decided to arrange this piece as I'm having a blast playing through <em>Cuphead</em>. The style and look of the game is brilliant and it has an amazing soundtrack to go along with that.\n\nWhen arranging this piece I used the main melody as a head, and kept going back to it. In between the head sections is the second section of the main melody as well as 'improvised' solos over the piece's chord progressions. I decided to use solos to add extra jazz flair to the piece.\n\nI expanded the orchestration of the piece to give more options for sound and texture, while still focusing primarily on the instruments the original track uses."
     },
     {
-      "musicID": "sm3dw_boo",
-      "musicName": "Shifty Boo Mansion",
-      "projectID": "SM3DW",
-      "seriesID": "mario",
-      "releaseDate": "2017-10-15",
+      "musicID": "cuphead_iio",
+      "musicName": "Inkwell Isle One",
+      "projectID": "cuphead",
+      "seriesID": "cuphead",
+      "releaseDate": "2017-11-05",
       "trackArranger": "Wally71551",
-      "composer": "Mahito Yokota, Toru Minegishi, Yasuaki Iwata, Koji Kondo",
+      "composer": "Kristofer Maddigan",
+      "transcription": [
+        {
+          "transcriber": "James Lambariello / Vincent Schönbach",
+          "url": "https://musescore.com/user/1993431/scores/5044627"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/zerQpz8d2eU",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 28,
+      "description": "I've been loving the <em>Cuphead</em> soundtrack, so I decided to recreate another one of it's themes, the map screen theme from the first world, Inkwell Isle One.\n\nI used instrumentation similar to the Funfair Fever remix to help keep a sense of coherence and them belonging to the same game. I use a simple drum beat for most of the piece and the 'improvised' solos are slower-paced to fit better as a song that would play in the relaxed overworld sections."
+    },
+    {
+      "musicID": "doom_adg",
+      "musicName": "At DOOM's Gate",
+      "projectID": "doom",
+      "seriesID": "doom",
+      "releaseDate": "2017-11-10",
+      "trackArranger": "Wally71551",
+      "composer": "Robert Prince",
       "artists": [
         {
-          "header": "Performer",
-          "artistName": "MARIO 3D WORLD BIG BAND"
+          "header": "Arranger",
+          "artistName": "Mick Gordon"
         }
       ],
       "transcription": [
         {
-          "transcriber": "E. Gadd Industries",
-          "url": "https://www.ninsheetmusic.org/download/pdf/2590"
+          "transcriber": "Fantasy Sheets",
+          "url": "https://musescore.com/fantasysheets/at-doom-s-gate"
         }
       ],
       "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/ut4ApGtUnlw",
+      "linkedTracks": [
+        {
+          "name": "At Doom's Gate",
+          "project": "DOOM",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/3ItJK06IPhE",
       "bandcampLink": "",
+      "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 23,
-      "description": "As it's nearly Halloween I arranged this as I felt it was a good piece that fit the theme.\n\nI orchestrated the piece to still keep the basic instrumentation intact, solo violin, pizzicato strings and oboe, but added other instruments to give the piece a different flair. A harpsichord was used as one of the main instruments because it is used in other parts of the <em>Super Mario 3D World</em> soundtrack making it a nice fit, as well as the sound blending well with the rest of the piece. For the bass of the piece, I used a drone to unsettle the listener which plays into the spooky nature of the piece."
+      "linkedAlbumTrack": 29,
+      "description": "Made for the release of <em>DOOM</em> on Nintendo Switch on 10th November 2017.\n\nI arranged this song keeping similar to the structure of the original piece. As battles in <em>DOOM</em> are fast-paced, the sections that I variated are mostly frantic. The piece itself for the most part sticks true to the original instrumentation of the track, but layered on top is an orchestral string and brass section to bring in elements from the symphonic metal genre.\n\nAs the piece progresses, the instrumentation thins and becomes more sinister with the use of a low synth drone cutting underneath the melody line. The piece builds up to the final section, where all the instruments drop away, leaving the synth drone isolated. This represents how the character in the game is alone, and has no one to help him on his mission."
     },
     {
-      "musicID": "ffxv_solidarity",
-      "musicName": "Solidarity",
-      "projectID": "ffxv_brotherhood",
-      "seriesID": "ff",
-      "releaseDate": "2017-10-15",
+      "musicID": "ebb_snowman",
+      "musicName": "Snowman",
+      "projectID": "eb_beginnings",
+      "seriesID": "earthbound",
+      "releaseDate": "2017-12-23",
       "trackArranger": "Wally71551",
-      "composer": "Yasuhisa Inoue",
+      "composer": "Hirokazu Tanaka",
       "transcription": [
         {
-          "transcriber": "yagawa",
-          "url": "https://musescore.com/user/26811925/scores/5037896"
+          "transcriber": "Olimar12345",
+          "url": "https://www.ninsheetmusic.org/download/pdf/593"
         }
       ],
       "musicType": "Remix",
-      "youtubeLink": "https://youtu.be/Uu-C6I_3rMs",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/XDT-gB_vcaM",
+      "bandcampLink": "",
+      "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 24,
-      "description": "I had the idea of arranging this piece for a while, and started the process a few months ago. I left the project for a while after losing momentum and interest in the piece, but came back to it after I had a surge of ideas.\n\nThe piece sticks to the original for most of the piece, putting the focus on the piano melody. A violin section is added as the backing to the piece, highlighting the harmony.\n\nThe violins are then followed by the rest of the string section, as well as a solo cello to take the countermelody line building up to the climax of the piece. The percussion stays very sparse throughout all of the piece, and only highlights the climax of the piece. During the climax, the melody is split across violin, piano and a solo trumpet.\n\nThe piece then reverses the instrumentation from the start of the piece, thinning the sound to violins and piano, and the final chord is played on piano slowly, to bring the piece full circle and highlight the solidarity of its base."
+      "linkedAlbumTrack": 34,
+      "description": "When arranging Snowman, I tried to capture a light, delicate theme just like the nature of snow. I omitted all brass instruments and put a heavy emphasis on woodwind.\n\nI wanted to go against tropes of winter by not making much use of bells and glockenspiel, instead going for a light brush drum kit, bass clarinet, alto saxophone and grand piano.\n\nThe piece itself uses 3 distinct sections, each going through the full theme. The first uses an alto saxophone and solo violin melody, with accompaniment provided by bass clarinet and drum kit to give the piece an edge and increase the tempo. The second section uses solo piano to give the piece a more melancholic and delicate feel, and the third section makes use of a larger orchestration."
+    },
+    {
+      "musicID": "fe3h_e318",
+      "musicName": "E3 2018 Trailer Theme",
+      "projectID": "fe3h",
+      "seriesID": "fireemblem",
+      "releaseDate": "2018-09-09",
+      "trackArranger": "Wally71551",
+      "composer": "Takeru Kanazaki",
+      "artists": [
+        {
+          "header": "Vocals",
+          "artistName": "Caro"
+        },
+        {
+          "header": "Vocals (English)",
+          "artistName": "Buttercup"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Torby Brand",
+          "url": "https://musescore.com/torbybrand/the-edge-of-dawn-takeru-kanazaki-the-edge-of-dawn-trailer-ver"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Fire Emblem: Three Houses Main Theme",
+          "project": "Fire Emblem: Three Houses",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/DyLXJ6GPubg",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 62,
+      "description": "When arranging this theme, I wanted to capture the larger, epic feel in the trailer as it is the first <em>Fire Emblem</em> console game since <em>Fire Emblem: Radiant Dawn</em>, but I also kept ethnic instruments that are common on <em>Fire Emblem</em> soundtracks. This also gives the piece a unique sound which differentiates it from the original track used in the trailer. I also made use of various percussion instruments to give the track pace and giving it the feeling of pushing forward."
     },
     {
       "musicID": "fewarriors_medley",
@@ -740,636 +489,20 @@
       "description": "Made for the release of <em>Fire Emblem Warriors</em> on Nintendo Switch and New Nintendo 3DS on 20th October 2017.\n\nI decided to create a medley as the music of the game will most likely be very similar to that of Hyrule Warriors, which is remixed versions of songs from the series.\n\nI used a pseudo-rock style for the medley as it best represents the Warriors style of music. I decided to variate greatly from the original themes to further represent the Warriors series and add my own original style in them.\n\nThe main Fire Emblem theme starts with a string section and then transfers onto guitars and trumpet, with a drum beat to support.\n\nI changed Lost in Thoughts All Alone from 3/4 time to 9/8 time with some bars in 12/8. The piece is in a metal fusion style to heavily contrast the original piece and puts the focus on the guitar melody. Staccato violins are used to provide the backup to the melody. This section also contains a piano solo that contrasts the guitar melody from the other sections.\n\nIn Together, We Ride the melody stays on guitar, but this section of the melody has a much larger focus on the backing, with a percussion beat that uses a triangle and tom drums to push the beat further. I also added a shredding guitar solo to push into the next section which is a melody composed to lead better into the final song in the melody.\n\nThe <em>Fire Emblem: Awakening</em> Main Theme uses an orchestral fusion style that complements the rest of the melody, and allows it to build back into the Fire Emblem Main Theme that ends the piece."
     },
     {
-      "musicID": "cuphead_funfair",
-      "musicName": "Funfair Fever",
-      "projectID": "cuphead",
-      "seriesID": "cuphead",
-      "releaseDate": "2017-10-22",
-      "trackArranger": "Wally71551",
-      "composer": "Kristofer Maddigan",
-      "transcription": [
-        {
-          "transcriber": "Vincent Schönbach",
-          "url": "https://musescore.com/trampeltier/funfair-fever"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/E1D69A-K6kM",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 26,
-      "description": "I decided to arrange this piece as I'm having a blast playing through <em>Cuphead</em>. The style and look of the game is brilliant and it has an amazing soundtrack to go along with that.\n\nWhen arranging this piece I used the main melody as a head, and kept going back to it. In between the head sections is the second section of the main melody as well as 'improvised' solos over the piece's chord progressions. I decided to use solos to add extra jazz flair to the piece.\n\nI expanded the orchestration of the piece to give more options for sound and texture, while still focusing primarily on the instruments the original track uses."
-    },
-    {
-      "musicID": "smo_main",
-      "musicName": "Main Theme",
-      "projectID": "smo",
-      "seriesID": "mario",
-      "releaseDate": "2017-10-27",
-      "trackArranger": "Wally71551",
-      "composer": "Naoto Kubo",
-      "transcription": [
-        {
-          "transcriber": "Brenne",
-          "url": "https://musescore.com/user/4895236/scores/3353656"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "The Super Mario Odyssey Crew",
-          "project": "Super Mario Odyssey",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/u4f6nlkXU4k",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 27,
-      "description": "Made for the release of <em>Super Mario Odyssey</em> on 27th October 2017.\n\nI arranged this song by sticking close to the original in a symphonic style, reminiscent of the <em>Super Mario Galaxy</em> games. The piece features heavy use of brass and other lower instruments to envoke the sense of a grand scale adventure, which is focused in on the french horn melody carried through much of the piece.\n\nFor much of the piece, the strings are used to accompany the melody, from the scalar movement creating a countermelody in one section, to providing quieter chords in the background of another."
-    },
-    {
-      "musicID": "cuphead_iio",
-      "musicName": "Inkwell Isle One",
-      "projectID": "cuphead",
-      "seriesID": "cuphead",
-      "releaseDate": "2017-11-05",
-      "trackArranger": "Wally71551",
-      "composer": "Kristofer Maddigan",
-      "transcription": [
-        {
-          "transcriber": "James Lambariello / Vincent Schönbach",
-          "url": "https://musescore.com/user/1993431/scores/5044627"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/zerQpz8d2eU",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 28,
-      "description": "I've been loving the <em>Cuphead</em> soundtrack, so I decided to recreate another one of it's themes, the map screen theme from the first world, Inkwell Isle One.\n\nI used instrumentation similar to the Funfair Fever remix to help keep a sense of coherence and them belonging to the same game. I use a simple drum beat for most of the piece and the 'improvised' solos are slower-paced to fit better as a song that would play in the relaxed overworld sections."
-    },
-    {
-      "musicID": "doom_adg",
-      "musicName": "At DOOM's Gate",
-      "projectID": "doom",
-      "seriesID": "doom",
-      "releaseDate": "2017-11-10",
-      "trackArranger": "Wally71551",
-      "composer": "Robert Prince",
-      "artists": [
-        {
-          "header": "Arranger",
-          "artistName": "Mick Gordon"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Fantasy Sheets",
-          "url": "https://musescore.com/fantasysheets/at-doom-s-gate"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "At Doom's Gate",
-          "project": "DOOM",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/3ItJK06IPhE",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 29,
-      "description": "Made for the release of <em>DOOM</em> on Nintendo Switch on 10th November 2017.\n\nI arranged this song keeping similar to the structure of the original piece. As battles in <em>DOOM</em> are fast-paced, the sections that I variated are mostly frantic. The piece itself for the most part sticks true to the original instrumentation of the track, but layered on top is an orchestral string and brass section to bring in elements from the symphonic metal genre.\n\nAs the piece progresses, the instrumentation thins and becomes more sinister with the use of a low synth drone cutting underneath the melody line. The piece builds up to the final section, where all the instruments drop away, leaving the synth drone isolated. This represents how the character in the game is alone, and has no one to help him on his mission."
-    },
-    {
-      "musicID": "smo_juss",
-      "musicName": "Jump Up, Super Star!",
-      "projectID": "smo",
-      "seriesID": "mario",
-      "releaseDate": "2017-11-13",
-      "trackArranger": "Wally71551",
-      "composer": "Naoto Kubo",
-      "artists": [
-        {
-          "header": "Arranger",
-          "artistName": "Yoichi Murata"
-        },
-        {
-          "header": "Lyricist",
-          "artistName": "Nobuyoshi Suzuki, Rob Tunstall"
-        },
-        {
-          "header": "Vocal",
-          "artistName": "Kate Davis"
-        },
-        {
-          "header": "Vocal (Japanese Ver.)",
-          "artistName": "Aimi Mukohara"
-        },
-        {
-          "header": "Drums",
-          "artistName": "Hideko Yamaki"
-        },
-        {
-          "header": "Bass",
-          "artistName": "Kenji Takamizu"
-        },
-        {
-          "header": "Guitar",
-          "artistName": "Takayuki Hijikata"
-        },
-        {
-          "header": "Piano",
-          "artistName": "Keiji Matsumoto"
-        },
-        {
-          "header": "Alto Sax",
-          "artistName": "Osamu Yoshida, Kazuhiko Kondo"
-        },
-        {
-          "header": "Tenor Sax",
-          "artistName": "Osamu Koike, Masakuni Takeno"
-        },
-        {
-          "header": "Baritone Sax",
-          "artistName": "Takuo Yamamoto"
-        },
-        {
-          "header": "Trumpet",
-          "artistName": "Koji Nishimura, Isao Sakuma, Sho Okumura, Hitomi Niida"
-        },
-        {
-          "header": "Trombone",
-          "artistName": "Yoichi Murata, Kanade Shishiuchi, Shinsuke Torizuka"
-        },
-        {
-          "header": "Bass Trombone",
-          "artistName": "Junko Yamashiro"
-        },
-        {
-          "header": "Chorus",
-          "artistName": "Naoki Takao, Goro Oshima, Taeko Saito, Saeko Suzuki"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Jband",
-          "url": "https://musescore.com/jband-/scores/4140126"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/VYajKCi_pxQ",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 30,
-      "description": "I arranged this piece with the mentality of expanding to an orchestra in mind, while keeping the big band instrumentation at the centre. In doing this, the orchestra includes a saxophone section and electric guitar and bass.\n\nTo keep consistency between my <em>Super Mario Odyssey</em> remixes, I reused the conga sound from the main theme remix, to help keep a sense of coherence and a world being represented on Mario's globe-trotting odyssey.\n\nThroughout the piece strings, orchestral brass and orchestral wind are integrated to help support melodies and create stronger harmonies. The countermelody focuses around mallet percussion cutting through the rest of the orchestra to bring light to melodies that would stay hidden otherwise. It also adds a worldy flair to the piece with the different textures in use."
-    },
-    {
-      "musicID": "la_noire_main",
-      "musicName": "Main Theme",
-      "projectID": "la_noire",
-      "seriesID": "la_noire",
-      "releaseDate": "2017-11-14",
-      "trackArranger": "Wally71551",
-      "composer": "Andrew Hale",
-      "transcription": [
-        {
-          "transcriber": "Sebastian Wolff",
-          "url": "https://www.yumpu.com/en/document/view/17606317/la-noire-main-theme-sebastian-wolff"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/WsrFtj7l5a0",
-      "bandcampLink": "",
-      "extraLinks": [
-        {
-          "platform": "MuseScore",
-          "url": "https://musescore.com/user/9283941/scores/4816796"
-        }
-      ],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 31,
-      "description": "Created for the port of <em>L.A. Noire</em> on Nintendo Switch, Xbox One and PlayStation 4, on 14th November 2017.\n\nI created this piece to be mysterious, representing the nature of the game; unearthing the mysterious and hidden. The lighter instrumentation of the piece helps to give the listener the control of 'filling the gaps' in their mind, creating a full picture from what they imagine the piece to represent.\n\nWhen creating the instrumentation, I wanted a synth string-styled sound. In doing this, I edited a string section sound using effects such as phaser to create a sound that can differentiate itself from anything else that I have used before."
-    },
-    {
-      "musicID": "usum_vpc",
-      "musicName": "Vast Poni Canyon",
-      "projectID": "pkmn_usun/pkmn_umoon",
-      "seriesID": "pkmn",
-      "releaseDate": "2017-11-19",
-      "trackArranger": "Wally71551",
-      "composer": "Hitomi Sato",
-      "transcription": [
-        {
-          "transcriber": "Anime Mallet Arrangements",
-          "url": "https://musescore.com/user/956571/scores/3281296"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/lAGgRkJr6Js",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 32,
-      "description": "I wrote this in a fusion style, clashing a large, reverb-filled orchestra to represent the vast scale of the canyon with custom synth sounds to create a style that is different to most remixes on the channel. However, the style is used often in <em>Pokémon</em>, which uses synthesised waves often in conjunction with acoustic instrument samples."
-    },
-    {
-      "musicID": "xc2_eotbs",
-      "musicName": "Elysium of the Blue Sky",
-      "projectID": "xc2",
-      "seriesID": "xenoblade",
-      "releaseDate": "2017-12-12",
-      "trackArranger": "Wally71551",
-      "composer": "Yasunori Mitsuda",
-      "transcription": [
-        {
-          "transcriber": "Tokon",
-          "url": "https://youtu.be/XADNusfVkPc"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "Where We Used To Be",
-          "project": "Xenoblade Chronicles 2",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/wNkXmwcMGLk",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 33,
-      "description": "Eleven days late...\n\nI made this song trying to keep the light, thin nature of the original which solely used piano, but expanding the orchestration. I used strings to add an orchestral feel, and with light use of percussion, woodwind and brass to add flavour.\n\nDue to the nature of the <em>Xenoblade Chronicles</em> series, I used a recorder sound to add a cultural twist that is suited to the game itself."
-    },
-    {
-      "musicID": "ebb_snowman",
-      "musicName": "Snowman",
-      "projectID": "eb_beginnings",
-      "seriesID": "earthbound",
-      "releaseDate": "2017-12-23",
-      "trackArranger": "Wally71551",
-      "composer": "Hirokazu Tanaka",
-      "transcription": [
-        {
-          "transcriber": "Olimar12345",
-          "url": "https://www.ninsheetmusic.org/download/pdf/593"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/XDT-gB_vcaM",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 34,
-      "description": "When arranging Snowman, I tried to capture a light, delicate theme just like the nature of snow. I omitted all brass instruments and put a heavy emphasis on woodwind.\n\nI wanted to go against tropes of winter by not making much use of bells and glockenspiel, instead going for a light brush drum kit, bass clarinet, alto saxophone and grand piano.\n\nThe piece itself uses 3 distinct sections, each going through the full theme. The first uses an alto saxophone and solo violin melody, with accompaniment provided by bass clarinet and drum kit to give the piece an edge and increase the tempo. The second section uses solo piano to give the piece a more melancholic and delicate feel, and the third section makes use of a larger orchestration."
-    },
-    {
-      "musicID": "xc2_elpys",
-      "musicName": "Spirit Crucible Elpys",
-      "projectID": "xc2",
-      "seriesID": "xenoblade",
-      "releaseDate": "2018-01-17",
-      "trackArranger": "Wally71551",
-      "composer": "Manami Kiyota",
-      "transcription": [
-        {
-          "transcriber": "Maelstrom",
-          "url": "https://www.ninsheetmusic.org/download/pdf/3810"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/qLvoFYxAlwg",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 35,
-      "description": "It's been a while since I last uploaded, but I've been busy playing games. Especially <em>Xenoblade Chronicles 2</em>. I've enjoyed the game a lot so far and am nearing the end of my adventure, but this track stuck in my mind. The beautiful melody crafted by Yasunori Mitsuda works well with the light backing.\n\nI put my own spin on this, using different instruments from the keys family, grand piano, harpsichord, celesta and organ to create a different sound. I used light instrumentation for the accompaniment, opting for quiet strings and vocals that blend in the background for most of the piece."
-    },
-    {
-      "musicID": "ffxv_jazzmedley",
-      "musicName": "Jazz Medley",
-      "projectID": "ff15pe",
+      "musicID": "ff15pehd_dining",
+      "musicName": "Dining Car",
+      "projectID": "ff15pehd",
       "seriesID": "ff",
-      "releaseDate": "2018-02-08",
+      "releaseDate": "2018-09-14",
       "trackArranger": "Wally71551",
       "composer": "",
-      "artists": [],
-      "transcription": [
-        {
-          "transcriber": "Alistair Mithras",
-          "url": "https://ichigos.com/sheets/814"
-        }
-      ],
-      "musicType": "Medley",
-      "linkedTracks": [
-        {
-          "name": "Dining Car",
-          "project": "FINAL FANTASY XV",
-          "artists": [
-            {
-              "header": "Arranger",
-              "artistName": "Tetsuya Shibata",
-              "URL": ""
-            },
-            {
-              "header": "Composer",
-              "artistName": "Yoko Shimomura",
-              "URL": ""
-            }
-          ]
-        },
-        {
-          "name": "ARDYN",
-          "project": "FINAL FANTASY XV",
-          "artists": [
-            {
-              "header": "Composer",
-              "artistName": "Yoko Shimomura, Yoshitaka Suzuki",
-              "URL": ""
-            },
-            {
-              "header": "Arranger",
-              "artistName": "Yoshitaka Suzuki",
-              "URL": ""
-            }
-          ]
-        },
-        {
-          "name": "OMNIS LACRIMA",
-          "project": "FINAL FANTASY XV",
-          "artists": [
-            {
-              "header": "Composer",
-              "artistName": "Yoko Shimomura",
-              "URL": ""
-            },
-            {
-              "header": "Arranger",
-              "artistName": "Kaoru Wada, Shota Nakama",
-              "URL": ""
-            }
-          ]
-        },
-        {
-          "name": "NOX AETERNA",
-          "project": "FINAL FANTASY XV",
-          "artists": [
-            {
-              "header": "Composer",
-              "artistName": "Yoko Shimomura",
-              "URL": ""
-            },
-            {
-              "header": "Arranger",
-              "artistName": "Yoko Shimomura, Shota Nakama",
-              "URL": ""
-            }
-          ]
-        },
-        {
-          "name": "Tenebrae",
-          "project": "FINAL FANTASY XV",
-          "artists": [
-            {
-              "header": "Arranger",
-              "artistName": "Yoshino Aoki",
-              "URL": ""
-            },
-            {
-              "header": "Composer",
-              "artistName": "Yoko Shimomura",
-              "URL": ""
-            }
-          ]
-        },
-        {
-          "name": "Somnus",
-          "project": "FINAL FANTASY XV",
-          "artists": [
-            {
-              "header": "Composer",
-              "artistName": "Yoko Shimomura",
-              "URL": ""
-            },
-            {
-              "header": "Arranger",
-              "artistName": "Yoko Shimomura, Kaoru Wada",
-              "URL": ""
-            },
-            {
-              "header": "Vocal",
-              "artistName": "Aundréa L. Hopkins",
-              "URL": ""
-            },
-            {
-              "header": "Lyricist",
-              "artistName": "Tetsuya Nomura, Taro Yamashita, Kazuhiro Komiya",
-              "URL": ""
-            }
-          ]
-        }
-      ],
-      "youtubeLink": "https://youtu.be/sosxeU5nddM",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 36,
-      "description": "REUPLOAD: Reuploaded due to an audio error.\n\nThe medley uses a symphonic jazz style; the orchestral style is a big part of the Final Fantasy XV soundtrack so it helped to link the medley more to the game by making light use of an orchestral string section and horns.\n\nThe medley changes track often as a sorts of whistle-stop tour of Final Fantasy XV's soundtrack to celebrate the Pocket Edition in a jazz style."
-    },
-    {
-      "musicID": "ffxv_horizon",
-      "musicName": "Horizon",
-      "projectID": "ff15pe",
-      "seriesID": "ff",
-      "releaseDate": "2018-02-08",
-      "trackArranger": "Wally71551",
-      "composer": "Yoko Shimomura",
-      "artists": [
-        {
-          "header": "Arranger",
-          "artistName": "Yoko Shimomura, Shota Nakama"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Alistair Mithras",
-          "url": "https://ichigos.com/sheets/814"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/xw6KN_71l2k",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 37,
-      "description": "The piece starts out very similar to the original theme, orchestrated to sound the start of a new day.\nThe track then transfers into an exploring tone, filled with wonder similar to the track Wanderlust, but using Horizon as a basis. A duo of horn and trombone section is used to outline the main chords, with a light piano backing adding rhythm and pace to the track, to keep a player who would be playing along to this track moving along. The sound throughout this section is kept thin with little in the bass range, representing how quiet mornings normally are.\n\nThe next section predominantly features horn and trombone chords, to emphasise the large epic nature of the world. The light tremolo string backing shows the delicate nature of the world. The track ends with a reprise of the original section, showing how the world is always the same despite the different parts of it."
-    },
-    {
-      "musicID": "ffxv_rrpensive",
-      "musicName": "Relax and Reflect - Pensive",
-      "projectID": "ff15pe",
-      "seriesID": "ff",
-      "releaseDate": "2018-02-10",
-      "trackArranger": "Wally71551",
-      "composer": "Yoko Shimomura",
       "artists": [
         {
           "header": "Arranger",
           "artistName": "Tetsuya Shibata"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Alistair Mithras",
-          "url": "https://ichigos.com/sheets/814"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/iu7aj7FW2Oc",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 38,
-      "description": "When recreating this theme, I used an array of instruments from different styles, pulling from various different styles. I make use of orchestral elements, mixed with electronic and acoustic drum patterns along with a solo harmonica that carries most of the melody throughout the piece.\n\nThe texture is kept quite sparse to give the sense the piece uses in the game, while the melody is altered to fit better with the theme of the original, non-pensive version. The idea of using harmonica comes from the connotations of the instrument, often played in unhappy / bad context, such as the second track in the <em>FINAL FANTASY XV</em> Soundtrack, Broken Down."
-    },
-    {
-      "musicID": "bayo_ldb",
-      "musicName": "Let's Dance, Boys!",
-      "projectID": "bayo",
-      "seriesID": "bayo",
-      "releaseDate": "2018-02-17",
-      "trackArranger": "Wally71551",
-      "composer": "Hiroshi Yamaguchi",
-      "artists": [],
-      "transcription": [
-        {
-          "transcriber": "Cerbera",
-          "url": "https://musescore.com/user/6201561/scores/1496011"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/vYNVfh8AH30",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 39,
-      "description": "When arranging this track, I went for a jazz style mixed with orchestral elements, heavily leaning towards the brass and strings instrumentation the original game makes use of. This represents the in-your-face nature of <em>Bayonetta</em>. The use of orchestral percussion for sections creates a larger, more orchestral vibe and also adds a sense of grandeur to the track, especially with crash cymbals and timpani to push the beat along."
-    },
-    {
-      "musicID": "botw_rhoam",
-      "musicName": "King Rhoam's Theme",
-      "projectID": "botw",
-      "seriesID": "loz",
-      "releaseDate": "2018-03-03",
-      "trackArranger": "Wally71551",
-      "composer": "Manaka Kataoka",
-      "artists": [
-        {
-          "header": "Parting Ways (from <em>The Legend of Zelda: The Wind Waker</em>) Composer",
-          "artistName": "Kenta Nagata, Hajime Wakai, Koji Kondo"
         },
         {
-          "header": "Hyrule Castle (from <em>The Legend of Zelda: A Link to the Past</em>) Composer",
-          "artistName": "Koji Kondo"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "The-Real-Link",
-          "url": ""
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "The Old Man's Secret",
-          "project": "The Legend of Zelda: Breath of the Wild",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/N85eCctrYGc",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 40,
-      "description": "Made for the 1 year anniversary of <em>The Legend of Zelda: Breath of the Wild</em> and the Nintendo Switch.\n\nDue to the tragic nature of King Rhoam's life, I kept the arrangement fairly light. I put the focus on piano and music box, because the piano is an instrument prominent in the Breath of the Wild soundtrack, and Music Box because it adds a melancholic, distant and reflective tone to the piece, representing how King Rhoam is a spirit after dying 100 years ago.\n\nKing Rhoam's theme in the game is based around the piece 'Parting Ways' from <em>The Legend of Zelda: The Wind Waker</em>, as that piece plays as the King of Hyrule sacrifices himself to stop Ganondorf. I used this piece as a basis, using it to deviate away from what the Breath of the Wild track does and add a distinct tone to my arrangement."
-    },
-    {
-      "musicID": "ffxv_nyx",
-      "musicName": "Nyx (Kingsglaive)",
-      "projectID": "kingsglaive",
-      "seriesID": "ff",
-      "releaseDate": "2018-03-04",
-      "trackArranger": "Wally71551",
-      "composer": "Yoko Shimomura",
-      "artists": [
-        {
-          "header": "Arranger",
-          "artistName": "Yoko Shimomura, Yoshitaka Suzuki, John Graham"
-        },
-        {
-          "header": "Orchestrator",
-          "artistName": "John Graham"
-        },
-        {
-          "header": "Vocal",
-          "artistName": "Maiko Horisawa"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Samuel Fu",
-          "url": "https://media.wix.com/ugd/b3036c_65b70a9bcc0e45a58b438c0605e36cf3.pdf"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "NYX",
-          "project": "KINGSGLAIVE FINAL FANTASY XV",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/ZaQetOyLuIU",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 41,
-      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nThis is a project I've been working on for a while, and had on the backburner for a couple of months. When I came up with the idea of FINAL FANTASY XV Royal Week, I decided this would be a good place to start. I used synths to represent the moody atmosphere and overall tone of the film, as well as solitary instruments to represent how isolated the main character of Nyx is throughout quite a lot of Kingsglaive, having to escort Lunafreya out of the city with no help. The orchestral section makes use of horns and strings to create an epic feel, much like the action and overall score of Kingsglaive, which then fades back down again to solitary piano with synth backing, symbolizing Nyx's fate in the film."
-    },
-    {
-      "musicID": "ffxv_promptodarkness",
-      "musicName": "Ardyn III",
-      "projectID": "ffxv_prompto",
-      "seriesID": "ff",
-      "releaseDate": "2018-03-05",
-      "trackArranger": "Wally71551",
-      "composer": "",
-      "artists": [
-        {
-          "header": "Arranger",
-          "artistName": "Yoshitaka Suzuki"
-        },
-        {
-          "header": "ARDYN II (from <em>FINAL FANTASY XV</em>) Composer",
+          "header": "Composer",
           "artistName": "Yoko Shimomura"
         }
       ],
@@ -1380,49 +513,42 @@
         }
       ],
       "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "Beckoned by Darkness",
-          "project": "FINAL FANTASY XV: EPISODE PROMPTO",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/BIUGp6apl50",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/8sffIOxZhFM",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 42,
-      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV WINDOWS EDITION</em> on 6th March 2018.\n\nThe track makes use of heavy synthesized and bass elements to create an atmosphere such as that in the music of <em>EPISODE PROMPTO</em>. The track's mix of acoustic and electronic elements helps to add its own feel, which is also used throughout <em>EPISODE PROMPTO</em>.\n\nI used different effects to portray the crazed, strange nature of ARDYN such as bending the pitch of the melody and changing the instrumentation constantly throughout the track. I felt this was necessary as Ardyn's strangeness is a large part of his character, so I also made use of different instruments that are not normally used together. The use of Erhu represents the sound that is created in ARDYN, the piano and string section as well as other orchestral elements represents ARDYN II, III and the game as a whole, with the electronic elements symbolizing the sound of the <em>EPISODE PROMPTO</em> soundtrack. Finally, the use of organ represents ARDYN III from the <em>EPISODE IGNIS</em> soundtrack."
+      "linkedAlbumTrack": 63,
+      "description": "Made for the release of <em>FINAL FANTASY XV POCKET EDITION HD</em> on Nintendo Switch, on 14th September 2018."
     },
     {
-      "musicID": "ffxv_luna",
-      "musicName": "Luna",
-      "projectID": "ff15r",
+      "musicID": "ffxvpehd_sots",
+      "musicName": "Song of the Stars",
+      "projectID": "ff15pehd",
       "seriesID": "ff",
-      "releaseDate": "2018-03-05",
+      "releaseDate": "2018-09-07",
       "trackArranger": "Wally71551",
       "composer": "Yoko Shimomura",
-      "artists": [],
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, John Graham"
+        }
+      ],
       "transcription": [
         {
-          "transcriber": "Lunar Black",
-          "url": "https://www.youtube.com/watch?v=dLL4kSLRAE8"
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
         }
       ],
       "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "LUNA",
-          "project": "FINAL FANATSY XV",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/juJOXxXPtXY",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/8CwH8ZXnFig",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 43,
-      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nIn the track, I make use of lighter instrumentation to complement the tone of the piece. While there are builds, falls and changes in dynamics the arrangement always goes back to a quieter sound to represent Luna as a character and her fate. I use the instrument Celesta to add a melancholic feel, with strings playing tremolo quietly as accompaniment, helping to build the tone and atmosphere that surrounds the track.\n\nI composed new sections to complement the piece, using parts of the medley to show the other side to Luna, a happy girl bound by her fate. I also make use of 'Song of the Stars', which also represents Luna as a whole in the soundtrack of the game."
+      "linkedAlbumTrack": 61,
+      "description": "Made for the release of <em>FINAL FANTASY XV POCKET EDITION HD</em> on PlayStation 4 and Xbox One, on September 7th 2018.\n\nWhen arranging this piece, I wanted to capture the original feel at the beginning of the track, so I used a string quartet with solo clarinet to give the isolated, empty vibe that the original uses. The orchestration expands throughout the piece until I introduce a full orchestra, with marching percussion to differentiate the remix from the original."
     },
     {
       "musicID": "ffxvr_medley",
@@ -2312,11 +1438,11 @@
       "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nThe behemoth of FINAL FANTASY XV Royal Week, slain. This mega medley was insanely fun to do and also gave me a retrospective look back at the game as a whole, while also providing be to add a symphonic take to the entire soundtrack. I tried to include as many properties that are in the <em>FINAL FANTASY XV UNIVERSE</em>, regrettably due to time constraints I had to omit <em>FINAL FANTASY XV MULTIPLAYER EXPANSION: COMRADES</em> from the lineup.\n\nI split the mega medley up into 11 distinct sections, with the first being repeated at the end. These sections often include running thematic choices to help give the medley a sense of cohesion, and often relate to the part of the story that it is focused on.\n\nI hope you enjoy this mega medley as much as I enjoyed making it.\n\nSpecial thanks to Alistair Mithras! Their transcriptions of many parts of the <em>FINAL FANTASY XV Original Soundtrack</em> contributed massively to the mega medley and it could not have been put together without their transcriptions and sheet music."
     },
     {
-      "musicID": "ffxv_sws2",
-      "musicName": "Sorrow Without Solace v2",
-      "projectID": "ff15w",
+      "musicID": "ffxv_horizon",
+      "musicName": "Horizon",
+      "projectID": "ff15pe",
       "seriesID": "ff",
-      "releaseDate": "2018-03-07",
+      "releaseDate": "2018-02-08",
       "trackArranger": "Wally71551",
       "composer": "Yoko Shimomura",
       "artists": [
@@ -2333,25 +1459,186 @@
       ],
       "musicType": "Remix",
       "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/72s9JMyeSKw",
+      "youtubeLink": "https://youtu.be/xw6KN_71l2k",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 45,
-      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV WINDOWS EDITION</em> on 6th March 2018.\n\nThis piece makes use of the organ, an instrument associated with the character of Ardyn, highlighting the cause of Noctis' sorrows throughout the game. This instrument also has connotations of pain and suffering, so works well with the tone of the track.\n\nThe arrangement stays light throughout, focusing on solo wind instruments and strings to show the isolation of the characters in the stage of the game where this track plays, and also further builds the atmosphere of the piece as a whole."
+      "linkedAlbumTrack": 37,
+      "description": "The piece starts out very similar to the original theme, orchestrated to sound the start of a new day.\nThe track then transfers into an exploring tone, filled with wonder similar to the track Wanderlust, but using Horizon as a basis. A duo of horn and trombone section is used to outline the main chords, with a light piano backing adding rhythm and pace to the track, to keep a player who would be playing along to this track moving along. The sound throughout this section is kept thin with little in the bass range, representing how quiet mornings normally are.\n\nThe next section predominantly features horn and trombone chords, to emphasise the large epic nature of the world. The light tremolo string backing shows the delicate nature of the world. The track ends with a reprise of the original section, showing how the world is always the same despite the different parts of it."
     },
     {
-      "musicID": "ffxv_ravus",
-      "musicName": "Ravus Aeterna",
+      "musicID": "ffxv_jazzmedley",
+      "musicName": "Jazz Medley",
+      "projectID": "ff15pe",
+      "seriesID": "ff",
+      "releaseDate": "2018-02-08",
+      "trackArranger": "Wally71551",
+      "composer": "",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Medley",
+      "linkedTracks": [
+        {
+          "name": "Dining Car",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Tetsuya Shibata",
+              "URL": ""
+            },
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "ARDYN",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura, Yoshitaka Suzuki",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoshitaka Suzuki",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "OMNIS LACRIMA",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Kaoru Wada, Shota Nakama",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "NOX AETERNA",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Shota Nakama",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "Tenebrae",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Arranger",
+              "artistName": "Yoshino Aoki",
+              "URL": ""
+            },
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            }
+          ]
+        },
+        {
+          "name": "Somnus",
+          "project": "FINAL FANTASY XV",
+          "artists": [
+            {
+              "header": "Composer",
+              "artistName": "Yoko Shimomura",
+              "URL": ""
+            },
+            {
+              "header": "Arranger",
+              "artistName": "Yoko Shimomura, Kaoru Wada",
+              "URL": ""
+            },
+            {
+              "header": "Vocal",
+              "artistName": "Aundréa L. Hopkins",
+              "URL": ""
+            },
+            {
+              "header": "Lyricist",
+              "artistName": "Tetsuya Nomura, Taro Yamashita, Kazuhiro Komiya",
+              "URL": ""
+            }
+          ]
+        }
+      ],
+      "youtubeLink": "https://youtu.be/sosxeU5nddM",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 36,
+      "description": "REUPLOAD: Reuploaded due to an audio error.\n\nThe medley uses a symphonic jazz style; the orchestral style is a big part of the Final Fantasy XV soundtrack so it helped to link the medley more to the game by making light use of an orchestral string section and horns.\n\nThe medley changes track often as a sorts of whistle-stop tour of Final Fantasy XV's soundtrack to celebrate the Pocket Edition in a jazz style."
+    },
+    {
+      "musicID": "ffxv_luna",
+      "musicName": "Luna",
       "projectID": "ff15r",
       "seriesID": "ff",
-      "releaseDate": "2018-03-07",
+      "releaseDate": "2018-03-05",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Lunar Black",
+          "url": "https://www.youtube.com/watch?v=dLL4kSLRAE8"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "LUNA",
+          "project": "FINAL FANATSY XV",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/juJOXxXPtXY",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 43,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nIn the track, I make use of lighter instrumentation to complement the tone of the piece. While there are builds, falls and changes in dynamics the arrangement always goes back to a quieter sound to represent Luna as a character and her fate. I use the instrument Celesta to add a melancholic feel, with strings playing tremolo quietly as accompaniment, helping to build the tone and atmosphere that surrounds the track.\n\nI composed new sections to complement the piece, using parts of the medley to show the other side to Luna, a happy girl bound by her fate. I also make use of 'Song of the Stars', which also represents Luna as a whole in the soundtrack of the game."
+    },
+    {
+      "musicID": "ffxv_nox",
+      "musicName": "Nox Aeterna",
+      "projectID": "ff15",
+      "seriesID": "ff",
+      "releaseDate": "2017-05-14",
       "trackArranger": "Wally71551",
       "composer": "Yoko Shimomura",
       "artists": [
         {
           "header": "Arranger",
-          "artistName": "Yoshitaka Suzuki"
+          "artistName": "Yoko Shimomura, Shota Nakama"
         }
       ],
       "transcription": [
@@ -2363,17 +1650,162 @@
       "musicType": "Remix",
       "linkedTracks": [
         {
-          "name": "RAVUS AETERNA",
+          "name": "NOX AETERNA",
           "project": "FINAL FANTASY XV",
           "artists": []
         }
       ],
-      "youtubeLink": "https://youtu.be/A1wMYHeKAb8",
+      "youtubeLink": "https://youtu.be/nJHz3N3-YvQ",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 5,
+      "description": "I was listening to the <em>FINAL FANTASY XV</em> Soundtrack, as it is one of my all-time favourite games and has a brilliant soundtrack to go along with it. I was listening to Nox Aeterna, and decided I wanted to create a version of it myself.\n\nI used a full string section that the piece uses but decided not to use a woodwind section, instead opting for a choir. In doing this, I created a piece that carries more of the sorrow of the piece; this is further boosted by the piano in use throughout the piece.\n\nNoctis has just learnt that Insomnia has fallen and his father is dead, so I tried to communicate the sorrow he would feel during the scene."
+    },
+    {
+      "musicID": "ffxv_nox_8bit",
+      "musicName": "Nox Aeterna 8-Bit",
+      "projectID": "ff15",
+      "seriesID": "ff",
+      "releaseDate": "2017-05-14",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "NOX AETERNA",
+          "project": "FINAL FANTASY XV",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/Dlf-AWS56zY",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 6,
+      "description": "8-Bit recreation of Nox Aeterna from <em>FINAL FANTASY XV</em>. Based on my arrangement of Nox Aeterna."
+    },
+    {
+      "musicID": "ffxv_nyx",
+      "musicName": "Nyx (Kingsglaive)",
+      "projectID": "kingsglaive",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-04",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Yoshitaka Suzuki, John Graham"
+        },
+        {
+          "header": "Orchestrator",
+          "artistName": "John Graham"
+        },
+        {
+          "header": "Vocal",
+          "artistName": "Maiko Horisawa"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Samuel Fu",
+          "url": "https://media.wix.com/ugd/b3036c_65b70a9bcc0e45a58b438c0605e36cf3.pdf"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "NYX",
+          "project": "KINGSGLAIVE FINAL FANTASY XV",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/ZaQetOyLuIU",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 46,
-      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV ROYAL EDITION</em> on 6th March 2018.\n\nIn this piece, I use a mixture of synthesised and acoustic sounds, much like the original track, to portray the atmosphere and context of the fight. The use of theremin shows the alien threat that the Starscourge and daemon holds."
+      "linkedAlbumTrack": 41,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nThis is a project I've been working on for a while, and had on the backburner for a couple of months. When I came up with the idea of FINAL FANTASY XV Royal Week, I decided this would be a good place to start. I used synths to represent the moody atmosphere and overall tone of the film, as well as solitary instruments to represent how isolated the main character of Nyx is throughout quite a lot of Kingsglaive, having to escort Lunafreya out of the city with no help. The orchestral section makes use of horns and strings to create an epic feel, much like the action and overall score of Kingsglaive, which then fades back down again to solitary piano with synth backing, symbolizing Nyx's fate in the film."
+    },
+    {
+      "musicID": "ffxv_promptodarkness",
+      "musicName": "Ardyn III",
+      "projectID": "ffxv_prompto",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-05",
+      "trackArranger": "Wally71551",
+      "composer": "",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoshitaka Suzuki"
+        },
+        {
+          "header": "ARDYN II (from <em>FINAL FANTASY XV</em>) Composer",
+          "artistName": "Yoko Shimomura"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Beckoned by Darkness",
+          "project": "FINAL FANTASY XV: EPISODE PROMPTO",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/BIUGp6apl50",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 42,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV WINDOWS EDITION</em> on 6th March 2018.\n\nThe track makes use of heavy synthesized and bass elements to create an atmosphere such as that in the music of <em>EPISODE PROMPTO</em>. The track's mix of acoustic and electronic elements helps to add its own feel, which is also used throughout <em>EPISODE PROMPTO</em>.\n\nI used different effects to portray the crazed, strange nature of ARDYN such as bending the pitch of the melody and changing the instrumentation constantly throughout the track. I felt this was necessary as Ardyn's strangeness is a large part of his character, so I also made use of different instruments that are not normally used together. The use of Erhu represents the sound that is created in ARDYN, the piano and string section as well as other orchestral elements represents ARDYN II, III and the game as a whole, with the electronic elements symbolizing the sound of the <em>EPISODE PROMPTO</em> soundtrack. Finally, the use of organ represents ARDYN III from the <em>EPISODE IGNIS</em> soundtrack."
+    },
+    {
+      "musicID": "ffxv_promptohsh",
+      "musicName": "Home Sweet Home (Episode Prompto)",
+      "projectID": "ffxv_prompto",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-09",
+      "trackArranger": "Wally71551",
+      "composer": "Naoshi Mizuta",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Yagawa",
+          "url": "https://musescore.com/user/26811925/scores/4791599"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Home Sweet Home - Theme of EPISODE PROMPTO",
+          "project": "FINAL FANTASY XV: EPISODE PROMPTO",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/7jCKOZCY81o",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 50,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV ROYAL EDITION</em> on 6th March 2018.\n\nThe track makes use of lighter instrumentation, keeping a quiet nature throughout which helps to build up the piece later in the track. I make use of light theremin backing representing the synthesized nature of most of the <em>EPISODE PROMPTO</em> soundtrack while also predominantly featuring acoustic instruments."
     },
     {
       "musicID": "ffxv_rarpiano",
@@ -2411,41 +1843,17 @@
       "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV WINDOWS EDITION</em> on 6th March 2018.\n\nBased on the Piano Collections version of the track, the track makes use of lots of solo piano as well as electric piano. I used part of the Mega Medley as a basis, reorchestrating elements to fit better with the new piece. Light percussion is used throughout to give pace to certain parts.\n\nUsing solo woodwind instruments and quiet string accompaniment allows the track to retain its relaxing feel while still having the grand scale of an orchestral piece."
     },
     {
-      "musicID": "ffxv_wanderlust",
-      "musicName": "Wanderlust",
+      "musicID": "ffxv_ravus",
+      "musicName": "Ravus Aeterna",
       "projectID": "ff15r",
       "seriesID": "ff",
-      "releaseDate": "2018-03-08",
-      "trackArranger": "Wally71551",
-      "composer": "Yoko Shimomura, Yoshitaka Suzuki",
-      "artists": [
-        {
-          "header": "Arranger",
-          "artistName": "Yoshitaka Suzuki"
-        }
-      ],
-      "transcription": [],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/aoHgVRrPm5k",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 48,
-      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV ROYAL EDITION</em> on 6th March 2018.\n\nWhen creating this arrangement, I kept intact the woodwind solo by using an ocarina, creating a sense of a grand adventure in the world. I also made use of orchestral elements to give the grand feel similar to the grand scale of the world of Eos."
-    },
-    {
-      "musicID": "ffxv_ufc_mm2",
-      "musicName": "Up For The Challenge Mega Man II Mix",
-      "projectID": "ff15w",
-      "seriesID": "ff",
-      "releaseDate": "2018-03-09",
+      "releaseDate": "2018-03-07",
       "trackArranger": "Wally71551",
       "composer": "Yoko Shimomura",
       "artists": [
         {
           "header": "Arranger",
-          "artistName": "Yoko Shimomura, Shota Nakama"
+          "artistName": "Yoshitaka Suzuki"
         }
       ],
       "transcription": [
@@ -2457,47 +1865,66 @@
       "musicType": "Remix",
       "linkedTracks": [
         {
-          "name": "Up for the Challenge",
+          "name": "RAVUS AETERNA",
           "project": "FINAL FANTASY XV",
           "artists": []
         }
       ],
-      "youtubeLink": "https://youtu.be/fcXZHYfHbBU",
+      "youtubeLink": "https://youtu.be/A1wMYHeKAb8",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 49,
-      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV WINDOWS EDITION</em> on 6th March 2018.\n\nI decided to base the arrangement around the <em>Mega Man 2 style</em>, which in turn allowed me to limit myself to become more creative in my arrangement.\n\nBy imposing the limit of only being able to use 3 wave channels, a sample channel (for drums) and a noise channel (for cymbals), I had to express my creativity in different ways."
+      "linkedAlbumTrack": 46,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV ROYAL EDITION</em> on 6th March 2018.\n\nIn this piece, I use a mixture of synthesised and acoustic sounds, much like the original track, to portray the atmosphere and context of the fight. The use of theremin shows the alien threat that the Starscourge and daemon holds."
     },
     {
-      "musicID": "ffxv_promptohsh",
-      "musicName": "Home Sweet Home (Episode Prompto)",
-      "projectID": "ffxv_prompto",
+      "musicID": "ffxv_rrpensive",
+      "musicName": "Relax and Reflect - Pensive",
+      "projectID": "ff15pe",
       "seriesID": "ff",
-      "releaseDate": "2018-03-09",
+      "releaseDate": "2018-02-10",
       "trackArranger": "Wally71551",
-      "composer": "Naoshi Mizuta",
-      "artists": [],
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Tetsuya Shibata"
+        }
+      ],
       "transcription": [
         {
-          "transcriber": "Yagawa",
-          "url": "https://musescore.com/user/26811925/scores/4791599"
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
         }
       ],
       "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "Home Sweet Home - Theme of EPISODE PROMPTO",
-          "project": "FINAL FANTASY XV: EPISODE PROMPTO",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/7jCKOZCY81o",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/iu7aj7FW2Oc",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 50,
-      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV ROYAL EDITION</em> on 6th March 2018.\n\nThe track makes use of lighter instrumentation, keeping a quiet nature throughout which helps to build up the piece later in the track. I make use of light theremin backing representing the synthesized nature of most of the <em>EPISODE PROMPTO</em> soundtrack while also predominantly featuring acoustic instruments."
+      "linkedAlbumTrack": 38,
+      "description": "When recreating this theme, I used an array of instruments from different styles, pulling from various different styles. I make use of orchestral elements, mixed with electronic and acoustic drum patterns along with a solo harmonica that carries most of the melody throughout the piece.\n\nThe texture is kept quite sparse to give the sense the piece uses in the game, while the melody is altered to fit better with the theme of the original, non-pensive version. The idea of using harmonica comes from the connotations of the instrument, often played in unhappy / bad context, such as the second track in the <em>FINAL FANTASY XV</em> Soundtrack, Broken Down."
+    },
+    {
+      "musicID": "ffxv_solidarity",
+      "musicName": "Solidarity",
+      "projectID": "ffxv_brotherhood",
+      "seriesID": "ff",
+      "releaseDate": "2017-10-15",
+      "trackArranger": "Wally71551",
+      "composer": "Yasuhisa Inoue",
+      "transcription": [
+        {
+          "transcriber": "yagawa",
+          "url": "https://musescore.com/user/26811925/scores/5037896"
+        }
+      ],
+      "musicType": "Remix",
+      "youtubeLink": "https://youtu.be/Uu-C6I_3rMs",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 24,
+      "description": "I had the idea of arranging this piece for a while, and started the process a few months ago. I left the project for a while after losing momentum and interest in the piece, but came back to it after I had a surge of ideas.\n\nThe piece sticks to the original for most of the piece, putting the focus on the piano melody. A violin section is added as the backing to the piece, highlighting the harmony.\n\nThe violins are then followed by the rest of the string section, as well as a solo cello to take the countermelody line building up to the climax of the piece. The percussion stays very sparse throughout all of the piece, and only highlights the climax of the piece. During the climax, the melody is split across violin, piano and a solo trumpet.\n\nThe piece then reverses the instrumentation from the start of the piece, thinning the sound to violins and piano, and the final chord is played on piano slowly, to bring the piece full circle and highlight the solidarity of its base."
     },
     {
       "musicID": "ffxv_somnus",
@@ -2537,130 +1964,177 @@
       "description": "This was a project I started many months ago, and finally got around to completing it. I merged parts of the piano arrangement into the main track, creating different textures throughout. In the track I build and build the instrumentation, coming to a head with a loud piano solo and then using a full orchestra before bringing the volume back down for the ending.\n\nThe use of piano as a featured instrument throughout the track because it is used throughout the game's soundtrack as a prominent instrument. This adds a stylistic choice from the game and helps relate my remix to the game's soundtrack."
     },
     {
-      "musicID": "sot_becalmed",
-      "musicName": "Becalmed",
-      "projectID": "seaofthieves",
-      "seriesID": "seaofthieves",
-      "releaseDate": "2018-03-20",
+      "musicID": "ffxv_somnusultima",
+      "musicName": "Somnus Ultima",
+      "projectID": "ff15",
+      "seriesID": "ff",
+      "releaseDate": "2017-08-20",
       "trackArranger": "Wally71551",
-      "composer": "Robin Beanland",
-      "artists": [],
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
+        }
+      ],
       "transcription": [
         {
-          "transcriber": "Josh McGraw",
-          "url": "https://musescore.com/user/1133871/scores/4922324"
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "youtubeLink": "https://youtu.be/9Ia53AGPtcY",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 13,
+      "description": "When I arranged this piece, I decided to add extra parts to help it feel like the true end to the game, a rounding up. To help with the intensity, I used brass as a main feature when the piece builds up into it's main section.\n\nI use Ardyn's motif from the games at the start and the end of the piece to show how it is him who was in control for all of the game and convey the fact that it is his destruction.\n\nThe slower piano section I included before the reprise with strings and horn conveys the reflection over the entire adventure before the finale. To coincide with this, the celesta plays 4 melodies from the game during this section: Luna, Song of the Stars, Sorrow without Solace and Stand By Me. I chose Stand By Me as the closing melody before the piece begins to build to represent Noctis' companions standing with him in spirit for the final fight.\n\nIn the main section, I chose to add phrases to the wind/brass parts to create a fuller score fit for the end of a long adventure that took 10 in-game years to complete, and the reclaiming of Noctis' home.\n\nFinally, I chose to keep the piano line unresolved at the end of the piece to show how Noctis cannot go back and fully reclaim what he took back from Ardyn, as he had to sacrifice himself to see his quest through. This means he truly cannot complete the reclaiming of the Crown City and the end of the Lucis line."
+    },
+    {
+      "musicID": "ffxv_sws",
+      "musicName": "Sorrow Without Solace",
+      "projectID": "ff15",
+      "seriesID": "ff",
+      "releaseDate": "2017-08-13",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
+        },
+        {
+          "transcriber": "p0chacco",
+          "url": "https://ichigos.com/sheets/814"
+        }
+      ],
+      "musicType": "Remix",
+      "youtubeLink": "https://youtu.be/a7K0d5Kqz5k",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 12,
+      "description": "While writing this piece, I decided to use lighter woodwind instruments as the focus to convey the softer and emotional side of the story through the piece.\n\nThe main woodwind instruments I decided to use are the less common Cor Anglais and Alto Flute.\n\nThe piece is supposed to represent the struggle that Noctis had to try and reach Luna, but to ultimately fail in the end. At the point in the story, things start to fall apart for the group. The piece is slower and long to help represent the long struggle that is facing them."
+    },
+    {
+      "musicID": "ffxv_sws2",
+      "musicName": "Sorrow Without Solace v2",
+      "projectID": "ff15w",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-07",
+      "trackArranger": "Wally71551",
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
         }
       ],
       "musicType": "Remix",
       "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/aBy3MqrWe-4",
+      "youtubeLink": "https://youtu.be/72s9JMyeSKw",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 52,
-      "description": "Made for the release of <em>Sea of Thieves</em> on Xbox One and Windows PC, on 20th March 2018.\n\nWhen I arranged this piece, I wanted to capture the multiple cultures that pirates would experience travelling the globe. I made use of instruments from different cultures, such as the concertina which is representative of the original game's soundtrack and other, eastern instruments such as the pipa and erhu. I also made use of an ocarina, which adds flair to the piece.\n\nI wanted to expand the orchestration of the track to express the grandeur of the open sea, so I made use of an orchestra, predominantly using strings to denote the huge expanses of water and horns to represent the pirates' nature."
+      "linkedAlbumTrack": 45,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV WINDOWS EDITION</em> on 6th March 2018.\n\nThis piece makes use of the organ, an instrument associated with the character of Ardyn, highlighting the cause of Noctis' sorrows throughout the game. This instrument also has connotations of pain and suffering, so works well with the tone of the track.\n\nThe arrangement stays light throughout, focusing on solo wind instruments and strings to show the isolation of the characters in the stage of the game where this track plays, and also further builds the atmosphere of the piece as a whole."
     },
     {
-      "musicID": "ssbu_reveal",
-      "musicName": "Reveal Trailer Theme",
-      "projectID": "ssbu",
-      "seriesID": "ssb",
-      "releaseDate": "2018-03-22",
+      "musicID": "ffxv_tenebrae",
+      "musicName": "Tenebrae",
+      "projectID": "ff15",
+      "seriesID": "ff",
+      "releaseDate": "2017-05-21",
       "trackArranger": "Wally71551",
-      "composer": "Hideki Sakamoto",
-      "artists": [],
+      "composer": "Yoko Shimomura",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoshino Aoki"
+        }
+      ],
       "transcription": [
         {
-          "transcriber": "Latin American Wolf",
-          "url": "https://www.youtube.com/watch?v=zcQoOIYOP4M"
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
         }
       ],
       "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/R-vf2ExLQq0",
+      "youtubeLink": "https://youtu.be/QWPIweib4vo",
       "bandcampLink": "",
-      "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 53,
-      "description": "After watching the <em>Super Smash Bros. Switch</em> trailer, I wanted to recreate the theme in a way that shows the impending aspect of the trailer. I made use of synthesised elements as they are featured throughout the <em>Super Smash Bros.</em> soundtracks, but also made use of a large, symphonic orchestra to keep in line with how the trailer was portraying the newest installment in the series.\n\nI expanded on the original melody used as the backing for the trailer, to create a longer piece and build the intensity. I wrote a countermelody making use of motifs from <em>Super Smash Bros. Brawl</em> and <em>Super Smash Bros. Melee</em> as callbacks to the rest of the series, linking in this piece with previous iterations of the game."
+      "linkedAlbumTrack": 7,
+      "description": "In creating this, I wanted to convey the feeling of a glamorous and beautiful city that has been destroyed by the empire's rampage. I also incorporated other parts of <em>FINAL FANTASY XV</em>'s OST to portray Noctis' emotion connection to the place and the fact he would still be grieving over the loss of Luna."
     },
     {
-      "musicID": "mm_lastday",
-      "musicName": "Last Day",
-      "projectID": "mm",
-      "seriesID": "loz",
-      "releaseDate": "2018-03-25",
+      "musicID": "ffxv_ufc_mm2",
+      "musicName": "Up For The Challenge Mega Man II Mix",
+      "projectID": "ff15w",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-09",
       "trackArranger": "Wally71551",
-      "composer": "Koji Kondo",
-      "artists": [],
-      "transcription": [
+      "composer": "Yoko Shimomura",
+      "artists": [
         {
-          "transcriber": "David Caldarella",
-          "url": "https://musescore.com/user/5988191/scores/2668196"
+          "header": "Arranger",
+          "artistName": "Yoko Shimomura, Shota Nakama"
         }
       ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/yq5aaQXLxDs",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 54,
-      "description": "I made heavy use of strings and choral melodies throughout the piece, echoing the impending nature of the moon approaching the land of Termina. The constant use of the bell represents the impending destruction, and also represents the game having the bell ring out as the moon approaches. This bell is made more impending by being backed up using timpani and bass drum to build intensity in the piece. Ambience throughout represents how ruined the world of Termina will become and the tense atmosphere that is present on the last day."
-    },
-    {
-      "musicID": "mm_lastday8bit",
-      "musicName": "Last Day 8-Bit Orchestra",
-      "projectID": "mm",
-      "seriesID": "loz",
-      "releaseDate": "2018-04-01",
-      "trackArranger": "Wally71551",
-      "composer": "Koji Kondo",
-      "artists": [],
       "transcription": [
         {
-          "transcriber": "David Caldarella",
-          "url": "https://musescore.com/user/5988191/scores/2668196"
+          "transcriber": "Alistair Mithras",
+          "url": "https://ichigos.com/sheets/814"
         }
       ],
       "musicType": "Remix",
       "linkedTracks": [
         {
-          "name": "Last Day",
-          "project": "The Legend of Zelda: Majora's Mask",
+          "name": "Up for the Challenge",
+          "project": "FINAL FANTASY XV",
           "artists": []
         }
       ],
-      "youtubeLink": "https://youtu.be/nWXRvf0495s",
+      "youtubeLink": "https://youtu.be/fcXZHYfHbBU",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 55,
-      "description": "8-Bit Arrangement of original remix made using GXSCC, using MuseScore's MIDI exporter."
+      "linkedAlbumTrack": 49,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV WINDOWS EDITION</em> on 6th March 2018.\n\nI decided to base the arrangement around the <em>Mega Man 2 style</em>, which in turn allowed me to limit myself to become more creative in my arrangement.\n\nBy imposing the limit of only being able to use 3 wave channels, a sample channel (for drums) and a noise channel (for cymbals), I had to express my creativity in different ways."
     },
     {
-      "musicID": "mc_wethands",
-      "musicName": "Wet Hands",
-      "projectID": "minecraft",
-      "seriesID": "minecraft",
-      "releaseDate": "2018-04-12",
+      "musicID": "ffxv_wanderlust",
+      "musicName": "Wanderlust",
+      "projectID": "ff15r",
+      "seriesID": "ff",
+      "releaseDate": "2018-03-08",
       "trackArranger": "Wally71551",
-      "composer": "C418",
-      "artists": [],
-      "transcription": [
+      "composer": "Yoko Shimomura, Yoshitaka Suzuki",
+      "artists": [
         {
-          "transcriber": "Torbjørn Brandrud",
-          "url": "https://pdfcoffee.com/wet-hands-minecraft-7-pdf-free.html"
+          "header": "Arranger",
+          "artistName": "Yoshitaka Suzuki"
         }
       ],
+      "transcription": [],
       "musicType": "Remix",
       "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/Echu-gdU8zA",
+      "youtubeLink": "https://youtu.be/aoHgVRrPm5k",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 56,
-      "description": "I made this arrangement for the 4th anniversary of my YouTube channel. Originally I created <em>Minecraft</em> Let's Play videos, eventually going to other games and then finally I refined my content and channel into what it is now.\n\nThe arrangement makes use of piano much like the original track, but uses tremolo string and electric bass backing. Percussion, wind and brass instruments all come in throughout the track, emulating the grand scale of a <em>Minecraft</em> world through orchestral instrumentals."
+      "linkedAlbumTrack": 48,
+      "description": "FINAL FANTASY XV Royal Week - A week of uploads to celebrate the release of <em>FINAL FANTASY XV ROYAL EDITION</em> and <em>FINAL FANTASY XV WINDOWS EDITION</em>.\n\nMade for the release of <em>FINAL FANTASY XV ROYAL EDITION</em> on 6th March 2018.\n\nWhen creating this arrangement, I kept intact the woodwind solo by using an ocarina, creating a sense of a grand adventure in the world. I also made use of orchestral elements to give the grand feel similar to the grand scale of the world of Eos."
     },
     {
       "musicID": "fortnite_menu",
@@ -2693,194 +2167,75 @@
       "description": "When re-creating this theme, I wanted to recreate the original aspect of the theme in the game. It is short and looping, so I made use of a repeat and fade out to make it feel as if the track does not end, instead looping around and around.\n\nThe original track uses orchestral elements while having guitar as the featured instrument; with this arrangement I wanted to bring out the orchestral elements while still combining it with guitar and synth, which are used throughout. I make use of various percussion instruments to make the beat more interesting; the main melody stays the same throughout the track while countermelodies and percussive rhythms develop the track."
     },
     {
-      "musicID": "avengersiw_porch",
-      "musicName": "Porch",
-      "projectID": "avengers_iw",
-      "seriesID": "marvel",
-      "releaseDate": "2018-05-21",
+      "musicID": "gothic3_vistapoint",
+      "musicName": "Vista Point",
+      "projectID": "gothic3",
+      "seriesID": "gothic",
+      "releaseDate": "2017-05-07",
       "trackArranger": "Wally71551",
-      "composer": "Alan Silvestri",
-      "artists": [
-        {
-          "header": "Orchestrator",
-          "artistName": "Mark Graham"
-        }
-      ],
+      "composer": "Kai Rosenkranz",
       "transcription": [
         {
-          "transcriber": "Samuel Fu, RodgerC26",
-          "url": "https://musescore.com/rodgerc26/porch-infinity-war"
+          "transcriber": "Tigero",
+          "url": "https://ichigos.com/sheets/738"
         }
       ],
       "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/D0rCWNcC18g",
+      "youtubeLink": "https://youtu.be/oaPS1gJ1TdE",
       "bandcampLink": "",
-      "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 58,
-      "description": "The original version of the track plays at the end of the movie, when Thanos has become victorious over the Avengers. Half of all life has been wiped out of existence, and the Avengers have lost. Thanos sits on a porch, watching the sun rise over a balanced universe.\n\nThe track is tragic, with the melody swells adding to the emotion. I made use of different motifs from the <em>Marvel Cinematic Universe</em>, using harmony to create the idea of the heroes being defeated. Orchestral orchestration is used throughout; it represents the epic nature and grand scale of Thanos' victory."
+      "linkedAlbumTrack": 3,
+      "description": "The <em>Gothic</em> series was recommended to me by a friend (I haven't got around to playing it yet though...) but the theme for <em>Gothic 3</em>, Vista Point, pulled me in straight away. The theme itself is beautifully composed by Kai Rosenkranz.\n\nI wanted to stick closely to the theme but I wanted to add a few things, like more use of horns and lots of grand piano to keep the nature of the original song."
     },
     {
-      "musicID": "smo_forgottenisle",
-      "musicName": "Forgotten Isle",
-      "projectID": "smo",
-      "seriesID": "mario",
-      "releaseDate": "2018-07-29",
+      "musicID": "gs_azalea",
+      "musicName": "Azalea Town",
+      "projectID": "pkmn_g/pkmn_s",
+      "seriesID": "pkmn",
+      "releaseDate": "2017-09-22",
       "trackArranger": "Wally71551",
-      "composer": "Koji Kondo",
-      "artists": [],
+      "composer": "Go Ichinose",
       "transcription": [
         {
-          "transcriber": "Sebastian",
-          "url": "https://www.ninsheetmusic.org/download/pdf/3950"
+          "transcriber": "Thomas Wilson / Latios212",
+          "url": "https://www.ninsheetmusic.org/download/pdf/983"
+        }
+      ],
+      "musicType": "Remix",
+      "youtubeLink": "https://youtu.be/wgiqxMUWDPA",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 18,
+      "description": "Made for the port of <em>Pokémon Gold Version & Pokémon Silver Version</em> coming to Nintendo 3DS systems on 22nd September 2017.\n\nWhen starting this piece, I slowed the tempo to create a much more relaxed atmosphere like the town has. I changed the instrumentation to better represent a town surrounded by forest and bugs, as I felt a string section didn't fit well enough. I used a xylophone to add a wooden and light-hearted tone to the piece, and used some woodwind instruments to help produce different tones in the sound and texture of the piece.\n\nI kept very close to the original piece, and didn't put much variation to keep the authenticity of the piece. Only towards the end of the piece does it significantly change."
+    },
+    {
+      "musicID": "hgss_arceus",
+      "musicName": "Battle! Arceus",
+      "projectID": "pkmn_hg/pkmn_ss",
+      "seriesID": "pkmn",
+      "releaseDate": "2017-09-10",
+      "trackArranger": "Wally71551",
+      "composer": "Junichi Masuda",
+      "transcription": [
+        {
+          "transcriber": "samboso",
+          "url": "https://musescore.com/animeandflute/scores/3510526"
         }
       ],
       "musicType": "Remix",
       "linkedTracks": [
         {
-          "name": "The Forgotten Isle",
-          "project": "Super Mario Odyssey",
+          "name": "Arceus",
+          "project": "Pokémon HeartGold Version & Pokémon SoulSilver Version",
           "artists": []
         }
       ],
-      "youtubeLink": "https://youtu.be/doawQsjoZWU",
+      "youtubeLink": "https://youtu.be/3TGMtnYeTEk",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 59,
-      "description": "Finally I've got around to uploading a video, after just over 2 months. There are plenty of upcoming projects, I just need to get around to finishing a lot of them. So look forward to the stuff that I'm going to release in the future.\n\nI made use of various percussion and wind instruments to recreate the style that is used in the sound of the Lost Kingdom. I used rhythmic layering to give the piece the feel of being in a dense area with lots going, almost creating a chaotic sound to the beat."
-    },
-    {
-      "musicID": "xc2_morytha",
-      "musicName": "Morytha",
-      "projectID": "xc2",
-      "seriesID": "xenoblade",
-      "releaseDate": "2018-08-12",
-      "trackArranger": "Wally71551",
-      "composer": "ACE (TOMOri KUDO, CHiCO)",
-      "artists": [],
-      "transcription": [
-        {
-          "transcriber": "Starsoarer",
-          "url": "https://musescore.com/starsoarer/xenoblade-chronicles-2---land-of-morytha"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "Land of Morytha",
-          "project": "Xenoblade Chronicles 2",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/gDwLQVxG-ss",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 60,
-      "description": "To represent the land of Morytha and its vast emptiness, I used a lot of reverb in the mix of the track. When orchestrating the piece I wanted to make use of solitary instruments as well as a large string backing to help the piece swell and add contrasting dynamics making for a more interesting listening experience. The solo flute is separated from the rest of the instrumentation being the only wind instrument in the track, and highlights the isolation the land of Morytha has in the game."
-    },
-    {
-      "musicID": "ffxvpehd_sots",
-      "musicName": "Song of the Stars",
-      "projectID": "ff15pehd",
-      "seriesID": "ff",
-      "releaseDate": "2018-09-07",
-      "trackArranger": "Wally71551",
-      "composer": "Yoko Shimomura",
-      "artists": [
-        {
-          "header": "Arranger",
-          "artistName": "Yoko Shimomura, John Graham"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Alistair Mithras",
-          "url": "https://ichigos.com/sheets/814"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/8CwH8ZXnFig",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 61,
-      "description": "Made for the release of <em>FINAL FANTASY XV POCKET EDITION HD</em> on PlayStation 4 and Xbox One, on September 7th 2018.\n\nWhen arranging this piece, I wanted to capture the original feel at the beginning of the track, so I used a string quartet with solo clarinet to give the isolated, empty vibe that the original uses. The orchestration expands throughout the piece until I introduce a full orchestra, with marching percussion to differentiate the remix from the original."
-    },
-    {
-      "musicID": "fe3h_e318",
-      "musicName": "E3 2018 Trailer Theme",
-      "projectID": "fe3h",
-      "seriesID": "fireemblem",
-      "releaseDate": "2018-09-09",
-      "trackArranger": "Wally71551",
-      "composer": "Takeru Kanazaki",
-      "artists": [
-        {
-          "header": "Vocals",
-          "artistName": "Caro"
-        },
-        {
-          "header": "Vocals (English)",
-          "artistName": "Buttercup"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Torby Brand",
-          "url": "https://musescore.com/torbybrand/the-edge-of-dawn-takeru-kanazaki-the-edge-of-dawn-trailer-ver"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [
-        {
-          "name": "Fire Emblem: Three Houses Main Theme",
-          "project": "Fire Emblem: Three Houses",
-          "artists": []
-        }
-      ],
-      "youtubeLink": "https://youtu.be/DyLXJ6GPubg",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 62,
-      "description": "When arranging this theme, I wanted to capture the larger, epic feel in the trailer as it is the first <em>Fire Emblem</em> console game since <em>Fire Emblem: Radiant Dawn</em>, but I also kept ethnic instruments that are common on <em>Fire Emblem</em> soundtracks. This also gives the piece a unique sound which differentiates it from the original track used in the trailer. I also made use of various percussion instruments to give the track pace and giving it the feeling of pushing forward."
-    },
-    {
-      "musicID": "ff15pehd_dining",
-      "musicName": "Dining Car",
-      "projectID": "ff15pehd",
-      "seriesID": "ff",
-      "releaseDate": "2018-09-14",
-      "trackArranger": "Wally71551",
-      "composer": "",
-      "artists": [
-        {
-          "header": "Arranger",
-          "artistName": "Tetsuya Shibata"
-        },
-        {
-          "header": "Composer",
-          "artistName": "Yoko Shimomura"
-        }
-      ],
-      "transcription": [
-        {
-          "transcriber": "Alistair Mithras",
-          "url": "https://ichigos.com/sheets/814"
-        }
-      ],
-      "musicType": "Remix",
-      "linkedTracks": [],
-      "youtubeLink": "https://youtu.be/8sffIOxZhFM",
-      "bandcampLink": "",
-      "extraLinks": [],
-      "linkedAlbumID": "wally71551_og",
-      "linkedAlbumTrack": 63,
-      "description": "Made for the release of <em>FINAL FANTASY XV POCKET EDITION HD</em> on Nintendo Switch, on 14th September 2018."
+      "linkedAlbumTrack": 15,
+      "description": "When I began arranging this song, I used the percussion to showcase the fact you are battling a god. Heavy bass drums and timpani support the rest of the rhythm on toms and snare.\n\nI used a very low bass sound across the entire piece to keep an underlying noise to attract your ears through portions of silence.\n\nReverb on the brass parts is used to convey the sound of a grand open space, much like the Hall of Origin or the Sinjoh Ruins. The harmonies are very dissonant as it supports the idea of how much danger you are in."
     },
     {
       "musicID": "kh2_org",
@@ -2952,6 +2307,546 @@
       "description": "A small arrangement I made to celebrate <em>KINGDOM HEARTS III</em> releasing on 29th January 2019."
     },
     {
+      "musicID": "la_noire_main",
+      "musicName": "Main Theme",
+      "projectID": "la_noire",
+      "seriesID": "la_noire",
+      "releaseDate": "2017-11-14",
+      "trackArranger": "Wally71551",
+      "composer": "Andrew Hale",
+      "transcription": [
+        {
+          "transcriber": "Sebastian Wolff",
+          "url": "https://www.yumpu.com/en/document/view/17606317/la-noire-main-theme-sebastian-wolff"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/WsrFtj7l5a0",
+      "bandcampLink": "",
+      "extraLinks": [
+        {
+          "platform": "MuseScore",
+          "url": "https://musescore.com/user/9283941/scores/4816796"
+        }
+      ],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 31,
+      "description": "Created for the port of <em>L.A. Noire</em> on Nintendo Switch, Xbox One and PlayStation 4, on 14th November 2017.\n\nI created this piece to be mysterious, representing the nature of the game; unearthing the mysterious and hidden. The lighter instrumentation of the piece helps to give the listener the control of 'filling the gaps' in their mind, creating a full picture from what they imagine the piece to represent.\n\nWhen creating the instrumentation, I wanted a synth string-styled sound. In doing this, I edited a string section sound using effects such as phaser to create a sound that can differentiate itself from anything else that I have used before."
+    },
+    {
+      "musicID": "mc_wethands",
+      "musicName": "Wet Hands",
+      "projectID": "minecraft",
+      "seriesID": "minecraft",
+      "releaseDate": "2018-04-12",
+      "trackArranger": "Wally71551",
+      "composer": "C418",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Torbjørn Brandrud",
+          "url": "https://pdfcoffee.com/wet-hands-minecraft-7-pdf-free.html"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/Echu-gdU8zA",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 56,
+      "description": "I made this arrangement for the 4th anniversary of my YouTube channel. Originally I created <em>Minecraft</em> Let's Play videos, eventually going to other games and then finally I refined my content and channel into what it is now.\n\nThe arrangement makes use of piano much like the original track, but uses tremolo string and electric bass backing. Percussion, wind and brass instruments all come in throughout the track, emulating the grand scale of a <em>Minecraft</em> world through orchestral instrumentals."
+    },
+    {
+      "musicID": "mm_lastday",
+      "musicName": "Last Day",
+      "projectID": "mm",
+      "seriesID": "loz",
+      "releaseDate": "2018-03-25",
+      "trackArranger": "Wally71551",
+      "composer": "Koji Kondo",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "David Caldarella",
+          "url": "https://musescore.com/user/5988191/scores/2668196"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/yq5aaQXLxDs",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 54,
+      "description": "I made heavy use of strings and choral melodies throughout the piece, echoing the impending nature of the moon approaching the land of Termina. The constant use of the bell represents the impending destruction, and also represents the game having the bell ring out as the moon approaches. This bell is made more impending by being backed up using timpani and bass drum to build intensity in the piece. Ambience throughout represents how ruined the world of Termina will become and the tense atmosphere that is present on the last day."
+    },
+    {
+      "musicID": "mm_lastday8bit",
+      "musicName": "Last Day 8-Bit Orchestra",
+      "projectID": "mm",
+      "seriesID": "loz",
+      "releaseDate": "2018-04-01",
+      "trackArranger": "Wally71551",
+      "composer": "Koji Kondo",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "David Caldarella",
+          "url": "https://musescore.com/user/5988191/scores/2668196"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Last Day",
+          "project": "The Legend of Zelda: Majora's Mask",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/nWXRvf0495s",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 55,
+      "description": "8-Bit Arrangement of original remix made using GXSCC, using MuseScore's MIDI exporter."
+    },
+    {
+      "musicID": "pokken_magikarp",
+      "musicName": "Magikarp Festival",
+      "projectID": "pokken_dx",
+      "seriesID": "pkmn",
+      "releaseDate": "2017-09-22",
+      "trackArranger": "Wally71551",
+      "composer": "Hiroki Hasimoto, Hiroyuki Kawada, Rio Hamamoto, Taku Inoue, Torine, Yoshinori Hirai, Takafumi Sato, Mitsuhiro Kitadani, Yu Sugimoto, Shota Kageyama",
+      "transcription": [
+        {
+          "transcriber": "ShinkoNetCavy",
+          "url": "https://www.vgmusic.com/file/26a5ee1210eb15f86ea5d3e7736422b9.html"
+        }
+      ],
+      "musicType": "Remix",
+      "youtubeLink": "https://youtu.be/yarsVbVp5GQ",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 19,
+      "description": "Made for the release of <em>Pokkén Tournament DX</em> on Nintendo Switch on 22nd September 2017.\n\nWhen arranging this piece, I wanted to keep the energetic vibe for the piece. I started by reproducing the drum kit and percussion, putting the emphasis on the syncopated congas and hand percussion parts to keep the energetic feel of the piece.\n\nI used a synth bass combined with a bass guitar to represent the synth and electronic style that <em>Pokkén Tournament</em> primarily used. The oriental instruments are still good as they are a core of the piece. Orchestral instruments are used to make the piece seem bigger in scale and more epic, and are used in conjunction with the percussion to create lots of off-setting rhythms."
+    },
+    {
+      "musicID": "sf2_title",
+      "musicName": "Title Screen",
+      "projectID": "starfox2",
+      "seriesID": "starfox",
+      "releaseDate": "2017-10-08",
+      "trackArranger": "Wally71551",
+      "composer": "Kozue Ishikawa, Yumiko Kanki",
+      "transcription": [
+        {
+          "transcriber": "Beta Link",
+          "url": "https://www.vgmusic.com/music/console/nintendo/snes/SF2_Title.mid"
+        }
+      ],
+      "musicType": "Remix",
+      "youtubeLink": "https://youtu.be/owB6Kgkpp7o",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 22,
+      "description": "When arranging this piece, I decided to use an orchestra to represent the grandeur and vastness of space. The percussion used mirrors the melody of the piece by following the same rhythm and then variating.\n\nThe harp is used to lead into different sections and the large sound it makes represents the vastness of space that it echoes out into. The heavy use of brass throughout the piece reinforces the sense of adventure into space and the unknown, as well as representing the power that the Star Fox crew have.\n\nI created my own motifs for the piece as the original title screen theme is an 8-bar loop. The piece builds towards the end with a full orchestra playing at the same time, creating a huge sound fitting of a huge space adventure."
+    },
+    {
+      "musicID": "sk_shield",
+      "musicName": "The Requiem of Shield Knight",
+      "projectID": "shovelknight",
+      "seriesID": "shovel",
+      "releaseDate": "2017-09-17",
+      "trackArranger": "Wally71551",
+      "composer": "Jake Kaufman",
+      "transcription": [
+        {
+          "transcriber": "Nathan Lee Jones / Maestro227",
+          "url": "https://imgur.com/2Wwdecw"
+        }
+      ],
+      "musicType": "Remix",
+      "youtubeLink": "https://youtu.be/lLyw0L5AKeQ",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 17,
+      "description": "I arranged this song keeping in mind the struggle and grief Shovel Knight is going through as the game progresses, it is highlighted in the scenes that this song plays over.\n\nThe string section is used to accent big chords that fit underneath the melody, carried by a solo cello. I used some synthesised NES waves to keep with how the piece and the <em>Shovel Knight</em> soundtrack is as a whole, emulating the Japanese-only Konami VRC6 sound card used in their later NES games.\n\nInstead of using trumpets for the focal brass, I used flugelhorns and trombones in the higher register to give the piece a more mellow feel, fitting better with the large moving strings and piano throughout the piece."
+    },
+    {
+      "musicID": "sm3dw_boo",
+      "musicName": "Shifty Boo Mansion",
+      "projectID": "SM3DW",
+      "seriesID": "mario",
+      "releaseDate": "2017-10-15",
+      "trackArranger": "Wally71551",
+      "composer": "Mahito Yokota, Toru Minegishi, Yasuaki Iwata, Koji Kondo",
+      "artists": [
+        {
+          "header": "Performer",
+          "artistName": "MARIO 3D WORLD BIG BAND"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "E. Gadd Industries",
+          "url": "https://www.ninsheetmusic.org/download/pdf/2590"
+        }
+      ],
+      "musicType": "Remix",
+      "youtubeLink": "https://youtu.be/ut4ApGtUnlw",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 23,
+      "description": "As it's nearly Halloween I arranged this as I felt it was a good piece that fit the theme.\n\nI orchestrated the piece to still keep the basic instrumentation intact, solo violin, pizzicato strings and oboe, but added other instruments to give the piece a different flair. A harpsichord was used as one of the main instruments because it is used in other parts of the <em>Super Mario 3D World</em> soundtrack making it a nice fit, as well as the sound blending well with the rest of the piece. For the bass of the piece, I used a drone to unsettle the listener which plays into the spooky nature of the piece."
+    },
+    {
+      "musicID": "sm64_ultkoopa",
+      "musicName": "Ultimate Koopa",
+      "projectID": "sm64",
+      "seriesID": "mario",
+      "releaseDate": "2017-04-30",
+      "trackArranger": "Wally71551",
+      "composer": "Koji Kondo",
+      "transcription": [
+        {
+          "transcriber": "Don Valentino",
+          "url": "https://www.ninsheetmusic.org/download/pdf/682"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "The Final Battle",
+          "project": "Super Mario 64",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/rJUTNN4QB8I",
+      "bandcampLink": "",
+      "extraLinks": [
+        {
+          "platform": "MuseScore",
+          "url": "https://musescore.com/user/9283941/scores/3796371"
+        }
+      ],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 2,
+      "description": "This is the second version of Ultimate Koopa I've made, this version is much more orchestral compared to the first one. This was made a little while ago before I got a new soundfont bank, and because of the reworks I would have had to undertake I decided to leave it the way it was.\n\nI wanted to preserve some of the original theme, so I kept the organ as a focal instrument. I also tweaked some of the melodies and added my own style to the piece. Some elements of the remix were carried over from the original version I did, such as the solo instruments with accompaniment. This helps give the sense of Mario's isolation and loneliness as he goes to face Bowser, fighting against the huge King of the Koopas."
+    },
+    {
+      "musicID": "smg_ggg_8bit",
+      "musicName": "Gusty Garden Galaxy 8-Bit Orchestra",
+      "projectID": "smgalaxy",
+      "seriesID": "mario",
+      "releaseDate": "2017-01-23",
+      "trackArranger": "Wally71551",
+      "composer": "Mahito Yokota",
+      "transcription": [
+        {
+          "transcriber": "zm582916",
+          "url": "https://musescore.com/user/116021/scores/344136"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Gusty Garden Galaxy",
+          "project": "Super Mario Galaxy",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/1SItxFzwp-Q",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 4,
+      "description": "An GXSCC (8-bit style) version of Gusty Garden Galaxy. The program converts MIDI instruments into waves. I inputted an orchestral MIDI file which made the piece use simple waves while still having the orchestral feel to it.\n\nGXSCC works by converting MIDI information into different types of waves, similar to how the NES would simulate different instruments. This particular arrangement uses a full orchestra MIDI file created by zm582916 of MuseScore, which I then edited and tweaked and ported into GXSCC. This allows the piece to use simple NES-like waves while still having the grandeur and orchestral feel of the original track."
+    },
+    {
+      "musicID": "smo_forgottenisle",
+      "musicName": "Forgotten Isle",
+      "projectID": "smo",
+      "seriesID": "mario",
+      "releaseDate": "2018-07-29",
+      "trackArranger": "Wally71551",
+      "composer": "Koji Kondo",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Sebastian",
+          "url": "https://www.ninsheetmusic.org/download/pdf/3950"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "The Forgotten Isle",
+          "project": "Super Mario Odyssey",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/doawQsjoZWU",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 59,
+      "description": "Finally I've got around to uploading a video, after just over 2 months. There are plenty of upcoming projects, I just need to get around to finishing a lot of them. So look forward to the stuff that I'm going to release in the future.\n\nI made use of various percussion and wind instruments to recreate the style that is used in the sound of the Lost Kingdom. I used rhythmic layering to give the piece the feel of being in a dense area with lots going, almost creating a chaotic sound to the beat."
+    },
+    {
+      "musicID": "smo_juss",
+      "musicName": "Jump Up, Super Star!",
+      "projectID": "smo",
+      "seriesID": "mario",
+      "releaseDate": "2017-11-13",
+      "trackArranger": "Wally71551",
+      "composer": "Naoto Kubo",
+      "artists": [
+        {
+          "header": "Arranger",
+          "artistName": "Yoichi Murata"
+        },
+        {
+          "header": "Lyricist",
+          "artistName": "Nobuyoshi Suzuki, Rob Tunstall"
+        },
+        {
+          "header": "Vocal",
+          "artistName": "Kate Davis"
+        },
+        {
+          "header": "Vocal (Japanese Ver.)",
+          "artistName": "Aimi Mukohara"
+        },
+        {
+          "header": "Drums",
+          "artistName": "Hideko Yamaki"
+        },
+        {
+          "header": "Bass",
+          "artistName": "Kenji Takamizu"
+        },
+        {
+          "header": "Guitar",
+          "artistName": "Takayuki Hijikata"
+        },
+        {
+          "header": "Piano",
+          "artistName": "Keiji Matsumoto"
+        },
+        {
+          "header": "Alto Sax",
+          "artistName": "Osamu Yoshida, Kazuhiko Kondo"
+        },
+        {
+          "header": "Tenor Sax",
+          "artistName": "Osamu Koike, Masakuni Takeno"
+        },
+        {
+          "header": "Baritone Sax",
+          "artistName": "Takuo Yamamoto"
+        },
+        {
+          "header": "Trumpet",
+          "artistName": "Koji Nishimura, Isao Sakuma, Sho Okumura, Hitomi Niida"
+        },
+        {
+          "header": "Trombone",
+          "artistName": "Yoichi Murata, Kanade Shishiuchi, Shinsuke Torizuka"
+        },
+        {
+          "header": "Bass Trombone",
+          "artistName": "Junko Yamashiro"
+        },
+        {
+          "header": "Chorus",
+          "artistName": "Naoki Takao, Goro Oshima, Taeko Saito, Saeko Suzuki"
+        }
+      ],
+      "transcription": [
+        {
+          "transcriber": "Jband",
+          "url": "https://musescore.com/jband-/scores/4140126"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/VYajKCi_pxQ",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 30,
+      "description": "I arranged this piece with the mentality of expanding to an orchestra in mind, while keeping the big band instrumentation at the centre. In doing this, the orchestra includes a saxophone section and electric guitar and bass.\n\nTo keep consistency between my <em>Super Mario Odyssey</em> remixes, I reused the conga sound from the main theme remix, to help keep a sense of coherence and a world being represented on Mario's globe-trotting odyssey.\n\nThroughout the piece strings, orchestral brass and orchestral wind are integrated to help support melodies and create stronger harmonies. The countermelody focuses around mallet percussion cutting through the rest of the orchestra to bring light to melodies that would stay hidden otherwise. It also adds a worldy flair to the piece with the different textures in use."
+    },
+    {
+      "musicID": "smo_main",
+      "musicName": "Main Theme",
+      "projectID": "smo",
+      "seriesID": "mario",
+      "releaseDate": "2017-10-27",
+      "trackArranger": "Wally71551",
+      "composer": "Naoto Kubo",
+      "transcription": [
+        {
+          "transcriber": "Brenne",
+          "url": "https://musescore.com/user/4895236/scores/3353656"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "The Super Mario Odyssey Crew",
+          "project": "Super Mario Odyssey",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/u4f6nlkXU4k",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 27,
+      "description": "Made for the release of <em>Super Mario Odyssey</em> on 27th October 2017.\n\nI arranged this song by sticking close to the original in a symphonic style, reminiscent of the <em>Super Mario Galaxy</em> games. The piece features heavy use of brass and other lower instruments to envoke the sense of a grand scale adventure, which is focused in on the french horn melody carried through much of the piece.\n\nFor much of the piece, the strings are used to accompany the melody, from the scalar movement creating a countermelody in one section, to providing quieter chords in the background of another."
+    },
+    {
+      "musicID": "sm_po",
+      "musicName": "Po Town",
+      "projectID": "pkmn_sun/pkmn_moon",
+      "seriesID": "pkmn",
+      "releaseDate": "2017-10-05",
+      "trackArranger": "Wally71551",
+      "composer": "Minako Adachi",
+      "transcription": [
+        {
+          "transcriber": "Latios212",
+          "url": "https://www.ninsheetmusic.org/download/pdf/3319"
+        }
+      ],
+      "musicType": "Remix",
+      "youtubeLink": "https://youtu.be/hW-INSUlxNQ",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 21,
+      "description": "The original version of this theme is very ominous, consisting of only a piano and synth backing. When recreating this theme, I decided to expand the instrumentation to create a pseudo-orchestral track that would fit the player sneaking around the town, slowly pushing through Team Skull's barrier.\n\nCongas are used as the main percussion instrument to add pace into the back of the piece, pushing it along. A string section is also used; the tremolo adds tension to the quieter parts of the piece and pizzicato strings are used to represent the player sneaking around. A contrabassoon as well as trombones and tuba are used to signify each new bar, while the main bass line is passed around between piano, bass guitar and synth.\n\nLater in the piece a drum kit comes in to support the congas in adding pace, and to represent Team Skull in general."
+    },
+    {
+      "musicID": "sot_becalmed",
+      "musicName": "Becalmed",
+      "projectID": "seaofthieves",
+      "seriesID": "seaofthieves",
+      "releaseDate": "2018-03-20",
+      "trackArranger": "Wally71551",
+      "composer": "Robin Beanland",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Josh McGraw",
+          "url": "https://musescore.com/user/1133871/scores/4922324"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/aBy3MqrWe-4",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 52,
+      "description": "Made for the release of <em>Sea of Thieves</em> on Xbox One and Windows PC, on 20th March 2018.\n\nWhen I arranged this piece, I wanted to capture the multiple cultures that pirates would experience travelling the globe. I made use of instruments from different cultures, such as the concertina which is representative of the original game's soundtrack and other, eastern instruments such as the pipa and erhu. I also made use of an ocarina, which adds flair to the piece.\n\nI wanted to expand the orchestration of the track to express the grandeur of the open sea, so I made use of an orchestra, predominantly using strings to denote the huge expanses of water and horns to represent the pirates' nature."
+    },
+    {
+      "musicID": "spl2_inkoming",
+      "musicName": "Inkoming",
+      "projectID": "splatoon2",
+      "seriesID": "loz",
+      "releaseDate": "2017-07-23",
+      "trackArranger": "Wally71551",
+      "composer": "Toru Minegishi",
+      "artists": [
+        {
+          "header": "Vocal",
+          "artistName": "Hiroaki Takeuchi, Sachiko Watabe"
+        },
+        {
+          "header": "Electric Guitar",
+          "artistName": "Akitoshi Kuroda"
+        },
+        {
+          "header": "Electric Bass",
+          "artistName": "IKUO"
+        },
+        {
+          "header": "Drums",
+          "artistName": "Kei Yamazaki"
+        },
+        {
+          "header": "In-Game Artist",
+          "artistName": "Wet Floor"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Inkoming!",
+          "project": "Splatoon 2",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/4lY4oQ0_NU8",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 9,
+      "description": "For the theme of <em>Splatoon 2</em>, I decided to go in a rock fusion style, making use of synths and guitars predominantly. As I could not recreate the vocal section accurately enough, I decided to create an improvisation-styled section to replace it."
+    },
+    {
+      "musicID": "sr_main",
+      "musicName": "Main Theme",
+      "projectID": "metroid_sr",
+      "seriesID": "metroid",
+      "releaseDate": "2017-09-15",
+      "trackArranger": "Wally71551",
+      "composer": "Daisuke Matsuoka, Kenji Yamamoto",
+      "transcription": [
+        {
+          "transcriber": "Olimar12345 (Title Theme – <em>Metroid II: Return of Samus</em>)",
+          "url": "https://www.ninsheetmusic.org/download/pdf/1411"
+        },
+        {
+          "transcriber": "MetroidHunter26 (Title Theme – <em>Metroid Prime</em>)",
+          "url": "https://www.ninsheetmusic.org/download/pdf/1508"
+        }
+      ],
+      "musicType": "Remix",
+      "youtubeLink": "https://youtu.be/Q7QxCH9pWSE",
+      "bandcampLink": "",
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 16,
+      "description": "This piece makes heavy use of synthesisers representing the theme of space and exploration into the unknown. I used a very deep bass drone for the entire piece to make it seem slightly more unsettling when layered with the melody and orchestral elements.\n\nI used a soprano choir, as a choir envokes a large open area, and works well with reverberating percussion and brass. I make use of tremolo strings throughout the piece as it helps build tension in the piece.\n\nThe original version of this theme is a mixture of the original <em>Metroid II: Return of Samus</em> theme and the <em>Metroid Prime</em> theme."
+    },
+    {
+      "musicID": "ssbu_reveal",
+      "musicName": "Reveal Trailer Theme",
+      "projectID": "ssbu",
+      "seriesID": "ssb",
+      "releaseDate": "2018-03-22",
+      "trackArranger": "Wally71551",
+      "composer": "Hideki Sakamoto",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Latin American Wolf",
+          "url": "https://www.youtube.com/watch?v=zcQoOIYOP4M"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/R-vf2ExLQq0",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 53,
+      "description": "After watching the <em>Super Smash Bros. Switch</em> trailer, I wanted to recreate the theme in a way that shows the impending aspect of the trailer. I made use of synthesised elements as they are featured throughout the <em>Super Smash Bros.</em> soundtracks, but also made use of a large, symphonic orchestra to keep in line with how the trailer was portraying the newest installment in the series.\n\nI expanded on the original melody used as the backing for the trailer, to create a longer piece and build the intensity. I wrote a countermelody making use of motifs from <em>Super Smash Bros. Brawl</em> and <em>Super Smash Bros. Melee</em> as callbacks to the rest of the series, linking in this piece with previous iterations of the game."
+    },
+    {
       "musicID": "totk_e3",
       "musicName": "E3 2019 Teaser Theme",
       "projectID": "totk",
@@ -2980,6 +2875,111 @@
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 66,
       "description": "It's been a while since I've put out a video, but I'm finally back with another arrangement. After enjoying <em>The Legend of Zelda: Breath of the Wild</em> as much as I did, I can't wait for the sequel so I decided to expand and arrange the music in the teaser. Much like <em>The Legend of Zelda: Breath of the Wild</em> itself, I brought the piano to the forefront of the arrangement (I think that they will do this again, as it worked incredibly well for the ambient tracks in the game).\n\nI tried to focus on emphasising the idea of a 'new chapter', quoting different themes from the series, like <em>The Legend of Zelda: Breath of the Wild</em>'s main theme and the main theme of the original <em>The Legend of Zelda</em>. The piece ends with the opening theme from the original game, symbolising the opening of a new adventure in the Zelda universe."
+    },
+    {
+      "musicID": "usum_vpc",
+      "musicName": "Vast Poni Canyon",
+      "projectID": "pkmn_usun/pkmn_umoon",
+      "seriesID": "pkmn",
+      "releaseDate": "2017-11-19",
+      "trackArranger": "Wally71551",
+      "composer": "Hitomi Sato",
+      "transcription": [
+        {
+          "transcriber": "Anime Mallet Arrangements",
+          "url": "https://musescore.com/user/956571/scores/3281296"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/lAGgRkJr6Js",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 32,
+      "description": "I wrote this in a fusion style, clashing a large, reverb-filled orchestra to represent the vast scale of the canyon with custom synth sounds to create a style that is different to most remixes on the channel. However, the style is used often in <em>Pokémon</em>, which uses synthesised waves often in conjunction with acoustic instrument samples."
+    },
+    {
+      "musicID": "xc2_elpys",
+      "musicName": "Spirit Crucible Elpys",
+      "projectID": "xc2",
+      "seriesID": "xenoblade",
+      "releaseDate": "2018-01-17",
+      "trackArranger": "Wally71551",
+      "composer": "Manami Kiyota",
+      "transcription": [
+        {
+          "transcriber": "Maelstrom",
+          "url": "https://www.ninsheetmusic.org/download/pdf/3810"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [],
+      "youtubeLink": "https://youtu.be/qLvoFYxAlwg",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 35,
+      "description": "It's been a while since I last uploaded, but I've been busy playing games. Especially <em>Xenoblade Chronicles 2</em>. I've enjoyed the game a lot so far and am nearing the end of my adventure, but this track stuck in my mind. The beautiful melody crafted by Yasunori Mitsuda works well with the light backing.\n\nI put my own spin on this, using different instruments from the keys family, grand piano, harpsichord, celesta and organ to create a different sound. I used light instrumentation for the accompaniment, opting for quiet strings and vocals that blend in the background for most of the piece."
+    },
+    {
+      "musicID": "xc2_eotbs",
+      "musicName": "Elysium of the Blue Sky",
+      "projectID": "xc2",
+      "seriesID": "xenoblade",
+      "releaseDate": "2017-12-12",
+      "trackArranger": "Wally71551",
+      "composer": "Yasunori Mitsuda",
+      "transcription": [
+        {
+          "transcriber": "Tokon",
+          "url": "https://youtu.be/XADNusfVkPc"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Where We Used To Be",
+          "project": "Xenoblade Chronicles 2",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/wNkXmwcMGLk",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 33,
+      "description": "Eleven days late...\n\nI made this song trying to keep the light, thin nature of the original which solely used piano, but expanding the orchestration. I used strings to add an orchestral feel, and with light use of percussion, woodwind and brass to add flavour.\n\nDue to the nature of the <em>Xenoblade Chronicles</em> series, I used a recorder sound to add a cultural twist that is suited to the game itself."
+    },
+    {
+      "musicID": "xc2_morytha",
+      "musicName": "Morytha",
+      "projectID": "xc2",
+      "seriesID": "xenoblade",
+      "releaseDate": "2018-08-12",
+      "trackArranger": "Wally71551",
+      "composer": "ACE (TOMOri KUDO, CHiCO)",
+      "artists": [],
+      "transcription": [
+        {
+          "transcriber": "Starsoarer",
+          "url": "https://musescore.com/starsoarer/xenoblade-chronicles-2---land-of-morytha"
+        }
+      ],
+      "musicType": "Remix",
+      "linkedTracks": [
+        {
+          "name": "Land of Morytha",
+          "project": "Xenoblade Chronicles 2",
+          "artists": []
+        }
+      ],
+      "youtubeLink": "https://youtu.be/gDwLQVxG-ss",
+      "bandcampLink": "",
+      "extraLinks": [],
+      "linkedAlbumID": "wally71551_og",
+      "linkedAlbumTrack": 60,
+      "description": "To represent the land of Morytha and its vast emptiness, I used a lot of reverb in the mix of the track. When orchestrating the piece I wanted to make use of solitary instruments as well as a large string backing to help the piece swell and add contrasting dynamics making for a more interesting listening experience. The solo flute is separated from the rest of the instrumentation being the only wind instrument in the track, and highlights the isolation the land of Morytha has in the game."
     }
   ]
 }

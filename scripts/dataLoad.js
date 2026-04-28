@@ -14,7 +14,12 @@ async function LoadProjectsData()
 {
     let json = await LoadFromJSON('data/projects.json');
     return json.projects;
+}
 
+async function LoadPlatformOrder()
+{
+    let json = await LoadFromJSON('data/platformOrder.json');
+    return json.platformOrder;
 }
 
 async function LoadSeriesData()

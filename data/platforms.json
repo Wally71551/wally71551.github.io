@@ -1,79 +1,28 @@
 {
   "platforms": [
     {
-      "platformID": "project",
-      "platformName": "Wally71551 Projects",
-      "platformImageSrc": ""
-    },
-    {
-      "platformID": "ns2",
-      "platformName": "Nintendo Switch 2",
-      "platformImageSrc": "NS2"
-    },
-    {
-      "platformID": "ps5",
-      "platformName": "PlayStation 5",
-      "platformImageSrc": "PS5"
-    },
-    {
-      "platformID": "xboxseries",
-      "platformName": "Xbox Series X|S",
-      "platformImageSrc": "XboxSeries"
-    },
-    {
-      "platformID": "ns1",
-      "platformName": "Nintendo Switch",
-      "platformImageSrc": "NS1"
-    },
-    {
-      "platformID": "n3ds",
-      "platformName": "New Nintendo 3DS",
-      "platformImageSrc": "N3DS"
-    },
-    {
-      "platformID": "ps4",
-      "platformName": "PlayStation 4",
-      "platformImageSrc": "PS4"
-    },
-    {
-      "platformID": "xbox1",
-      "platformName": "Xbox One",
-      "platformImageSrc": "Xbox1"
-    },
-    {
-      "platformID": "wiiu",
-      "platformName": "Wii U",
-      "platformImageSrc": "WiiU"
-    },
-    {
-      "platformID": "psv",
-      "platformName": "PlayStation Vita",
-      "platformImageSrc": "PSVita"
-    },
-    {
       "platformID": "3ds",
       "platformName": "Nintendo 3DS",
       "platformImageSrc": "3DS"
     },
     {
-      "platformID": "ps3",
-      "platformName": "PlayStation 3",
-      "platformImageSrc": "PS3"
+      "platformID": "android",
+      "platformName": "Android",
+      "platformImageSrc": "Android"
     },
     {
-      "platformID": "wii",
-      "platformName": "Wii",
-      "platformImageSrc": "Wii"
+      "platformID": "arcade",
+      "platformName": "Arcade",
+      "platformImageSrc": "Arcade"
     },
     {
-      "platformID": "xbox360",
-      "platformName": "Xbox 360",
-      "platformImageSrc": "xbox360"
+      "platformID": "film",
+      "platformName": "Film / Series"
     },
     {
-      "platformID": "nds",
-      "platformName": "Nintendo DS",
-      "platformImageSrc": "NDS"
+      "platformID": "firetv",
+      "platformName": "Amazon Fire TV",
+      "platformImageSrc": "FireTV"
     },
     {
       "platformID": "gamecube",
@@ -86,43 +35,14 @@
       "platformImageSrc": "GBA"
     },
     {
-      "platformID": "ps2",
-      "platformName": "PlayStation 2",
-      "platformImageSrc": "PS2"
-    },
-    {
       "platformID": "gbc",
       "platformName": "Game Boy Color",
       "platformImageSrc": "GBC"
     },
     {
-      "platformID": "n64",
-      "platformName": "Nintendo 64",
-      "platformImageSrc": "N64"
-    },
-    {
-      "platformID": "nes",
-      "platformName": "Nintendo Entertainment System",
-      "platformImageSrc": "NES"
-    },
-    {
-      "platformID": "pc",
-      "platformName": "Windows PC",
-      "platformImageSrc": "Windows"
-    },
-    {
-      "platformID": "snesmini",
-      "platformName": "Nintendo Classic Mini: Super Nintendo Entertainment System",
-      "platformImageSrc": "SNESMini"
-    },
-    {
-      "platformID": "film",
-      "platformName": "Film / Series"
-    },
-    {
-      "platformID": "android",
-      "platformName": "Android",
-      "platformImageSrc": "Android"
+      "platformID": "gearvr",
+      "platformName": "Gear VR",
+      "platformImageSrc": "GearVR"
     },
     {
       "platformID": "ios",
@@ -130,9 +50,14 @@
       "platformImageSrc": "iOS"
     },
     {
-      "platformID": "arcade",
-      "platformName": "Arcade",
-      "platformImageSrc": "Arcade"
+      "platformID": "ique",
+      "platformName": "iQue Player",
+      "platformImageSrc": "iQue"
+    },
+    {
+      "platformID": "linux",
+      "platformName": "Linux",
+      "platformImageSrc": "linux"
     },
     {
       "platformID": "mac",
@@ -140,9 +65,79 @@
       "platformImageSrc": "mac"
     },
     {
-      "platformID": "linux",
-      "platformName": "Linux",
-      "platformImageSrc": "linux"
+      "platformID": "n3ds",
+      "platformName": "New Nintendo 3DS",
+      "platformImageSrc": "N3DS"
+    },
+    {
+      "platformID": "n64",
+      "platformName": "Nintendo 64",
+      "platformImageSrc": "N64"
+    },
+    {
+      "platformID": "nds",
+      "platformName": "Nintendo DS",
+      "platformImageSrc": "NDS"
+    },
+    {
+      "platformID": "nes",
+      "platformName": "Nintendo Entertainment System",
+      "platformImageSrc": "NES"
+    },
+    {
+      "platformID": "ns1",
+      "platformName": "Nintendo Switch",
+      "platformImageSrc": "NS1"
+    },
+    {
+      "platformID": "ns2",
+      "platformName": "Nintendo Switch 2",
+      "platformImageSrc": "NS2"
+    },
+    {
+      "platformID": "pc",
+      "platformName": "Windows PC",
+      "platformImageSrc": "Windows"
+    },
+    {
+      "platformID": "project",
+      "platformName": "Wally71551 Projects",
+      "platformImageSrc": ""
+    },
+    {
+      "platformID": "ps2",
+      "platformName": "PlayStation 2",
+      "platformImageSrc": "PS2"
+    },
+    {
+      "platformID": "ps3",
+      "platformName": "PlayStation 3",
+      "platformImageSrc": "PS3"
+    },
+    {
+      "platformID": "ps4",
+      "platformName": "PlayStation 4",
+      "platformImageSrc": "PS4"
+    },
+    {
+      "platformID": "ps5",
+      "platformName": "PlayStation 5",
+      "platformImageSrc": "PS5"
+    },
+    {
+      "platformID": "psv",
+      "platformName": "PlayStation Vita",
+      "platformImageSrc": "PSVita"
+    },
+    {
+      "platformID": "shieldtv",
+      "platformName": "NVIDIA SHIELD TV",
+      "platformImageSrc": "ShieldTV"
+    },
+    {
+      "platformID": "snesmini",
+      "platformName": "Nintendo Classic Mini: Super Nintendo Entertainment System",
+      "platformImageSrc": "SNESMini"
     },
     {
       "platformID": "stadia",
@@ -155,24 +150,29 @@
       "platformImageSrc": "tvOS"
     },
     {
-      "platformID": "gearvr",
-      "platformName": "Gear VR",
-      "platformImageSrc": "GearVR"
+      "platformID": "wii",
+      "platformName": "Wii",
+      "platformImageSrc": "Wii"
     },
     {
-      "platformID": "shieldtv",
-      "platformName": "NVIDIA SHIELD TV",
-      "platformImageSrc": "ShieldTV"
+      "platformID": "wiiu",
+      "platformName": "Wii U",
+      "platformImageSrc": "WiiU"
     },
     {
-      "platformID": "firetv",
-      "platformName": "Amazon Fire TV",
-      "platformImageSrc": "FireTV"
+      "platformID": "xbox1",
+      "platformName": "Xbox One",
+      "platformImageSrc": "Xbox1"
     },
     {
-      "platformID": "ique",
-      "platformName": "iQue Player",
-      "platformImageSrc": "iQue"
+      "platformID": "xbox360",
+      "platformName": "Xbox 360",
+      "platformImageSrc": "xbox360"
+    },
+    {
+      "platformID": "xboxseries",
+      "platformName": "Xbox Series X|S",
+      "platformImageSrc": "XboxSeries"
     }
   ]
 }
