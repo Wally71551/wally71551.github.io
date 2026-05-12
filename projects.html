@@ -7,11 +7,8 @@
 
     <link rel="stylesheet" href="style.css" />
 </head>
+<site-header></site-header>
 <body id="main">
-    <div class="header-container">
-        <h1>Project Library</h1>
-    </div>
-
     <template id="platforms-template">
         <section class="platform-collapsible">
             <header class="platform-header">
@@ -121,12 +118,36 @@
         </a>
     </template>
 
-    <div id="content"></div>
-
     <script src="scripts/dataLoad.js"></script>
     <script src="scripts/pageLoad.js"></script>
     <script src="scripts/projectsLoad.js"></script>
 
-    <project-footer></project-footer>
+    <div class="header-container">
+        <h1>Project Library</h1>
+    </div>
+
+    <div id="content" class="page-content"></div>
+
+    <footer class="site-footer">
+        <div class="project-library-footer">
+            <ul>
+                <li>Projects only contain the music that is on their original soundtrack (if it exists), otherwise it appears on the first project it appeared on.</li>
+                <ul>
+                    <li>For sequels, if they are included on the original soundtrack it appears in that list too (even under a different name, so long as it is the same arrangement), if there is no soundtrack release it won't be there even if it's reused.</li>
+                    <li>This also applies to remixes, if a track is remixed in another project only the original version is used.</li>
+                    <li>If a track only appears on a soundtrack for a project when it has already appeared in another one, the first instance of its use before the soundtrack release is also listed.</li>
+                </ul>
+                <li>Enhanced versions / re-releases include both the base soundtrack plus the new soundtrack/new tracks.</li>
+                <li>Remakes that use the same soundtrack also get the music listing on that project too.</li>
+                <li>Ports are included unless they are in collections/compilations—larger-scope lines of emulated ports such as <em>Virtual Console</em>, <em>Nintendo Classics</em> or <em>PlayStation Plus Classics Catalogue</em> are also omitted as the games are presented completely as they were on the original platform.
+                <ul>
+                    <li>However, this is not the case for projects that are first being made available through these avenues.
+                </ul>
+                <li>All release dates are the UK dates where applicable.
+            </ul>
+        </div>
+
+        <site-footer-copyright></site-footer-copyright>
+    </footer>
 </body>
 </html>
