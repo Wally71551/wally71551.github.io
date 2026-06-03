@@ -147,7 +147,24 @@
         }
       ],
       "musicType": "Remix",
-      "linkedTracks": [],
+      "linkedTracks": [
+        {
+          "name": "Rito Village",
+          "project": "The Legend of Zelda: Breath of the Wild",
+          "artists": []
+        }
+      ],
+      "extraNotes": [
+        {
+          "linkedProject": "totk",
+          "note": "Appears on <em>The Legend of Zelda: Tears of the Kingdom</em> soundtrack titled <b>Rito Village (Night)</em>."
+        },
+        {
+          "linkedProject": "totk_s2",
+          "note": "Appears on <em>The Legend of Zelda: Tears of the Kingdom</em> soundtrack titled <b>Rito Village (Night)</em>."
+        }
+      ],
+      "imageSrc": "",
       "youtubeLink": "https://youtu.be/qzBmeVglmIU",
       "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
@@ -2419,7 +2436,13 @@
       "seriesID": "pkmn",
       "releaseDate": "2017-09-22",
       "trackArranger": "Wally71551",
-      "composer": "Hiroki Hasimoto, Hiroyuki Kawada, Rio Hamamoto, Taku Inoue, Torine, Yoshinori Hirai, Takafumi Sato, Mitsuhiro Kitadani, Yu Sugimoto, Shota Kageyama",
+      "composer": "",
+      "artists": [
+        {
+          "header": "<em>Pokkén Tournament</em> Composer",
+          "artistName": "Hiroki Hasimoto, Hiroyuki Kawada, Rio Hamamoto, Taku Inoue, Torine, Yoshinori Hirai, Takafumi Sato, Mitsuhiro Kitadani, Yu Sugimoto, Shota Kageyama"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "ShinkoNetCavy",
@@ -2427,6 +2450,7 @@
         }
       ],
       "musicType": "Remix",
+      "imageSrc": "",
       "youtubeLink": "https://youtu.be/yarsVbVp5GQ",
       "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
@@ -2440,7 +2464,13 @@
       "seriesID": "starfox",
       "releaseDate": "2017-10-08",
       "trackArranger": "Wally71551",
-      "composer": "Kozue Ishikawa, Yumiko Kanki",
+      "composer": "",
+      "artists": [
+        {
+          "header": "<em>Star Fox 2</em> Composer",
+          "artistName": "Kozue Ishikawa, Yumiko Kanki"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "Beta Link",
@@ -2448,6 +2478,7 @@
         }
       ],
       "musicType": "Remix",
+      "imageSrc": "",
       "youtubeLink": "https://youtu.be/owB6Kgkpp7o",
       "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
@@ -2482,8 +2513,12 @@
       "seriesID": "mario",
       "releaseDate": "2017-10-15",
       "trackArranger": "Wally71551",
-      "composer": "Mahito Yokota, Toru Minegishi, Yasuaki Iwata, Koji Kondo",
+      "composer": "",
       "artists": [
+        {
+          "header": "<em>Super Mario 3D World</em> Composer",
+          "artistName": "Mahito Yokota, Toru Minegishi, Yasuaki Iwata, Koji Kondo"
+        },
         {
           "header": "Performer",
           "artistName": "MARIO 3D WORLD BIG BAND"
@@ -2496,6 +2531,7 @@
         }
       ],
       "musicType": "Remix",
+      "imageSrc": "",
       "youtubeLink": "https://youtu.be/ut4ApGtUnlw",
       "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",

@@ -28,6 +28,12 @@ async function LoadSeriesData()
     return json.series;
 }
 
+async function LoadTimelineData()
+{
+    let json = await LoadFromJSON('data/timeline.json');
+    return json.timeline;
+}
+
 async function LoadFromJSON(jsonPath)
 {
     let response = await fetch(jsonPath);

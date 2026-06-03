@@ -13,6 +13,7 @@ const trackTranscriberListTemplate = document.getElementById("track-transcriber-
 const trackInfoListTemplate = document.getElementById("track-info-list-item");
 const trackLinkedTrackTemplate = document.getElementById("track-linked-track-item");
 const trackLinkedTrackArtistTemplate = document.getElementById("track-linked-track-artist");
+const trackNotesListTemplate = document.getElementById("track-notes-list-item");
 const externalLinkIcon = document.getElementById("external-link-icon");
 
 let platformHeaders = [];
@@ -463,6 +464,33 @@ function ShowTrackDetails(clickedElement)
             }
             trackLinkedListDisplay.appendChild(linkedTrackTemplate);
         });
+    }
+
+    //Extra notes
+    if(trackData.extraNotes != null)
+    {
+        let addedNote = false;
+        let noteList = panel.querySelector('.track-notes-list');
+
+        trackData.extraNotes.forEach((note) => {
+            if(note.linkedProject == null || note.linkedProject == "" || note.linkedProject == projectID)
+            {
+                let noteElement = trackNotesListTemplate.content.cloneNode(true);
+                let noteP = noteElement.querySelector('p');
+                noteP.innerHTML = `<b>※</b> ${note.note}`;
+                noteList.appendChild(noteElement);
+                addedNote = true;
+            }
+        });
+
+        if(addedNote == false)
+        {
+            panel.querySelector('.track-notes-list').remove();
+        }
+    }
+    else
+    {
+        panel.querySelector('.track-notes-list').remove();
     }
 
     if(trackData.composer && trackData.composer != "")

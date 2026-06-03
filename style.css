@@ -4,6 +4,7 @@
     --secondary-color: #999;
 
     --text-color: #fff;
+    --text-color-secondary: #aaa;
     --text-color-dark: #333;
     --text-color-gold: rgb(187, 161, 17);
 }
@@ -424,6 +425,19 @@ body {
     margin-left: max(5%, 40px);
     margin-right: max(5%, 40px);
     list-style-type: none;
+}
+
+.track-notes-list {
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.75em;
+    list-style-type: none;
+}
+
+.note-info {
+    color: var(--text-color-secondary);
+    font-size: 1.1em;
 }
 
 .track-transcriber-list {
