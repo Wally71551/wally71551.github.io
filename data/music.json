@@ -1831,11 +1831,19 @@
       "seriesID": "ff",
       "releaseDate": "2018-03-08",
       "trackArranger": "Wally71551",
-      "composer": "Yoko Shimomura",
+      "composer": "",
       "artists": [
         {
           "header": "Arranger",
           "artistName": "Iga Takuro"
+        },
+        {
+          "header": "Relax and Reflect (from <em>FINAL FANTASY XV</em>) Composer",
+          "artistName": "Yoko Shimomura"
+        },
+        {
+          "header": "Relax and Reflect (from <em>FINAL FANTASY XV</em>) Arranger",
+          "artistName": "Mitsuhiro Ohta"
         }
       ],
       "transcription": [
@@ -1852,6 +1860,7 @@
           "artists": []
         }
       ],
+      "imageSrc": "",
       "youtubeLink": "https://youtu.be/4jTDNL3ZBgI",
       "bandcampLink": "",
       "extraLinks": [],
@@ -2843,15 +2852,16 @@
       "composer": "Daisuke Matsuoka, Kenji Yamamoto",
       "transcription": [
         {
-          "transcriber": "Olimar12345 (Title Theme – <em>Metroid II: Return of Samus</em>)",
+          "transcriber": "Olimar12345 – Title Screen (from <em>Metroid II - Return of Samus</em>)",
           "url": "https://www.ninsheetmusic.org/download/pdf/1411"
         },
         {
-          "transcriber": "MetroidHunter26 (Title Theme – <em>Metroid Prime</em>)",
+          "transcriber": "MetroidHunter26 – Title Theme (from <em>Metroid Prime</em>)",
           "url": "https://www.ninsheetmusic.org/download/pdf/1508"
         }
       ],
       "musicType": "Remix",
+      "imageSrc": "",
       "youtubeLink": "https://youtu.be/Q7QxCH9pWSE",
       "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
