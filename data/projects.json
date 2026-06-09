@@ -1335,6 +1335,82 @@
       "description": ""
     },
     {
+      "projectID": "khcol13",
+      "projectName": "KINGDOM HEARTS Collection [I～III]",
+      "projectType": "Collection",
+      "imageSrc": "KHCol13",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ns2",
+          "releaseDate": "2026-10-08",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ps5",
+          "releaseDate": "2026-10-08",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xboxseries",
+          "releaseDate": "2026-10-08",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS -HD I.5+II.5 ReMIX-",
+        "KINGDOM HEARTS HD II.8 Final Chapter Prologue",
+        "KINGDOM HEARTS III + Re𝄌Mind (DLC)"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "kh125-1",
+      "projectName": "KINGDOM HEARTS -HD I.5+II.5 ReMIX-",
+      "projectType": "Collection",
+      "imageSrc": "KH125-1",
+      "seriesID": "kh",
+      "platformIDs": [
+        {
+          "platform": "ns2",
+          "releaseDate": "2026-10-08",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ns1",
+          "releaseDate": "2026-10-08",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ps5",
+          "releaseDate": "2026-10-08",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xboxseries",
+          "releaseDate": "2026-10-08",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "kh_dearlybeloved",
+        "kh2_org"
+      ],
+      "collectionItems": [
+        "KINGDOM HEARTS FINAL MIX",
+        "KINGDOM HEARTS Re:Chain of Memories",
+        "KINGDOM HEARTS 358/2 Days (HD cutscene compilation)",
+        "KINGDOM HEARTS II FINAL MIX",
+        "KINGDOM HEARTS Birth by Sleep FINAL MIX",
+        "KINGDOM HEARTS Re:coded (HD cutscene compilation)"
+      ],
+      "description": ""
+    },
+    {
       "projectID": "kingsglaive",
       "projectName": "KINGSGLAIVE FINAL FANTASY XV",
       "projectType": "Film",
@@ -1527,6 +1603,11 @@
         {
           "platform": "ios",
           "releaseDate": "2011-11-17",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ns2",
+          "releaseDate": "2026-13-01(2026)",
           "overrideImage": ""
         }
       ],
@@ -2632,6 +2713,27 @@
         {
           "platform": "ns1",
           "releaseDate": "2017-12-01"
+        }
+      ],
+      "musicList": [
+        "xc2_morytha",
+        "xc2_elpys",
+        "xc2_eotbs"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "xc2_s2",
+      "projectName": "Xenoblade Chronicles 2 – Nintendo Switch 2 Edition",
+      "projectType": "Game",
+      "imageSrc": "XC2_S2",
+      "seriesID": "xenoblade",
+      "platformIDs": [
+        {
+          "platform": "ns2",
+          "releaseDate": "2026-07-30",
+          "overrideImage": ""
         }
       ],
       "musicList": [
