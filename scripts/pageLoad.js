@@ -1,4 +1,9 @@
 function FormatDateToString(date) {
+    if(date.includes('('))
+    {
+        return date.match(/\(([^)]+)\)/)[1];
+    }
+
     let cleanDate = date.split('_')[0];
     cleanDate = cleanDate.split('[')[0];
     const [year, month, day] = cleanDate.split('-').map(Number);
