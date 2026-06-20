@@ -74,7 +74,8 @@ class SiteFooterCopyright extends HTMLElement {
         this.innerHTML = `
         <div class="footer-copyright">
             <p>© 2026 Wally71551 | All rights reserved.</p>
-            <p style="font-size:0.8em;">Site Version v0.1</p>
+            <p style="font-size:0.8em;">Site Version v0.2</p>
+            <p style="font-size: 1em; padding-top:0.6rem;">Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>
         </div>
         `
     }

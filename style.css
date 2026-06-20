@@ -7,6 +7,9 @@
     --text-color-secondary: #aaa;
     --text-color-dark: #333;
     --text-color-gold: rgb(187, 161, 17);
+
+    --line-thickness: 2px;
+    --line-thickness-thin: 1px;
 }
 
 html {
@@ -229,8 +232,8 @@ body {
     overflow: hidden;
     margin-bottom: 20px;
 
-    border-top: 2px solid var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
+    border-top: var(--line-thickness) solid var(--secondary-color);
+    border-bottom: var(--line-thickness) solid var(--secondary-color);
 
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -278,7 +281,7 @@ body {
     margin-right: 3%;
     padding-left: 1em;
     padding-right: 1em;
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: var(--line-thickness-thin) solid var(--secondary-color);
 }
 
 .project-track-header {
@@ -299,7 +302,7 @@ body {
     padding-top: 0.75em;
     padding-bottom: 0.75em;
     display: block;
-    border-top: 1px solid var(--secondary-color);
+    border-top: var(--line-thickness-thin) solid var(--secondary-color);
 }
 
 .track-list-header {
@@ -309,7 +312,7 @@ body {
 }
 
 .track-list-item-end {
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: var(--line-thickness-thin) solid var(--secondary-color);
 }
 
 .track-list-header-text {
@@ -339,7 +342,7 @@ body {
     text-align: right;
     font-size: 1em;
     font-weight: bold;
-    border-right: 1px solid var(--secondary-color);
+    border-right: var(--line-thickness-thin) solid var(--secondary-color);
     font-variant-numeric: tabular-nums;
     width: 1.75rem;
 }
@@ -412,7 +415,7 @@ body {
 .track-linked-track-item {
     margin-top: 0.5em;
     padding-bottom: 0.5em;
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: var(--line-thickness-thin) solid var(--secondary-color);
 }
 
 .track-linked-track-item-end {
@@ -500,6 +503,108 @@ body {
     }
 }
 
+/*
+    TIMELINE
+*/
+.timeline-container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.timeline-year-section {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1rem;
+    }
+
+    .timeline-year-section:last-child {
+        padding-bottom: 0;
+    }
+
+.timeline-year-heading {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0 0 0.5rem 0;
+    letter-spacing: 2px;
+}
+
+.timeline-grid {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    }
+
+    .timeline-grid > .timeline-entry-cell:last-child .timeline-entry-inner {
+        border-bottom: none;
+    }
+
+.timeline-date-cell {
+    border-right: var(--line-thickness) solid var(--text-color);
+    padding: 1rem 0 0 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+    .timeline-date-cell:first-child {
+        border-top: var(--line-thickness) solid var(--text-color);
+    }
+
+.timeline-entry-cell {
+    padding-left: 2rem;
+}
+
+.timeline-entry-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: var(--line-thickness) solid var(--text-color);
+}
+
+.timeline-entry-text {
+    flex-grow: 1;
+    margin: 0;
+    }
+
+    .timeline-entry-text p {
+        
+        line-height: 1.5;
+        }
+
+.timeline-entry-link {
+    flex-shrink: 0;
+}
+
+.timeline-link-image {
+    display: block;
+    width: 45px;
+    height: 30px;
+    background-color: transparent;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .timeline-grid {
+    grid-template-columns: 80px 1fr; /* Shrink date column on tablets/mobile */
+  }
+  
+  .timeline-date-cell {
+    font-size: 1rem;
+    padding-right: 10px;
+  }
+  
+  .timeline-entry-cell {
+    padding-left: 15px; /* Reduce gap to save space */
+  }
+  
+  .timeline-link-image {
+    width: 35px;
+    height: 25px;
+  }
+}
+
+/*
+    FOOTER
+*/
 a:link {
     color: white;
     font-weight: bolder;
@@ -511,7 +616,7 @@ a:hover {
 }
 
 .site-footer {
-    border-top: 2px solid var(--secondary-color);
+    border-top: var(--line-thickness) solid var(--secondary-color);
     margin-top: 24px;
     padding: 24px 16px 12px;
     text-align: center;
@@ -529,7 +634,6 @@ a:hover {
 
 .footer-copyright {
     font-size: 0.85rem;
-    padding-top: 8px;
     }
 
     .footer-copyright p {

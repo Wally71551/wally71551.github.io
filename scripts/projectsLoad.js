@@ -350,11 +350,11 @@ function SetUpTrackList(trackData, projectData)
 
     if(trackData.youtubeLink != null && trackData.youtubeLink != "")
     {
-        trackIconHeader.appendChild(MakeExternalLinkIcon("youtube", trackData.youtubeLink));
+        trackIconHeader.appendChild(MakeExternalLinkIcon("YouTube", trackData.youtubeLink));
     }
     if(trackData.bandcampLink != null && trackData.bandcampLink != "")
     {
-        trackIconHeader.appendChild(MakeExternalLinkIcon("bandcamp", trackData.bandcampLink));
+        trackIconHeader.appendChild(MakeExternalLinkIcon("Bandcamp", trackData.bandcampLink));
     }
 
     let textPanel = panel.querySelector('.track-list-header-text');
