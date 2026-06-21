@@ -3,6 +3,7 @@ let currentTimelineYear;
 let currentTimelineSection;
 let currentTimelineGrid;
 let timelineContainer;
+let previousDate;
 
 const timelineYearTemplate = document.getElementById("timeline-year-template");
 const timelineDateTemplate = document.getElementById("timeline-date-template");
@@ -36,7 +37,13 @@ function AddEntry(entry, index)
 
     let timelineDateObject = timelineDateTemplate.content.cloneNode(true);
     let timelineDateDisplay = timelineDateObject.querySelector('.timeline-date');
-    timelineDateDisplay.innerText = date[2] + "/" + date[1];
+    currentDate = date[2] + "/" + date[1];
+    timelineDateDisplay.innerText = currentDate;
+
+    if(currentTimelineGrid.firstChild != null && currentTimelineGrid.firstElementChild.innerText == currentDate)
+    {
+        currentTimelineGrid.firstElementChild.innerText = "";
+    }
 
     let timelineEntryObject = timelineEntryTemplate.content.cloneNode(true);
     let timelineEntryDisplay = timelineEntryObject.querySelector('.timeline-entry-text');

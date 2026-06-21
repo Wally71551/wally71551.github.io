@@ -523,14 +523,15 @@ body {
 
 .timeline-year-heading {
     font-size: 2.5rem;
-    font-weight: normal;
-    margin: 0 0 0.5rem 0;
+    font-weight: bold;
+    margin: 0.5rem 0 0.5rem 0;
     letter-spacing: 2px;
 }
 
 .timeline-grid {
     display: grid;
     grid-template-columns: 120px 1fr;
+    align-items: stretch;
     }
 
     .timeline-grid > .timeline-entry-cell:last-child .timeline-entry-inner {
@@ -584,7 +585,7 @@ body {
 
 @media (max-width: 768px) {
   .timeline-grid {
-    grid-template-columns: 80px 1fr; /* Shrink date column on tablets/mobile */
+    grid-template-columns: 80px 1fr;
   }
   
   .timeline-date-cell {
@@ -593,7 +594,7 @@ body {
   }
   
   .timeline-entry-cell {
-    padding-left: 15px; /* Reduce gap to save space */
+    padding-left: 15px;
   }
   
   .timeline-link-image {
