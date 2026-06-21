@@ -18,7 +18,7 @@ async function Init()
 function PageLoad()
 {
     musicGrid = document.querySelector('.platform-content-grid');
-
+    music.sort((a, b) => b.releaseDate.localeCompare(a.releaseDate));
     music.forEach(MusicSetup);
 }
 
