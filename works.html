@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works — Wally71551</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<site-header></site-header>
+<body id="main">
+    <template id="music-grid">
+        <div class="grid-item">
+            <div class="grid-item-image-wrapper">
+                <img loading="lazy" src="" alt=""/>
+            </div>
+            <div class="music-title-wrapper">
+                <p class="project-title"></p>
+                <em>
+                    <p class="project-subtitle"></p>
+                </em>
+            </div>
+        </div>
+    </template>
+
+    <template id="track-details">
+        <div class="track-details-panel">
+            <h3 class="track-type"></h3>
+            <h4 class="release-date"></h4>
+            <h4 class="track-album"></h4>
+            <h3 class="track-arranger track-description-header"></h3>
+            <h3 class="linked-track-header track-description-header">Based On</h3>
+            <ul class="track-linked-tracks"></ul>
+            <h3 class="track-info-header" track-description-header>Original Track Info</h3>
+            <p class="track-composer artist-info"></p>
+            <ul class="track-info-list"></ul>
+            <ul class="track-notes-list"></ul>
+            <h3 class="track-transcriber-header track-description-header">Transcribers</h3>
+            <ul class="track-transcriber-list"></ul>
+            <h4 class="track-album-display"></h4>
+            <p class="track-album-track-num-display"></p>
+            <h3 class="track-description-title track-description-header">Description</h3>
+            <div class="track-description"></div>
+        </div>
+    </template>
+
+    <template id="track-transcriber-list-item">
+        <li class="track-details--itranscribernfo">
+            <a class="artist-info" target="_blank" rel="noopener noreferrer"></a>
+        </li>
+    </template>
+
+    <template id="track-info-list-item">
+        <li class="track-details-transcriber-info">
+            <p class="artist-info"></p>
+        </li>
+    </template>
+
+    <template id="track-notes-list-item">
+        <li class="track-details-transcriber-info">
+            <p class="note-info"></p>
+        </li>
+    </template>
+
+    <template id="track-linked-track-item">
+        <li class="track-linked-track-item">
+            <p class="track-list-name"></p>
+            <p class="track-project-name"></p>
+            <ul class="linked-track-artists"></ul>
+        </li>
+    </template>
+
+    <template id="track-linked-track-artist">
+        <li class="track-linked-track-artist">
+            <p class="linked-track-artist-info"></a>
+        </li>
+    </template>
+
+    <template id="external-link-icon">
+        <a class="external-link" target="_blank" rel="noopener noreferrer">
+            <img class="external-link-display-icon">
+        </a>
+    </template>
+
+    <div class="header-container">
+        <h1>Works</h1>
+    </div>
+
+    <div class="page-content">
+        <div class="platform-content-grid works-content-grid">
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <site-footer-copyright></site-footer-copyright>
+    </footer>
+    
+    <script src="scripts/dataLoad.js"></script>
+    <script src="scripts/pageLoad.js"></script>
+    <script src="scripts/worksLoad.js"></script>
+</body>
