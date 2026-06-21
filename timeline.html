@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline — Wally71551</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<site-header></site-header>
+<body id="main">
+    <template id="timeline-year-template">
+        <div class="timeline-year-section">
+            <h2 class="timeline-year-heading"></h2>
+            <div class="timeline-grid"></div>
+        </div>
+    </template>
+
+    <template id="timeline-date-template">
+        <div class="timeline-date-cell">
+            <span class="timeline-date"></span>
+        </div>
+    </template>
+
+    <template id="timeline-entry-template">
+        <div class="timeline-entry-cell">
+            <div class="timeline-entry-inner">
+                <p class="timeline-entry-text"></p>
+                <a class="timeline-entry-link">
+                    <img class="timeline-link-image">
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <div class="header-container">
+        <h1>Timeline</h1>
+    </div>
+
+    <div class="timeline-container">
+
+    </div>
+
+    <footer class="site-footer">
+        <site-footer-copyright></site-footer-copyright>
+    </footer>
+
+    <script src="scripts/dataLoad.js"></script>
+    <script src="scripts/pageLoad.js"></script>
+    <script src="scripts/timelineLoad.js"></script>
+</body>
+</html>
