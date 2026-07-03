@@ -377,8 +377,23 @@ body {
     opacity: 1;
 }
 
+.track-title {
+    margin: 0;
+    font-size: 1.75em;
+}
+
+.track-subtitle {
+    margin-top: 0.1em;
+    margin-bottom: 0.25em;
+    font-weight: normal;
+}
+
 .track-type {
     margin-bottom: 0.5em;
+}
+
+.track-type-works {
+    margin-top: 0.5em;
 }
 
 .project-type {
@@ -410,6 +425,8 @@ body {
     margin-left: max(5%, 40px);
     margin-right: max(5%, 40px);
     list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 .track-linked-track-item {
@@ -428,6 +445,8 @@ body {
     margin-left: max(5%, 40px);
     margin-right: max(5%, 40px);
     list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 .track-notes-list {
@@ -436,6 +455,8 @@ body {
     margin-right: 0;
     margin-top: 0.75em;
     list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 .note-info {
@@ -523,14 +544,15 @@ body {
 
 .timeline-year-heading {
     font-size: 2.5rem;
-    font-weight: normal;
-    margin: 0 0 0.5rem 0;
+    font-weight: bold;
+    margin: 0.5rem 0 0.5rem 0;
     letter-spacing: 2px;
 }
 
 .timeline-grid {
     display: grid;
     grid-template-columns: 120px 1fr;
+    align-items: stretch;
     }
 
     .timeline-grid > .timeline-entry-cell:last-child .timeline-entry-inner {
@@ -584,7 +606,7 @@ body {
 
 @media (max-width: 768px) {
   .timeline-grid {
-    grid-template-columns: 80px 1fr; /* Shrink date column on tablets/mobile */
+    grid-template-columns: 80px 1fr;
   }
   
   .timeline-date-cell {
@@ -593,13 +615,39 @@ body {
   }
   
   .timeline-entry-cell {
-    padding-left: 15px; /* Reduce gap to save space */
+    padding-left: 15px;
   }
   
   .timeline-link-image {
     width: 35px;
     height: 25px;
   }
+}
+
+/*
+    WORKS
+*/
+.music-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 0.25em;
+    margin-bottom: 0px;
+}
+
+.project-subtitle {
+    color: var(--text-color);
+    margin: 0;
+    flex: 1 1 auto;
+    min-width: 0;
+    margin-top: 0.25em;
+    font-size: 0.9em;
+}
+
+.works-content-grid {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /*

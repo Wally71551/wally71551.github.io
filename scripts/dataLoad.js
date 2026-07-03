@@ -60,3 +60,8 @@ function GetPlatformPicture(id)
 {
     return "https://img.wally71551.workers.dev/platforms/" + id + ".webp";
 }
+
+function GetMusicPicture(id)
+{
+    return "https://img.wally71551.workers.dev/music/" + id + ".jpg";
+}
