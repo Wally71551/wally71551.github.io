@@ -159,11 +159,11 @@
       "extraNotes": [
         {
           "linkedProject": "totk",
-          "note": "Appears on <em>The Legend of Zelda: Tears of the Kingdom</em> soundtrack titled <b>Rito Village (Night)</em>."
+          "note": "Appears on <em>The Legend of Zelda: Tears of the Kingdom</em> soundtrack titled <b>Rito Village (Night)</b>."
         },
         {
           "linkedProject": "totk_s2",
-          "note": "Appears on <em>The Legend of Zelda: Tears of the Kingdom</em> soundtrack titled <b>Rito Village (Night)</em>."
+          "note": "Appears on <em>The Legend of Zelda: Tears of the Kingdom</em> soundtrack titled <b>Rito Village (Night)</b>."
         }
       ],
       "imageSrc": "BOTWRitoVillageN",
@@ -2261,6 +2261,29 @@
           "artists": []
         }
       ],
+      "extraNotes": [
+        {
+          "linkedProject": "pkmn_d",
+          "note": "The track was first released on the soundtrack release of <em>Pokémon HeartGold Version</em> & <em>Pokémon SoulSilver Version</em>, but the track first appeared in <em>Pokémon Diamond Version</em>."
+        },
+        {
+          "linkedProject": "pkmn_p",
+          "note": "The track was first released on the soundtrack release of <em>Pokémon HeartGold Version</em> & <em>Pokémon SoulSilver Version</em>, but the track first appeared in <em>Pokémon Pearl Version</em>."
+        },
+        {
+          "linkedProject": "pkmn_pl",
+          "note": "The track was first released on the soundtrack release of <em>Pokémon HeartGold Version</em> & <em>Pokémon SoulSilver Version</em>, but the track first appeared in <em>Pokémon Diamond Version</em> & <em>Pokémon Pearl Version</em>. <em>Pokémon Platinum Version</em> is an enhanced version of those games."
+        },
+        {
+          "linkedProject": "pkmn_bd",
+          "note": "The track was first released on the soundtrack release of <em>Pokémon HeartGold Version</em> & <em>Pokémon SoulSilver Version</em>, but the track first appeared in <em>Pokémon Diamond Version</em>. <em>Pokémon Brilliant Diamond</em> is a remake of that game."
+        },
+        {
+          "linkedProject": "pkmn_sp",
+          "note": "The track was first released on the soundtrack release of <em>Pokémon HeartGold Version</em> & <em>Pokémon SoulSilver Version</em>, but the track first appeared in <em>Pokémon Pearl Version</em>. <em>Pokémon Shining Pearl</em> is a remake of that game."
+        }
+      ],
+      "imageSrc": "",
       "youtubeLink": "https://youtu.be/3TGMtnYeTEk",
       "bandcampLink": "",
       "extraLinks": [],
