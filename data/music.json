@@ -1753,6 +1753,25 @@
           "artists": []
         }
       ],
+      "extraNotes": [
+        {
+          "linkedProject": "ff15",
+          "note": "Appears on the <em>FINAL FANTASY XV</em> soundtrack titled <b>KINGSGLAIVE FINAL FANTASY XV Original Soundtrack #07 - NYX</b>. This is on the <em>FINAL FANTASY XV Original Soundtrack – Limited Edition</em> release only."
+        },
+        {
+          "linkedProject": "ff15stadia",
+          "note": "Appears on the <em>FINAL FANTASY XV</em> soundtrack titled <b>KINGSGLAIVE FINAL FANTASY XV Original Soundtrack #07 - NYX</b>. This is on the <em>FINAL FANTASY XV Original Soundtrack – Limited Edition</em> release only."
+        },
+        {
+          "linkedProject": "ff15r",
+          "note": "Appears on the <em>FINAL FANTASY XV</em> soundtrack titled <b>KINGSGLAIVE FINAL FANTASY XV Original Soundtrack #07 - NYX</b>. This is on the <em>FINAL FANTASY XV Original Soundtrack – Limited Edition</em> release only."
+        },
+        {
+          "linkedProject": "ff15w",
+          "note": "Appears on the <em>FINAL FANTASY XV</em> soundtrack titled <b>KINGSGLAIVE FINAL FANTASY XV Original Soundtrack #07 - NYX</b>. This is on the <em>FINAL FANTASY XV Original Soundtrack – Limited Edition</em> release only."
+        }
+      ],
+      "imageSrc": "",
       "youtubeLink": "https://youtu.be/ZaQetOyLuIU",
       "bandcampLink": "",
       "extraLinks": [],
@@ -1863,6 +1882,12 @@
           "name": "A Fading Summer's Eve -Relax and Reflect-",
           "project": "FINAL FANTASY XV",
           "artists": []
+        }
+      ],
+      "extraNotes": [
+        {
+          "linkedProject": "",
+          "note": "<b>A Fading Summer's Eve -Relax and Reflect-</b> does not appear directly in <em>FINAL FANTASY XV</em>, but the track has only ever released on its soundtrack. This is on the <em>FINAL FANTASY XV Original Soundtrack – Limited Edition</em> release only."
         }
       ],
       "imageSrc": "",
