@@ -436,10 +436,10 @@
       "linkedTracks": [
         {
           "name": "Fire Emblem Theme",
-          "project": "Super Smash Bros. Brawl (Fire Emblem: Shadow Dragon and the Blade of Light)",
+          "project": "Super Smash Bros. Brawl",
           "artists": [
             {
-              "header": "Fire Emblem Theme (from <em>Super Smash Bros. Brawl</em>) Arranger",
+              "header": "Arranger",
               "artistName": "Shogo Sakai",
               "URL": ""
             },
@@ -504,6 +504,7 @@
           ]
         }
       ],
+      "imageSrc": "",
       "youtubeLink": "https://youtu.be/NAC9hXbViTA",
       "bandcampLink": "",
       "linkedAlbumID": "wally71551_og",
@@ -2306,6 +2307,10 @@
         {
           "linkedProject": "pkmn_sp",
           "note": "The track was first released on the soundtrack release of <em>Pokémon HeartGold Version</em> & <em>Pokémon SoulSilver Version</em>, but the track first appeared in <em>Pokémon Pearl Version</em>. <em>Pokémon Shining Pearl</em> is a remake of that game."
+        },
+        {
+          "linkedProject": "pkmn_bdsp_dual",
+          "note": "The track was first released on the soundtrack release of <em>Pokémon HeartGold Version</em> & <em>Pokémon SoulSilver Version</em>, but the track first appeared in <em>Pokémon Diamond Version</em> & <em>Pokémon Pearl Version</em>. <em>Pokémon Brilliant Diamond</em> & <em>Pokémon Shining Pearl</em> are remakes of those games."
         }
       ],
       "imageSrc": "",
@@ -2903,6 +2908,12 @@
       "releaseDate": "2017-09-15",
       "trackArranger": "Wally71551",
       "composer": "Daisuke Matsuoka, Kenji Yamamoto",
+      "artists": [
+        {
+          "header": "Title Screen (from <em>Metroid II - Return of Samus</em>) Composer",
+          "artistName": "Ryoji Yoshitomi"
+        }
+      ],
       "transcription": [
         {
           "transcriber": "Olimar12345 – Title Screen (from <em>Metroid II - Return of Samus</em>)",

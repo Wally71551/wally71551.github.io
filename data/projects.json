@@ -238,6 +238,111 @@
       "collectionItems": []
     },
     {
+      "projectID": "doom_anthology",
+      "projectName": "DOOM Anthology",
+      "projectType": "Collection",
+      "imageSrc": "DOOMAnthology",
+      "seriesID": "doom",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2024-10-22",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ps4",
+          "releaseDate": "2024-10-22",
+          "overrideImage": ""
+        },
+        {
+          "platform": "ps5",
+          "releaseDate": "2024-10-22",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2024-10-22",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xboxseries",
+          "releaseDate": "2024-10-22",
+          "overrideImage": ""
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2024-10-22",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "doom_adg"
+      ],
+      "collectionItems": [
+        "DOOM",
+        "DOOM II",
+        "DOOM 64",
+        "DOOM 3",
+        "DOOM (2016)",
+        "DOOM Eternal Deluxe Edition"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "doom_slayer",
+      "projectName": "DOOM Slayers Collection",
+      "projectType": "Collection",
+      "imageSrc": "DOOMSlayer",
+      "seriesID": "doom",
+      "platformIDs": [
+        {
+          "platform": "ps4",
+          "releaseDate": "2019-12-13",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox1",
+          "releaseDate": "2019-12-13",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "doom_adg"
+      ],
+      "collectionItems": [
+        "DOOM",
+        "DOOM II",
+        "DOOM 3",
+        "DOOM (2016)"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "doom_slayer_switch",
+      "projectName": "DOOM Slayers Collection",
+      "projectType": "Collection",
+      "imageSrc": "DOOMSlayer",
+      "seriesID": "doom",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2021-08-19",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "doom_adg"
+      ],
+      "collectionItems": [
+        "DOOM",
+        "DOOM II",
+        "DOOM 64",
+        "DOOM 3",
+        "DOOM (2016)"
+      ],
+      "description": ""
+    },
+    {
       "projectID": "doom",
       "projectName": "DOOM",
       "projectType": "Game",
@@ -455,42 +560,6 @@
       "collectionItems": []
     },
     {
-      "projectID": "fe_sd",
-      "projectName": "Fire Emblem: Shadow Dragon",
-      "projectType": "Game",
-      "imageSrc": "FEShadowDragon",
-      "seriesID": "fireemblem",
-      "platformIDs": [
-        {
-          "platform": "nds",
-          "releaseDate": "2008-12-05"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ]
-    },
-    {
-      "projectID": "fe_sdbol",
-      "projectName": "Fire Emblem: Shadow Dragon and the Blade of Light",
-      "projectType": "Game",
-      "imageSrc": "FE_SD",
-      "seriesID": "fireemblem",
-      "platformIDs": [
-        {
-          "platform": "nes",
-          "releaseDate": "1990-04-20[Japan]"
-        },
-        {
-          "platform": "ns1",
-          "releaseDate": "2020-12-04"
-        }
-      ],
-      "musicList": [
-        "fewarriors_medley"
-      ]
-    },
-    {
       "projectID": "ff15",
       "projectName": "FINAL FANTASY XV",
       "projectType": "Game",
@@ -555,7 +624,6 @@
         "ffxv_somnus",
         "ffxv_ufc_mm2",
         "ffxv_wanderlust",
-        "ffxv_rarpiano",
         "ffxv_ravus",
         "ffxv_sws2",
         "ffxvr_medley",
@@ -597,7 +665,6 @@
         "ffxv_somnus",
         "ffxv_ufc_mm2",
         "ffxv_wanderlust",
-        "ffxv_rarpiano",
         "ffxv_ravus",
         "ffxv_sws2",
         "ffxvr_medley",
@@ -610,7 +677,8 @@
         "ffxv_tenebrae",
         "ffxv_nox_8bit",
         "ffxv_nox"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "ff15r",
@@ -1460,6 +1528,30 @@
       "description": ""
     },
     {
+      "projectID": "la_noire_c",
+      "projectName": "L.A. Noire: The Complete Edition",
+      "projectType": "Game",
+      "imageSrc": "la_noire_c",
+      "seriesID": "la_noire",
+      "platformIDs": [
+        {
+          "platform": "ps3",
+          "releaseDate": "2011-11-18",
+          "overrideImage": ""
+        },
+        {
+          "platform": "xbox360",
+          "releaseDate": "2011-11-18",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "la_noire_main"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
       "projectID": "la_noire",
       "projectName": "L.A. Noire",
       "projectType": "Game",
@@ -1563,8 +1655,8 @@
       ]
     },
     {
-      "projectID": "minecraft",
-      "projectName": "Minecraft",
+      "projectID": "minecraft_nsw",
+      "projectName": "Minecraft for Nintendo Switch",
       "projectType": "Game",
       "imageSrc": "Minecraft",
       "seriesID": "minecraft",
@@ -1573,7 +1665,21 @@
           "platform": "ns1",
           "releaseDate": "2018-06-21",
           "overrideImage": ""
-        },
+        }
+      ],
+      "musicList": [
+        "mc_wethands"
+      ],
+      "collectionItems": [],
+      "description": ""
+    },
+    {
+      "projectID": "minecraft",
+      "projectName": "Minecraft",
+      "projectType": "Game",
+      "imageSrc": "Minecraft",
+      "seriesID": "minecraft",
+      "platformIDs": [
         {
           "platform": "xbox1",
           "releaseDate": "2017-09-20",
@@ -1611,7 +1717,7 @@
         },
         {
           "platform": "ns2",
-          "releaseDate": "2026-13-01(2026)",
+          "releaseDate": "2026-10-27",
           "overrideImage": ""
         }
       ],
@@ -1962,12 +2068,14 @@
       "platformIDs": [
         {
           "platform": "ns1",
-          "releaseDate": "2021-11-19"
+          "releaseDate": "2021-11-19_1",
+          "overrideImage": ""
         }
       ],
       "musicList": [
         "hgss_arceus"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "pkmn_c",
@@ -2043,13 +2151,15 @@
       "platformIDs": [
         {
           "platform": "3ds",
-          "releaseDate": "2016-11-23"
+          "releaseDate": "2016-11-23_1",
+          "overrideImage": ""
         }
       ],
       "musicList": [
         "usum_vpc",
         "sm_po"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "pkmn_p",
@@ -2108,12 +2218,14 @@
       "platformIDs": [
         {
           "platform": "ns1",
-          "releaseDate": "2021-11-19"
+          "releaseDate": "2021-11-19_1",
+          "overrideImage": ""
         }
       ],
       "musicList": [
         "hgss_arceus"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "pkmn_ss",
@@ -2141,13 +2253,15 @@
       "platformIDs": [
         {
           "platform": "3ds",
-          "releaseDate": "2016-11-23_1"
+          "releaseDate": "2016-11-23_2",
+          "overrideImage": ""
         }
       ],
       "musicList": [
         "usum_vpc",
         "sm_po"
-      ]
+      ],
+      "description": ""
     },
     {
       "projectID": "pkmn_umoon",
@@ -2234,6 +2348,72 @@
       "musicList": [
         "pokken_magikarp"
       ]
+    },
+    {
+      "projectID": "pkmn_bdsp_dual",
+      "projectName": "Pokémon Brilliant Diamond & Pokémon Shining Pearl Dual Pack",
+      "projectType": "Collection",
+      "imageSrc": "PKMNBDSPDual",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2021-11-19"
+        }
+      ],
+      "musicList": [
+        "hgss_arceus"
+      ],
+      "collectionItems": [
+        "Pokémon Brilliant Diamond",
+        "Pokémon Shining Pearl"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "pkmn_sm",
+      "projectName": "Pokémon Sun + Pokémon Moon Dual Pack",
+      "projectType": "Collection",
+      "imageSrc": "PKMNSMDual",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2016-11-23[US/Canada]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "usum_vpc",
+        "sm_po"
+      ],
+      "collectionItems": [
+        "Pokémon Sun",
+        "Pokémon Moon"
+      ],
+      "description": ""
+    },
+    {
+      "projectID": "pkmn_usum",
+      "projectName": "Pokémon Ultra Sun & Pokémon Ultra Moon – Ultra Dual Edition",
+      "projectType": "Collection",
+      "imageSrc": "PKMNUSUMDual",
+      "seriesID": "pkmn",
+      "platformIDs": [
+        {
+          "platform": "3ds",
+          "releaseDate": "2017-11-17"
+        }
+      ],
+      "musicList": [
+        "usum_vpc",
+        "sm_po"
+      ],
+      "collectionItems": [
+        "Pokémon Ultra Sun",
+        "Pokémon Ultra Moon"
+      ],
+      "description": ""
     },
     {
       "projectID": "seaofthieves",
@@ -2589,6 +2769,33 @@
       "musicList": [
         "sf2_title"
       ]
+    },
+    {
+      "projectID": "botw_ex",
+      "projectName": "The Legend of Zelda: Breath of the Wild + Expansion Pass",
+      "projectType": "Game",
+      "imageSrc": "BOTWEx",
+      "seriesID": "loz",
+      "platformIDs": [
+        {
+          "platform": "ns1",
+          "releaseDate": "2021-10-08[Japan]",
+          "overrideImage": ""
+        }
+      ],
+      "musicList": [
+        "botw_rhoam",
+        "botw_tower_lake",
+        "botw_hfield_d",
+        "botw_urbosa",
+        "botw_ritovillage_n",
+        "botw_sidon"
+      ],
+      "collectionItems": [
+        "The Legend of Zelda: Breath of the Wild",
+        "The Legend of Zelda: Breath of the Wild Expansion Pass"
+      ],
+      "description": ""
     },
     {
       "projectID": "totk",
