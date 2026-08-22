@@ -34,6 +34,12 @@ async function LoadTimelineData()
     return json.timeline;
 }
 
+async function LoadReviewData()
+{
+    let json = await LoadFromJSON('data/reviews.json');
+    return json.reviews;
+}
+
 async function LoadFromJSON(jsonPath)
 {
     let response = await fetch(jsonPath);
@@ -64,4 +70,9 @@ function GetPlatformPicture(id)
 function GetMusicPicture(id)
 {
     return "https://img.wally71551.workers.dev/music/" + id + ".jpg";
+}
+
+function GetReviewPicture(id)
+{
+    return "https://img.wally71551.workers.dev/review/" + id + ".jpg";
 }

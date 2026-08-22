@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews — Wally71551</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<site-header></site-header>
+<body id="main">
+    <template id="review-grid">
+        <div class="grid-item">
+            <p class="review-number"></p>
+            <div class="grid-item-image-wrapper">
+                <img loading="lazy" src="" alt=""/>
+            </div>
+            <div class="music-title-wrapper">
+                <p class="project-title"></p>
+                <em>
+                    <p class="project-subtitle"></p>
+                </em>
+            </div>
+        </div>
+    </template>
+
+    <template id="review-details">
+        <div class="project-details-panel track-details-panel">
+            <h2 class="review-title"></h2>
+            <em><h3 class="review-subtitle"></h3></em>
+            <em><p class="review-platform"></p></em>
+            <h3 class="track-type review-category"></h3>
+            <h4 class="release-date"></h4>
+            <ul class="review-info-list track-info-list"></ul>
+
+            <div class="review-sections-wrapper">
+                <ul class="review-sections-list"></ul>
+                <div class="review-rating-column">
+                    <div class="review-rating-wrapper">
+                        <div class="review-rating-display">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="track" cx="50" cy="50" r="40"/>
+                                <circle class="fill" cx="50" cy="50" r="40"/>
+                                <text x="50" y="50" class="review-rating"></text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-details"></div>
+        </div>
+    </template>
+
+    <template id="review-info-list-item">
+        <li class="track-details-transcriber-info">
+            <p class="artist-info"></p>
+        </li>
+    </template>
+
+    <template id="review-section-list-item">
+        <li class="review-section">
+            <p class="review-section-text"></p>
+            <p class="review-section-rating"></p>
+        </li>
+    </template>
+
+    <div class="header-container">
+        <h1>Reviews</h1>
+    </div>
+
+    <div class="page-content">
+        <div class="works-content-grid platform-content-grid review-content-grid">
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="project-library-footer">
+            <p>None of the reviews here are objective critique in any sense, they are strictly just my opinion.</p>
+            <p style="margin-bottom: 1em;">Reviews can and will be about just about anything. It won't necessarily be linked to anything to do with my content output, just my thoughts on various things.</p>
+        </div>
+        <site-footer-copyright></site-footer-copyright>
+    </footer>
+
+
+    <script src="scripts/dataLoad.js"></script>
+    <script src="scripts/pageLoad.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="scripts/reviewLoad.js"></script>
+</body>
+</html>

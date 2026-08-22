@@ -49,28 +49,6 @@ function MusicSetup(musicData, index)
     musicGrid.append(musicElement);
 }
 
-function GetEndOfRowElement(clickedElement, container) {
-    const allItems = Array.from(container.children).filter(el => el.classList.contains('grid-item'));
-    const clickedRect = clickedElement.getBoundingClientRect();
-    const clickedTop = clickedRect.top;
-    
-    let lastItemInRow = clickedElement;
-
-    const currentIndex = allItems.indexOf(clickedElement);
-    
-    for (let i = currentIndex + 1; i < allItems.length; i++) {
-        const item = allItems[i];
-        const itemRect = item.getBoundingClientRect();
-        
-        if (Math.abs(itemRect.top - clickedTop) > 20) { 
-            break;
-        }
-        lastItemInRow = item;
-    }
-    
-    return lastItemInRow;
-}
-
 let activeMusicDetailPanel = null;
 let activeMusicDetail = "";
 function ShowMusicDetails(clickedElement)

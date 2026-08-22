@@ -1,0 +1,190 @@
+{
+  "reviews": [
+    {
+      "reviewID": "R1_KirbyGTR",
+      "reviewName": "Kirby Air Riders: Global Test Ride",
+      "reviewSubtitle": "",
+      "reviewIndex": 1,
+      "reviewDate": "2025-11-16",
+      "reviewCategory": "Demo",
+      "reviewPlatform": "Nintendo Switch 2",
+      "reviewImageURL": "R1_KirbyGTR",
+      "reviewValue": 78,
+      "reviewSections": [
+        {
+          "section": "Category Test",
+          "number": 10
+        },
+        {
+          "section": "Category Test",
+          "number": 10
+        },
+        {
+          "section": "Category Test",
+          "number": 10
+        },
+        {
+          "section": "Category Test",
+          "number": 10
+        },
+        {
+          "section": "Category Test",
+          "number": 10
+        }
+      ],
+      "creators": [
+        {
+          "header": "Developer",
+          "creatorName": "Sora Ltd., Bandai Namco Studios"
+        },
+        {
+          "header": "Publisher",
+          "creatorName": "Nintendo"
+        },
+        {
+          "header": "Director",
+          "creatorName": "Masahiro Sakurai"
+        }
+      ],
+      "reviewTime": {
+        "timeTitle": "Playtime",
+        "time": "1:15"
+      },
+      "reviewDetails": "TEST _TEST **TEST**_ **TEST**\n\n# TEST\n\nTEST TEST TEST",
+      "reviewExtraNotes": ""
+    },
+    {
+      "reviewID": "R2_FH6",
+      "reviewName": "Forza Horizon 6",
+      "reviewSubtitle": "Premium Edition",
+      "reviewIndex": 2,
+      "reviewDate": "2026-05-24",
+      "reviewCategory": "Game",
+      "reviewPlatform": "PC",
+      "reviewImageURL": "R2_FH6",
+      "reviewValue": 98,
+      "reviewSections": [],
+      "creators": [
+        {
+          "header": "Developer",
+          "creatorName": "Playground Games"
+        },
+        {
+          "header": "Development Support",
+          "creatorName": "Turn 10 Studios"
+        },
+        {
+          "header": "Publisher",
+          "creatorName": "Xbox Game Studios"
+        },
+        {
+          "header": "Production Director",
+          "creatorName": "Michael Bennett"
+        },
+        {
+          "header": "Art Director",
+          "creatorName": "Don Arceta"
+        },
+        {
+          "header": "Design Director",
+          "creatorName": "Torben Ellert"
+        },
+        {
+          "header": "Level Design Director",
+          "creatorName": "Tom Dillow"
+        },
+        {
+          "header": "Audio Director",
+          "creatorName": "Ruaraigh Chapman"
+        }
+      ],
+      "reviewTime": {
+        "timeTitle": "Playtime (as of Game completion)",
+        "time": "25:02"
+      },
+      "reviewDetails": "a"
+    },
+    {
+      "reviewID": "R3_FF2022",
+      "reviewName": "Fantastic Four (2022) #1–33",
+      "reviewSubtitle": "",
+      "reviewIndex": 3,
+      "reviewDate": "2026-06-07",
+      "reviewCategory": "Book",
+      "reviewPlatform": "",
+      "reviewImageURL": "R3_FF2022",
+      "reviewValue": 87,
+      "reviewSections": [],
+      "creators": [
+        {
+          "header": "Writer",
+          "creatorName": "Ryan North"
+        }
+      ],
+      "reviewTime": null,
+      "reviewDetails": "a"
+    },
+    {
+      "reviewID": "R4_FlashGordon",
+      "reviewName": "Flash Gordon",
+      "reviewSubtitle": "",
+      "reviewIndex": 4,
+      "reviewDate": "2026-06-19",
+      "reviewCategory": "Film",
+      "reviewPlatform": "",
+      "reviewImageURL": "R4_FlashGordon",
+      "reviewValue": 71,
+      "reviewSections": [],
+      "creators": [],
+      "reviewTime": null,
+      "reviewDetails": "a"
+    },
+    {
+      "reviewID": "R5_PersonaGrooves",
+      "reviewName": "Persona Grooves – Featuring music from Persona 3, 4, 5",
+      "reviewSubtitle": "",
+      "reviewIndex": 5,
+      "reviewDate": "2026-06-27",
+      "reviewCategory": "Concert",
+      "reviewPlatform": "",
+      "reviewImageURL": "R5_PersonaGrooves",
+      "reviewValue": 89,
+      "reviewSections": [],
+      "creators": [
+        {
+          "header": "Arranger / Conductor",
+          "creatorName": "Bartosz Pernal"
+        },
+        {
+          "header": "Guest Composer / Electric Guitar",
+          "creatorName": "Shoji Meguro"
+        },
+        {
+          "header": "Performer",
+          "creatorName": "Bartosz Pernal Jazz Orchestra, London Mozart Players"
+        },
+        {
+          "header": "Composer",
+          "creatorName": "Shoji Meguro, Atsushi Kitajoh"
+        }
+      ],
+      "reviewTime": null,
+      "reviewDetails": "a"
+    },
+    {
+      "reviewID": "R6_SpiderNoir",
+      "reviewName": "Spider-Noir",
+      "reviewSubtitle": "",
+      "reviewIndex": 6,
+      "reviewDate": "2026-06-28",
+      "reviewCategory": "Series",
+      "reviewPlatform": "",
+      "reviewImageURL": "R6_SpiderNoir",
+      "reviewValue": 81,
+      "reviewSections": [],
+      "creators": [],
+      "reviewTime": null,
+      "reviewDetails": "a"
+    }
+  ]
+}

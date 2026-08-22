@@ -26,6 +26,38 @@ function FormatDateToString(date) {
     return returnString;
 }
 
+function GetEndOfRowElement(clickedElement, container) {
+    const allItems = Array.from(container.children).filter(el => el.classList.contains('grid-item'));
+    const clickedRect = clickedElement.getBoundingClientRect();
+    const clickedTop = clickedRect.top;
+    
+    let lastItemInRow = clickedElement;
+
+    const currentIndex = allItems.indexOf(clickedElement);
+    
+    for (let i = currentIndex + 1; i < allItems.length; i++) {
+        const item = allItems[i];
+        const itemRect = item.getBoundingClientRect();
+        
+        if (Math.abs(itemRect.top - clickedTop) > 20) { 
+            break;
+        }
+        lastItemInRow = item;
+    }
+    
+    return lastItemInRow;
+}
+
+function ConvertToMarkdown(unparsedString)
+{
+    if(typeof window.marked === 'undefined')
+    {
+        return unparsedString;
+    }
+
+    return window.marked.parse(unparsedString);
+}
+
 class SiteHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -38,8 +70,10 @@ class SiteHeader extends HTMLElement {
                 <nav class="header-nav">
                     <ul>
                         <li><a href="/works.html"><p>Works</p></a></li>
-                        <li><a href="/timeline.html"><p>Timeline</p></a></li>
                         <li><a href="/projects.html"><p>Project Library</p></a></li>
+                        <li><a href="/totd.html"><p>Track of the Day</p></a></li>
+                        <li><a href="/reviews.html"><p>Reviews</p></a></li>
+                        <li><a href="/timeline.html"><p>Timeline</p></a></li>
                     </ul>
                 </nav>
             </header>
@@ -49,7 +83,7 @@ class SiteHeader extends HTMLElement {
         const navLinks = this.querySelectorAll('nav ul li a');
 
         navLinks.forEach(link => {
-            if (link.getAttribute('href') === currentPath) {
+            if (link.getAttribute('href') === currentPath || link.getAttribute('href') === currentPath + ".html") {
                 link.parentElement.classList.add('active');
                 link.classList.add('active');
             }
