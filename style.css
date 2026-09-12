@@ -700,8 +700,6 @@ body {
 
 .review-section {
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
     display: grid;
     grid-column: 1 / -1;
     grid-template-columns: subgrid;
