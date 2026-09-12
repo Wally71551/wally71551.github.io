@@ -688,15 +688,23 @@ body {
     padding-right: 1em;
     margin-right: 1em;
 
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
     border-right: var(--line-thickness) solid var(--text-color);
+
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 1.0em;
 }
 
 .review-section {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: subgrid;
     align-items: center;
     }
 
@@ -755,6 +763,35 @@ body {
         stroke-linecap: round;
     }
 
+.rating-bar {
+    --rating: 0;
+    --fill-color: var(--text-color);
+    --track-color: var(--text-color-dark);
+    --thickness: 10px;
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    }
+
+    .rating-bar .rating-bar-track {
+        flex: 1;
+        width: 100%;
+        height: var(--thickness);
+        background-color: var(--track-color);
+        border-radius: 1.0em;
+        overflow: hidden;
+    }
+
+    .rating-bar .rating-bar-fill {
+        height: 100%;
+        width: calc(var(--rating) * 10%);
+        background-color: var(--fill-color);
+        border-radius: 1.0em;
+    }
+    
 .review-rating {
     fill: var(--text-color);
     font-size: 1.5em;

@@ -130,6 +130,10 @@ function ShowReviewDetails(clickedElement)
             let sectionTemplate = reviewSectionListTemplate.content.cloneNode(true);
             let sectionText = sectionTemplate.querySelector('.review-section-text');
             sectionText.innerHTML = sectionData.section;
+
+            let sectionRatingBar = sectionTemplate.querySelector('.rating-bar');
+            sectionRatingBar.style.setProperty('--rating', sectionData.number);
+
             let sectionNumber = sectionTemplate.querySelector('.review-section-rating');
             sectionNumber.innerHTML = sectionData.number;
             sectionsList.appendChild(sectionTemplate);
