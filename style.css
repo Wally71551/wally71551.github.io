@@ -799,6 +799,27 @@ body {
 }
 
 /*
+    TRACK OF THE DAY
+*/
+.totd-header {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    border-bottom: var(--line-thickness) solid var(--secondary-color);
+
+    margin-bottom: 1em;
+}
+
+.totd-body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.totd-content-grid {
+    padding: 0;
+}
+
+/*
     FOOTER
 */
 a:link {

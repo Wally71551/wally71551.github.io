@@ -40,6 +40,12 @@ async function LoadReviewData()
     return json.reviews;
 }
 
+async function LoadTOTDData()
+{
+    let json = await LoadFromJSON('data/totd.json');
+    return json.totd;
+}
+
 async function LoadFromJSON(jsonPath)
 {
     let response = await fetch(jsonPath);
@@ -75,4 +81,9 @@ function GetMusicPicture(id)
 function GetReviewPicture(id)
 {
     return "https://img.wally71551.workers.dev/review/" + id + ".jpg";
+}
+
+function GetTOTDPicture(id)
+{
+    return "https://img.wally71551.workers.dev/totd/" + id + ".jpg";
 }
