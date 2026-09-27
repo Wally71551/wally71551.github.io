@@ -481,7 +481,11 @@ body {
     margin-right: max(5%, 40px);
     margin-bottom: 0.5em;
     white-space: pre-line;
-}
+    }
+
+    .track-description p {
+        margin: 0;
+    }
 
 .track-arranger {
     margin-top: 0.5em;
@@ -804,9 +808,6 @@ body {
 .totd-header {
     margin-left: 10%;
     margin-right: 10%;
-
-    border-bottom: var(--line-thickness) solid var(--secondary-color);
-
     margin-bottom: 1em;
 }
 
@@ -817,6 +818,74 @@ body {
 
 .totd-content-grid {
     padding: 0;
+}
+
+.totd-content-grid .grid-item-image-wrapper {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    border-radius: 0;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 0;
+    min-height: 0;
+}
+
+.totd-content-grid .totd-grid-image-wrapper {
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 0;
+    min-height: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.totd-content-grid .totd-grid-image-wrapper img {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 0;
+    min-height: 0;
+    object-fit: contain;
+}
+
+.totd-year-header {
+    font-style: italic;
+    font-size: 2.5em;
+
+    margin-bottom: 0.25em;
+    padding-bottom: 0.125em;
+
+    border-right: var(--line-thickness) solid var(--secondary-color);
+    border-bottom: var(--line-thickness) solid var(--secondary-color);
+}
+
+.totd-date {
+    font-style: italic;
+    font-size: 1.5em;
+    margin-top: 0em;
+    margin-bottom: 0.125em;
+}
+
+.totd-album, .totd-artist {
+    color: var(--text-color);
+    margin: 0;
+    min-width: 0;
+    margin-top: 0.25em;
+    font-size: 0.9em;
+}
+
+.totd-number-header {
+    font-style: italic;
+    font-size: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.375em;
+    color: var(--text-color);
 }
 
 /*

@@ -21,7 +21,9 @@
         <div class="grid-item">
             <p class="totd-date"></p>
             <div class="grid-item-image-wrapper">
-                <img loading="lazy" src="" alt=""/>
+                <div class="totd-grid-image-wrapper">
+                    <img loading="lazy" src="" alt=""/>
+                </div>
             </div>
             <div class="music-title-wrapper">
                 <p class="project-title totd-title"></p>
@@ -35,31 +37,22 @@
 
     <template id="track-details">
         <div class="project-details-panel track-details-panel">
+            <p class="totd-number-header"></p>
             <h2 class="track-title"></h2>
-            <em><h3 class="track-subtitle"></h3></em>
-            <h3 class="track-type track-type-works"></h3>
-            <h4 class="release-date"></h4>
             <h4 class="track-album"></h4>
-            <h3 class="track-arranger track-description-header"></h3>
+            <em><h3 class="track-subtitle track-artist"></h3></em>
+            <h4 class="release-date"></h4>
+            <h3 class="track-type track-type-works"></h3>
             <h3 class="linked-track-header track-description-header">Based On</h3>
-            <ul class="track-linked-tracks"></ul>
-            <h3 class="track-info-header" track-description-header>Original Track Info</h3>
-            <p class="track-composer artist-info"></p>
+            <h3 class="track-info-header" track-description-header>Track Info</h3>
             <ul class="track-info-list"></ul>
+            <ul class="track-linked-tracks"></ul>
             <ul class="track-notes-list"></ul>
-            <h3 class="track-transcriber-header track-description-header">Transcribers</h3>
-            <ul class="track-transcriber-list"></ul>
             <h4 class="track-album-display"></h4>
             <p class="track-album-track-num-display"></p>
             <h3 class="track-description-title track-description-header">Description</h3>
             <div class="track-description"></div>
         </div>
-    </template>
-
-    <template id="track-transcriber-list-item">
-        <li class="track-details-transcriber-info">
-            <a class="artist-info" target="_blank" rel="noopener noreferrer"></a>
-        </li>
     </template>
 
     <template id="track-info-list-item">
@@ -120,6 +113,7 @@
     
     <script src="scripts/dataLoad.js"></script>
     <script src="scripts/pageLoad.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="scripts/totdLoad.js"></script>
 </body>
 </html>

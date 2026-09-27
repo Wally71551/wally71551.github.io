@@ -2,58 +2,81 @@
   "totd": [
     {
       "totdID": "2025-01-01_Test",
-      "totdName": "Test TOTD 1",
-      "totdArtist": "Test Artist",
-      "totdAlbum": "Album",
+      "totdName": "Godzilla-1.0 Divine II",
+      "totdArtist": "Naoki Sato",
+      "totdAlbum": "Godzilla Minus One (Original Soundtrack) [Deluxe Edition]",
+      "totdAlbumDisc": 1,
+      "totdAlbumNumber": 14,
       "totdDate": "2025-01-01",
       "totdIndex": 1,
       "totdArtists": [
         {
-          "header": "Test Header 1",
-          "artistName": "Test"
+          "header": "Composer",
+          "artistName": "Naoki Sato"
         },
         {
-          "header": "Test Header 2",
-          "artistName": "Test"
+          "header": "Recording, Mixing, Mastering Engineer",
+          "artistName": "Takumi Hasegawa"
         }
       ],
       "musicType": "Original",
+      "trackReleaseDate": "2024-10-16",
       "linkedTracks": [],
-      "extraNotes": [
+      "extraNotes": [],
+      "imageSrc": "GMO_Deluxe",
+      "youtubeLink": "https://youtu.be/-qu8m8CTSv0",
+      "nintLink": "",
+      "extraLinks": [
         {
-          "note": "test note"
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/41tMxcKpjiC8ZVOkxhn5Fv"
         }
       ],
-      "imageSrc": "GMO_Deluxe",
-      "youtubeLink": "test link",
-      "nintLink": "test link",
-      "extraLinks": [],
       "description": "Test **Test** _Test_"
     },
     {
       "totdID": "2025-01-02_Test",
-      "totdName": "Test TOTD 2",
-      "totdArtist": "Test Artist",
-      "totdAlbum": "Album",
+      "totdName": "Big Blue",
+      "totdArtist": "Kenta Nagata",
+      "totdAlbum": "Mario Kart 8 Deluxe",
+      "totdAlbumDisc": null,
+      "totdAlbumNumber": 60,
       "totdDate": "2025-01-02",
       "totdIndex": 2,
       "totdArtists": [
         {
-          "header": "Test Header 1",
-          "artistName": "Test"
+          "header": "Arranger",
+          "artistName": "Kenta Nagata"
         },
         {
-          "header": "Test Header 2",
-          "artistName": "Test"
-        }
-      ],
-      "musicType": "Original",
-      "linkedTracks": [],
-      "extraNotes": [
+          "header": "Big Blue (from <em>F-ZERO</em>) Composer",
+          "artistName": "Naoto Ishida"
+        },
         {
-          "note": "test note"
+          "header": "Electric Guitar",
+          "artistName": "Takashi Masuzaki (DIMENSION)"
+        },
+        {
+          "header": "Electric Bass",
+          "artistName": "Teppei Kawasaki"
+        },
+        {
+          "header": "Drums",
+          "artistName": "Satoshi Bandoh (appears by the courtesy of T-SQUARE MUSIC ENTERTAINMENT INC.)"
+        },
+        {
+          "header": "Alto Saxophone",
+          "artistName": "Kazuki Katsuta (DIMENSION)"
+        },
+        {
+          "header": "Recording & Mixing Engineer",
+          "artistName": "Kenji Nakai, Takashi Koiwa"
         }
       ],
+      "musicType": "Remix",
+      "trackReleaseDate": "2024-10-31",
+      "linkedTracks": [],
+      "extraNotes": [],
       "imageSrc": "MK8D_BigBlue",
       "youtubeLink": "",
       "nintLink": "test link",
@@ -62,62 +85,85 @@
     },
     {
       "totdID": "2026-01-01_Test",
-      "totdName": "Test TOTD 3",
-      "totdArtist": "Test Artist",
-      "totdAlbum": "Album",
+      "totdName": "Battle-b2",
+      "totdArtist": "Ryota Kozuka",
+      "totdAlbum": "Shin Megami Tensei Ⅳ Original Soundtrack",
+      "totdAlbumDisc": 1,
+      "totdAlbumNumber": 24,
       "totdDate": "2026-01-01",
       "totdIndex": 3,
       "totdArtists": [
         {
-          "header": "Test Header 1",
-          "artistName": "Test"
-        },
-        {
-          "header": "Test Header 2",
-          "artistName": "Test"
+          "header": "Composer",
+          "artistName": "Ryota Kozuka"
         }
       ],
       "musicType": "Original",
+      "trackReleaseDate": "2014-02-26",
       "linkedTracks": [],
-      "extraNotes": [
-        {
-          "note": "test note"
-        }
-      ],
+      "extraNotes": [],
       "imageSrc": "SMT4",
-      "youtubeLink": "test link",
+      "youtubeLink": "https://youtu.be/5171TqKUKbU",
       "nintLink": "",
       "extraLinks": [],
       "description": "Test **Test** _Test_"
     },
     {
       "totdID": "2026-01-02_Test",
-      "totdName": "Test TOTD 4",
-      "totdArtist": "Test Artist",
-      "totdAlbum": "Album",
+      "totdName": "Se.le.ne",
+      "totdArtist": "DIMENSION",
+      "totdAlbum": "FOURTH DIMENSION",
+      "totdAlbumDisc": null,
+      "totdAlbumNumber": 2,
       "totdDate": "2026-01-02",
       "totdIndex": 4,
       "totdArtists": [
         {
-          "header": "Test Header 1",
-          "artistName": "Test"
+          "header": "Composer",
+          "artistName": "Akira Onozuka, Kazuki Katsuta, Takashi Masuzaki"
         },
         {
-          "header": "Test Header 2",
-          "artistName": "Test"
+          "header": "Keyboards",
+          "artistName": "Akira Onozuka"
+        },
+        {
+          "header": "Saxophone",
+          "artistName": "Kazuki Katsuta"
+        },
+        {
+          "header": "Guitar",
+          "artistName": "Takashi Masuzaki"
+        },
+        {
+          "header": "Bass",
+          "artistName": "Tomohito Aoki"
+        },
+        {
+          "header": "Produced",
+          "artistName": "Masao Nakajima"
+        },
+        {
+          "header": "Mixed",
+          "artistName": "Masayuki Aihara"
+        },
+        {
+          "header": "Mastered",
+          "artistName": "Ichiko Furukawa"
         }
       ],
       "musicType": "Original",
+      "trackReleaseDate": "1995-06-21",
       "linkedTracks": [],
-      "extraNotes": [
-        {
-          "note": "test note"
-        }
-      ],
+      "extraNotes": [],
       "imageSrc": "DimensionFourth",
       "youtubeLink": "test link",
       "nintLink": "",
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/6G37NTPXwlkYkSXQEx8pV2"
+        }
+      ],
       "description": "Test **Test** _Test_"
     }
   ]
