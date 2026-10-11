@@ -77,13 +77,15 @@ class SiteHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <header class="site-header">
-                <div class="header-logo">
-                    <a href="/">
-                        <img src="images/WallyFullLogo.webp" alt="Wally71551 Logo" height=auto>
-                    </a> 
-                </div>
                 <nav class="header-nav">
                     <ul>
+                        <li>
+                            <div class="header-logo">
+                                <a href="/">
+                                    <img src="images/WallyFullLogo.webp" alt="Wally71551 Logo" height=auto>
+                                </a> 
+                            </div>
+                        </li>
                         <li><a href="/works.html"><p>Works</p></a></li>
                         <li><a href="/projects.html"><p>Project Library</p></a></li>
                         <li><a href="/totd.html"><p>Track of the Day</p></a></li>
