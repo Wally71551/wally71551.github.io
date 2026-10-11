@@ -60,7 +60,7 @@ function AddTOTD(totdData, index)
     }
 
     let title = totdElement.querySelector('.totd-title');
-    let titleText = totdData.explicitTitle ? "<b>EXPLICIT TITLE</b>" : totdData.totdName;
+    let titleText = totdData.explicitTitle ? `<span class="explicit-badge">EXPLICIT TITLE</span>` : totdData.totdName;
     if(totdData.isExplicit) {
         title.innerHTML = `<span class="explicit-badge">E</span>${titleText}`;
     }
@@ -72,7 +72,7 @@ function AddTOTD(totdData, index)
     if(totdData.totdAlbum != null && totdData.totdAlbum != "")
     {
         let album = totdElement.querySelector('.totd-album');
-        album.innerHTML = totdData.explicitAlbum ? "<b>EXPLICIT ALBUM NAME</b>" : totdData.totdAlbum;
+        album.innerHTML = totdData.explicitAlbum ? `<span class="explicit-badge">EXPLICIT ALBUM NAME</span>` : totdData.totdAlbum;
     }
     else
     {
