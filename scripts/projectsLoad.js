@@ -57,11 +57,6 @@ function CreateHeader(header, index)
     headerTitle.textContent = platformData.platformName;
     contentElement.hidden = false;
 
-    if(platformData.platformImageSrc != "")
-    {
-        headerImage.src = GetPlatformPicture(platformData.platformImageSrc);
-    }
-
     let platProjects = platformProjects.get(platformData.platformID);
     if(platProjects != undefined)
     {

@@ -1,6 +1,5 @@
 :root {
     --background-color: #111;
-    --primary-color: #e60012;
     --secondary-color: #999;
 
     --text-color: #fff;
@@ -121,19 +120,22 @@ body {
 
 .platform-header {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
-    background-color: var(--primary-color);
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 1em;
     margin-bottom: 1em;
-    border-radius: 10px;
+    border-right: var(--line-thickness) solid var(--secondary-color);
+    border-bottom: var(--line-thickness) solid var(--secondary-color);
 }
 
 .platform-title {
     font-weight: bold;
-    font-size: 1.75em;
+    font-style: italic;
+    font-size: 2.5em;
+    margin-top: 0.125em;
+    margin-bottom: 0.25em;
 }
 
 .platform-image-wrapper {
@@ -143,20 +145,12 @@ body {
 
 .platform-image {
     display: block;
-    height: 110px;
+    height: 100px;
     width: auto;
 
     position: relative;
     top: -1px;
     margin-top: -10px;
-}
-
-@media (max-width: 600px) {
-  .platform-header {
-    flex-direction: column;
-    gap: 16px;
-    text-align: center;
-  }
 }
 
 .platform-content-grid {
