@@ -89,6 +89,24 @@ function ShowMusicDetails(clickedElement)
     let trackArranger = panel.querySelector('.track-arranger');
     trackArranger.textContent = `Arranger: ${trackData.trackArranger}`
 
+    //URL links
+    let trackIconHeader = panel.querySelector('.track-link-buttons');
+    if(trackData.extraLinks != null)
+    {
+        trackData.extraLinks.forEach((extraTrack) => {
+            trackIconHeader.appendChild(MakeExternalLinkIcon(extraTrack.platform, extraTrack.url));
+        });
+    }
+
+    if(!IsNullOrEmpty(trackData.youtubeLink))
+    {
+        trackIconHeader.appendChild(MakeExternalLinkIcon("YouTube", trackData.youtubeLink));
+    }
+    if(!IsNullOrEmpty(trackData.bandcampLink))
+    {
+        trackIconHeader.appendChild(MakeExternalLinkIcon("Bandcamp", trackData.bandcampLink));
+    }
+
     //Handling linked tracks
     let trackLinkDisplaying = false;
     if(trackData.linkedTracks == null || trackData.linkedTracks.length <= 0)

@@ -23,6 +23,9 @@
             <div class="grid-item-image-wrapper">
                 <div class="totd-grid-image-wrapper">
                     <img loading="lazy" src="" alt=""/>
+                    <div class="explicit-art-overlay">
+                        <span>EXPLICIT ALBUM ART</span>
+                    </div>
                 </div>
             </div>
             <div class="music-title-wrapper">
@@ -37,15 +40,22 @@
 
     <template id="track-details">
         <div class="project-details-panel track-details-panel">
-            <p class="totd-number-header"></p>
-            <h2 class="track-title"></h2>
-            <h4 class="track-album"></h4>
-            <em><h3 class="track-subtitle track-artist"></h3></em>
-            <h4 class="release-date"></h4>
-            <h3 class="track-type track-type-works"></h3>
-            <h3 class="linked-track-header track-description-header">Based On</h3>
-            <h3 class="track-info-header" track-description-header>Track Info</h3>
+            <div class="track-info-top">
+                <div class="track-info-left">
+                    <p class="totd-number-header"></p>
+                    <h2 class="track-title"></h2>
+                    <h4 class="track-album"></h4>
+                    <em><h3 class="track-subtitle track-artist"></h3></em>
+                    <h4 class="release-date"></h4>
+                    <h3 class="track-type track-type-works"></h3>
+                </div>
+                <div class="track-link-buttons">
+                </div>
+            </div>
+
+            <h3 class="track-info-header track-description-header">Track Info</h3>
             <ul class="track-info-list"></ul>
+            <h3 class="track-medley-header track-info-header track-description-header">Medley Tracks</h3>
             <ul class="track-linked-tracks"></ul>
             <ul class="track-notes-list"></ul>
             <h4 class="track-album-display"></h4>
@@ -83,7 +93,7 @@
 
     <template id="external-link-icon">
         <a class="external-link" target="_blank" rel="noopener noreferrer">
-            <img class="external-link-display-icon">
+            <img class="external-link-display-icon link-icon-bigger">
         </a>
     </template>
 
@@ -99,7 +109,7 @@
                 I try and stay in the rhythm of 3 track recommendations a week.
             </p>
             <h2>Playlists</h2>
-            <p>These playlists stay updated with every new release. I don't have this process time automated, so there will likely be a delay in them being updated.</p>
+            <p>These playlists stay updated with every new release. I don't have this process time automated, so there will likely be a slight delay in them being updated.</p>
             <p><b>PLAYLIST BUTTONS GO HERE</b></p>
         </div>
 

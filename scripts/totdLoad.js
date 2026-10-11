@@ -41,6 +41,7 @@ function AddTOTD(totdData, index)
     }
 
     let totdElement = totdTemplate.content.cloneNode(true);
+    let gridItemDiv = totdElement.querySelector('.grid-item');
 
     let totdDate = totdElement.querySelector('.totd-date');
     totdDate.textContent = date[2] + "/" + date[1];
@@ -48,13 +49,30 @@ function AddTOTD(totdData, index)
     let image = totdElement.querySelector('img');
     image.src = GetTOTDPicture(totdData.imageSrc);
 
+    //Explicit art check
+    if(totdData.explicitAlbumArt)
+    {
+        gridItemDiv.classList.add('is-explicit');
+    }
+    else
+    {
+        totdElement.querySelector('.explicit-art-overlay').remove();
+    }
+
     let title = totdElement.querySelector('.totd-title');
-    title.textContent = totdData.totdName;
+    let titleText = totdData.explicitTitle ? "<b>EXPLICIT TITLE</b>" : totdData.totdName;
+    if(totdData.isExplicit) {
+        title.innerHTML = `<span class="explicit-badge">E</span>${titleText}`;
+    }
+    else
+    {
+        title.innerHTML = titleText;
+    }
 
     if(totdData.totdAlbum != null && totdData.totdAlbum != "")
     {
         let album = totdElement.querySelector('.totd-album');
-        album.textContent = totdData.totdAlbum;
+        album.innerHTML = totdData.explicitAlbum ? "<b>EXPLICIT ALBUM NAME</b>" : totdData.totdAlbum;
     }
     else
     {
@@ -71,9 +89,9 @@ function AddTOTD(totdData, index)
         totdElement.querySelector('.totd-artist').remove();
     }
 
-    let gridItemDiv = totdElement.querySelector('.grid-item');
     gridItemDiv.dataset.totdID = totdData.totdID;
     gridItemDiv.addEventListener('click', (e) => {
+        gridItemDiv.classList.add('open');
         ShowTOTDDetails(gridItemDiv);
     });
 
@@ -95,6 +113,7 @@ function CreateNewSection(year)
 
 let activeTOTDDetailPanel = null;
 let activeTOTDDetail = "";
+let activeTOTDGridItem = null;
 function ShowTOTDDetails(clickedElement)
 {
     let newTOTDId = clickedElement.dataset.totdID;
@@ -110,6 +129,9 @@ function ShowTOTDDetails(clickedElement)
         CloseTOTDActivePanel();
     }
 
+    clickedElement.classList.add('details-open');
+    activeTOTDGridItem = clickedElement;
+
     let template = totdDetailsTemplate.content.cloneNode(true);
     let panel = template.querySelector('.track-details-panel');
     let totdData = GetTOTD(newTOTDId);
@@ -118,7 +140,10 @@ function ShowTOTDDetails(clickedElement)
     totdNumber.textContent = `Track of the Day #${totdData.totdIndex}`;
 
     let totdTitle = panel.querySelector('.track-title');
-    totdTitle.textContent = totdData.totdName;
+    let titleText = totdData.totdName;
+
+    totdTitle.innerHTML = totdData.isExplicit ? `<span class="explicit-badge">EXPLICIT</span>${titleText}`
+                                            : titleText;
 
     let totdArtist = panel.querySelector('.track-artist');
     if(totdData.totdArtist == null || totdData.totdArtist == "")
@@ -157,11 +182,29 @@ function ShowTOTDDetails(clickedElement)
     let totdReleaseDate = panel.querySelector('.release-date');
     totdReleaseDate.innerHTML = `Release Date: ${FormatDateToString(totdData.trackReleaseDate)}`;
 
+    //Link loading
+    let trackIconHeader = panel.querySelector('.track-link-buttons');
+    if(!IsNullOrEmpty(totdData.youtubeLink))
+    {
+        trackIconHeader.appendChild(MakeExternalLinkIcon("YouTube", totdData.youtubeLink));
+    }
+    if(!IsNullOrEmpty(totdData.nintLink))
+    {
+        trackIconHeader.appendChild(MakeExternalLinkIcon("NintendoMusic", totdData.nintLink));
+    }
+
+    if(totdData.extraLinks != null)
+    {
+        totdData.extraLinks.forEach((extraTrack) => {
+            trackIconHeader.appendChild(MakeExternalLinkIcon(extraTrack.platform, extraTrack.url));
+        })
+    }
+
     //Handling linked tracks
     let trackLinkDisplaying = false;
     if(totdData.linkedTracks == null || totdData.linkedTracks.length <= 0)
     {
-        panel.querySelector('.linked-track-header').remove();
+        panel.querySelector('.track-medley-header').remove();
     }
     else
     {
@@ -169,20 +212,9 @@ function ShowTOTDDetails(clickedElement)
         let trackLinkedListHeader = panel.querySelector('.linked-track-header');
         trackLinkDisplaying = true;
 
-        switch(totdData.musicType)
-        {
-            case "Remix":
-            case "Original":
-                trackLinkedListHeader.textContent = "Based On"
-                break;
-            case "Medley":
-                trackLinkedListHeader.textContent = "Medley Tracks"
-                break;
-        }
-
         let trackLinkedListDisplay = panel.querySelector('.track-linked-tracks');
         totdData.linkedTracks.forEach((linkedTrack) => {
-            let linkedTrackTemplate = trackLinkedTrackTemplate.content.cloneNode(true);
+            let linkedTrackTemplate = totdLinkedTrackTemplate.content.cloneNode(true);
             let trackName = linkedTrackTemplate.querySelector('.track-list-name');
             trackName.textContent = linkedTrack.name;
             let trackProject = linkedTrackTemplate.querySelector('.track-project-name');
@@ -191,7 +223,7 @@ function ShowTOTDDetails(clickedElement)
             let linkedTrackArtists = linkedTrackTemplate.querySelector('.linked-track-artists');
             linkedTrack.artists.forEach((artist) => {
                 let hasRef = artist.URL && artist.URL != ""
-                let artistTemplate = trackLinkedTrackArtistTemplate.content.cloneNode(true);
+                let artistTemplate = totdLinkedTrackArtistTemplate.content.cloneNode(true);
                 let artistElement = artistTemplate.querySelector('.linked-track-artist-info');
 
                 if(hasRef)
@@ -207,7 +239,7 @@ function ShowTOTDDetails(clickedElement)
             });
 
             //Remove bottom line
-            if(trackData.linkedTracks[trackData.linkedTracks.length - 1].name == linkedTrack.name)
+            if(totdData.linkedTracks[totdData.linkedTracks.length - 1].name == linkedTrack.name)
             {
                 linkedTrackTemplate.querySelector('.track-linked-track-item').classList.add('track-linked-track-item-end');
             }
@@ -224,7 +256,7 @@ function ShowTOTDDetails(clickedElement)
         totdData.extraNotes.forEach((note) => {
             if(note.linkedProject == null || note.linkedProject == "")
             {
-                let noteElement = trackNotesListTemplate.content.cloneNode(true);
+                let noteElement = totdNotesListTemplate.content.cloneNode(true);
                 let noteP = noteElement.querySelector('p');
                 noteP.innerHTML = `<b>※</b> ${note.note}`;
                 noteList.appendChild(noteElement);
@@ -256,11 +288,6 @@ function ShowTOTDDetails(clickedElement)
     else
     {
         panel.querySelector('.track-info-list').remove();
-    }
-
-    if(trackLinkDisplaying && (!totdData.artists || totdData.artists.length <= 0))
-    {
-        panel.querySelector('.track-info-header').remove();
     }
 
     //Handling description
@@ -297,6 +324,12 @@ function CloseTOTDActivePanel()
     if(!activeTOTDDetailPanel)
     {
         return;
+    }
+
+    if(activeTOTDGridItem)
+    {
+        activeTOTDGridItem.classList.remove('details-open');
+        activeTOTDGridItem = null;
     }
 
     let panelToClose = activeTOTDDetailPanel;

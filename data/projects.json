@@ -1074,11 +1074,6 @@
           "platform": "xbox1",
           "releaseDate": "2020-02-18",
           "overrideImage": "KH125Xbox"
-        },
-        {
-          "platform": "pc",
-          "releaseDate": "2021-03-30",
-          "overrideImage": "KH125Xbox"
         }
       ],
       "musicList": [
@@ -1341,10 +1336,10 @@
       "description": ""
     },
     {
-      "projectID": "khintegrum_steam",
-      "projectName": "KINGDOM HEARTS INTEGRUM MASTERPIECE",
+      "projectID": "khcol13_steam",
+      "projectName": "KINGDOM HEARTS Collection [I～III]",
       "projectType": "Bundle",
-      "imageSrc": "KHIntegrumSteam",
+      "imageSrc": "KHCol13",
       "seriesID": "kh",
       "platformIDs": [
         {
@@ -1358,7 +1353,7 @@
         "kh2_org"
       ],
       "collectionItems": [
-        "KINGDOM HEARTS HD I.5 + II.5 ReMIX",
+        "KINGDOM HEARTS -HD I.5+II.5 ReMIX-",
         "KINGDOM HEARTS HD II.8 Final Chapter Prologue",
         "KINGDOM HEARTS III + Re𝄌Mind (DLC)"
       ],
@@ -1466,6 +1461,11 @@
           "platform": "xboxseries",
           "releaseDate": "2026-10-08",
           "overrideImage": ""
+        },
+        {
+          "platform": "pc",
+          "releaseDate": "2021-03-30",
+          "overrideImage": "KH125Xbox"
         }
       ],
       "musicList": [

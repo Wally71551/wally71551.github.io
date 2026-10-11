@@ -568,16 +568,6 @@ function CloseTrackActivePanel()
     activeTrackList = "";
 }
 
-function MakeExternalLinkIcon(websiteName, url)
-{
-    let externalLinkTemplate = externalLinkIcon.content.cloneNode(true);
-    let link = externalLinkTemplate.querySelector('.external-link');
-    link.href = url;
-    let linkIcon = externalLinkTemplate.querySelector('.external-link-display-icon');
-    linkIcon.src = "icons/" + websiteName + ".svg";
-    return externalLinkTemplate;
-}
-
 function FindProject(id)
 {
     for(let i = 0; i < projects.length; i++)

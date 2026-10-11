@@ -39,8 +39,8 @@
       "totdName": "Big Blue",
       "totdArtist": "Kenta Nagata",
       "totdAlbum": "Mario Kart 8 Deluxe",
-      "totdAlbumDisc": null,
-      "totdAlbumNumber": 60,
+      "totdAlbumDisc": "",
+      "totdAlbumNumber": "60",
       "totdDate": "2025-01-02",
       "totdIndex": 2,
       "totdArtists": [
@@ -79,9 +79,13 @@
       "extraNotes": [],
       "imageSrc": "MK8D_BigBlue",
       "youtubeLink": "",
-      "nintLink": "test link",
+      "nintLink": "https://music.nintendo.com/shared/en-GB/GB/tracks/9c785f6d-770b-4c58-be74-955091e9bb32/",
       "extraLinks": [],
-      "description": "Test **Test** _Test_"
+      "description": "Test **Test** _Test_",
+      "isExplicit": false,
+      "explicitTitle": false,
+      "explicitAlbum": false,
+      "explicitAlbumArt": false
     },
     {
       "totdID": "2026-01-01_Test",
@@ -165,6 +169,175 @@
         }
       ],
       "description": "Test **Test** _Test_"
+    },
+    {
+      "totdID": "2026-10-01_Test",
+      "totdName": "FINAL FANTASY VI (Symphonic Poem: Born with the Gift of Magic)",
+      "totdArtist": "London Symphony Orchestra",
+      "totdAlbum": "Final Symphony - Music from FINAL FANTASY VI, VII and X",
+      "totdAlbumDisc": "1",
+      "totdAlbumNumber": "2",
+      "totdDate": "2026-10-01",
+      "totdIndex": 5,
+      "totdArtists": [
+        {
+          "header": "Arranger",
+          "artistName": "Roger Wanamo"
+        },
+        {
+          "header": "Composer (from <em>FINAL FANTASY VI</em>)",
+          "artistName": "Nobuo Uematsu"
+        },
+        {
+          "header": "Conductor",
+          "artistName": "Eckehard Stier"
+        },
+        {
+          "header": "Performer",
+          "artistName": "London Symphony Orchestra"
+        },
+        {
+          "header": "Orchestra Leader",
+          "artistName": "Tomo Keller"
+        }
+      ],
+      "musicType": "Medley",
+      "trackReleaseDate": "2015-02-23",
+      "linkedTracks": [
+        {
+          "name": "Overture",
+          "project": "FINAL FANTASY VI",
+          "artists": []
+        },
+        {
+          "name": "Terra's Theme",
+          "project": "FINAL FANTASY VI",
+          "artists": []
+        },
+        {
+          "name": "The Gestahl Empire",
+          "project": "FINAL FANTASY VI",
+          "artists": []
+        },
+        {
+          "name": "Kefka",
+          "project": "FINAL FANTASY VI",
+          "artists": []
+        },
+        {
+          "name": "Metamorphosis",
+          "project": "FINAL FANTASY VI",
+          "artists": []
+        },
+        {
+          "name": "The Unforgiven",
+          "project": "FINAL FANTASY VI",
+          "artists": []
+        },
+        {
+          "name": "Battle",
+          "project": "FINAL FANTASY VI",
+          "artists": []
+        },
+        {
+          "name": "Protect the Espers!",
+          "project": "FINAL FANTASY VI",
+          "artists": []
+        }
+      ],
+      "extraNotes": [],
+      "imageSrc": "FinalSymphony",
+      "youtubeLink": "https://youtu.be/SdLkNvyZGJk",
+      "nintLink": "",
+      "extraLinks": [],
+      "description": "test"
+    },
+    {
+      "totdID": "2026-10-02_Test",
+      "totdName": "She Falls Asleep",
+      "totdArtist": "McFly",
+      "totdAlbum": "Wonderland",
+      "totdAlbumDisc": "",
+      "totdAlbumNumber": "8–9",
+      "totdDate": "2026-10-02",
+      "totdIndex": 6,
+      "totdArtists": [
+        {
+          "header": "Composer, Lyricist, Vocalist",
+          "artistName": "Tom Fletcher"
+        },
+        {
+          "header": "Arranger, Conductor",
+          "artistName": "Simon Hale"
+        },
+        {
+          "header": "Producer",
+          "artistName": "Hugh Padgham"
+        },
+        {
+          "header": "String Quartet",
+          "artistName": "Gavyn Wright"
+        }
+      ],
+      "musicType": "Song",
+      "trackReleaseDate": "2005-08-29",
+      "linkedTracks": [],
+      "extraNotes": [
+        {
+          "note": "<em>She Falls Asleep</em> is split across two tracks on the album <em>Wonderland</em>, named <em>She Falls Asleep - Part 1</em> and <em>She Falls Asleep - Part 2</em> respectively."
+        }
+      ],
+      "imageSrc": "McFlyWonderland",
+      "youtubeLink": "https://youtu.be/JGYW4ysBumk",
+      "nintLink": "",
+      "extraLinks": [],
+      "description": "test",
+      "isExplicit": false,
+      "explicitTitle": false,
+      "explicitAlbum": false,
+      "explicitAlbumArt": false
+    },
+    {
+      "totdID": "2026-10-03_TestLilB",
+      "totdName": "Lanlord",
+      "totdArtist": "Lil B",
+      "totdAlbum": "05 Fuck 'em",
+      "totdAlbumDisc": "",
+      "totdAlbumNumber": "24",
+      "totdDate": "2026-10-03",
+      "totdIndex": 7,
+      "totdArtists": [
+        {
+          "header": "Rapper",
+          "artistName": "Lil B"
+        },
+        {
+          "header": "Producer",
+          "artistName": "t.a."
+        }
+      ],
+      "musicType": "Track",
+      "trackReleaseDate": "2013-12-24",
+      "linkedTracks": [],
+      "extraNotes": [],
+      "imageSrc": "LilB05",
+      "youtubeLink": "https://youtu.be/6OAGVyl4lgQ",
+      "nintLink": "",
+      "extraLinks": [
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/1D5vkkcIkAbXmh3e2ZDeVU"
+        },
+        {
+          "platform": "Bandcamp",
+          "url": "https://lilb.bandcamp.com/track/lanlord"
+        }
+      ],
+      "description": "test",
+      "isExplicit": true,
+      "explicitTitle": false,
+      "explicitAlbum": true,
+      "explicitAlbumArt": true
     }
   ]
 }

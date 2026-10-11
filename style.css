@@ -365,6 +365,11 @@ body {
     height: 2.5em;
 }
 
+.link-icon-bigger {
+    width: 4em;
+    height: 4em;
+}
+
 .track-details-panel {
     transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
     overflow: hidden;
@@ -375,6 +380,13 @@ body {
 .track-details-panel.open {
     max-height: 10000px;
     opacity: 1;
+}
+
+.track-info-top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .track-title {
@@ -842,6 +854,7 @@ body {
     min-height: 0;
     display: flex;
     overflow: hidden;
+    position: relative;
 }
 
 .totd-content-grid .totd-grid-image-wrapper img {
@@ -852,6 +865,55 @@ body {
     min-width: 0;
     min-height: 0;
     object-fit: contain;
+}
+
+.explicit-art-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    z-index: 2;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.grid-item.is-explicit .explicit-art-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.grid-item.details-open .explicit-art-overlay {
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+.grid-item.details-open img {
+    filter: none;
+    transform: none;
+}
+
+.grid-item.is-explicit img {
+    filter: blur(12px);
+    transform: scale(1.05);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.grid-item.is-explicit.details-open img {
+    filter: none;
+    transform: scale(1);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.grid-item.is-explicit .explicit-art-overlay {
+    display: flex;
 }
 
 .totd-year-header {
@@ -870,6 +932,19 @@ body {
     font-size: 1.5em;
     margin-top: 0em;
     margin-bottom: 0.125em;
+}
+
+.explicit-badge {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: var(--text-color-dark);
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+    line-height: 1;
+    margin-right: 0.4em;
+    vertical-align: 0.1em;
 }
 
 .totd-album, .totd-artist {
