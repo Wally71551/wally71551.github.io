@@ -80,8 +80,8 @@ class SiteHeader extends HTMLElement {
                 <nav class="header-nav">
                     <ul>
                         <li>
-                            <div class="header-logo">
-                                <a href="/">
+                            <div >
+                                <a class="header-logo" href="/">
                                     <img src="images/WallyFullLogo.webp" alt="Wally71551 Logo" height=auto>
                                 </a> 
                             </div>

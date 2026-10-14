@@ -370,6 +370,7 @@
       "releaseDate": "2017-12-23",
       "trackArranger": "Wally71551",
       "composer": "Hirokazu Tanaka",
+      "artists": [],
       "transcription": [
         {
           "transcriber": "Olimar12345",
@@ -378,11 +379,14 @@
       ],
       "musicType": "Remix",
       "linkedTracks": [],
+      "extraNotes": [],
+      "imageSrc": "EBBSnowman",
       "youtubeLink": "https://youtu.be/XDT-gB_vcaM",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 34,
+      "shouldShowLinkedAlbum": false,
       "description": "When arranging Snowman, I tried to capture a light, delicate theme just like the nature of snow. I omitted all brass instruments and put a heavy emphasis on woodwind.\n\nI wanted to go against tropes of winter by not making much use of bells and glockenspiel, instead going for a light brush drum kit, bass clarinet, alto saxophone and grand piano.\n\nThe piece itself uses 3 distinct sections, each going through the full theme. The first uses an alto saxophone and solo violin melody, with accompaniment provided by bass clarinet and drum kit to give the piece an edge and increase the tempo. The second section uses solo piano to give the piece a more melancholic and delicate feel, and the third section makes use of a larger orchestration."
     },
     {
@@ -2231,6 +2235,7 @@
       "releaseDate": "2017-05-07",
       "trackArranger": "Wally71551",
       "composer": "Kai Rosenkranz",
+      "artists": [],
       "transcription": [
         {
           "transcriber": "Tigero",
@@ -2238,10 +2243,15 @@
         }
       ],
       "musicType": "Remix",
+      "linkedTracks": [],
+      "extraNotes": [],
+      "imageSrc": "Gothic3VP",
       "youtubeLink": "https://youtu.be/oaPS1gJ1TdE",
       "bandcampLink": "",
+      "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 3,
+      "shouldShowLinkedAlbum": false,
       "description": "The <em>Gothic</em> series was recommended to me by a friend (I haven't got around to playing it yet though...) but the theme for <em>Gothic 3</em>, Vista Point, pulled me in straight away. The theme itself is beautifully composed by Kai Rosenkranz.\n\nI wanted to stick closely to the theme but I wanted to add a few things, like more use of horns and lots of grand piano to keep the nature of the original song."
     },
     {
@@ -2435,11 +2445,14 @@
       ],
       "musicType": "Remix",
       "linkedTracks": [],
+      "extraNotes": [],
+      "imageSrc": "MCWetHands",
       "youtubeLink": "https://youtu.be/Echu-gdU8zA",
       "bandcampLink": "",
       "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 56,
+      "shouldShowLinkedAlbum": false,
       "description": "I made this arrangement for the 4th anniversary of my YouTube channel. Originally I created <em>Minecraft</em> Let's Play videos, eventually going to other games and then finally I refined my content and channel into what it is now.\n\nThe arrangement makes use of piano much like the original track, but uses tremolo string and electric bass backing. Percussion, wind and brass instruments all come in throughout the track, emulating the grand scale of a <em>Minecraft</em> world through orchestral instrumentals."
     },
     {
@@ -2560,6 +2573,7 @@
       "releaseDate": "2017-09-17",
       "trackArranger": "Wally71551",
       "composer": "Jake Kaufman",
+      "artists": [],
       "transcription": [
         {
           "transcriber": "Nathan Lee Jones / Maestro227",
@@ -2567,10 +2581,15 @@
         }
       ],
       "musicType": "Remix",
+      "linkedTracks": [],
+      "extraNotes": [],
+      "imageSrc": "SKShieldKnight",
       "youtubeLink": "https://youtu.be/lLyw0L5AKeQ",
       "bandcampLink": "",
+      "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 17,
+      "shouldShowLinkedAlbum": false,
       "description": "I arranged this song keeping in mind the struggle and grief Shovel Knight is going through as the game progresses, it is highlighted in the scenes that this song plays over.\n\nThe string section is used to accent big chords that fit underneath the melody, carried by a solo cello. I used some synthesised NES waves to keep with how the piece and the <em>Shovel Knight</em> soundtrack is as a whole, emulating the Japanese-only Konami VRC6 sound card used in their later NES games.\n\nInstead of using trumpets for the focal brass, I used flugelhorns and trombones in the higher register to give the piece a more mellow feel, fitting better with the large moving strings and piano throughout the piece."
     },
     {
@@ -2613,6 +2632,7 @@
       "releaseDate": "2017-04-30",
       "trackArranger": "Wally71551",
       "composer": "Koji Kondo",
+      "artists": [],
       "transcription": [
         {
           "transcriber": "Don Valentino",
@@ -2627,6 +2647,8 @@
           "artists": []
         }
       ],
+      "extraNotes": [],
+      "imageSrc": "SM64UltKoopa",
       "youtubeLink": "https://youtu.be/rJUTNN4QB8I",
       "bandcampLink": "",
       "extraLinks": [
@@ -2637,6 +2659,7 @@
       ],
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 2,
+      "shouldShowLinkedAlbum": false,
       "description": "This is the second version of Ultimate Koopa I've made, this version is much more orchestral compared to the first one. This was made a little while ago before I got a new soundfont bank, and because of the reworks I would have had to undertake I decided to leave it the way it was.\n\nI wanted to preserve some of the original theme, so I kept the organ as a focal instrument. I also tweaked some of the melodies and added my own style to the piece. Some elements of the remix were carried over from the original version I did, such as the solo instruments with accompaniment. This helps give the sense of Mario's isolation and loneliness as he goes to face Bowser, fighting against the huge King of the Koopas."
     },
     {
@@ -2647,6 +2670,7 @@
       "releaseDate": "2017-01-23",
       "trackArranger": "Wally71551",
       "composer": "Mahito Yokota",
+      "artists": [],
       "transcription": [
         {
           "transcriber": "zm582916",
@@ -2661,10 +2685,14 @@
           "artists": []
         }
       ],
+      "extraNotes": [],
+      "imageSrc": "GGG8Bit",
       "youtubeLink": "https://youtu.be/1SItxFzwp-Q",
       "bandcampLink": "",
+      "extraLinks": [],
       "linkedAlbumID": "wally71551_og",
       "linkedAlbumTrack": 4,
+      "shouldShowLinkedAlbum": false,
       "description": "An GXSCC (8-bit style) version of Gusty Garden Galaxy. The program converts MIDI instruments into waves. I inputted an orchestral MIDI file which made the piece use simple waves while still having the orchestral feel to it.\n\nGXSCC works by converting MIDI information into different types of waves, similar to how the NES would simulate different instruments. This particular arrangement uses a full orchestra MIDI file created by zm582916 of MuseScore, which I then edited and tweaked and ported into GXSCC. This allows the piece to use simple NES-like waves while still having the grandeur and orchestral feel of the original track."
     },
     {
